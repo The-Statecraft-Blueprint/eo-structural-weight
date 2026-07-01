@@ -1,0 +1,92 @@
+{
+  "eo_number": "12717",
+  "title": "Executive Order 12717—Revoking Executive Order No. 12691",
+  "date_iso": "1990-06-18",
+  "president": "George Bush",
+  "congress_number": 101,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-12717-revoking-executive-order-no-12691",
+  "word_count": 60,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Termination order; removes rather than concentrates authority."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Termination of a completed committee; no ongoing accountability question."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single revocation action: 'Executive Order No. 12691... is revoked.'"
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No enforcement; revocation order only."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No incentive structure.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "This EO is itself the termination mechanism for EO 12691; parent EO is now closed. Sunset flag does not fire on the instrument that provides the sunset."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Clean revocation of a completed committee; no oversight removed."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No compliance context."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Natural completion of committee tasks; no downstream implications."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No agency mandates involved."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No coverage scope."
+    }
+  ],
+  "notes": "Calibration Tier 1. Expected ~0%. Actual 0%. Note: EO 12691 (the establishing order) would score PRESENT on Sunset; this revocation order correctly scores ABSENT since it provides the termination."
+}

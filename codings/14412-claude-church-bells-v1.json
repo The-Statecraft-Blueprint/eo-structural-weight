@@ -1,0 +1,92 @@
+{
+  "eo_number": "14412",
+  "title": "Executive Order 14412—Securing the Nation Against Advanced Cryptographic Attacks",
+  "date_iso": "2026-06-22",
+  "president": "Donald J. Trump (2nd Term)",
+  "congress_number": 119,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-14412-securing-the-nation-against-advanced-cryptographic-attacks",
+  "word_count": 1458,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Authority is distributed across multiple actors with defined roles: OMB/National Cyber Director coordinate (Sec. 3(a)), NIST/CISA provide guidance (Sec. 3(b)), NSA handles National Security Systems (Sec. 5(c)), FAR Council handles procurement rules (Sec. 6(c)/(d)). No single actor dominates the implementation."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "NSA Director must report annually to President on National Security Systems status (Sec. 5(c)). OMB must issue guidance within 90 days (Sec. 4(b)). Specific deadlines assigned per agency with identifiable responsible parties throughout."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Coherent single purpose throughout: transition federal systems and critical infrastructure to post-quantum cryptography."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Sections 6(c) and 6(d) require FAR Council to publish proposed rules requiring 'covered contractors' to comply by December 31, 2030 — but 'covered contractors' is undefined in this EO. The compliance standard and obligated population will not exist until the FAR rules are finalized; the December 31, 2030 deadline runs against an as-yet-undefined group."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Agencies have genuine security interest in implementing PQC; no design features reward contrary behavior.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "The 2030/2031 transition deadlines and 'annually thereafter until PQC migration is complete' language (Sec. 5(c)) create a natural completion framework with defined endpoints. Not a formal sunset but provides a workable termination structure."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Does not preempt any existing oversight mechanism; adds new requirements to existing frameworks."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Critical infrastructure transition (Sec. 5(a)) requires SRMAs to 'work with... CISA to assist critical infrastructure owners and operators in developing their PQC migration plans' — aspirational language with no binding obligation on private critical infrastructure owners. Power grids, water systems, and financial infrastructure have no legal compliance requirement from this EO."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Positive second-order security effects; no harmful downstream architectural implications identifiable from text."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Roles clearly differentiated: NIST sets standards, CISA coordinates, NSA handles National Security Systems, OMB coordinates civilian agencies. No jurisdictional conflict."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "National Security Systems explicitly excluded from civilian transition requirements (Sec. 4(b)(i): 'excluding National Security Systems'). NSA handles these separately with annual reporting. Creates a two-track system where the most sensitive federal systems are on a different compliance path."
+    }
+  ],
+  "notes": "Calibration Tier 3. Expected 35-55%. Actual 13.6% — significantly below predicted range. NOTABLE CALIBRATION FINDING: technical complexity does not translate to structural weight. Well-architected EO with distributed authority, clear deadlines, and defined accountability scores low. Prediction was wrong; the scheme correctly rewards clean design."
+}

@@ -1,0 +1,92 @@
+{
+  "eo_number": "13769",
+  "title": "Executive Order 13769—Protecting the Nation From Foreign Terrorist Entry Into the United States",
+  "date_iso": "2017-01-27",
+  "president": "Donald J. Trump (1st Term)",
+  "congress_number": 115,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-13769-protecting-the-nation-from-foreign-terrorist-entry-into-the-united",
+  "word_count": 2883,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Syria refugee suspension 'until such time as I have determined that sufficient changes have been made' (Sec. 5(c)) and refugee cap 'until such time as I determine that additional admissions would be in the national interest' (Sec. 5(d)) vest resolution authority entirely in the president with no external trigger or standard. Case-by-case waivers 'when in the national interest' (Sec. 3(g)) are purely subjective with no defined criteria."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Waiver denials have no defined criteria, no appeal mechanism, and no record requirement under this EO. Courts found the waiver process effectively illusory. No defined locus of accountability for arbitrary denials exists in the EO framework itself."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "The EO bundles at least seven distinct policy mechanisms on different statutory bases: country entry suspension (INA 212(f)), refugee program suspension (USRAP statute), Syria indefinite suspension, visa interview program suspension, new screening standards development, biometric tracking acceleration, and visa reciprocity review. Forces binary accept/reject on a package mixing legally distinct authorities."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Waiver standard 'when in the national interest' (Sec. 3(g)) provides no criteria. 'In their discretion' (Sec. 5(e)) is explicitly subjective. The seven affected countries are identified only by reference to 'section 217(a)(12) of the INA' without listing them. Courts consistently found enforcement standards unconstitutionally vague; the EO was enjoined on these grounds."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Consular officers exercising 'case-by-case' waiver discretion face career risk for granting waivers in the politically charged environment this EO created, but face no institutional risk for denying them. This creates systematic over-denial incentive misaligned with the stated purpose of case-by-case national-interest determination.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "The 90-day country entry suspension (Sec. 3(c)) and 120-day refugee suspension (Sec. 5(a)) have time limits. However, the Syria refugee suspension (Sec. 5(c)) persists 'until such time as I have determined' with no standards or deadline, and the 50,000 refugee cap (Sec. 5(d)) is similarly indefinite with purely presidential termination authority."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Section 8 immediately suspends the Visa Interview Waiver Program, which had its own review process and criteria. Section 6 directs reconsideration of existing exercises of authority under INA section 212 relating to terrorism grounds, potentially removing prior case-by-case protections without replacement standards."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Visa applicants have no standing to challenge denials under this EO framework. No formal mechanism exists for legal organizations, employers, or family members to participate in or challenge waiver determinations. Enforcement depends entirely on executive branch self-application."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Established precedent for using INA 212(f) for sweeping categorical bans rather than case-by-case determinations. The resulting litigation (Hawaii v. Trump, SCOTUS 2018) shaped all subsequent presidential immigration authority and established the judicial deference framework that applies to future orders. Religious minority prioritization (Sec. 5(b)) set precedent for religiously-differentiated refugee policy. Nationwide confusion and airport detentions upon implementation revealed absence of coordination planning."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Section 4's uniform screening standards create new cross-agency authority across State, DHS, DNI, and FBI without clearly defining jurisdictional lines or resolving conflicts with existing agency-specific screening authorities. Agencies directed to implement without coordination mechanism."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Waiver criteria in Sec. 3(g) and 5(e) are so open-ended ('when in the national interest,' 'in their discretion') that relief is entirely discretionary with no standards, no appeal, and no accountability. Courts found the waiver process inadequate and arbitrary. The third version of the travel ban (PP 9645) had to add defined waiver criteria to survive judicial review, confirming this EO's exemptions architecture was structurally broken."
+    }
+  ],
+  "notes": "Calibration coding produced from Church Bells calibration session (July 1, 2026). Predicted tier: 4 (60-75%). Actual score: 72.7%. All CRITICAL flags confirmed by subsequent litigation outcomes: Power Concentration and Vague Enforcement (waiver process enjoined), Exemptions Architecture (third version required structural repair), Second/Third-Order Effects (Hawaii v. Trump precedent)."
+}

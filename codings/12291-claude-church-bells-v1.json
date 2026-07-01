@@ -1,0 +1,92 @@
+{
+  "eo_number": "12291",
+  "title": "Executive Order 12291—Federal Regulation",
+  "date_iso": "1981-02-17",
+  "president": "Ronald Reagan",
+  "congress_number": 97,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-12291-federal-regulation",
+  "word_count": 3106,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "OMB Director, subject only to the politically-appointed Task Force, can designate any rule as 'major' (Sec. 6(a)(1)), waive requirements for any major rule (Sec. 6(a)(4)), delay publication of any proposed rule (Sec. 3(f)(1)), and require agencies to obtain additional data (Sec. 6(a)(3)). Section 9 explicitly bars judicial review of Director determinations. The waiver authority in Sec. 6(a)(4) is entirely unconstrained."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "If OMB uses its review authority for political rather than cost-benefit reasons, no external accountability exists. The Task Force reviews Director decisions but is itself a political body. Section 9 explicitly states courts have no review: 'not intended to create any right or benefit... enforceable at law by a party against the United States.'"
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single coherent purpose: regulatory review reform requiring cost-benefit analysis for major rules."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "'Maximize the net benefits to society' (Sec. 2(c)) and 'maximize the aggregate net benefits to society' (Sec. 2(e)) provide no defined methodology for determining what constitutes a benefit or cost, or for resolving disputes about those determinations. The RIA process specifies required inputs but the ultimate decisional standard is inherently subjective."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Agencies are incentivized to engineer RIA methodology to produce favorable cost-benefit ratios. Industries with concentrated costs have strong incentive to lobby OMB directly rather than engage notice-and-comment. Section 6(a)(4) waiver authority creates a political pressure valve outside the regulatory process.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "No review mechanism or expiration. EO 12291 ran for 12 years, structurally reshaping the regulatory state, until Clinton's EO 12866 (1993) replaced it."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Establishes OMB pre-publication review before notice-and-comment, adding a political review layer not required by APA and not subject to APA participation rights. Revokes prior regulatory review EOs 12044 and 12174, replacing their frameworks with this one."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Affected parties have no formal standing in the OMB review phase. Section 3(h) requires agencies to make RIAs publicly available, but no comment mechanism exists for the OMB review itself. APA participation rights are effectively bypassed during this pre-publication phase."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "EO 12291 structurally reshaped the regulatory state by inserting a political cost-benefit veto before publication. This systematically disadvantages regulations where benefits are diffuse and hard to monetize (health, safety, environment, civil rights) relative to regulations with quantifiable benefits. The OIRA review system created here remains the operative model today, influencing every regulation produced in the subsequent 45 years."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Inserts OMB into a pre-publication role that had belonged to agencies operating under their statutory mandates. Creates tension between OMB's cost-benefit mandate and agencies' statutory obligations (e.g., agencies required by statute to protect worker health must now also satisfy OMB cost-benefit review that may conflict with their statutory duty)."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Section 8(b): Director 'may... exempt any class or category of regulations from any or all requirements of this Order' — essentially unlimited discretion. The emergency rule exemption (Sec. 8(a)(1)) is legitimate, but the blanket Director waiver authority in Sec. 8(b) is unbounded by any criteria."
+    }
+  ],
+  "notes": "Calibration Tier 3. Expected 35-55%. Actual 54.5% — at upper bound of predicted range."
+}

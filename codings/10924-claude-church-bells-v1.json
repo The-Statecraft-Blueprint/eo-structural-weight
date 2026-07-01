@@ -1,0 +1,92 @@
+{
+  "eo_number": "10924",
+  "title": "Executive Order 10924—Establishment and Administration of the Peace Corps in the Department of State",
+  "date_iso": "1961-03-01",
+  "president": "John F. Kennedy",
+  "congress_number": 87,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10924-establishment-and-administration-the-peace-corps-the-department",
+  "word_count": 316,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "'The Secretary of State shall delegate... such of the functions... as the Secretary shall deem necessary' (Sec. 2(b)) — open-ended delegation with no defined scope limits. Standard administrative setup but the scope of authority passed to the Director is unbounded."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Clear accountability chain: Director reports to Secretary of State who reports to President. Standard executive hierarchy with no gaps."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single purpose instrument: establish and administer a Peace Corps within State Department."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Organizational creation EO with no regulatory enforcement context."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Incentives aligned with mission; no structural design rewarding contrary behavior.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "No review mechanism, no expiration. The Peace Corps would persist indefinitely under this EO until new action. Superseded quickly by the Peace Corps Act of 1961, but this EO contains no termination provision of its own."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Section 4 explicitly preserves EO 10893: 'This order shall not be deemed to supersede or derogate from any provision of Executive Order No. 10893.'"
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No regulatory compliance context; organizational creation only."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Standard organizational creation; no harmful second-order architectural implications."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "New function within State Department; no mandate conflict with existing agencies."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No coverage scope or exemption structure."
+    }
+  ],
+  "notes": "Calibration Tier 2. Expected 15-30%. Actual 12.5% — slightly below predicted range. EO is architecturally lean: four sections, clear hierarchy, saves existing authorities. Prediction was marginally high; no scheme adjustment warranted."
+}

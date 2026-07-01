@@ -1,0 +1,92 @@
+{
+  "eo_number": "11069",
+  "title": "Executive Order 11069—Amending Executive Order No. 11017 so as to Designate the Secretary of Commerce as a Member of the Recreation Advisory Council",
+  "date_iso": "1962-11-28",
+  "president": "John F. Kennedy",
+  "congress_number": 87,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-11069-amending-executive-order-no-11017-so-designate-the-secretary",
+  "word_count": 56,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Single-sentence ministerial amendment; no decision authority created or modified."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No policy implementation involved; accountability question does not arise."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single provision, single purpose: adds one cabinet secretary to an existing advisory council."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No enforcement mechanism; purely organizational amendment."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No incentive structure created.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Inherits sunset (or absence thereof) from parent EO 11017; this amendment does not independently require one."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Amends rather than supersedes; explicitly modifies Section 1(a) of EO 11017 by insertion only."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No compliance context."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Ministerial addition of one council member; no systemic downstream implications identifiable from text."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Adds Commerce to an existing advisory council; no jurisdictional conflict with existing mandates."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No coverage scope or exemption structure."
+    }
+  ],
+  "notes": "Calibration Tier 1. Expected ~0%. Actual 0%. Confirms NOT_APPLICABLE handling for purely ministerial EOs."
+}

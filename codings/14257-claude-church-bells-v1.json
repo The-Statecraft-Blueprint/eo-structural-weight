@@ -1,0 +1,92 @@
+{
+  "eo_number": "14257",
+  "title": "Executive Order 14257—Regulating Imports With a Reciprocal Tariff To Rectify Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits",
+  "date_iso": "2025-04-02",
+  "president": "Donald J. Trump (2nd Term)",
+  "congress_number": 119,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-14257-regulating-imports-reciprocal-tariff-rectify-trade-practices",
+  "word_count": 17734,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Emergency termination: 'These additional ad valorem duties shall apply until such time as I determine that the underlying conditions described above are satisfied, resolved, or mitigated' (Sec. 2) — president alone decides. Section 4 grants unilateral modification authority with no external trigger. Section 5 delegates 'all powers granted to the President by IEEPA' to USTR and Commerce. SCOTUS confirmed in Learning Resources v. Trump (Feb. 2026) that Congress never granted this tariff authority under IEEPA."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "No metric for what constitutes resolution of the trade deficit emergency. 'Satisfied, resolved, or mitigated' (Sec. 2) is undefined. Congressional reporting (Sec. 6) is required but not binding — Congress cannot compel termination. Affected importers and businesses have no administrative appeal mechanism under this EO."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Bundles universal 10% tariff (Sec. 3(a)), country-specific rates (Annex I), product exemptions (Annex II), de minimis treatment rules (Sec. 3(h)), foreign trade zone treatment (Sec. 3(g)), U.S. content calculation rules (Sec. 3(f)), and termination of prior presidential trade actions (Sec. 3(l)) — distinct mechanisms serving a coherent but not singular purpose."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "'Satisfied, resolved, or mitigated' (Sec. 2): undefined. 'Significant steps to remedy non-reciprocal trade arrangements' (Sec. 4(c)): undefined. 'Align sufficiently with the United States on economic and national security matters' (Sec. 4(c)): undefined. 'Continue to worsen' (Sec. 4(d)): no threshold. The emergency trigger itself ('large and persistent annual U.S. goods trade deficits') has no defined resolution standard."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Zombie Emergency Trap: 'until such time as I determine' (Sec. 2) makes termination purely presidential. Tariffs generate revenue; the emergency framework provides ongoing legal authority; administration has institutional incentive to maintain the declaration. Section 4(a): if action is 'not effective in resolving the emergency,' the remedy is more tariffs — no resolution scenario requires Congress or terminates the emergency independently.",
+      "sub_flag_fired": true
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "No sunset, no review mechanism. Termination is purely presidential discretion with no defined criteria. No internal review mechanism existed — SCOTUS had to strike down the tariffs externally. The emergency cannot end without presidential action, and the institutional incentives run against termination."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Section 3(l): 'any prior Presidential Proclamation, Executive Order, or other Presidential directive or guidance related to trade with foreign trading partners that is inconsistent... is hereby terminated, suspended, or modified.' Sweeps away established trade framework. Bypasses congressional tariff authority (Art. I, Sec. 8) and normal trade statute procedures. First-ever use of IEEPA to impose tariffs — preempts the entire established tariff-setting constitutional framework."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Congressional reporting exists (Sec. 6) and courts were ultimately accessible (Learning Resources litigation). The EO itself creates no formal administrative review mechanism for affected parties, but judicial access exists outside the EO's own framework."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Caused the 2025 stock market crash and bond market disruption. $166B collected from 330,000+ businesses was required to be refunded after SCOTUS ruling. SCOTUS ruling in Learning Resources now forecloses IEEPA tariffs for all future presidents — a permanent second-order constraint on executive trade authority. Global supply chain disruption at scale."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "USTR and Commerce both granted implementation authority (Sec. 5) with some jurisdictional overlap. Section 3(l) termination of prior inconsistent orders creates uncertainty about which prior frameworks still apply. Present but not at the level of fundamental mandate conflict."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Annex II exemptions (pharmaceuticals, semiconductors, copper, critical minerals, energy, steel/aluminum) modified at presidential discretion and changed repeatedly post-signing. Section 4(c) allows country-level rate reduction for those who 'align sufficiently' — exemptions granted on purely subjective political criteria with no standards. By December 2025, approximately 50% of all U.S. imports had been exempted; the exemption architecture became the de facto primary policy instrument."
+    }
+  ],
+  "notes": "Calibration Tier 5. Expected 80%+. Actual 86.4%. Zombie Emergency Trap sub-flag fires on Flag 5. Post-hoc confirmation: SCOTUS Learning Resources v. Trump (Feb. 2026) confirmed Power Concentration and Preemption of Oversight CRITICAL findings."
+}

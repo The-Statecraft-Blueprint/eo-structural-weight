@@ -1,0 +1,92 @@
+{
+  "eo_number": "9066",
+  "title": "Executive Order 9066—Authorizing the Secretary of War To Prescribe Military Areas",
+  "date_iso": "1942-02-19",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-9066-authorizing-the-secretary-war-prescribe-military-areas",
+  "word_count": 531,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "'Whatever restrictions the Secretary of War or the appropriate Military Commander may impose in his discretion' — wholly unconstrained authority. No defined scope of who can be excluded, on what basis, or to what degree. 'Whenever he or any designated Commander deems such actions necessary or desirable' is a purely subjective trigger with no external check."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "No remedy mechanism, no appeal process, no oversight body defined. Section 3 supersedes the Attorney General's authority in designated areas, removing even the limited civil rights protection the AG could provide. When property is seized and constitutional rights violated, no accountability path exists within this EO's framework."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single purpose: authorize Secretary of War to prescribe military exclusion areas."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "'Any or all persons' — zero definition of who is subject to exclusion. 'Such restrictions... may impose in his discretion' — completely open scope with no limiting principle. 'Whenever he or any designated Commander deems such actions necessary or desirable' — purely subjective trigger. No standard governs who is excluded, when, or on what basis."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Military commanders have no downside for broader exclusion orders and potential upside (political cover, resources, reduced accountability) for wider application. 'As may be necessary, in the judgement of the Secretary of War' makes the Secretary's wartime judgment the only check, and wartime political environment creates systematic pressure toward more restriction, not less.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "No sunset or review mechanism. EO 9066 continued until formally revoked by EO 9742 in 1946, after the war ended."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Explicitly supersedes the Attorney General's authority under the December 1941 Proclamations in designated areas (Sec. 3). Directs all federal agencies to cooperate and assist military commanders. Creates military exclusion zones exempt from normal civil and judicial oversight — a complete substitution of military authority for civil authority in designated areas."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "No judicial review pathway, no advocacy mechanism, no congressional oversight created. Military determinations are effectively unchallengeable under this EO's framework. Korematsu v. United States (1944) confirmed courts would not review military necessity determinations, validating the absence of third-party accountability at law."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Established the precedent for mass deprivation of constitutional rights of U.S. citizens on ethnic basis under emergency claims, implemented through the War Relocation Authority and a camp system holding 120,000+ people. As legal precedent, remained available for invocation until formally repudiated by Congress in the Civil Liberties Act of 1988."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Supersedes the AG's operational authority in designated exclusion areas (Sec. 3). Transfers civil law enforcement to military commanders. Directs all federal agencies to subordinate their functions to military authority within exclusion zones, effectively overriding all pre-existing agency mandates in those areas."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No exemptions exist. The flag asks whether an exemption structure undermines the stated purpose; here there are no exemptions at all. The human catastrophe results from other flags (Power Concentration, Vague Enforcement, Accountability Gaps), not from exemptions undercutting stated purpose."
+    }
+  ],
+  "notes": "Calibration Tier 5. Expected 80%+. Actual 77.3% — slightly below threshold. Bundling ABSENT and Exemptions Architecture ABSENT (technically correct calls — single-purpose order with no carve-outs). EO-9066 scores lower than EO-14257 because EO-14257 deploys more flags at CRITICAL; the structural weight score correctly measures machinery deployed, not moral weight."
+}

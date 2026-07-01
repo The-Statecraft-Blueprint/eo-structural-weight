@@ -1,0 +1,92 @@
+{
+  "eo_number": "13228",
+  "title": "Executive Order 13228—Establishing the Office of Homeland Security and the Homeland Security Council",
+  "date_iso": "2001-10-08",
+  "president": "George W. Bush",
+  "congress_number": 107,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-13228-establishing-the-office-of-homeland-security-and-the-homeland",
+  "word_count": 2842,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "The APHS (White House staff, no Senate confirmation, no congressional accountability) is designated as 'the individual primarily responsible for coordinating the domestic response efforts of all departments and agencies' during terrorist events (Sec. 3(g)) and receives Top Secret classification authority (Sec. 6). No statutory basis for this authority exists; it derives entirely from presidential prerogative."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "OHS is within EOP with no Inspector General, no independent audit authority, and no congressional testimony obligation. When coordination fails, responsibility is diffuse across all coordinating agencies with no clear locus. The 9/11 Commission's subsequent findings confirmed this accountability gap caused operationally significant failures."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single mission: develop and coordinate a comprehensive national strategy to secure the United States from terrorist threats."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "'Coordinate' is the operative verb throughout Section 3 with no definition of what adequate coordination requires, no standard for coordination failure, and no consequence mechanism: 'Executive departments and agencies shall... make available to the Office all information relating to terrorist threats' (Sec. 3(b)(ii)) with no stated consequence for non-compliance."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "White House proximity creates incentive for agencies to route security decisions through the political channel (APHS) rather than technical interagency processes, biasing operational decisions toward political considerations and creating deference pressure that reduces agency expertise's role.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "No sunset or review mechanism. OHS was eventually replaced by DHS (Homeland Security Act, 2002) but not through any process envisioned by this EO; legislative action was required."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Section 9 amends EO 12656 to shift responsibility for homeland security emergency planning from NSC to HSC, sidelining NSC processes and structures that had developed oversight mechanisms over decades. Section 3(l) budget certification role inserts APHS into agency budget review processes."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Section 3(j): state and local participation is by 'encourage and invite' — purely aspirational. No mechanism for state/local governments or private sector to enforce coordination standards or seek remedy for federal coordination failure."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "Established precedent for White House-based coordination without statutory authority for major national security functions. Classification authority delegation to APHS (Sec. 6) set precedent for concentrating classification power in White House. The OHS coordination failures directly shaped the subsequent DHS legislation — Congress replaced this EO framework because it demonstrably failed."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "CRITICAL",
+      "points": 2,
+      "justification": "OHS given coordination authority over DOD, DOJ, FBI, CIA, FEMA, State, Treasury, HHS, and Transportation — all with existing statutory mandates. Section 7 states 'this order does not alter the existing authorities' but Sec. 3(g) designates APHS as 'primarily responsible' for domestic response coordination, which in practice means control. Section 9 explicitly modifies NSC-coordinated processes in EO 12656."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Organizational and coordination EO; no coverage population or exemption structure."
+    }
+  ],
+  "notes": "Calibration Tier 4. Expected 60-75%. Actual 65.0%."
+}

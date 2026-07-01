@@ -1,0 +1,92 @@
+{
+  "eo_number": "9981",
+  "title": "Executive Order 9981—Establishing the President's Committee on Equality of Treatment and Opportunity in the Armed Services",
+  "date_iso": "1948-07-26",
+  "president": "Harry S Truman",
+  "congress_number": 80,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-9981-establishing-the-presidents-committee-equality-treatment-and",
+  "word_count": 414,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-01",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Implementation rests entirely with service secretaries; the advisory committee 'shall make such recommendations to the President and to said Secretaries' (Sec. 3) but cannot compel action. Authority over actual implementation is concentrated in military leadership with only advisory oversight."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "No mechanism for consequence if service secretaries slow implementation. No defined compliance standard, no timeline, no penalty structure. History confirms this gap: Truman required sustained personal pressure on military leadership for years after signing."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single coherent purpose throughout: equality of treatment and opportunity in the armed services."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "'As rapidly as possible, having due regard to the time required to effectuate any necessary changes without impairing efficiency or morale' (Sec. 1) provides no metric, no timeline, and no definition of when equality is achieved. The 'efficiency or morale' language is an escape clause with no limiting principle."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Personnel who resist desegregation create 'morale impairment,' which becomes justification for slowing implementation under the EO's own language. Implementing authorities have institutional interest in the status quo and the EO provides no mechanism to counteract that interest.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Policy of equality is appropriately permanent. The committee has an explicit presidential termination mechanism: 'The Committee shall continue to exist until such time as the President shall terminate its existence by Executive order' (Sec. 6). Absence of sunset on the policy itself is correct design."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Does not preempt existing oversight; creates a new oversight mechanism."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "No mechanism for affected service members to compel implementation. Courts are not given jurisdiction. Congress is not notified. Citizens have no recourse under this EO if equality of treatment is not implemented."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Downstream effects are positive; the EO's text structure creates no harmful second-order architectural implications."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Advisory committee supplements rather than conflicts with existing mandates; 'All executive departments and agencies... are authorized and directed to cooperate' (Sec. 4)."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No exemptions."
+    }
+  ],
+  "notes": "Calibration Tier 2. CRITICAL CALIBRATION TEST. Expected 15-30%. Actual 25.0%. Confirms scheme measures architecture, not historical importance. One of the most consequential civil rights actions in American history scores in the low range — correct result."
+}

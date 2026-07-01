@@ -1,0 +1,196 @@
+# Church Bells: Canonical Structural Flag Set
+*Version 1.0 — June 2026*
+*Supersedes the nine-flag list in church-bells-brief-methodology.md (March/April 2026).*
+*This document is the authoritative reference for both Church Bells brief work and the EO Structural Weight Score project. Pre-registration of the scoring scheme will be made against this flag set.*
+
+---
+
+## Overview
+
+Church Bells uses eleven standing structural flags. Every brief — legislative or executive track — checks for all eleven. Flags that don't apply to a given instrument are scored NOT APPLICABLE, not omitted. The presence or absence of a flag is always a finding, never a default.
+
+The eleven flags divide into three groups by origin, though all eleven apply to both tracks:
+
+**Core flags (both tracks, original methodology):** Power Concentration, Accountability Gaps, Bundling, Vague Enforcement, Perverse Incentives, Sunset Provisions, Preemption of Oversight, Third-Party Incentive Gaps, Second/Third-Order Effects.
+
+**Extended flags (both tracks, added to cover EO-specific failure modes not cleanly captured above):** Inter-Agency Cannibalization, Exemptions Architecture.
+
+The extended flags were added because two failure modes that fire consistently on executive orders couldn't be made to nest under existing flags without blurring distinct things. Forcing Inter-Agency Cannibalization under Power Concentration would conflate lateral authority conflicts with upward authority pooling. Forcing Exemptions Architecture under Vague Enforcement would conflate coverage scope with enforcement clarity. Both are genuine structural failure modes; both get their own flag.
+
+---
+
+## Status Vocabulary
+
+Every flag in every brief is scored using exactly one of four statuses:
+
+**PRESENT** — The flag fires based on the instrument's text. The structural failure mode is identifiable.
+
+**CRITICAL** — The flag fires and represents a core failure mode or design collapse that directly undermines the instrument's stated purpose. CRITICAL implies PRESENT; not every PRESENT rises to CRITICAL.
+
+**ABSENT** — The flag does not fire. Clean design on this dimension. ABSENT is a positive finding and should be stated, not silently omitted. The absence of a structural failure is a data point.
+
+**NOT APPLICABLE** — The flag does not apply to this type of instrument, subject matter, or scope. A narrow administrative order (pay-rate adjustments, schedule changes, post-office renamings) will legitimately score NOT APPLICABLE on most flags. Document the reasoning briefly.
+
+---
+
+## The Eleven Flags
+
+---
+
+### Flag 1 — Power Concentration
+
+**What it catches:** Authority over eligibility, enforcement, implementation, or interpretation pooled in a single position or body without commensurate external accountability.
+
+**Operational test:** Identify where decision authority rests at each operative layer of the instrument. If it rests in a single official or body — with no meaningful external check, whether judicial, legislative, or administrative — this flag fires. "Meaningful" excludes checks that exist on paper but require the concentrated authority itself to initiate.
+
+**Key distinction from Inter-Agency Cannibalization (Flag 10):** Power Concentration is vertical — authority pooling upward into fewer hands. Inter-Agency Cannibalization is lateral — authority conflicting between bodies that already have mandates. An instrument can trigger both independently.
+
+**Applies to:** Both tracks. Fires more frequently on EOs, where a single official often holds discretionary authority that would be distributed through a rulemaking or statutory process on the legislative track.
+
+---
+
+### Flag 2 — Accountability Gaps
+
+**What it catches:** Absence of clear responsibility when the instrument fails. Diffuse blame, circular accountability structures, or no named actor with both the obligation and the capacity to correct implementation failure.
+
+**Operational test:** Trace the failure chain. If the instrument does not achieve its stated purpose, who is specifically responsible? If the answer is "no one in particular," "a committee with no enforcement authority," or "the implementing agency, which also determines whether it has failed," the gap exists.
+
+**Key distinction from Flag 1:** Power Concentration is about where authority is pooled. Accountability Gaps is about what happens when that authority produces bad outcomes. Both can be present simultaneously — concentrated authority with no accountability mechanism is the most common and most dangerous pairing.
+
+**Applies to:** Both tracks.
+
+---
+
+### Flag 3 — Bundling
+
+**What it catches:** Provisions that obscure accountability by forcing binary accept/reject on packages that contain multiple distinct policy questions, or that conflate multiple problem frames under a single stated purpose.
+
+**Two sub-flags — both should be checked:**
+
+*Remedy bundling:* The instrument packages multiple substantively distinct remedies. A legislature or reviewer cannot accept the sound provisions and reject the unsound ones without rejecting or accepting the whole. The bundled structure forecloses targeted correction.
+
+*Frame bundling:* The instrument's stated purpose bundles multiple distinct problems — often one legitimate and one that could not pass on its own — under a single framing. The frame obscures which problem is actually being addressed and prevents accountability for each separately.
+
+**Operational test:** Can each provision be independently justified by the instrument's stated purpose? If removing a provision would change the instrument's substantive scope in a way unrelated to the stated problem, that provision is bundled. If the stated purpose contains multiple problem frames that would not naturally be addressed by a single instrument, frame bundling is present.
+
+**Applies to:** Both tracks. Remedy bundling fires more commonly on legislation (omnibus bills). Frame bundling fires on both tracks.
+
+---
+
+### Flag 4 — Vague Enforcement
+
+**What it catches:** Enforcement mechanisms insufficiently defined to produce consistent application. Ambiguity about who enforces, what triggers enforcement, what the consequences of non-compliance are, or what the implementing standard actually requires.
+
+**Operational test:** Could two different implementing officials read this instrument and arrive at substantially different enforcement decisions — in good faith, without either being demonstrably wrong? If yes, enforcement is vague. Examine: the trigger conditions for enforcement action, the identity of the enforcing actor, the consequences for non-compliance, and the standard of conduct being enforced.
+
+**Key distinction from Exemptions Architecture (Flag 11):** Vague Enforcement addresses how the instrument is applied to those it covers. Exemptions Architecture addresses who is covered at all. An instrument can have clear, precise enforcement mechanics and still have an exemptions structure that guts its coverage.
+
+**Applies to:** Both tracks.
+
+---
+
+### Flag 5 — Perverse Incentives
+
+**What it catches:** Design features that reward the wrong behavior — conditions where rational actors are incentivized to undermine the instrument's stated purpose, whether those actors are the regulated parties, the implementing officials, or the intended beneficiaries.
+
+**Operational test:** Identify the primary incentive created for each major actor class by the instrument's design. Does following that incentive advance or undermine the stated purpose? Look especially for: regulated parties who benefit from non-compliance, implementing agencies whose budget or authority expands through failure, and beneficiaries who receive better outcomes by gaming the instrument's definitions.
+
+**Sub-flag — Zombie Emergency Trap (EO-specific):** An emergency invocation or declaration that creates structural incentive to never declare the emergency resolved. Fires when an EO's operative authority depends on, or invokes, a declared emergency, and when ending that declaration would cost the implementing agency ongoing authority, funding, or legal cover it is otherwise using. The perverse incentive: agencies under such an EO have institutional reasons to perpetuate the emergency regardless of whether the underlying emergency condition persists.
+
+*Operational test for sub-flag:* Does the EO invoke emergency powers, reference an existing emergency declaration, or derive operative authority from emergency statutes? If yes: map what the implementing agency stands to lose if the emergency ends. If the answer includes ongoing authority, appropriated funds, or insulation from normal legal constraints, the Zombie Emergency Trap fires.
+
+**Applies to:** Both tracks for the parent flag. Sub-flag applies to EOs invoking emergency powers.
+
+---
+
+### Flag 6 — Sunset Provisions (absence of)
+
+**What it catches:** Absence of any mechanism for review, renewal, or expiration. Instruments designed to be permanent by default — continuing until actively revoked — rather than requiring affirmative reauthorization.
+
+**Operational test:** At what point, if any, does this instrument's authority lapse or require reauthorization? If the answer is "never" or "only if a future administration revokes it," this flag fires. Note that a review requirement is not equivalent to a sunset: a requirement to report on implementation does not create pressure for reauthorization or provide a natural moment for correction.
+
+**Scoring note:** This is an absence flag. It fires when sunsetting is absent, not when it is present. An instrument with a well-designed sunset or review-and-reauthorization requirement scores ABSENT on this flag — that is a positive finding.
+
+**Applies to:** Both tracks. Fires almost universally on EOs, which have no built-in expiration mechanism and persist until revoked.
+
+---
+
+### Flag 7 — Preemption of Oversight
+
+**What it catches:** Reduction or elimination of existing oversight mechanisms — judicial review, Inspector General access, administrative review, congressional reporting requirements, notice-and-comment rulemaking, inter-agency consultation requirements, or other external checks on implementation.
+
+**Operational test:** What oversight mechanisms applied to this subject matter or authority before this instrument? Does the instrument explicitly exclude, limit, bypass, or effectively disable any of them? Preemption can be formal (language specifying that standard review processes don't apply) or structural (moving authority to a body or process where those review mechanisms don't operate).
+
+**Key distinction from Accountability Gaps (Flag 2):** Preemption of Oversight is specifically about the removal of pre-existing external checks. Accountability Gaps is about the absence of clear internal responsibility. An instrument can create Accountability Gaps without preempting any existing oversight, and can preempt existing oversight while still maintaining clear internal accountability structures.
+
+**Applies to:** Both tracks.
+
+---
+
+### Flag 8 — Third-Party Incentive Gaps
+
+**What it catches:** Enforcement structures that depend entirely on self-reporting or regulated-party compliance, with no external actor having both standing and incentive to surface violations. The instrument has no mechanism creating third-party interest in its enforcement.
+
+**Operational test:** Identify the enforcement chain beyond the regulated party. Who has standing, access, and incentive to surface non-compliance — other than the regulated party itself or the implementing agency acting on voluntary disclosure? If no such actor exists, or if the actors with standing lack access to the information needed to identify violations, this flag fires.
+
+**Key distinction from Vague Enforcement (Flag 4):** Third-Party Incentive Gaps addresses who has reason to enforce. Vague Enforcement addresses how enforcement is applied once initiated. An instrument can have precise enforcement mechanics (clear trigger, clear consequence) applied only in response to self-reporting.
+
+**Applies to:** Both tracks. Fires frequently on instruments relying on industry disclosure, contractor compliance certification, or agency self-assessment.
+
+---
+
+### Flag 9 — Second/Third-Order Effects
+
+**What it catches:** Downstream consequences not captured by the instrument's stated purpose — conditions enabled, legitimized, or foreclosed by the instrument that would not otherwise be possible; precedents applicable in contexts beyond the stated subject; effects that make the underlying problem harder to address on a future pass.
+
+**Operational test:** Reason forward from full implementation. What does this instrument make easier, harder, or newly possible — not just for the stated purpose, but for adjacent uses of the same authority, definitional framework, or institutional precedent? Flag fires when meaningful second- or third-order consequences are identifiable from the text or statutory context. Look especially for: authority claims that establish precedent usable in unrelated contexts, definitions that import coverage from other domains, and institutional changes that would persist beyond the instrument's immediate effect.
+
+**Scoring note:** This flag requires explicit reasoning, not assertion. The finding should name the specific second-order effect and trace how the instrument's text or structure produces it.
+
+**Applies to:** Both tracks. Not applicable on narrow administrative instruments with no systemic or precedential implications.
+
+---
+
+### Flag 10 — Inter-Agency Cannibalization
+
+**What it catches:** An instrument that redirects, overrides, or conflicts with an existing agency's statutory mandate — not by creating new authority, but by reassigning or countermanding authority that another agency already holds by statute. Creates jurisdictional friction that produces coordination failure, implementation gaps, or mandate conflict between agencies.
+
+**Operational test:** Identify each agency named or implicated by the instrument. Does the instrument's implementation require that agency to act in ways that conflict with its existing statutory mandate? Does it duplicate an existing agency's statutory authority in ways likely to produce jurisdictional friction — parallel authority structures with no clear hierarchy? Does it redirect appropriated funds or personnel from their statutory purpose without corresponding legislative authorization? If yes to any, this flag fires.
+
+**Key distinction from Power Concentration (Flag 1):** Power Concentration is vertical — authority pooling into fewer hands. Inter-Agency Cannibalization is lateral — authority conflicts between bodies that already have mandates. An EO that concentrates authority in one official by stripping it from another implicates both flags.
+
+**Key distinction from Preemption of Oversight (Flag 7):** Preemption of Oversight targets the removal of external checks. Inter-Agency Cannibalization targets conflicts between agencies with operational rather than oversight functions. An agency whose oversight role is preempted by an instrument scores under Flag 7; an agency whose operational mandate is redirected or countermanded scores under Flag 10.
+
+**Applies to:** Both tracks. Fires most frequently on EOs reorganizing the executive branch, redirecting agency resources, or creating new inter-agency coordination structures that compete with existing ones.
+
+---
+
+### Flag 11 — Exemptions Architecture
+
+**What it catches:** An exemption structure that systematically undermines the instrument's stated purpose — carve-outs, waivers, or exceptions that are broad enough to swallow the rule, concentrated in a single actor with discretion to expand them, or triggered by conditions easy enough to satisfy that the default becomes exemption rather than coverage.
+
+**Operational test:** Map the instrument's exemptions against its stated population of coverage. Three questions: (1) What percentage of the likely affected population can reasonably claim an exemption under the instrument's own terms? (2) Who controls exemption determinations, and is that discretion bounded by defined criteria or essentially unlimited? (3) Are the exemption triggers narrow and specific, or broad enough that any sophisticated actor can engineer qualification? Flag fires when exemptions are broad, discretionary, or concentrated in a single actor with no external check on exemption grants.
+
+**Key distinction from Vague Enforcement (Flag 4):** Vague Enforcement asks how the instrument is applied to those subject to it. Exemptions Architecture asks who is subject to it at all. A precisely-written instrument with clear enforcement mechanics can still have an exemptions structure that renders it effectively voluntary for well-resourced actors.
+
+**Key distinction from Third-Party Incentive Gaps (Flag 8):** Third-Party Incentive Gaps asks whether anyone external has reason to surface violations. Exemptions Architecture asks whether those violations are even violations — whether the exemption structure has definitionally removed actors from coverage before enforcement is ever triggered.
+
+**Applies to:** Both tracks. Fires more frequently on EOs, where broad waiver authority is commonly delegated to a single cabinet secretary or agency head with minimal criteria.
+
+---
+
+## Application Notes
+
+**On NOT APPLICABLE:** Score it when a flag genuinely doesn't apply to the instrument's type or scope — not when the flag applies but doesn't fire. A narrow administrative order with no policy consequence legitimately scores NOT APPLICABLE on Flags 9, 10, and 11. A major policy EO that doesn't trigger a flag scores ABSENT, not NOT APPLICABLE.
+
+**On CRITICAL vs. PRESENT:** CRITICAL is reserved for flags that represent a core design collapse — where the identified failure mode directly defeats the instrument's stated purpose, not merely degrades it. When in doubt, score PRESENT and explain why it doesn't rise to CRITICAL, rather than defaulting to CRITICAL to signal importance.
+
+**On positive findings:** ABSENT is a positive finding. An instrument that scores ABSENT on Power Concentration has a clean accountability structure on that dimension — say so. The absence of structural failures is part of the longitudinal record. Every brief's "What This Gets Right" section draws from ABSENT findings, not just from the absence of flags.
+
+**On correlated flags:** Some flag pairs are structurally related and may fire together on the same instrument feature. Power Concentration and Accountability Gaps often co-occur. Inter-Agency Cannibalization and Preemption of Oversight can overlap when a cannibalized agency also had an oversight function. When two flags fire on the same feature, score both and note the relationship — do not collapse them into a single finding or pick only the "stronger" one. The EO Structural Weight Score aggregation formula will handle double-counting at the scoring layer; the flag application layer should not pre-correct for it.
+
+---
+
+## Version History
+
+- v1.0 — June 2026 — Initial canonical document. Eleven flags. Supersedes nine-flag list in church-bells-brief-methodology.md. Extended flags (Inter-Agency Cannibalization, Exemptions Architecture) added as full top-level flags based on EO Structural Weight Score project analysis. Zombie Emergency Trap formalized as sub-flag under Perverse Incentives.

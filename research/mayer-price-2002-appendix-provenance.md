@@ -18,12 +18,16 @@ An order was coded significant if it met at least one of six criteria: (1) press
 
 The appendix lists the 149 significant orders. It does **not** list the ~879 sampled orders coded insignificant. Sample membership for negatives is unrecoverable. Consequences for validation design are addressed in the validation-design decision memo (pending Jason's call).
 
-## Transcription integrity
+## Transcription integrity — resolved against corpus (2026-07-03)
 
 - Row count verified at 149, matching the paper's stated figure.
-- EO numbers are strictly increasing throughout the transcription, which supports the correction of one printed number: the appendix prints "12262" dated Dec. 31, 1988 ("Implementing the U.S.-Canada Free Trade Act") between 12661 and 12675. EO 12262 does not exist in that range and the title/date match EO 12662. Corrected to 12662 in the CSV, flagged in `transcription_note`.
-- Eight printed dates are out of sequence with surrounding entries or inconsistent with the known signing date for that EO number (9863, 9981, 11375, 11697, 12340, 12369, 12400, 12834). These appear to be typesetting errors in the published appendix. The CSV preserves the printed date in `date_as_printed` and flags each in `transcription_note`.
-- **Resolution rule:** the EO *number* is the join key and is treated as authoritative (the titles corroborate the numbers). Dates in this file are informational only; signing dates come from our own American Presidency Project corpus after the join. Any join failure by EO number gets investigated individually before the validation run.
+- All 149 EO numbers joined cleanly against the 10,537-order American Presidency Project corpus in `eo_coding.db`. Zero misses.
+- One printed EO number was corrected pre-join: the appendix prints "12262" dated Dec. 31, 1988 ("Implementing the U.S.-Canada Free Trade Act"). EO 12262 does not exist in that range; the title and date match EO 12662, which is the number used. The clean join against the corpus (title match: "Implementing the United States-Canada Free Trade Agreement Act of 1988") confirms this correction.
+- Eight printed dates in the PSQ appendix do not match the actual signing date for that EO number in the corpus. This is evidently an error in the original 2002 published appendix, not a transcription error on our end — titles match the corpus exactly in every case, only the date is wrong. Two error patterns appear:
+  - **Off-by-one-year:** 9863 (printed 1946, actual 1947), 9981 (printed 1946, actual 1948), 11375 (printed 1966, actual 1967), 12369 (printed 1980, actual 1982).
+  - **Month swapped (Dec ↔ Jan, day retained):** 11697 (printed Dec 17 1973, actual Jan 17 1973), 12400 (printed Dec 3 1983, actual Jan 3 1983), 12834 (printed Dec 20 1993, actual Jan 20 1993).
+  - **Unrelated date entirely:** 12340 (printed May 25 1980, actual Jan 20 1982).
+- **Resolution:** `mayer-price-2002-appendix-resolved.csv` supersedes the original extraction. It carries the corpus's authoritative `date_signed` for every row and flags the nine rows where the PSQ-printed date differed. EO number remains the join key throughout; titles were used only to confirm each resolution, never as the primary key.
 
 ## Usage constraint
 

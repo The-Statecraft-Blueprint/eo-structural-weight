@@ -1,0 +1,94 @@
+{
+  "eo_number": "7344",
+  "title": "Executive Order 7344\u2014Revocation of Executive Order No. 5791 of February 2, 1932, Withdrawing Public Lands in Colorado",
+  "date_iso": "1936-04-11",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 74,
+  "source_url": "",
+  "word_count": 75,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-03",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "A single one-time revocation of a prior land withdrawal under existing statutory authority; no ongoing decision-making authority or position is created or exercised."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No implementing actor or ongoing program exists for which responsibility could be unclear \u2014 the order takes effect automatically 'upon the date of the official filing of the plat of resurvey.'"
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single narrow purpose: revoke one specific prior land withdrawal."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "A land-status revocation has no enforcement dimension."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No incentive structure is created by a status-revocation action.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Not a grant of ongoing authority; the order is self-executing upon a defined future event (filing of the resurvey plat), which is itself a completion trigger, not an authority requiring review."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No existing oversight mechanism is touched."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No regulated party or compliance scheme exists."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Restores the specified township to its prior public-domain status pending a routine resurvey; no broader effects identifiable from the text."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No second agency or mandate is implicated."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No exemptions, waivers, or carve-outs are created."
+    }
+  ],
+  "notes": "Validation batch, drawn negative (random sample, seed 20260703, pre-registration v1.1). Near-boilerplate land-withdrawal revocation \u2014 floor-score exemplar. First-pass coding; not yet cross-coded for inter-coder reliability."
+}

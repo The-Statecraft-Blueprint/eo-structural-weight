@@ -1,0 +1,94 @@
+{
+  "eo_number": "7856",
+  "title": "Executive Order 7856\u2014Rules Governing the Granting and Issuing of Passports in the United States",
+  "date_iso": "1938-03-31",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 75,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-7856-rules-governing-the-granting-and-issuing-passports-the-united-states",
+  "word_count": 7817,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-03",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Sole authority to grant, issue, restrict, withdraw, or cancel a passport rests with the Secretary of State (Part I, para 1; para 124: 'authorized in his discretion to refuse to issue a passport, to restrict a passport for use only in certain countries... to withdraw or cancel a passport already issued'). The phrase 'in his discretion' or equivalent recurs dozens of times with no substantive standard limiting it."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "No appeal, review, or reconsideration mechanism is specified anywhere in the text for a denial, restriction, or revocation under para 124-125. The order is silent on any check on the Secretary's exercise of this discretion."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single coherent subject throughout: procedural rules for passport issuance, amendment, and renewal."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Para 125: a person who 'knowingly use[s] or attempt[s] to use it in violation of the conditions or restrictions... the protection of the United States may be withdrawn from him' \u2014 no defined process, standard of proof, or consequence scale for this determination."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No incentive structure identifiable in the text that rewards behavior contrary to the order's purpose. Not an emergency-powers instrument; Zombie Emergency Trap sub-flag does not apply.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No formal sunset, but appropriately so: this is a standing administrative procedures framework, not a grant of emergency or extraordinary authority. The order's own history \u2014 it 'supersedes Executive Order No. 5860... as amended by Executive Order No. 6650' (para 127) \u2014 demonstrates the rules are revised through ordinary supersession as needed, functioning as a de facto review mechanism."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "The text does not reduce or eliminate any existing oversight mechanism (judicial review, IG access, congressional reporting); it is silent on them rather than displacing them."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "This flag targets regulatory schemes where compliance monitoring depends on an external party's incentive to surface violations by a regulated entity. This order governs direct individual-facing administrative action (citizen applies, State Department decides); the applicant is not a 'regulated party' being monitored by outside actors in the sense the flag contemplates. The relevant concern (individual due process) is already captured under Flag 2."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Para 124's undefined discretionary authority to refuse, restrict, or withdraw passports \u2014 combined with no substantive standard \u2014 creates latent capacity for the passport mechanism to be used for purposes well beyond routine issuance administration (e.g., foreign-policy travel restriction) without further legislative check. This is a structural feature of the text's breadth, not a claim about intent."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Passport administration is squarely within the State Department's statutory domain (22 U.S.C. \u00a7211a cited in the preamble); no conflict with another agency's mandate is created."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Fee exemptions (paras 91-99, for government employees on official business, American seamen, and grave-visiting relatives of deceased servicemembers) are narrow, well-defined, and relieve only the fee \u2014 not the underlying citizenship or eligibility requirements. They do not undermine the order's purpose."
+    }
+  ],
+  "notes": "Validation batch (Mayer & Price 2002 appendix positive, pre-registration v1.1). First-pass coding; not yet cross-coded for inter-coder reliability."
+}

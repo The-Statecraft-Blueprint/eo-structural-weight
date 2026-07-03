@@ -1,0 +1,94 @@
+{
+  "eo_number": "8233",
+  "title": "Executive Order 8233\u2014Prescribing Regulations Governing the Enforcement of the Neutrality of the United States",
+  "date_iso": "1939-09-05",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 76,
+  "source_url": "",
+  "word_count": 700,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-03",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Enforcement responsibility is distributed by jurisdiction across War, Navy, Treasury/Commerce, the Governor of the Panama Canal, Justice, and 'all departments and independent offices' \u2014 the opposite of concentration."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Each department's enforcement lane is defined by subject matter and territory (land forces to War; naval/hostile vessels to Navy; other vessels to Treasury/Commerce; Canal Zone to its Governor; residual enforcement and prosecution to Justice), so responsibility for a given failure is traceable to a specific department."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single coherent purpose: enforcement of the neutrality proclamation of September 5, 1939."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Enforcement lanes are assigned by concrete, checkable criteria (type of vessel, branch of armed force, territory) rather than open-ended standards. Justice's residual clause covers only what is 'not especially delegated,' a narrow catch-all rather than a vague standard."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No incentive structure identifiable that rewards behavior contrary to enforcing neutrality. Sub-flag does not apply \u2014 the order does not invoke an open-ended emergency.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No explicit sunset clause, but the order is self-limiting by its own terms: duties apply 'during said war' (the declared neutrality period), which functions as an automatic termination condition tied to an external, verifiable event."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No existing oversight mechanism is reduced or removed; the order allocates enforcement duties already contemplated by the underlying neutrality statute and proclamation."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "Interagency wartime coordination directed at foreign vessels and forces, not a domestic regulatory compliance scheme with a monitorable regulated party. The flag's compliance-monitoring frame does not map onto this instrument."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "A narrow, technical distribution of pre-existing statutory enforcement duties among departments; nothing in the text enables, legitimizes, or forecloses activity beyond the stated purpose."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "The order affirmatively carves out exceptions to avoid jurisdictional overlap (e.g., Navy's paragraph 2 duties are 'except as provided in paragraph numbered 4 hereof'; Treasury/Commerce's paragraph 3 duties exclude vessels already assigned in paragraph 2). This is evidence of deliberate conflict-avoidance, not cannibalization."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No exemptions, waivers, or carve-outs from the enforcement duties are created."
+    }
+  ],
+  "notes": "Validation batch (Mayer & Price 2002 appendix positive, pre-registration v1.1). Clean interagency coordination design \u2014 scores at or near the floor on this structural instrument, illustrating the scheme's stated divergence from historical/press significance: Mayer & Price code this order significant (wartime press attention, per their criteria), while its governance architecture is largely unremarkable. First-pass coding; not yet cross-coded for inter-coder reliability."
+}

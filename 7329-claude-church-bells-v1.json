@@ -1,0 +1,94 @@
+{
+  "eo_number": "7329",
+  "title": "Executive Order 7329\u2014Authorizing the Acquisition of Land Near Petersburg, Virginia, for Emergency Conservation Work",
+  "date_iso": "1936-03-30",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 74,
+  "source_url": "",
+  "word_count": 260,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-03",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "The order authorizes expenditure of a fixed $30,000 appropriation for a specific, named parcel; the Secretary of the Interior's discretion to designate an implementing agency is implementation-level administration of a fixed-purpose, fixed-amount appropriation, not the open-ended policy-making authority the flag targets."
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "A single, discrete, fully-specified transaction (acquire the named Crater property parcel) with no ongoing program or discretionary implementation window in which responsibility could become unclear."
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Single coherent purpose: land acquisition near Petersburg National Military Park for conservation work."
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "A funding/acquisition authorization has no enforcement dimension."
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No incentive structure is created by a one-time land purchase authorization.",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "A one-time acquisition authorization does not grant ongoing authority requiring periodic review."
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No existing oversight mechanism is touched."
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No regulated party or compliance scheme exists in a government land-acquisition action."
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "A narrow, technical land acquisition tied to a fixed sum and named parcel; nothing in the text enables, legitimizes, or forecloses activity beyond the stated conservation purpose."
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Fund transfer chain from the Director of Emergency Conservation Work to the Department of the Interior, 'subject to requisition by the Director of the National Park Service,' is explicit and sequential \u2014 clean coordination rather than conflicting mandates."
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "status": "NOT_APPLICABLE",
+      "points": null,
+      "justification": "No exemptions, waivers, or carve-outs are created."
+    }
+  ],
+  "notes": "Validation batch, drawn negative (random sample, seed 20260703, pre-registration v1.1). First-pass coding; not yet cross-coded for inter-coder reliability."
+}

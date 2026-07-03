@@ -1,0 +1,66 @@
+president,party,term,total_eos,per_year,years_served,eo_range
+George Washington,F,Total,8,1,7.85,unnumbered
+John Adams,F,Total,1,0.25,4.0,unnumbered
+Thomas Jefferson,D-R,Total,4,0.5,8.0,unnumbered
+James Madison,D-R,Total,1,0.13,8.0,unnumbered
+James Monroe,D-R,Total,1,0.13,8.0,unnumbered
+John Quincy Adams,D-R,Total,3,0.75,4.0,unnumbered
+Andrew Jackson,D,Total,12,1.5,8.0,unnumbered
+Martin van Buren,D,Total,10,2.5,4.0,unnumbered
+William Henry Harrison,W,Total,0,0,0.08,unnumbered
+John Tyler,W,Total,17,4.3,3.92,unnumbered
+James K. Polk,D,Total,18,4.5,4.0,unnumbered
+Zachary Taylor,W,Total,5,3.7,1.35,unnumbered
+Millard Fillmore,W,Total,12,4.5,2.65,unnumbered
+Franklin Pierce,D,Total,35,9,4.0,unnumbered
+James Buchanan,D,Total,16,4,4.0,unnumbered
+Abraham Lincoln,R,Total,48,12,4.12,unnumbered
+Andrew Johnson,D,Total,79,20,3.89,unnumbered
+Ulysses S. Grant,R,Total,217,27,8.0,unnumbered
+Rutherford B. Hayes,R,Total,92,23,4.0,unnumbered
+James Garfield,R,Total,6,11,0.55,unnumbered
+Chester Arthur,R,Total,96,28,3.46,unnumbered
+Grover Cleveland I,D,Total,113,28,4.0,unnumbered
+Benjamin Harrison,R,Total,143,36,4.0,unnumbered
+Grover Cleveland II,D,Total,140,35,4.0,unnumbered
+William McKinley,R,Total,185,41,4.53,unnumbered
+Theodore Roosevelt,R,Total,1081,145,7.47,
+William Howard Taft,R,Total,724,181,4.0,
+Woodrow Wilson,D,Total,1803,225,8.0,
+Warren G. Harding,R,Total,522,217,2.41,
+Calvin Coolidge,R,Total,1203,215,5.59,
+Herbert Hoover,R,Total,1003,251,4.0,5076-6070
+Franklin D. Roosevelt,D,Total,3726,307,12.12,6071-9537
+Franklin D. Roosevelt,D,I,1707,440,3.88,6071-7539
+Franklin D. Roosevelt,D,II,1112,278,4.0,7540-8641
+Franklin D. Roosevelt,D,III,884,221,4.0,8642-9515
+Franklin D. Roosevelt,D,IV,22,96,0.23,9516-9537
+Harry S. Truman,D,Total,907,117,7.78,9538-10431
+Harry S. Truman,D,I,504,133,3.78,9538-10029
+Harry S. Truman,D,II,403,101,4.0,10030-10431
+Dwight D. Eisenhower,R,Total,484,61,8.0,10432-10913
+Dwight D. Eisenhower,R,I,266,67,4.0,10432-10695-A
+Dwight D. Eisenhower,R,II,218,55,4.0,10696-10913
+John F. Kennedy,D,Total,214,75,2.84,10914-11127
+Lyndon B. Johnson,D,Total,325,63,5.17,11128-11451
+Richard Nixon,R,Total,346,62,5.55,11452-11797
+Richard Nixon,R,I,247,62,4.0,11452-11698
+Richard Nixon,R,II,99,64,1.55,11699-11797
+Gerald R. Ford,R,Total,169,69,2.45,11798-11966
+Jimmy Carter,D,Total,320,80,4.0,11967-12286
+Ronald Reagan,R,Total,381,48,8.0,12287-12667
+Ronald Reagan,R,I,213,53,4.0,12287-12499
+Ronald Reagan,R,II,168,42,4.0,12500-12667
+George H.W. Bush,R,Total,166,42,4.0,12668-12833
+William J. Clinton,D,Total,364,46,8.0,12834-13197
+William J. Clinton,D,I,200,50,4.0,12834-13033
+William J. Clinton,D,II,164,41,4.0,13034-13197
+George W. Bush,R,Total,291,36,8.0,13198-13488
+George W. Bush,R,I,173,43,4.0,13198-13370
+George W. Bush,R,II,118,30,4.0,13371-13488
+Barack Obama,D,Total,276,35,8.0,13489-13764
+Barack Obama,D,I,147,37,4.0,13489-13635
+Barack Obama,D,II,129,32,4.0,13636-13764
+Donald J. Trump,R,I,220,55,4.0,13765-13984
+Joseph R. Biden,D,Total,162,41,4.0,13985-14146
+Donald J. Trump,R,II,268,187,1.42,14147-14414

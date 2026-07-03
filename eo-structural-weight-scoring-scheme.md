@@ -1,7 +1,7 @@
 # EO Structural Weight Score: Scoring Scheme
 *Version 1.0 — June 2026*
 *Pre-registration document. This scheme is frozen before any executive order is coded.*
-*Flag definitions: church-bells-flags-canonical.md v1.2*
+*Flag definitions: church-bells-flags-canonical.md v1.2.1*
 *Repository: [the-statecraft-blueprint/eo-structural-weight*](https://github.com/The-Statecraft-Blueprint/eo-structural-weight)
 
 ---
@@ -35,7 +35,7 @@ The EO Structural Weight Score measures the structural presence of governance-ar
 
 ## The Eleven Flags
 
-The flag set is defined in full in `church-bells-flags-canonical.md` v1.2. That document is authoritative; this section summarizes for reference only.
+The flag set is defined in full in `church-bells-flags-canonical.md` v1.2.1. That document is authoritative; this section summarizes for reference only.
 
 | # | Flag | Track emphasis |
 |---|------|----------------|

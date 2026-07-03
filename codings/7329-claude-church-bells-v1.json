@@ -57,9 +57,9 @@
     {
       "flag_number": 7,
       "flag_name": "Preemption of Oversight",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "No existing oversight mechanism is touched."
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Does not reduce or remove any oversight mechanism that applied to land acquisition/appropriation before this order. Corrected 2026-07-04 under v1.2: answerable even for a narrow funding action, so ABSENT is correct, not NOT_APPLICABLE."
     },
     {
       "flag_number": 8,

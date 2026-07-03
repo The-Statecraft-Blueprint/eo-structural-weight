@@ -64,9 +64,9 @@
     {
       "flag_number": 8,
       "flag_name": "Third-Party Incentive Gaps",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "This flag targets regulatory schemes where compliance monitoring depends on an external party's incentive to surface violations by a regulated entity. This order governs direct individual-facing administrative action (citizen applies, State Department decides); the applicant is not a 'regulated party' being monitored by outside actors in the sense the flag contemplates. The relevant concern (individual due process) is already captured under Flag 2."
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Reconsidered 2026-07-04 under v1.2: unlike a bare administrative land action, passport administration is an ongoing regulatory relationship (State Department determines applicant eligibility, and para. 124 grants broad discretion to refuse, restrict, or withdraw). The compliance-regime concept does map here. No third party \u2014 judicial, congressional, or otherwise \u2014 is given standing in the text to check the Secretary's exercise of that discretion. This is a real third-party incentive gap, not a conceptual mismatch; corrected from an original NOT_APPLICABLE mislabel to PRESENT (not merely ABSENT, since the operational test is answered 'no such actor exists')."
     },
     {
       "flag_number": 9,

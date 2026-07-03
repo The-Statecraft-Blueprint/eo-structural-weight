@@ -14,16 +14,16 @@
     {
       "flag_number": 1,
       "flag_name": "Power Concentration",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "A single one-time revocation of a prior land withdrawal under existing statutory authority; no ongoing decision-making authority or position is created or exercised. Structurally identical in form to EO 7344."
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "No official exercises any discretion; the revocation is entirely self-executing on a defined future event (plat filing). Corrected 2026-07-04 under v1.2: the decision-structure question is answerable (no concentration exists) even for a fully automatic instrument, so ABSENT is correct, not NOT_APPLICABLE. Structurally identical to EO 7344."
     },
     {
       "flag_number": 2,
       "flag_name": "Accountability Gaps",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "No implementing actor or ongoing program exists; the order takes effect automatically 'upon the date of the official filing of the plat of resurvey.'"
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Responsibility cannot become unclear because no one exercises discretion \u2014 the trigger is automatic and unambiguous. Corrected 2026-07-04 under v1.2, same reasoning as Flag 1."
     },
     {
       "flag_number": 3,
@@ -57,9 +57,9 @@
     {
       "flag_number": 7,
       "flag_name": "Preemption of Oversight",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "No existing oversight mechanism is touched."
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Does not reduce or remove any oversight mechanism that applied to this subject matter before the order. Corrected 2026-07-04 under v1.2: answerable even for a trivial land-status action, so ABSENT is correct, not NOT_APPLICABLE."
     },
     {
       "flag_number": 8,

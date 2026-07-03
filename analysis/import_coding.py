@@ -337,7 +337,8 @@ def icr_report(con: sqlite3.Connection, eo_number: str) -> None:
     )
     for row in cur.fetchall():
         coder, pct, crit, pres = row
-        print(f"  {coder:<25} {pct:>6.1f}%  "
+        pct_str = f"{pct:>6.1f}%" if pct is not None else "   N/A "
+        print(f"  {coder:<25} {pct_str}  "
               f"(CRITICAL: {crit}, PRESENT: {pres})")
 
     # Binary classification (significant threshold = 35%)
@@ -428,8 +429,9 @@ def main():
             if ok:
                 score = compute_score(data["flags"])
                 pct = score["structural_weight_pct"]
+                pct_str = f"{pct:.1f}%" if pct is not None else "N/A (0 applicable flags)"
                 print(f"  {fpath.name}: OK — EO {data['eo_number']} "
-                      f"score={pct:.1f}%")
+                      f"score={pct_str}")
                 success += 1
         print(f"\nBatch complete: {success}/{len(files)} imported.")
 

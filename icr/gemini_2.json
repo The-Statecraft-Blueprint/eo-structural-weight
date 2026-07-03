@@ -1,0 +1,1032 @@
+[
+  {
+    "eo_number": "9430",
+    "title": "Executive Order 9430—Inspection by the Office of Price Administration of Corporation Statistical Transcript Cards Prepared from Income and Declared Value Excess-Profits Tax Returns",
+    "date_iso": "1944-03-07",
+    "president": "Franklin D. Roosevelt",
+    "congress_number": 78,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-9430-inspection-the-office-price-administration-corporation-statistical",
+    "word_count": 150,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow administrative data-sharing order authorizing the Office of Price Administration to inspect specific corporate tax cards for a single year, carrying no broad policy framework."
+      }
+    ],
+    "notes": "Scored as Not Applicable across all dimensions because this is a minor, single-instance clerical data-sharing directive between the Bureau of Internal Revenue and the Office of Price Administration."
+  },
+  {
+    "eo_number": "9540",
+    "title": "Executive Order 9540—Authorizing the Petroleum Administratior to Take the Possession of and to the Cities Service Refining Corporation, Located in and Around Lake Charles, Louisiana",
+    "date_iso": "1945-04-17",
+    "president": "Harry S Truman",
+    "congress_number": 79,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-9540-authorizing-the-petroleum-administratior-take-the-possession-and-the",
+    "word_count": 684,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "The order pools complete operational control and personnel authority over the seized facilities in the single position of the Petroleum Administrator without providing an external administrative check or appeal process."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Responsibility is clearly and directly assigned to the Petroleum Administrator, leaving no ambiguity about who is in charge of implementation."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order is strictly focused on a single facility seizure under a single problem frame of resolving a wartime labor disturbance."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The enforcement directive is clear, immediate, and targeted at a single explicitly named refining company in Lake Charles, Louisiana."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The text does not create structural rewards for non-compliance or non-resolution of the underlying dispute.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Section 5 includes a clear conditional sunset, mandating that control must terminate no later than sixty days after the restoration of productive efficiency."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order does not explicitly suspend or eliminate pre-existing statutory oversight or external judicial review channels."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Because this involves direct federal possession and operational takeover of a facility, compliance models based on private self-reporting are not applicable."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "Section 1 authorizes a federal official to directly continue or discontinue private employment, establishing a powerful precedent for executive control over private labor relations during disputes."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The text directs other federal agencies to cooperate with the Petroleum Administrator but does not reassign or countermand their statutory operational mandates."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order establishes a uniform takeover directive for the specified facilities and lacks any waiver or exemption architecture."
+      }
+    ],
+    "notes": "A well-bounded wartime seizure order that features a clean conditional sunset constraint (the 60-day rule) but concentrates immense employment discretion in the Petroleum Administrator."
+  },
+  {
+    "eo_number": "9570",
+    "title": "Executive Order 9570—Possession and Operation of the Transportation System, Plants, and Facilities of the Scranton Transit Company Located in and About the City of Scranton, Pennsylvania",
+    "date_iso": "1945-06-14",
+    "president": "Harry S Truman",
+    "congress_number": 79,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-9570-possession-and-operation-the-transportation-system-plants-and",
+    "word_count": 748,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "The order concentrates absolute operational control over the transit system in the Director of the ODT, making termination dependent solely on his own unchecked determination in Section 4."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The Director of the Office of Defense Transportation is explicitly designated as the sole official responsible for executing the possession and operation of the transit system."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The entire instrument is cohesive, focusing exclusively on a single transit company seizure to prevent disruptions to the wartime economy."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The enforcement mechanism is immediate and precise, directing the physical takeover of a single named entity, the Scranton Transit Company."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The structural design contains no incentives for actors to undermine the objective or extend the seizure for institutional benefit.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "Section 4 lacks a definitive chronological expiration date or objective formulaic cap, leaving the sunset of the seizure entirely to the unguided subjective determination of the Director."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "Section 3 explicitly preempts standard judicial remedies by prohibiting any attachment, garnishment, or execution against the seized property without the prior written consent of the Director."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Since the order mandates direct government control and operation of the transit system, it does not rely on private compliance or self-reporting mechanisms."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "Section 5 transfers statutory powers and duties from the Secretary of War to the Director of the ODT, creating a significant precedent for shifting legislative mandates between agencies via executive order."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "Section 5 directly reassigns statutory functions, powers, and duties vested in the Secretary of War by the Act of August 29, 1916, to the Director of the ODT."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order applies uniformly to the target entity and contains no exemptions, waivers, or carve-outs that could undermine its purpose."
+      }
+    ],
+    "notes": "This facility seizure order triggers lateral inter-agency cannibalization and preemption of oversight by stripping powers from the Secretary of War and blocking judicial attachments without administrative consent."
+  },
+  {
+    "eo_number": "9981",
+    "title": "Executive Order 9981—Establishing the President's Committee on Equality of Treatment and Opportunity in the Armed Services",
+    "date_iso": "1948-07-26",
+    "president": "Harry S Truman",
+    "congress_number": 80,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-9981-establishing-the-presidents-committee-equality-treatment-and",
+    "word_count": 414,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order establishes an advisory committee tasked only with examining practices and making recommendations, leaving final authority within standard constitutional and departmental channels."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The text establishes clear lines of responsibility, charging the seven-member committee with standard-setting and reporting directly to the President and military secretaries."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "All provisions are unified under a single policy frame: securing equality of treatment and opportunity within the armed services."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "Section 1 relies on highly subjective implementation standards, ordering the policy to be put into effect 'as rapidly as possible' while having 'due regard' to not 'impairing efficiency or morale,' which allows wide variation in enforcement."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The design does not reward non-compliance or create any institutional incentives to undermine the integration policy.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "Section 6 establishes that the Committee shall continue to exist indefinitely until the President terminates it by a future order, lacking any automatic expiration or mandatory review timeline."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The text does not eliminate or restrict any pre-existing statutory oversight, civil review, or congressional reporting mechanisms."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Enforcement does not rely on voluntary self-reporting; Section 5 explicitly empowers the Committee to compel testimony and demand documents from personnel."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "The order sets a major institutional precedent by using the President's role as Commander-in-Chief to bypass legislative inaction and execute sweeping desegregation across the military."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The committee is purely advisory and acts in cooperation with the defense secretaries, meaning it does not override or cannibalize any existing statutory agency mandates."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "While Section 1 contains a flexible timeline based on morale and efficiency, it does not construct a formalized architecture of waivers or carve-outs."
+      }
+    ],
+    "notes": "A historically momentous order establishing military integration. Structurally, it relies on an advisory committee and features flexible implementation timelines ('as rapidly as possible') that originally allowed for bureaucratic foot-dragging."
+  },
+  {
+    "eo_number": "10028",
+    "title": "Executive Order 10028—Defining Noncombatant Service and Noncombatant Training",
+    "date_iso": "1949-01-13",
+    "president": "Harry S Truman",
+    "congress_number": 81,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10028-defining-noncombatant-service-and-noncombatant-training",
+    "word_count": 160,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a purely definitional administrative instrument that defines two terms for the Selective Service Act of 1948, carrying no operational program or independent governance architecture."
+      }
+    ],
+    "notes": "Scored as Not Applicable across all parameters because the text simply establishes statutory definitions for 'noncombatant service' and 'noncombatant training' under the Selective Service Act."
+  },
+  {
+    "eo_number": "10464",
+    "title": "Executive Order 10464—Delegation of Functions of the President Respecting the Transfer of Wheat to Pakistan",
+    "date_iso": "1953-06-25",
+    "president": "Dwight D. Eisenhower",
+    "congress_number": 83,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10464-delegation-functions-the-president-respecting-the-transfer-wheat",
+    "word_count": 250,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a narrow, single-instance delegation of foreign assistance functions for a specific statutory wheat transfer to Pakistan, containing no general policy or regulatory framework."
+      }
+    ],
+    "notes": "Scored as Not Applicable due to its localized, single-use administrative context of assigning specific functions under the Act of June 25, 1953."
+  },
+  {
+    "eo_number": "10651",
+    "title": "Executive Order 10651—Providing for the Screening of the Ready Reserve of the Armed Forces Established Under the Provisions of Part II of the Armed Forces Reserve Act of 1952, as Amended",
+    "date_iso": "1956-01-06",
+    "president": "Dwight D. Eisenhower",
+    "congress_number": 84,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10651-providing-for-the-screening-the-ready-reserve-the-armed-forces",
+    "word_count": 803,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Decision authority is distributed horizontally between the Secretary of Defense, Secretary of the Treasury, and Secretary of Labor rather than pooled upward into a single unchecked body."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Responsibility is clearly mapped to the respective department heads, and Section 10 creates a feedback loop via mandatory periodic evaluation reports to the President."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order is entirely cohesive, focusing exclusively on the specific criteria and mechanisms for screening and transferring Ready Reserve personnel."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The screening criteria, trigger conditions, and occupational classifications are explicitly laid out, providing clear and consistent standards for implementation."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order does not incentivize failure or create rewards for misapplying screening protocols.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "The regulations establish a continuous, open-ended screening system with no built-in chronological sunset or mandatory reauthorization timeline."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order does not eliminate, bypass, or restrict any pre-existing statutory oversight, judicial review, or congressional tracking."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "This governs internal military personnel tracking and relies on official department lists and service records rather than private industry self-reporting loops."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order implements standard military personnel management under explicit statutory guidelines and establishes no unexpected systemic precedents."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order explicitly establishes cooperative interfaces between Defense, Labor, and Treasury without overriding or cannibalizing their respective statutory mandates."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The transfer exceptions and exemptions (such as critical civilian roles or public offices) are tightly bounded by objective lists and critical military skill overrides rather than creating an unchecked loophole framework."
+      }
+    ],
+    "notes": "A highly comprehensive and structurally sound personnel classification regulation. It integrates lateral agency inputs well and lacks significant structural gaps, short of missing a formal temporal sunset."
+  },
+  {
+    "eo_number": "10924",
+    "title": "Executive Order 10924—Establishment and Administration of the Peace Corps in the Department of State",
+    "date_iso": "1961-03-01",
+    "president": "John F. Kennedy",
+    "congress_number": 87,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10924-establishment-and-administration-the-peace-corps-the-department",
+    "word_count": 316,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "While creating a new agency, decision authority remains bounded under the oversight of the Secretary of State and within the statutory limits of the Mutual Security Act."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The operational chain of command is explicitly stated, making the Director of the Peace Corps directly responsible to the Secretary of State."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The entire instrument is dedicated to a single integrated policy mechanism: the establishment and initial administration of the Peace Corps."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "This is an internal agency creation and resource-allocation order rather than a regulatory enforcement mechanism directed at private citizens."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The structure does not reward programmatic failure or establish self-perpetuating domestic emergency indicators.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "The order establishes a permanent administrative agency within the State Department without any built-in chronological expiration date or mandatory renewal clause."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Section 4 explicitly preserves existing oversight mechanisms by ensuring the order does not supersede or derogate from Executive Order No. 10893."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "This establishes a voluntary international service program and does not create a regulatory enforcement regime dependent on private self-reporting."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "PRESENT",
+        "points": 1,
+        "justification": "The order establishes a significant institutional precedent by using general mutual security funding to erect a brand new international agency before explicit standalone congressional authorization."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Section 2(a) explicitly mandates that the agency operate in conjunction with and support of existing economic assistance programs, preventing jurisdictional friction."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The instrument contains no regulatory exemptions, waivers, or loopholes that could undermine its administrative purpose."
+      }
+    ],
+    "notes": "The original executive engine for the Peace Corps. It relies on a clean, classic departmental hierarchy, but generates a notable structural precedent by establishing a whole agency prior to specialized statutory enactments."
+  },
+  {
+    "eo_number": "10956",
+    "title": "Executive Order 10956—Amendment of Executive Order No. 10841, Relating to International Cooperation Under the Atomic Energy Act of 1954, as Amended",
+    "date_iso": "1961-08-10",
+    "president": "John F. Kennedy",
+    "congress_number": 87,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10956-amendment-executive-order-no-10841-relating-international",
+    "word_count": 150,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "NOT_APPLICABLE",
+        "points": null,
+        "justification": "This is a brief procedural amendment adding a 15-day presidential review window to an existing executive order, lacking any independent policy framework or regulatory architecture."
+      }
+    ],
+    "notes": "Scored as Not Applicable across all parameters because the order is a small textual insertion modifying an internal review timeline for a previous executive instrument."
+  },
+  {
+    "eo_number": "11076",
+    "title": "Executive Order 11076—Establishing the President's Advisory Commission on Narcotic and Drug Abuse",
+    "date_iso": "1963-01-15",
+    "president": "John F. Kennedy",
+    "congress_number": 88,
+    "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-11076-establishing-the-presidents-advisory-commission-narcotic-and-drug",
+    "word_count": 697,
+    "coder_id": "gemini-2.5-flash",
+    "coded_date": "2026-07-03",
+    "flags": [
+      {
+        "flag_number": 1,
+        "flag_name": "Power Concentration",
+        "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The Commission's power is strictly advisory and limited to making legislative recommendations, and its members are drawn from outside the executive branch, preventing concentrated operational power."
+      },
+      {
+        "flag_number": 2,
+        "flag_name": "Accountability Gaps",
+        "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The text establishes a clear operational mandate for the Commission and its Executive Director, with explicit reporting duties to the President."
+      },
+      {
+        "flag_number": 3,
+        "flag_name": "Bundling",
+        "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "All provisions are focused entirely on a single problem frame: studying and advising on the prevention and rehabilitation of narcotic and drug abuse."
+      },
+      {
+        "flag_number": 4,
+        "flag_name": "Vague Enforcement",
+        "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Because the Commission has a purely advisory and reporting function, it does not possess or exercise regulatory enforcement mechanics."
+      },
+      {
+        "flag_number": 5,
+        "flag_name": "Perverse Incentives",
+        "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The structure does not create any behavioral patterns or institutional rewards that would incentivize undermining its stated purpose.",
+        "sub_flag_fired": false
+      },
+      {
+        "flag_number": 6,
+        "flag_name": "Sunset Provisions",
+        "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "Section 6 features a clean chronological sunset clause, explicitly mandating that the Commission shall terminate not later than December 31, 1963."
+      },
+      {
+        "flag_number": 7,
+        "flag_name": "Preemption of Oversight",
+        "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The order does not reduce or eliminate any pre-existing oversight mechanisms; it serves to evaluate existing agency operations to improve effectiveness."
+      },
+      {
+        "flag_number": 8,
+        "flag_name": "Third-Party Incentive Gaps",
+        "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "This is a temporary advisory body engaged in policy research, rendering enforcement compliance or self-reporting models non-applicable."
+      },
+      {
+        "flag_number": 9,
+        "flag_name": "Second/Third-Order Effects",
+        "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The creation of a short-term advisory commission composed of outside experts is a routine administrative function that establishes no unusual systemic precedents."
+      },
+      {
+        "flag_number": 10,
+        "flag_name": "Inter-Agency Cannibalization",
+        "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The text establishes standard liaison interfaces and information-sharing channels with relevant cabinet departments without cannibalizing or overriding their statutory mandates."
+      },
+      {
+        "flag_number": 11,
+        "flag_name": "Exemptions Architecture",
+        "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+        "status": "ABSENT",
+        "points": 0,
+        "justification": "The civil service law waiver in Section 5 is a narrow operational exemption for hiring temporary commission staff and does not constitute a loophole framework that guts the order."
+      }
+    ],
+    "notes": "An exceptionally clean advisory order. It avoids core structural failure modes by remaining strictly advisory, coordinating cleanly with other bodies, and incorporating a hard chronological termination sunset."
+  }
+]

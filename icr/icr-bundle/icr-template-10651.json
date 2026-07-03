@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "10651",
+  "title": "Executive Order 10651—Providing for the Screening of the Ready Reserve of the Armed Forces Established Under the Provisions of Part II of the Armed Forces Reserve Act of 1952, as Amended",
+  "date_iso": "1956-01-06",
+  "president": "Dwight D. Eisenhower",
+  "congress_number": 84,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10651-providing-for-the-screening-the-ready-reserve-the-armed-forces",
+  "word_count": 803,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "By virtue of authority vested in me by section 208 of the Armed Forces Reserve Act of 1952, as amended by the Reserve Forces Act of 1955 (66 Stat. 481; 69 Stat. 598) and section 301 of Title 3, U.S. Code, I hereby prescribe the following regulations for continuously screening units and members of the Ready Reserve:\n1. Members of the Ready Reserve who do not meet age requirements or standards of fitness prescribed for active duty assignments by the Service concerned shall be transferred to the Standby Reserve, upon application placed in the Retired Reserve if qualified, or discharged, as appropriate.\n2. The following members of the Ready Reserve shall be transferred to the Standby Reserve unless they execute a written agreement to remain in the Ready Reserve for a minimum period of one year:\n(a) Those who have fulfilled their Ready Reserve obligations.\n(b) The following elective and appointive officials:\n(1) The Vice President of the United States; members of the Cabinet and other Presidential appointees requiring Senate confirmation.\n(2) The Governors of the several states, Territories and possessions.\n(3) Members of the legislative bodies of the United States, and of the several states, Territories or possessions.\n(4) Judges of the courts of record of the United States and of the several states, Territories and possessions, and the District of Columbia.\n(5) All other officials chosen by the voters of an entire state, Territory or possession.\n3. Members of the Ready Reserve whose call to active duty in an emergency would result in extreme personal or community hardship as defined by the Secretary of Defense (and the Secretary of the Treasury with respect to the United States Coast Guard) shall, upon request, be transferred to the Standby Reserve.\n4. Except as hereinafter provided by this paragraph, there shall be transferred to the Standby Reserve, in such numbers as are in excess of the requirements of the Ready Reserve, those members of the Ready Reserve who are principally engaged or employed in critical civilian occupations which are on the List of Critical Occupations for Screening the Ready Reserve issued by the Secretary of Labor. No person shall be transferred hereunder (a) who possesses a critical military skill as determined by the Secretary of Defense (and the Secretary of the Treasury with respect to the United States Coast Guard), or (b) who volunteers to remain in the Ready Reserve and executes a written agreement to remain in such reserve for a minimum period of one year.\n5. The Secretary of Defense (and the Secretary of the Treasury with respect to the United States Coast Guard) may provide for the transfer from the Ready to the Standby Reserve of individuals undergoing apprenticeship training or pursuing academic studies that will qualify them for critical civilian skills.\n6. The following members of the Ready Reserve not otherwise provided for herein shall be transferred to the Standby Reserve:\n(a) Individuals who possess military skills in excess of requirements to maintain a proper balance of such skills in the Ready Reserve. Due consideration shall be given to maintaining a proper distribution within the grade, rank, and rate structure of the Ready Reserve.\n(b) Individuals who are not immediately available for active duty, as determined by the Service concerned, for reasons not otherwise specified herein.\n7. In selecting members of the Ready Reserve to be transferred to the Standby Reserve who are otherwise equally eligible for transfer under the criteria established herein, the Service concerned shall accord preference for transfer in the following order: (a) those who have participated in combat; and (b) those with the least remaining obligated service in the Ready Reserve.\n8. Pursuant to section 208 (1) of the Armed Forces Reserve Act of 1952, as amended by the Reserve Forces Act of 1955, any member of the Standby Reserve who has not completed his obligated period of military service in the Ready Reserve may be transferred to the Ready Reserve, under regulations prescribed by the Secretary of Defense (or the Secretary of the Treasury with respect to the United States Coast Guard), whenever the reason for his transfer to the Standby Reserve no longer exists.\n9. Transfers to the Standby Reserve, discharges and transfers to a retired status of members of the National Guard of the United States and the Air National Guard of the United States, as a result of screening procedures, shall be made in consonance with the Armed Forces Reserve Act of 1952, as amended.\n10. The Secretary of Defense (and the Secretary of the Treasury with respect to the United States Coast Guard) shall make periodic reports to the President concerning the screening of the Ready Reserve in order that such screening may be evaluated in relation to overall manpower mobilization requirements.\nDWIGHT D. EISENHOWER\nTHE WHITE HOUSE,\nJanuary 6, 1956.",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

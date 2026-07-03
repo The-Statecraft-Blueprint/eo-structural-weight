@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "7329",
+  "title": "Executive Order 7329—Authorizing the Acquisition of Land Near Petersburg, Virginia, for Emergency Conservation Work",
+  "date_iso": "1936-03-30",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 74,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-7329-authorizing-the-acquisition-land-near-petersburg-virginia-for",
+  "word_count": 412,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "WHEREAS various lands owned by the United States constituting the Petersburg National Military Park in the State of Virginia lack adequate protection from insect infestation, fire, and soil erosion by reason of the present condition of privately-owned lands contiguous thereto and in the vicinity thereof; and\nWHEREAS the acquisition by the United States of such privately-owned lands will permit work and improvements thereon that will provide for the said public lands disease control and protection from fires and soil erosion, and will aid in the restoration of the country's depleted natural resources; and\nWHEREAS the acquisition of the said lands is required by the United States to conduct Emergency Conservation Work activities thereon, such as moving and planting of trees, fire break maintenance, fire pre-suppression, seeding and sodding, construction of trails and buildings, restoration of historical earthworks, etc.; and\nWHEREAS the acquisition of such lands will provide employment for citizens of the United States who are unemployed;\nNOW, THEREFORE, by virtue of and pursuant to the authority vested in me by the act of March 31, 1933, (ch. 17, 48 Stat. 22), as extended by the Emergency Relief Appropriation Act of 1935 (49 Stat. 115), the acquisition of a parcel of land known as the Crater property, consisting of approximately 170 acres, together with such other lands within a distance of one-half mile from the boundaries of the said Crater property as are suitable or necessary for the aforesaid purposes, is hereby authorized; and by virtue of and pursuant to the authority vested in me by the Fourth Deficiency Act, fiscal year 1933 (48 Stat. 274, 275), and the said Emergency Relief Appropriation Act of 1935, the sum of $30,000 is hereby allocated for the acquisition, in fee simple, of the said lands from funds appropriated or made available by the said Emergency Relief Appropriation Act of 1935.\nThe sum herein allocated for the acquisition of the said lands shall be transfered from the appropriation made by said Act to the Director, Emergency Conservation Work, for immediate transfer to the Department of the Interior, subject to requisition by the Director of the National Park Service, Department of the Interior, for the acquisition of the said lands, and may be expended under the direction of the Secretary of the Interior or by the Director of the National Park Service or by such other agency or agencies as the Secretary of the Interior may designate.\nFRANKLIN D ROOSEVELT\nTHE WHITE HOUSE,\nMarch 30, 1936.",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

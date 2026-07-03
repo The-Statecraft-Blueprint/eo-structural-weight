@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "10028",
+  "title": "Executive Order 10028—Defining Noncombatant Service and Noncombatant Training",
+  "date_iso": "1949-01-13",
+  "president": "Harry S Truman",
+  "congress_number": 81,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-10028-defining-noncombatant-service-and-noncombatant-training",
+  "word_count": 160,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "By virtue of and pursuant to the authority vested in me by Title I of the Selective Service Act of 1948 (62 Stat. 604), and as President of the United States, the following definitions are hereby prescribed for the purposes of section 6(j) of the said Act:\n1. The term \"noncombatant service\" shall mean (a) service in any unit of the armed forces which is unarmed at all times; (b) service in the medical department of any of the armed forces, wherever performed; or (c) any other assignment the primary function of which does not require the use of arms in combat; provided that such other assignment is acceptable to the individual concerned and does not require him to bear arms or to be trained in their use.\n2. The term \"noncombatant training\" shall mean any training which is not concerned with the study, use, or handling of arms or weapons.\nHARRY S. TRUMAN\nTHE WHITE HOUSE,\nJanuary 13, 1949",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

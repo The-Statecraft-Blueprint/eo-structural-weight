@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "11076",
+  "title": "Executive Order 11076—Establishing the President's Advisory Commission on Narcotic and Drug Abuse",
+  "date_iso": "1963-01-15",
+  "president": "John F. Kennedy",
+  "congress_number": 88,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-11076-establishing-the-presidents-advisory-commission-narcotic-and-drug",
+  "word_count": 697,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "By virtue of the authority vested in me as President of the United States it is ordered as follows:\nSECTION 1.\nEstablishment of Commission.\n(a) There is hereby established the President's Advisory Commission on Narcotic and Drug Abuse (hereinafter referred to as the Commission).\n(b) The Commission shall be composed of not more than seven members, each of whom shall be appointed by the President from persons outside the executive branch of the Federal Government. One of the members of the Commission shall be designated by the President as the Chairman thereof. The President shall also designate an Executive Director of the Commission who shall receive such compensation as the President may specify.\nSEC. 2.\nFunctions of the Commission.\nThe Commission shall: (a) Develop and transmit to the President a report including recommendations for such additional legislation or amendments in existing legislation as the Commission deems necessary to prevent abuse of narcotic and non-narcotic drugs and to provide appropriate rehabilitation for habitual drug misusers. An interim report shall be transmitted to the President not later than April 1, 1963, including such recommendations for legislation as the Commission is prepared to make at that time. To carry out this responsibility the Commission is authorized to make such studies as it deems appropriate and to receive legislative proposals from any Federal agency with respect to matters within the jurisdiction of the agency.\n(b) Review and evaluate the programs and operations of each Federal agency which presently has law-enforcement functions or other statutory responsibilities directed toward the prevention of narcotic and drug abuse or the rehabilitation of habitual drug misusers, and make recommendations to the President for improving the effectiveness of such programs and operations, including cooperation with and assistance to state and local governments by Federal agencies.\nSEC. 3.\nExecutive Departments.\nThe Secretary of State, the Secretary of the Treasury, the Secretary of Defense, the Attorney General, and the Secretary of Health, Education, and Welfare each shall designate a representative of his department as liaison with the Commission and shall facilitate its work (a) by furnishing available information needed by the Commission, (b) by providing assistance to the Commission in developing its legislative recommendations, including transmitting to it not later than February 28, 1963, such legislative recommendations as he deems necessary to assure effective Federal action, and (c) by providing such other assistance to the Commission as may be appropriate.\nSEC. 4.\nCompensation and Personnel.\nEach member of the Commission shall receive compensation at the rate of $100 for each day such member is engaged upon work of the Commission, but the total compensation of each member shall not exceed $20,000 per annum. With the concurrence of the Chairman of the Commission, the Executive Director is authorized to appoint such personnel as may be necessary to assist the Commission in connection with the performance of its functions but no individual so appointed shall receive compensation at a rate in excess of the maximum rate provided for GS-15 positions under the Classification Act of 1949, as amended. The Commission is authorized to obtain services in accordance with the provisions of section 15 of the Act of August 2, 1946 (5 U.S.C. 55a), but at rates for individuals not to exceed $100 per diem.\nSEC. 5.\nFinances.\nThe compensation of the members and employees of the Commission and any other necessary expenses arising in connection with the work of the Commission shall be paid from the appropriation appearing under the heading \"Special Projects\" in Title III of the Treasury-Post Office Departments and Executive Office Appropriation Act, 1963, 76 Stat. 310, and such appropriation as may be provided for the same purposes for the fiscal year 1964. Payments and appointments under this order shall be made without regard to the civil service and classification laws and the provisions of section 3681 of the Revised Statutes (31 U.S.C. 672), and section 9 of the Act of March 4, 1909, 35 Stat. 1027 (31 U.S.C. 673).\nSEC. 6.\nTermination of the Commission.\nThe Commission shall submit its final report to the President by November 1, 1963, and shall terminate not later than December 31, 1963.\nJOHN F. KENNEDY\nTHE WHITE HOUSE,\nJanuary 15, 1963",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

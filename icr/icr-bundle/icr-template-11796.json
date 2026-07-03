@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "11796",
+  "title": "Executive Order 11796—Continuing the Regulation of Exports",
+  "date_iso": "1974-07-30",
+  "president": "Richard Nixon",
+  "congress_number": 93,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-11796-continuing-the-regulation-exports",
+  "word_count": 463,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "By virtue of the authority vested in the President by the Constitution and statutes of the United States, including section 5 (b) of the act of October 6, 1917, as amended (12 U.S.C. 95a), and in view of the continued existence of the national emergencies declared by Proclamation No. 2914 of December 16, 1950, and Proclamation No. 4074 of August 15, 1971, and the importance of continuing (a) to exercise the necessary vigilance over exports from the standpoint of their significance to the national security of the United States; (b) to further significantly the foreign policy of the United States and to aid in fulfilling its international responsibilities; and (c) to protect the domestic economy from the excessive drain of scarce materials and reduce the serious inflationary impact of abnormal foreign demand, it is hereby ordered:\nSECTION 1. Notwithstanding the expiration of the Export Administration Act of 1969, as amended, the provisions for administration of that act contained in Executive Order 11533 of June 4, 1970 as continued in effect by Executive Order 11683 of August 29, 1972, shall continue in full force and effect and shall authorize the exercise and administration of export controls, under the authority vested in me as President of the United States by section 5 (b) of the act of October 6, 1917, as amended (12 U.S.C. 95a).\nSEC. 2. Except to the extent another basis is provided in the second sentence of section 3 of this order, all rules and regulations issued by the Secretary of Commerce, published in title 15, chapter III, subchapter B of the Code of Federal Regulations, parts 368 to 399 inclusive, and all orders, regulations, licenses and other forms of administrative action issued or taken pursuant thereto, shall until amended or revoked by the Secretary of Commerce, remain in full force and effect, the same as if issued or taken pursuant to this order, except that the maximum fine which may be imposed under part 387.1(a) (1) shall not exceed $10,000 and that the civil penalty provided for under part 387.1 (b) (3) will not be applicable to any violation of the regulations under this order.\nSEC. 3. The delegations of authority in this order shall not affect the authority of any agency or official pursuant to any other delegation of Presidential authority, presently in effect or hereafter made, under section 5 (b) of the act of October 6, 1917, as amended. Those regulations issued under the Export Control Act of 1949, as amended, to implement foreign policy set forth in Executive Orders Nos. 11322 of January 5, 1967 and 11419 of July 29, 1968, shall until amended or revoked by the Secretary of Commerce continue to apply as regulations issued under such orders.\nRICHARD NIXON\nThe White House,\nJuly 30, 1974.",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,924 @@
+{
+“executive_orders”: [
+{
+“eo_number”: “9430”,
+“title”: “Executive Order 9430—Inspection by the Office of Price Administration of Corporation Statistical Transcript Cards Prepared from Income and Declared Value Excess-Profits Tax Returns”,
+“date_iso”: “1944-03-07”,
+“president”: “Franklin D. Roosevelt”,
+“congress_number”: 78,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-9430-inspection-the-office-price-administration-corporation-statistical”,
+“word_count”: 150,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order permits the Office of Price Administration to inspect a defined set of corporation statistical transcript cards, but it does not pool broad decision authority in that office. Inspection is constrained by taxable-year scope and by Treasury rules.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The responsible actors and governing rules are identifiable: the Office of Price Administration may inspect the cards, and inspection must comply with rules prescribed by the Secretary of the Treasury in Treasury Decision 5173. The order also requires publication in the Federal Register.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order addresses one narrow mechanism: inspection of statistical transcript cards for a specified taxable-year window. It does not combine unrelated policy tools or problem frames.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The scope is specific: corporation statistical transcript cards from returns for taxable years ending after June 30, 1942, and before July 1, 1943. Inspection must occur “in accordance and upon compliance” with Treasury Decision 5173.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not create an identifiable incentive to undermine its stated purpose. It grants access to a fixed category of tax-derived statistical records and does not invoke emergency powers in a way that creates a Zombie Emergency Trap.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order is limited to records for taxable years ending after June 30, 1942, and before July 1, 1943. That fixed temporal scope functions as a built-in limit on the access authorization.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not remove oversight mechanisms; it subjects inspection to Treasury rules and requires publication in the Federal Register. No judicial, congressional, or administrative review is expressly displaced.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “NOT_APPLICABLE”,
+“points”: null,
+“justification”: “This is an inter-agency records-access authorization, not a regulated-party compliance regime. It does not depend on self-reporting or third-party detection of noncompliance.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order enables use of tax-derived corporate statistical material by a price-control agency outside the Bureau of Internal Revenue. Although narrow, it legitimizes cross-agency inspection of tax-return-derived records for regulatory administration.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order allows Office of Price Administration inspection but keeps the access subject to Treasury-prescribed rules. It does not redirect or override Treasury’s statutory role in administering the records.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order contains no exemptions, waivers, or carve-outs that undermine its stated inspection purpose. The only limitation is the specified taxable-year range and compliance with Treasury rules.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “9540”,
+“title”: “Executive Order 9540—Authorizing the Petroleum Administratior to Take the Possession of and to the Cities Service Refining Corporation, Located in and Around Lake Charles, Louisiana”,
+“date_iso”: “1945-04-17”,
+“president”: “Harry S Truman”,
+“congress_number”: 79,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-9540-authorizing-the-petroleum-administratior-take-the-possession-and-the”,
+“word_count”: 684,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The Petroleum Administrator is authorized to take possession of the plants and facilities, operate them “in any manner” he deems necessary, exercise company contractual rights, hire or discontinue employment, and take “any other steps” he deems necessary. That pools seizure, operation, labor, property, and delegation authority in one executive official.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Petroleum Administrator is the identifiable implementing actor, but the order provides no independent review of his necessity determinations or operational choices. The termination condition is administered by the same official exercising possession and control.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order bundles war-production continuity, labor-disturbance response, facility seizure, employment control, family and home protection, and inter-agency cooperation into one instrument. These are connected by the war-effort frame but are distinct governance mechanisms.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “Key operative standards depend on what the Petroleum Administrator “may deem necessary” for war prosecution or incidental operation. The order also authorizes taking assets “wherever situated” and doing “any other things” deemed necessary, creating highly elastic enforcement boundaries.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The design gives the Administrator broad operational control while making termination depend on no-longer-required war need and restoration of prior productive efficiency. That creates an institutional incentive to maintain or define necessity broadly, though the Zombie Emergency Trap does not strictly fire because the order does not invoke a declared emergency as the operative unresolved condition.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order includes a termination rule: possession must end after it is no longer required for the successful prosecution of the war, and in no event more than sixty days after restoration of pre-taking productive efficiency. That is a functional sunset tied to the stated operational need.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order displaces ordinary private managerial control by authorizing federal possession and operation of company plants and facilities. It also directs all federal agencies to cooperate “to the fullest extent possible,” subordinating ordinary agency posture to the seizure operation.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “No outside actor is given standing or a process to contest continued possession once the productive-efficiency condition is met. The order depends on the Petroleum Administrator’s own determination that possession is no longer required.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The order legitimizes executive seizure and operation of private industrial facilities in response to labor disturbances when war production may be impeded. Its broad “any other things” and “any other steps” language creates a strong template for executive industrial control beyond the immediate refinery.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “Federal agencies including the National War Labor Board, War Manpower Commission, National Selective Service System, and Department of Justice are directed to cooperate with the Petroleum Administrator. Their roles are routed into the Administrator’s seizure-and-operation mandate.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order contains no exemption or waiver structure that undermines the stated purpose of restoring wartime production. The provision preserving management functions “to the maximum degree possible” is constrained by consistency with the order’s aims.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “9570”,
+“title”: “Executive Order 9570—Possession and Operation of the Transportation System, Plants, and Facilities of the Scranton Transit Company Located in and About the City of Scranton, Pennsylvania”,
+“date_iso”: “1945-06-14”,
+“president”: “Harry S Truman”,
+“congress_number”: 79,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-9570-possession-and-operation-the-transportation-system-plants-and”,
+“word_count”: 748,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The Director of the Office of Defense Transportation may take possession and control of the transit system and all useful assets, operate it as he deems necessary, block attachments without written consent, and determine when control is no longer necessary. That pools possession, operation, asset-protection, and termination authority in one official.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Director is clearly responsible for possession and operation, but the order gives no independent review of his necessity determinations. Termination occurs “when he determines” possession and operation are no longer necessary.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order bundles labor-disturbance response, wartime transportation control, asset seizure, property immunity from attachment, transfer of Secretary of War functions, and military protection support. These elements are related to wartime continuity but remain distinct governance mechanisms.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The operative standard includes property “used or useful” in connection with operations and any action the Director “may deem necessary” for war prosecution or to carry out the order. The termination trigger also rests solely on the Director’s determination of necessity.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Director controls both the seized transportation system and the decision to end possession, creating an incentive to define wartime necessity broadly. The Zombie Emergency Trap does not strictly fire because the order relies on wartime statutory powers but does not invoke an emergency declaration whose unresolved status drives authority.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order has no fixed expiration or independent renewal/review requirement. Possession ends only when the Director determines it is no longer necessary for successful prosecution of the war, which is not a clean sunset.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The order bars attachment, garnishment, execution, or similar process against property in the Director’s possession except with the Director’s prior written consent. That directly preempts ordinary legal process against the seized property.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order does not give affected owners, creditors, workers, or public users a formal mechanism to surface overreach or force termination. Continued possession depends on the Director’s own necessity determination.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The order normalizes executive control of local transportation infrastructure during labor disturbances and transfers wartime transportation-possession powers to the Director. Its anti-attachment provision also shields seized property from ordinary legal claims while under executive control.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The order transfers to the Director functions, powers, and duties vested in the Secretary of War under the Act of August 29, 1916. It also makes the Secretary of War furnish protection, equipment, manpower, or services upon the Director’s request.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The anti-attachment provision creates a broad carve-out from ordinary process for real and personal property in the Director’s possession unless he gives written consent. That exemption protects the takeover architecture from outside legal claims.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “9981”,
+“title”: “Executive Order 9981—Establishing the President’s Committee on Equality of Treatment and Opportunity in the Armed Services”,
+“date_iso”: “1948-07-26”,
+“president”: “Harry S Truman”,
+“congress_number”: 80,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-9981-establishing-the-presidents-committee-equality-treatment-and”,
+“word_count”: 414,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The President designates all seven members of the committee and controls its termination by later executive order. The committee’s power is advisory and investigatory, so concentration exists but is not a core operational collapse.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order declares equality policy but assigns implementation only as something to be put into effect “as rapidly as possible” with regard to efficiency or morale. No actor is made directly accountable for failure to implement equality, and the committee only makes recommendations.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order addresses one coherent problem frame: equality of treatment and opportunity in the armed services. Its committee, information-gathering, and recommendation functions all serve that single policy.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The central implementation command says the policy shall be put into effect “as rapidly as possible” while having “due regard” to necessary changes “without impairing efficiency or morale.” Those terms create an undefined delay valve at the core of the order’s stated equality purpose.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The text creates an incentive for resistant actors to invoke efficiency or morale concerns to delay equality implementation. Because the EO’s purpose is equal treatment, the built-in morale/efficiency escape hatch directly undermines the stated purpose; no emergency invocation is present.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The committee continues until the President terminates it by executive order, with no deadline, reporting endpoint, or renewal requirement. That is not a clean sunset.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not eliminate judicial review, congressional reporting, inspector access, or other oversight mechanisms. It creates an advisory committee and requires federal cooperation with that committee.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The committee may obtain testimony and documents from federal personnel, but the order does not give service members a complaint channel, standing, or enforcement trigger. Compliance therefore depends mainly on internal review and presidentially controlled recommendations.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order legitimizes equality review across the armed services and compels departments to furnish information and testimony to a presidential committee. It also embeds a model in which civil-rights implementation can be mediated through advisory review rather than direct enforcement.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The committee examines rules and advises the Secretaries of Defense, Army, Navy, and Air Force, but does not redirect or override their statutory mandates. Cooperation and information access do not create a conflicting operating hierarchy.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “CRITICAL”,
+“points”: 2,
+“justification”: “The “due regard” clause for time needed to make changes “without impairing efficiency or morale” operates as an open-ended carve-out from rapid equality implementation. Because it can justify delay by the very institutions being changed, it systematically undermines the stated purpose.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “10028”,
+“title”: “Executive Order 10028—Defining Noncombatant Service and Noncombatant Training”,
+“date_iso”: “1949-01-13”,
+“president”: “Harry S Truman”,
+“congress_number”: 81,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-10028-defining-noncombatant-service-and-noncombatant-training”,
+“word_count”: 160,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order defines “noncombatant service” and “noncombatant training” for purposes of section 6(j) of the Selective Service Act of 1948. It does not pool new discretionary authority in a single official or body.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The definitions are clear enough to guide implementation: unarmed service, medical department service, acceptable assignments not requiring combat arms, and training not involving arms or weapons. The order does not create a diffuse implementation chain.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order addresses one narrow interpretive task: defining noncombatant service and training. It does not bundle unrelated policy mechanisms or frames.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The definitions specify categories of covered service and training, including assignments that do not require use of arms in combat and do not require bearing or training in arms. The “acceptable to the individual concerned” proviso further clarifies application.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not reward actors for undermining noncombatant-service classification. It contains no emergency invocation and no structural incentive to keep a problem unresolved.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “This is a definitional order tied to section 6(j) of an underlying statute, not a freestanding ongoing program. The absence of a separate sunset does not create indefinite discretionary machinery.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not remove judicial, administrative, congressional, or other oversight mechanisms. It supplies definitions under the Selective Service Act.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “NOT_APPLICABLE”,
+“points”: null,
+“justification”: “The order creates definitions rather than a compliance regime. There is no self-reporting enforcement structure or third-party detection problem to evaluate.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “No harmful second- or third-order structural effect is identifiable from the text. The order narrows and clarifies noncombatant categories rather than expanding executive machinery.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not redirect or conflict with an existing agency mandate. It defines statutory terms for selective-service purposes.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order defines covered noncombatant service and training; it does not create exemptions that undermine its own purpose. The consent condition for other assignments protects the noncombatant character of the classification.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “10464”,
+“title”: “Executive Order 10464—Delegation of Functions of the President Respecting the Transfer of Wheat to Pakistan”,
+“date_iso”: “1953-06-25”,
+“president”: “Dwight D. Eisenhower”,
+“congress_number”: 83,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-10464-delegation-functions-the-president-respecting-the-transfer-wheat”,
+“word_count”: 250,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order delegates most wheat-transfer functions to the Director for Mutual Security while reserving termination of assistance to the President and assigning agreement negotiation to the Secretary of State. It distributes rather than pools all relevant authority in one unchecked official.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “Responsibility is legible: the Director performs delegated statutory functions, the President retains termination authority, and the Secretary of State negotiates the agreement and retains foreign-policy responsibilities. The order identifies who controls each key function.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order concerns a single statutory program: transfer of price-support wheat to Pakistan. Delegation, negotiation, and foreign-policy supervision all relate to that same transaction.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order clearly excludes section 4 termination functions from delegation and specifies who may perform the remaining functions and who negotiates the agreement. There is no enforcement trigger or penalty scheme made vague by the text.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not reward actors for undermining the wheat-transfer program. It contains no emergency invocation and retains termination authority with the President, so the Zombie Emergency Trap does not apply.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The delegation is tied to a specific Act “to provide for the transfer of price-support wheat to Pakistan,” not an open-ended general program. The absence of a separate EO sunset does not create indefinite policy machinery beyond the statutory transaction.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not remove oversight mechanisms or review. It delegates presidential functions under a specific Act while reserving termination authority and preserving State Department foreign-policy responsibility.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “NOT_APPLICABLE”,
+“points”: null,
+“justification”: “The order is a delegation of presidential functions for an international wheat transfer, not a regulated-party compliance scheme. There is no self-reporting structure to assess.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “No significant downstream structural effect is identifiable beyond ordinary delegation for a specific foreign-assistance transaction. The order preserves presidential termination authority and State foreign-policy supervision.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order coordinates the Director for Mutual Security and Secretary of State without creating conflict: delegated functions are subject to the Secretary’s foreign-policy responsibilities. It does not redirect an agency away from a statutory mandate.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order contains exclusions from delegation, but they preserve presidential termination authority rather than undermine the wheat-transfer purpose. No waiver or carve-out architecture defeats the stated function.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “10651”,
+“title”: “Executive Order 10651—Providing for the Screening of the Ready Reserve of the Armed Forces Established Under the Provisions of Part II of the Armed Forces Reserve Act of 1952, as Amended”,
+“date_iso”: “1956-01-06”,
+“president”: “Dwight D. Eisenhower”,
+“congress_number”: 84,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-10651-providing-for-the-screening-the-ready-reserve-the-armed-forces”,
+“word_count”: 803,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order gives the Secretary of Defense, the Secretary of the Treasury for the Coast Guard, and the services significant discretion to define hardship, critical military skills, availability, and transfer regulations. Authority is not in one person alone, but substantial screening discretion is concentrated inside the military executive chain.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “Responsible actors are identified throughout: the Service concerned applies fitness standards and availability determinations, the Secretary of Defense and Secretary of the Treasury define certain criteria, and periodic reports to the President are required. That reporting requirement supplies an internal accountability mechanism.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order bundles multiple screening rationales: age and fitness, completed obligations, public office, hardship, critical civilian occupations, academic or apprenticeship training, surplus military skills, and availability. These all relate to Ready Reserve screening, but they combine distinct manpower policy frames.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “Several operative standards are discretionary or open-textured, including “extreme personal or community hardship,” “critical military skill,” “proper balance” of skills, and not being “immediately available” as determined by the Service concerned. These terms could be applied inconsistently across services.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The design may incentivize members with critical civilian occupations or completed obligations to execute one-year agreements to avoid transfer, while services may classify military skills as critical to retain preferred personnel. No emergency-power invocation exists, so the Zombie Emergency Trap does not apply.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order creates continuous screening of units and members of the Ready Reserve and contains no expiration or renewal requirement. Periodic reports are required, but reporting is not a sunset.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not remove judicial review, congressional reporting, or other oversight mechanisms. It requires periodic reports to the President and directs that National Guard-related transfers be made in consonance with the Armed Forces Reserve Act.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order does not create an outside actor with standing and incentive to surface improper screening or retention decisions. Transfers and reversions are controlled by service and secretary-level determinations, with affected members able to request transfer in some cases but not empowered as external compliance monitors.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order can shift manpower burdens by moving public officials, hardship cases, critical civilian workers, students, apprentices, and surplus-skill members out of the Ready Reserve. That may preserve mobilization readiness while also entrenching executive discretion over civilian-military manpower allocation.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Department of Labor’s List of Critical Occupations becomes a screening input for military reserve status, while Defense and Treasury retain exceptions for critical military skills. This does not fully override Labor’s role, but it interlocks civilian labor policy with military manpower decisions in a friction-prone way.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order’s transfer rules contain broad carve-outs for those who execute one-year agreements, possess critical military skills, or volunteer to remain in the Ready Reserve. These exceptions do not collapse the screening system, but they materially limit who is screened out.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “10924”,
+“title”: “Executive Order 10924—Establishment and Administration of the Peace Corps in the Department of State”,
+“date_iso”: “1961-03-01”,
+“president”: “John F. Kennedy”,
+“congress_number”: 87,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-10924-establishment-and-administration-the-peace-corps-the-department”,
+“word_count”: 316,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Secretary of State is directed to establish the Peace Corps, finance it from available Mutual Security Act funds, and delegate to the Director whatever functions the Secretary deems necessary. The order concentrates launch, funding, and delegation discretion in the Secretary, though within the Department of State.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Secretary of State and Peace Corps Director are identifiable, but the order does not create reporting, evaluation, or accountability mechanisms for program failure. Delegation depends on what the Secretary “shall deem necessary,” leaving responsibility for specific functions potentially opaque.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Peace Corps is assigned training and service abroad in “new programs of assistance” and also work “in conjunction with or in support of existing economic assistance programs” of the United States, United Nations, and other international organizations. That bundles volunteer service, foreign assistance, and international-organization support into a single new agency frame.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The functions to be delegated are whatever the Secretary deems necessary for the Peace Corps’ purposes, and those purposes are broadly described as training and service abroad in new or existing assistance programs. The order gives little operational standard for deciding what functions or programs fall within the agency.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not create an identifiable incentive to undermine the Peace Corps’ stated purpose. It does not invoke emergency powers, so the Zombie Emergency Trap does not apply.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order creates an agency in the Department of State without an expiration, renewal requirement, or review mechanism. It continues unless superseded or replaced by later law or order.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order expressly states it does not supersede or derogate from Executive Order No. 10893 and that delegations are in addition to existing delegations unless otherwise provided. It does not eliminate oversight or preexisting governance arrangements.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “NOT_APPLICABLE”,
+“points”: null,
+“justification”: “The order establishes and funds an agency rather than creating a regulated-party compliance system. There is no self-reporting enforcement architecture to assess.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order enables creation of a new foreign-assistance agency inside State using existing Mutual Security Act funds and delegated presidential/secretarial functions. That can shift foreign-assistance implementation architecture before a standalone statutory framework exists.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The Peace Corps’ functions overlap with existing economic assistance programs of the United States, the United Nations, and other international organizations. The order says it does not derogate from existing delegations, but the new agency’s support role can create jurisdictional overlap in foreign-aid implementation.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order contains no exemptions, waivers, or carve-outs that undermine its stated purpose. Its non-derogation clause preserves existing arrangements rather than exempting actors from the new agency’s functions.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “10956”,
+“title”: “Executive Order 10956—Amendment of Executive Order No. 10841, Relating to International Cooperation Under the Atomic Energy Act of 1954, as Amended”,
+“date_iso”: “1961-08-10”,
+“president”: “John F. Kennedy”,
+“congress_number”: 87,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-10956-amendment-executive-order-no-10841-relating-international”,
+“word_count”: 150,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The amendment makes covered determinations effective unless the President disapproves them within fifteen days after referral. That creates presidential gatekeeping by negative approval, concentrating final control in the President while allowing determinations to mature automatically.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “Responsibility is partly obscured because a determination becomes effective through presidential non-disapproval rather than affirmative approval. If a bad determination takes effect, accountability is split between the determining actor and the President’s inaction.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order makes one procedural amendment to an existing atomic-energy international-cooperation order. It does not bundle unrelated remedies or problem frames.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The procedural trigger is clear: each determination is referred to the President and becomes effective fifteen days after referral unless disapproved or delayed to a specified later time. The order does not create ambiguous enforcement standards.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The negative-approval mechanism may incentivize agencies to rely on presidential inaction rather than seek affirmative approval for sensitive atomic-energy cooperation determinations. No emergency power is invoked, so the Zombie Emergency Trap does not apply.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The amendment creates an ongoing default-effectiveness rule with no expiration, review, or renewal requirement. The fifteen-day clock governs individual determinations but is not a sunset on the process itself.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “By allowing determinations to become effective unless disapproved by the President, the order reduces the requirement for affirmative presidential action. It does not eliminate all oversight, but it weakens the review architecture by making silence sufficient.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “No outside actor is given standing or incentive to surface problematic determinations during the fifteen-day referral window. The safeguard depends on internal referral and presidential disapproval.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order legitimizes a negative-option approval model for international atomic-energy cooperation determinations. That can normalize automatic effectiveness through executive inaction in a sensitive national-security domain.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order amends a determination procedure but does not redirect or conflict with an agency’s statutory mandate. No inter-agency operational hierarchy or friction is created in the text.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order contains no exemptions, waivers, or carve-outs from the atomic-energy cooperation framework. The fifteen-day non-disapproval rule is a procedural approval mechanism, not an exemption from coverage.”
+}
+],
+“notes”: “”
+},
+{
+“eo_number”: “11076”,
+“title”: “Executive Order 11076—Establishing the President’s Advisory Commission on Narcotic and Drug Abuse”,
+“date_iso”: “1963-01-15”,
+“president”: “John F. Kennedy”,
+“congress_number”: 88,
+“source_url”: “https://www.presidency.ucsb.edu/documents/executive-order-11076-establishing-the-presidents-advisory-commission-narcotic-and-drug”,
+“word_count”: 697,
+“coded_date”: “2026-07-03”,
+“coder_id”: “gpt-5.5-thinking-v1”,
+“flags”: [
+{
+“flag_number”: 1,
+“flag_name”: “Power Concentration”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The President appoints all commission members, designates the chair, and designates the Executive Director with compensation as the President specifies. The commission is advisory, so the concentration is limited but still presidentially centered.”
+},
+{
+“flag_number”: 2,
+“flag_name”: “Accountability Gaps”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The commission’s deliverables and timing are clear: an interim report by April 1, 1963, and a final report by November 1, 1963. Departments must designate liaisons and transmit legislative recommendations by February 28, 1963.”
+},
+{
+“flag_number”: 3,
+“flag_name”: “Bundling”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The commission is charged with preventing narcotic and non-narcotic drug abuse, rehabilitating habitual drug misusers, reviewing federal law-enforcement functions, evaluating statutory responsibilities, and improving state-local cooperation. These are related but combine law enforcement, health, rehabilitation, legislation, and intergovernmental assistance in one advisory body.”
+},
+{
+“flag_number”: 4,
+“flag_name”: “Vague Enforcement”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The commission does not enforce rules against regulated parties; it studies, reviews, evaluates, and recommends. Its reporting deadlines, agency liaison duties, compensation caps, and termination date are specified.”
+},
+{
+“flag_number”: 5,
+“flag_name”: “Perverse Incentives”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order does not create a structural reward for undermining its study and recommendation function. It contains no emergency invocation, so the Zombie Emergency Trap does not apply.”,
+“sub_flag_fired”: false
+},
+{
+“flag_number”: 6,
+“flag_name”: “Sunset Provisions”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order includes a clean sunset: the commission must submit its final report by November 1, 1963, and terminate not later than December 31, 1963. The advisory body is time-limited.”
+},
+{
+“flag_number”: 7,
+“flag_name”: “Preemption of Oversight”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “Payments and appointments under the order are made “without regard to the civil service and classification laws” and specified fiscal statutes. That bypasses ordinary personnel and compensation controls for the commission.”
+},
+{
+“flag_number”: 8,
+“flag_name”: “Third-Party Incentive Gaps”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The commission is outside the executive branch and is directed to review and evaluate federal agency programs and operations. Its outside membership and agency-liaison requirements create a mechanism for surfacing institutional deficiencies.”
+},
+{
+“flag_number”: 9,
+“flag_name”: “Second/Third-Order Effects”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order legitimizes a centralized presidential advisory process for drug abuse policy spanning enforcement, rehabilitation, legislation, and intergovernmental coordination. That can shape future drug-policy architecture beyond the commission’s temporary life.”
+},
+{
+“flag_number”: 10,
+“flag_name”: “Inter-Agency Cannibalization”,
+“status”: “ABSENT”,
+“points”: 0,
+“justification”: “The order requires named departments to designate liaisons and provide information, but it does not transfer their statutory responsibilities or redirect their programs into the commission. The commission reviews and recommends rather than operates agency functions.”
+},
+{
+“flag_number”: 11,
+“flag_name”: “Exemptions Architecture”,
+“status”: “PRESENT”,
+“points”: 1,
+“justification”: “The order broadly exempts payments and appointments from civil-service and classification laws and specified fiscal restrictions. The carve-out does not defeat the commission’s advisory purpose, but it weakens ordinary governance controls around staffing and compensation.”
+}
+],
+“notes”: “”
+}
+]
+}

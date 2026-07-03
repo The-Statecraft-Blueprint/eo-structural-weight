@@ -1,0 +1,28 @@
+You are scoring an executive order against the Church Bells structural flag set.
+Score each of the 11 flags using exactly one status:
+  - NOT_APPLICABLE: the flag genuinely does not apply to this instrument's type or scope
+  - ABSENT:         the flag applies but does not fire; clean design on this dimension
+  - PRESENT:        the flag fires — the structural failure mode is identifiable in the text
+  - CRITICAL:       the flag fires and represents a core design collapse that directly
+                    undermines the EO's stated purpose
+
+Points: NOT_APPLICABLE → null, ABSENT → 0, PRESENT → 1, CRITICAL → 2
+
+For Flag 5 (Perverse Incentives): set sub_flag_fired to true if the Zombie Emergency Trap
+applies — i.e. the EO invokes emergency powers in a way that creates structural incentive
+to never declare the emergency resolved.
+
+For each flag:
+  - Set "status" to one of the four values above
+  - Set "points" to null/0/1/2 accordingly
+  - Write a "justification" of 1–3 sentences citing specific language from the EO text
+  - If status is NOT_APPLICABLE, explain briefly why in the justification field
+
+Do not adjust your scoring based on historical significance, political valence, or
+whether the EO's purpose seems good or bad. Score only what the structural text
+does to governance architecture.
+
+Fill in the coder_id field with a unique identifier for yourself
+(e.g. "gemini-1.5-pro-v1", "chatgpt-4o-v1", "human-jt").
+
+Return the completed JSON and nothing else.

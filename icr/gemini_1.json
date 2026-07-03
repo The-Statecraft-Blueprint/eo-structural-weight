@@ -1,0 +1,1032 @@
+[
+{
+"eo_number": "7329",
+"title": "Executive Order 7329—Authorizing the Acquisition of Land Near Petersburg, Virginia, for Emergency Conservation Work",
+"date_iso": "1936-03-30",
+"president": "Franklin D. Roosevelt",
+"congress_number": 74,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7329-authorizing-the-acquisition-land-near-petersburg-virginia-for](https://www.presidency.ucsb.edu/documents/executive-order-7329-authorizing-the-acquisition-land-near-petersburg-virginia-for)",
+"word_count": 412,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative order authorizing a specific land acquisition and fund allocation for local conservation work, carrying no general policy or systemic governance implications."
+}
+],
+"notes": "Scored as Not Applicable across all dimensions because this is a routine land transactional and budgetary allocation order with no broad systemic regulatory or policy frameworks."
+},
+{
+"eo_number": "7344",
+"title": "Executive Order 7344—Revocation of Executive Order No. 5791 of February 2, 1932, Withdrawing Public Lands in Colorado",
+"date_iso": "1936-04-11",
+"president": "Franklin D. Roosevelt",
+"congress_number": 74,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7344-revocation-executive-order-no-5791-february-2-1932-withdrawing-public](https://www.presidency.ucsb.edu/documents/executive-order-7344-revocation-executive-order-no-5791-february-2-1932-withdrawing-public)",
+"word_count": 97,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+}
+],
+"notes": "This instrument is a simple, one-time clerical cancellation of a temporary land reservation in Colorado following a completed resurvey."
+},
+{
+"eo_number": "7392",
+"title": "Executive Order 7392—Revocation of Executive Order No. 6014 of February 6, 1933, Withdrawing Public Lands in Oregon",
+"date_iso": "1936-06-19",
+"president": "Franklin D. Roosevelt",
+"congress_number": 74,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7392-revocation-executive-order-no-6014-february-6-1933-withdrawing-public](https://www.presidency.ucsb.edu/documents/executive-order-7392-revocation-executive-order-no-6014-february-6-1933-withdrawing-public)",
+"word_count": 95,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order revoking a prior temporary withdrawal pending a resurvey, carrying no general policy or systemic governance implications."
+}
+],
+"notes": "This instrument is a routine, single-instance clerical revocation of a temporary land reservation in Oregon following a completed resurvey."
+},
+{
+"eo_number": "7856",
+"title": "Executive Order 7856—Rules Governing the Granting and Issuing of Passports in the United States",
+"date_iso": "1938-03-31",
+"president": "Franklin D. Roosevelt",
+"congress_number": 75,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7856-rules-governing-the-granting-and-issuing-passports-the-united-states](https://www.presidency.ucsb.edu/documents/executive-order-7856-rules-governing-the-granting-and-issuing-passports-the-united-states)",
+"word_count": 7817,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order pools unconstrained authority over passport issuance, refusal, and cancellation in the sole discretion of the Secretary of State (Paragraph 124) without establishing any formal external check or administrative appeal mechanism."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order delineates a clear and detailed operational chain of responsibility from application clerks and passport agents up to the Secretary of State, ensuring clear institutional ownership."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "ABSENT",
+"points": 0,
+"justification": "All components of the document are strictly confined to the single policy framework of passport applications, verification of citizenship, fees, and travel documents."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "PRESENT",
+"points": 1,
+"justification": "While application rules are exact, the core enforcement power in Paragraph 124 allows the Secretary to refuse or cancel passports 'in his discretion' without prescribing any objective standards or trigger conditions."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "ABSENT",
+"points": 0,
+"justification": "The fee structures and validation checks are neutrally aligned and do not incentivize bad behavior or non-compliance, and no emergency declarations are invoked.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order contains no built-in expiration date, mandatory periodic review, or reauthorization timeline, establishing a permanent administrative structure until explicitly superseded."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text does not explicitly limit or remove any pre-existing statutory oversight checks, judicial review avenues, or congressional reporting requirements."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Enforcement does not depend on self-reporting, as clerks of court and passport agents are legally mandated to independently cross-reference official birth records, witness testimonies, and credentials."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 125 permits the wholesale withdrawal of the 'protection of the United States' from citizens abroad for passport non-compliance, setting a significant precedent regarding executive leverage over basic citizenship rights."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order cleanly coordinates processing paths between the State Department, federal/state courts, and the War Department without countermanding or conflicting with statutory mandates."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The fee exemptions in Part IX for public officials, seamen, and military relatives are tightly bounded by objective evidentiary criteria and do not create loopholes that undermine overall coverage."
+}
+],
+"notes": "A massive, comprehensive regulation setting passport standards nationwide. While operationally sound, it displays characteristic executive concentration of unguided discretion regarding passport cancellation and refusals."
+},
+{
+"eo_number": "8233",
+"title": "Executive Order 8233—Prescribing Regulations Governing the Enforcement of the Neutrality of the United States",
+"date_iso": "1939-09-05",
+"president": "Franklin D. Roosevelt",
+"congress_number": 76,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8233-prescribing-regulations-governing-the-enforcement-the-neutrality-the](https://www.presidency.ucsb.edu/documents/executive-order-8233-prescribing-regulations-governing-the-enforcement-the-neutrality-the)",
+"word_count": 669,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Decision authority is distributed horizontally across multiple separate executive departments (War, Navy, Treasury, Commerce, Justice) based on their functional specialties rather than pooled upward in a single position."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order explicitly and clearly delineates individual operational responsibilities for each sector, mapping out distinct lines of accountability for land forces, naval vessels, and federal prosecutions."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text focuses exclusively on assigning specific administrative and enforcement tasks for the execution of U.S. neutrality obligations, avoiding extraneous policy mechanisms."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The institutional jurisdictions are precise, and the conduct standards are anchored directly in pre-existing treaties, international laws, and explicit neutrality proclamations."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "ABSENT",
+"points": 0,
+"justification": "The mandates do not incentivize institutional failure, and the entire text operates strictly on an external condition (the duration of the foreign war) rather than a self-perpetuating agency declaration.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order contains a clear, conditional sunset clause by explicitly specifying that these domestic departmental regulations shall apply only 'during said war.'"
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order does not remove, bypass, or alter any pre-existing statutory oversight, administrative review procedures, or judicial checks."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Enforcement relies on active surveillance, active boundary policing, and direct criminal prosecution by federal military and legal authorities rather than self-reporting."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Dividing neutrality policing among standard departments follows long-established historical administrative protocols and does not produce novel systemic precedents or downstream anomalies."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order avoids friction by clearly charting agency boundaries and instructing the Treasury and Commerce Departments to mutually agree upon further divisions of labor within their shared sectors."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order establishes a uniform enforcement directive throughout the defined sectors and contains no carve-outs, waivers, or loopholes."
+}
+],
+"notes": "An exceptionally clean structural design that establishes horizontal division of labor and coordinates multiple agencies smoothly for a critical geopolitical mandate, utilizing a functional, war-limited conditional sunset."
+},
+{
+"eo_number": "8451",
+"title": "Executive Order 8451—Authorizing the Appointment of Russell Sturgis to the Position of Assistant Territorial Representative in the Wage and Hour Division, Department of Labor, Without Regard to the Requirements of the Civil Service Rules",
+"date_iso": "1940-06-20",
+"president": "Franklin D. Roosevelt",
+"congress_number": 76,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8451-authorizing-the-appointment-russell-sturgis-the-position-assistant](https://www.presidency.ucsb.edu/documents/executive-order-8451-authorizing-the-appointment-russell-sturgis-the-position-assistant)",
+"word_count": 87,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow individual personnel order authorizing a single civil service rule waiver for one person, carrying no general policy or systemic governance implications."
+}
+],
+"notes": "An isolated, routine individual personnel order using standard statutory authority to execute a specific non-classified civil service appointment."
+},
+{
+"eo_number": "8736",
+"title": "Executive Order 8736—Partial Revocation of Executive Order No. 5214 of October 30, 1929, Withdrawing Public Lands for Naval Purposes",
+"date_iso": "1941-04-14",
+"president": "Franklin D. Roosevelt",
+"congress_number": 77,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8736-partial-revocation-executive-order-no-5214-october-30-1929](https://www.presidency.ucsb.edu/documents/executive-order-8736-partial-revocation-executive-order-no-5214-october-30-1929)",
+"word_count": 230,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative land order partially revoking a naval reservation boundary for an 18-acre tract, carrying no general policy or systemic governance implications."
+}
+],
+"notes": "A localized land description order affecting less than 18 acres within a specific reservation in Alaska, completely lacking broad policy frameworks."
+},
+{
+"eo_number": "8944",
+"title": "Executive Order 8944—Directing the Federal Works Administrator to Take Possession of and Operate a Certain Project of the Grand River Dam Authority",
+"date_iso": "1941-11-19",
+"president": "Franklin D. Roosevelt",
+"congress_number": 77,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8944-directing-the-federal-works-administrator-take-possession-and-operate](https://www.presidency.ucsb.edu/documents/executive-order-8944-directing-the-federal-works-administrator-take-possession-and-operate)",
+"word_count": 565,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order pools absolute operational management of the project in the Federal Works Administrator, leaving the duration of the physical seizure entirely to the unconstrained personal discretion of the President (Section 2)."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Accountability lines are clear; the order explicitly names the Federal Works Administrator as the responsible operating actor and assigns the Federal Power Commission to determine just compensation."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument is tightly organized under a single problem frame: the urgent seizure and generation of power at a specific dam project for domestic munitions manufacture and national defense."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The enforcement mechanism is clear, immediate, and direct, citing specific statutory authority (Section 16 of the Federal Power Act) to take immediate possession of a single explicitly identified infrastructure project."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "ABSENT",
+"points": 0,
+"justification": "The structural design does not reward operational failure, and the fair compensation parameters are bound to an independent statutory determination by the Federal Power Commission.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "PRESENT",
+"points": 1,
+"justification": "A definitive chronological sunset or automatic expiration is absent; Section 2 mandates that the asset be held indefinitely until the President decides further retention is unnecessary."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order relies on explicit statutory provisions under the Federal Power Act and preserves the regulatory role of the Federal Power Commission to fix fair compensation terms."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Because this involves a physical federal takeover and direct governmental management of the site, compliance verification via private self-reporting or third-party monitoring is not applicable."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "PRESENT",
+"points": 1,
+"justification": "Section 4 grants the Administrator the power to hire personnel without regard to Civil Service Rules, establishing an important institutional precedent for bypassing labor restrictions during defense-related property seizures."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order incorporates and respects existing institutional roles by specifically utilizing the Federal Power Commission for statutory compensation fixing rather than stripping its mandate."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The civil service rules waiver for project staffing is an operational enablement mechanism for the manager rather than a loophole framework that undermines the project takeover."
+}
+],
+"notes": "A powerful defense-era facility seizure order. While it incorporates specific statutory frameworks for compensation, it concentrates open-ended retention power within the executive and suspends standard civil service hiring constraints."
+},
+{
+"eo_number": "9246",
+"title": "Executive Order 9246—Providing for the Coordination and Control of the Rubber Program",
+"date_iso": "1942-09-17",
+"president": "Franklin D. Roosevelt",
+"congress_number": 77,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-9246-providing-for-the-coordination-and-control-the-rubber-program](https://www.presidency.ucsb.edu/documents/executive-order-9246-providing-for-the-coordination-and-control-the-rubber-program)",
+"word_count": 474,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order pools sweeping authority over all aspects of the nation's rubber program in the Chairman of the War Production Board and an appointed Rubber Director (Sections 1-2) with no external review channels or statutory accountability mechanisms outside the WPB."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument establishes a strict top-down centralized hierarchy, clearly making the WPB Chairman and Rubber Director 'fully responsible' for any implementation failures."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "ABSENT",
+"points": 0,
+"justification": "All provisions regarding research, importation, facility construction, and allocation are integrated under a single problem frame: ensuring an adequate supply of rubber for wartime and essential civilian use."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order constructs an absolute, unambiguous internal command architecture with mandatory compliance requirements for other federal agencies and explicitly maps out sub-agency technical functions."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "ABSENT",
+"points": 0,
+"justification": "The centralized program is driven by an objective wartime crisis, and the order lacks features that reward agency failure or invoke self-perpetuating emergency definitions controlled by the WPB.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order features no built-in sunset, chronological expiration date, or mandatory periodic reauthorization requirement, making this comprehensive centralized governance structure permanent until revoked."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text does not explicitly eliminate or restrict external statutory accountability structures like judicial review or congressional oversight, though it aggressively overhauls internal executive hierarchy."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The program relies on direct government production, state-controlled construction supervision, and mandatory intragovernmental directives rather than depending on voluntary compliance loops or private self-reporting."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "PRESENT",
+"points": 1,
+"justification": "Authorizing a single industrial sector chief to command and dictate operations to multiple independent cabinet departments (Agriculture, OPA, ODT) establishes a highly expansive precedent for executive command-economy power."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "PRESENT",
+"points": 1,
+"justification": "Section 3 explicitly overrides the statutory mandates and administrative autonomy of multiple existing agencies (the Department of Agriculture, OPA, Office of Defense Transportation) by forcing them to execute directives from the Rubber Director under a mandate of full compliance."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 5 contains a savings clause protecting the statutory powers of the Price Administrator, which serves as a clear jurisdictional boundary rather than a loophole system that undermines coverage."
+}
+],
+"notes": "A premier example of a wartime structural reorganization order. It minimizes internal accountability gaps through strict top-down pooling, but directly initiates inter-agency cannibalization by subordinating independent statutory cabinet departments to a centralized sector chief."
+},
+{
+"eo_number": "9387",
+"title": "Executive Order 9387—Establishing an Advisory Board on Just Compensation and Prescribing Its Functions",
+"date_iso": "1943-10-15",
+"president": "Franklin D. Roosevelt",
+"congress_number": 78,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-9387-establishing-advisory-board-just-compensation-and-prescribing-its](https://www.presidency.ucsb.edu/documents/executive-order-9387-establishing-advisory-board-just-compensation-and-prescribing-its)",
+"word_count": 432,
+"coder_id": "gemini-2.5-flash",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The Board's mandate is strictly advisory and focused on creating general standards for another agency, and its composition features three independent federal judges rather than concentrated executive branch authority."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The assignment of responsibility is clear: the Board must formulate standard rules and formulae, and the War Shipping Administration is designated as the actor required to follow that guidance."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The entire instrument is focused tightly on a single technical policy question: creating uniform guidelines for just compensation regarding requisitioned merchant and fishing vessels during wartime."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order clearly maps out the Board's specific advisory role, timeline, and relationships with the War Shipping Administration, leaving no procedural ambiguity."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order creates no structural features that reward operational failure, and it does not invoke any self-perpetuating domestic emergency declarations.",
+"sub_flag_fired": false
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 2 contains an explicit chronological sunset clause, restricting the service of the Board members to a maximum period of three months or whenever their functions are completed."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "Rather than reducing oversight, the order reinforces constitutional compliance and legal accountability by utilizing active federal judges to formulate equitable compensation standards."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is an internal standard-setting administrative order tasked with drafting rules of general applicability rather than a compliance enforcement loop dependent on private self-reporting."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+"status": "PRESENT",
+"points": 1,
+"justification": "Appointing active Article III federal judges to an executive branch advisory board to formulate administrative standards sets a unique institutional precedent that blurs traditional separation-of-powers boundaries."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order actively coordinates with and supports the War Shipping Administration, explicitly stating that the guidelines are intended to facilitate and speed up its existing operations."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order establishes a uniform process for creating rules of general applicability and contains no exemptions, waivers, or carve-outs."
+}
+],
+"notes": "A structurally sound advisory order featuring an active, explicit sunset clause. Its primary anomaly is inter-branch blurring, selecting active federal judges to conduct administrative policy formulation within the executive branch."
+}
+]

@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "8944",
+  "title": "Executive Order 8944—Directing the Federal Works Administrator to Take Possession of and Operate a Certain Project of the Grand River Dam Authority",
+  "date_iso": "1941-11-19",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-8944-directing-the-federal-works-administrator-take-possession-and-operate",
+  "word_count": 565,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "Whereas\nGrand River Dam Authority of Vinita, Oklahoma, is the holder of a license (Project No. 1494) under the Federal Power Act (41 Stat. 1063) and is constructing, maintaining and operating a project (as defined in said Act) under such license in the State of Oklahoma; and\nWhereas\n, in my opinion, the safety of the United States demands that the United States enter upon and take possession of such project for the purposes and time, and upon the conditions hereinafter stated; and\nWhereas\nI have, simultaneously with this order, issued an order addressed to Grand River Dam Authority, reading as follows:\n\"TO: GRAND RIVER DAM AUTHORITY, VINITA, OKLAHOMA\n\"Pursuant to section 16 of the Federal Power Act, I hereby order and direct that the project now being constructed, maintained, and operated by you in the State of Oklahoma under a license (Project No. 1494) held by you under the Federal Power Act, be surrendered to, and entered upon, taken possession of, managed, and operated by the Federal Works Administrator, acting for and on behalf of the United States, through such person or persons as he may designate, for the reasons, the purposes, and the time, and upon the conditions set forth in the Executive Order issued by me simultaneously with this order, a copy of which Executive Order is attached as a part of this order.\"\nNow, Therefore\n, by virtue of the power vested in me by the Constitution and the statutes of the United States, and particularly by section 16 of the Federal Power Act, it is hereby ordered as follows:\n1. The Federal Works Administrator, acting for and on behalf of the United States, through such person or persons as he may designate, is hereby authorized and directed immediately to enter upon, and take possession of, manage, and operate, the project above mentioned for the purpose of generating and supplying power for the manufacture of explosives or munitions of war or otherwise necessary to the safety and defense of the United States, and for other purposes involving the safety of the United States.\n2. The Federal Works Administrator shall retain possession, management, and control of said project until such time as it shall appear to the President that further retention of the project by the United States is unnecessary for the accomplishment of the above-stated purposes, and, thereupon, shall restore possession and control of the project to the party or parties then entitled thereto.\n3. The Federal Works Administrator shall pay just and fair compensation for the use of the property of the Authority as may be fixed by the Federal Power Commission upon the basis of a reasonable profit in time of peace, and shall also pay the cost of restoring the property to as good condition as existed at the time of the taking over thereof, less the reasonable value of any improvements that may be made by the United States and which are valuable and serviceable to the licensee.\n4. The Federal Works Administrator may employ, without compliance with the requirements of the Civil Service Rules, such personnel as may be necessary to carry out the provisions of this order, and may exercise any existing contractual or other rights of the Authority, and take such other steps as may be necessary to carry out the provisions of this order.\nFRANKLIN D ROOSEVELT\nThe White House,\nNovember 19, 1941.",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

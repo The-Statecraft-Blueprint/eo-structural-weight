@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "9387",
+  "title": "Executive Order 9387—Establishing an Advisory Board on Just Compensation and Prescribing Its Functions",
+  "date_iso": "1943-10-15",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-9387-establishing-advisory-board-just-compensation-and-prescribing-its",
+  "word_count": 432,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "The War Shipping Administration was established to insure the fullest utilization of our shipping facilities for the successful prosecution of the war. Substantially all the vessels of the United States Merchant Marine, including many fishing boats and other small craft, have been requisitioned by the United States through the Administrator, War Shipping Administration. In some cases this requisition was only of the use of the vessel, in others it included full title. In determining the amount of just compensation which the United States is required to pay under applicable statutes, numerous questions of fact and law must be solved. By obtaining guidance in these matters, the operations of the War Shipping Administration will be greatly facilitated and the determination of the proper compensation to be paid for individual vessels will be more speedily accomplished.\nNow, Therefore\n, by virtue of the authority vested in me by the Constitution and the statutes and particularly by the First War Powers Act, 1941, as President of the United States and Commander in Chief of the Army and Navy, it is hereby ordered as follows:\n1. There is hereby established a Board, to be known as the Advisory Board on Just Compensation (hereinafter referred to as the Board), whose composition, powers, functions and responsibilities are defined herein.\n2. The Board shall consist of the following members: Judge Learned Hand, Judge John J. Parker, and Judge Joseph C. Hutcheson, Jr. The members of the Board shall serve for a period of three months or for such lesser period of time as may be required for the completion of the Functions of the Board as set forth in paragraph 4 of this order.\n3. The Board shall be furnished by the War Shipping Administration with such professional, technical, clerical, stenographic and other personnel as may be selected by the Board to assist it in carrying out its functions.\n4. The Board, in accordance with the applicable provisions of the Constitution and the laws of the United States, shall establish fair and equitable standards, rules and formulae of general applicability for the guidance of the War Shipping Administration in determining the just compensation to be paid for all vessels requisitioned, purchased, chartered or insured by the Administration. The Board may prescribe such rules, regulations and procedures as it deems necessary or advisable in carrying out its functions.\n5. In determining the amount of just compensation which should be paid for each vessel, the War Shipping Administration will be guided by the General standards, rules and formulae established by the Board.\nFRANKLIN D ROOSEVELT\nThe White House,\nOctober 15, 1943.",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

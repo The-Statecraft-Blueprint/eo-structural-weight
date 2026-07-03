@@ -1,0 +1,105 @@
+{
+  "_instructions": "Fill in status, points, and justification for each flag. See CODING_PROMPT in create_coding_template.py for full instructions. Set coder_id before returning. Remove _instructions and _eo_text if returning to a context with limited token budget (keep the metadata).",
+  "eo_number": "12864",
+  "title": "Executive Order 12864—United States Advisory Council on the National Information Infrastructure",
+  "date_iso": "1993-09-15",
+  "president": "William J. Clinton",
+  "congress_number": 103,
+  "source_url": "https://www.presidency.ucsb.edu/documents/executive-order-12864-united-states-advisory-council-the-national-information",
+  "word_count": 594,
+  "coder_id": "",
+  "coded_date": "2026-07-03",
+  "_eo_text": "By the authority vested in me as President by the Constitution and the laws of the United States of America, including the Federal Advisory Committee Act, as amended (5 U.S.C. App. 2) (\"Act\"), and section 301 of title 3, United States Code, it is hereby ordered as follows:\nSection 1. Establishment. (a) There is established in the Commerce Department the \"United States Advisory Council on the National Information Infrastructure\" (\"Council\"). The Council shall consist of not more than 25 members to be appointed by the Secretary of Commerce (\"Secretary\").\n(b)\nThe Secretary shall appoint from among the members of the Council officials to serve as chairperson(s) or vice-chairperson(s) of the Council as he shall deem appropriate.\nSec. 2. Functions. (a) The Council shall advise the Secretary on matters related to the development of the National Information Infrastructure. The National Information Infrastructure shall be the integration of hardware, software, and skills that will make it easy and affordable to connect people with each other, with computers, and with a vast array of services and information resources.\n(b)\nThe Council shall advise the Secretary on a national strategy for promoting the development of a National Information Infrastructure. Issues that the Council may address include, but are not limited to:\n(1)\nthe appropriate roles of the private and public sectors in developing the National Information Infrastructure;\n(2)\na vision for the evolution of the National Information Infrastructure and its public and commercial applications;\n(3)\nthe impact of current and proposed regulatory regimes on the evolution of the National Information Infrastructure;\n(4)\nnational strategies for maximizing the benefits of the National Information Infrastructure, as measured by job creation, economic growth, increased productivity, and enhanced quality of life;\n(5)\nnational strategies for developing and demonstrating applications in areas such as electronic commerce, agile manufacturing, life-long learning, health care, government services, and civic networking;\n(6)\nnational security, emergency preparedness, system security, and network protection implications;\n(7)\nnational strategies for maximizing interconnection and inter-operability of communications networks;\n(8)\ninternational issues associated with the National Information Infrastructure;\n(9)\nuniversal access; and\n(10)\nprivacy, security, and copyright issues.\n(c)\nThe chairperson(s) may, from time to time, invite experts to submit information to the Council and may form subcommittees of the Council to review specific issues.\nSec. 3. Administration. (a) The heads of executive agencies shall, to the extent permitted by law, provide to the Council such information as it may require for the purpose of carrying out its functions.\n(b)\nMembers of the Council shall serve without compensation but shall be allowed travel expenses, including per diem in lieu of subsistence, as authorized by law, including 5 U.S.C. 5701–5707 and section 7(d) of the Act, for persons serving intermittently in government service.\n(c)\nThe Department of Commerce shall provide the Council with administrative services, facilities, staff, and other support services necessary for the performance of its functions.\nSec. 4. General. (a) Notwithstanding any other Executive order, the functions of the President under the Act that are applicable to the Council, except that of reporting to Congress, shall be performed by the Secretary in accordance with guidelines that have been issued by the Administrator of General Services.\n(b)\nThe Council shall exist for a period of two years from the date of this order, unless the Council’s charter is subsequently extended prior to the aforementioned date.\n(c)\nMembers of the Council and its subcommittee shall not be considered special government employees for any purpose or for purposes of 18 U.S.C. 201–203, 205, 207–209, and 218–219.\nWilliam J. Clinton\nTHE WHITE HOUSE,\nSeptember 15, 1993.",
+  "flags": [
+    {
+      "flag_number": 1,
+      "flag_name": "Power Concentration",
+      "_definition": "Does the EO pool decision authority in a single position or body without meaningful external accountability?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 2,
+      "flag_name": "Accountability Gaps",
+      "_definition": "Is it clear who is responsible when this fails? Are there mechanisms to hold implementing actors to account?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 3,
+      "flag_name": "Bundling",
+      "_definition": "Does the EO bundle unrelated policy mechanisms (remedy bundling) or multiple distinct problem frames (frame bundling)?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 4,
+      "flag_name": "Vague Enforcement",
+      "_definition": "Are enforcement triggers, responsible actors, standards of conduct, and consequences defined clearly enough for consistent application?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 5,
+      "flag_name": "Perverse Incentives",
+      "_definition": "Does the design reward the wrong behavior? Does it create incentive for rational actors to undermine the stated purpose? [Sub-flag: Zombie Emergency Trap — does an emergency invocation create incentive to never resolve the emergency?]",
+      "status": "",
+      "points": null,
+      "justification": "",
+      "sub_flag_fired": false
+    },
+    {
+      "flag_number": 6,
+      "flag_name": "Sunset Provisions",
+      "_definition": "Is there a review mechanism, renewal requirement, or expiration? Note: this flag fires when sunsetting is ABSENT. A clean sunset scores ABSENT.",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 7,
+      "flag_name": "Preemption of Oversight",
+      "_definition": "Does the EO reduce or eliminate existing oversight mechanisms — judicial review, IG access, notice-and-comment, congressional reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 8,
+      "flag_name": "Third-Party Incentive Gaps",
+      "_definition": "Is there any actor outside the regulated party with standing AND incentive to surface non-compliance? Or does enforcement depend on self-reporting?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 9,
+      "flag_name": "Second/Third-Order Effects",
+      "_definition": "What does this EO enable, legitimize, or foreclose beyond its stated purpose? Does it make the underlying problem harder to address on a future pass?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 10,
+      "flag_name": "Inter-Agency Cannibalization",
+      "_definition": "Does the EO redirect, override, or conflict with an existing agency's statutory mandate? Does it create jurisdictional friction between agencies?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    },
+    {
+      "flag_number": 11,
+      "flag_name": "Exemptions Architecture",
+      "_definition": "Do the EO's exemptions, waivers, or carve-outs systematically undermine its stated purpose — through breadth, unconstrained discretion, or easy-to-satisfy triggers?",
+      "status": "",
+      "points": null,
+      "justification": ""
+    }
+  ],
+  "notes": ""
+}

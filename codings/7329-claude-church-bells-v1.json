@@ -14,16 +14,16 @@
     {
       "flag_number": 1,
       "flag_name": "Power Concentration",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "The order authorizes expenditure of a fixed $30,000 appropriation for a specific, named parcel; the Secretary of the Interior's discretion to designate an implementing agency is implementation-level administration of a fixed-purpose, fixed-amount appropriation, not the open-ended policy-making authority the flag targets."
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "The Secretary of the Interior's discretion to designate an implementing agency is real but narrow and bounded \u2014 tied to a fixed $30,000 appropriation and a specific named parcel, not open-ended policy-making authority. Corrected 2026-07-04 from an original NOT_APPLICABLE mislabel: the operational test is answerable here (minor, bounded discretion exists and was assessed), so the correct status is ABSENT per the v1.1 NA-vs-ABSENT clarification."
     },
     {
       "flag_number": 2,
       "flag_name": "Accountability Gaps",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "A single, discrete, fully-specified transaction (acquire the named Crater property parcel) with no ongoing program or discretionary implementation window in which responsibility could become unclear."
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "A single, discrete, fully-specified transaction with a clear implementation chain (ECW Director -> Interior -> NPS Director requisition) \u2014 responsibility is traceable, not unclear. Corrected 2026-07-04 from an original NOT_APPLICABLE mislabel: the accountability question is answerable here (chain is clear), so the correct status is ABSENT per the v1.1 NA-vs-ABSENT clarification."
     },
     {
       "flag_number": 3,

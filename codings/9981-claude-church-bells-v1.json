@@ -55,9 +55,9 @@
     {
       "flag_number": 7,
       "flag_name": "Preemption of Oversight",
-      "status": "NOT_APPLICABLE",
-      "points": null,
-      "justification": "Does not preempt existing oversight; creates a new oversight mechanism."
+      "status": "ABSENT",
+      "points": 0,
+      "justification": "Does not preempt existing oversight; creates a new oversight mechanism (the Committee) alongside whatever oversight already existed. Corrected 2026-07-04 from an original NOT_APPLICABLE mislabel: the operational test ('does the instrument reduce or eliminate existing oversight') is directly answerable here (no), so the correct status is ABSENT per the v1.1 NA-vs-ABSENT clarification in church-bells-flags-canonical.md."
     },
     {
       "flag_number": 8,

@@ -1,0 +1,27 @@
+{
+  "eo_number": "11982",
+  "title": "Executive Order 11982\u2014Committee on Selection of the Director of the Federal Bureau of Investigation",
+  "date_iso": "1977-04-29",
+  "president": "Jimmy Carter",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 130,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A narrow, technical extension of a reporting deadline for an existing selection committee."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear, specific new deadline (June 11, 1977) and a defined deliverable (five named candidates)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A deadline extension, not a compliance regime."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A time-limited extension of an already time-bound committee's deadline."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, technical deadline extension for a committee whose underlying structure (a defined selection process rather than direct presidential appointment) is itself notable, though not established by this specific order."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/10 = 0.0%. Historically connective: this committee, established shortly after Carter took office, was the direct institutional response to concerns about indefinite FBI Director tenure that this project flagged for EO 11154 (J. Edgar Hoover's 1964 indefinite retirement exemption) \u2014 it produced the structured process that led to William Webster's appointment. This specific order, however, is a narrow deadline extension and does not itself establish the selection structure."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "12028",
+  "title": "Executive Order 12028\u2014Executive Office of the President (Office of Administration)",
+  "date_iso": "1977-12-12",
+  "president": "Jimmy Carter",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 1200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Sec. 4(b) explicitly states the Director 'shall not be accountable for the program and management responsibilities of units' within the EOP, which remain with each unit's own head \u2014 a real, protective limiting clause bounding the consolidation to administrative support only."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear, specific reorganization implementing a named Reorganization Plan with defined effective dates."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related administrative functions (personnel, finance, IT, records, office services) all coherently serve one purpose: administrative consolidation."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "An internal administrative-consolidation order, not a compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing administrative-support function, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 5 explicitly excludes functions vested by law in the head of any unit, a real, protective carve-out preserving other units' statutorily-vested authorities."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "An internal administrative reorganization with no third-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes the Office of Administration within the Executive Office of the President, a lasting institutional structure that persisted for over three decades."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Careful, explicit limiting clauses (Secs. 4(b) and 5) avoid overreach into other units' program and statutory authorities."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/12 = 8.3%. Part of President Carter's 1977-78 Executive Office reorganization (Reorganization Plan No. 1 of 1977); the resulting Office of Administration remained part of the EOP structure for decades."
+}

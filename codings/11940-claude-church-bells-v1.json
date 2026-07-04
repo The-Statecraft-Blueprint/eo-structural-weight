@@ -1,0 +1,27 @@
+{
+  "eo_number": "11940",
+  "title": "Executive Order 11940\u2014Continuing the Regulation of Exports",
+  "date_iso": "1976-09-30",
+  "president": "Gerald R. Ford",
+  "congress_number": 94,
+  "source_url": "",
+  "word_count": 600,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Continuation of export-control authority rests entirely with the executive under emergency powers 'notwithstanding the expiration' of its original statutory basis, consistent with EO 11796, EO 11810, and EO 12730."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No reporting, review, or congressional-approval mechanism exists to justify continued reliance on a lapsed statute."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "PRESENT", "points": 1, "justification": "The preamble stacks three distinct rationale frames \u2014 national security vigilance, foreign policy, and domestic economic protection \u2014 under one continuation action, identical in structure to the rest of this chain."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The operative enforcement mechanics are precisely anchored to existing, specific, published CFR provisions."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "CRITICAL", "points": 2, "justification": "Zombie Emergency Trap sub-flag fires: 'Notwithstanding the expiration of the Export Administration Act of 1969' (Sec. 1) makes termination purely presidential. This order's own citation chain (EO 11533 of 1970, continued by EO 11683 of 1972, EO 11798 and EO 11818 of 1974, amended by EO 11907 of March 1976) confirms this is part of the same unbroken continuation sequence already tracked through EO 11796 and EO 11810, now shown to run continuously from at least 1970 through this order in 1976 \u2014 predating the eventual 1985 reauthorization (EO 12525) by nine years.", "sub_flag_fired": true},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "CRITICAL", "points": 2, "justification": "No independent review mechanism exists, and unlike the later EO 12730 (1990), this order does not even include aspirational 'intention to terminate' language \u2014 no self-aware acknowledgment of the arrangement's intended temporariness appears anywhere in the text."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "CRITICAL", "points": 2, "justification": "'Notwithstanding the expiration of the Export Administration Act of 1969' directly substitutes unilateral executive continuation for a lapsed statutory authorization-and-oversight framework Congress designed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external actor has standing or a specified mechanism to challenge the continued reliance on lapsed statutory authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "This is the fourth confirmed instance of this exact continuation mechanism in the corpus, and chronologically the earliest found so far after the original 1974 pair, establishing that the pattern operated continuously across at least fifteen years (1970-1985) before any durable congressional reauthorization."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "No other agency's mandate is redirected; the order preserves the existing administrative structure."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "No new exemption architecture is created beyond what is inherited from the continuing regulations."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 12/22 = 54.5% \u2014 numerically identical to EO 11796, EO 11810, and EO 12730. This is a valuable internal-consistency data point: four independent codings of structurally near-identical text, spanning 1974 to 1990 and two different presidents in between, produce the exact same score each time. Substantively, this order's own citation chain closes a gap in the timeline of this pathology: the chain ran continuously from EO 11533 (1970) through this order (1976) and beyond, meaning the 'Zombie Emergency Trap' identified in this corpus was not an isolated 1974 episode but a genuinely persistent, multi-administration structural feature lasting roughly fifteen years before Congress passed a durable reauthorization."
+}

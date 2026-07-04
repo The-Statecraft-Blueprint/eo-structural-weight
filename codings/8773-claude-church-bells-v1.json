@@ -1,0 +1,27 @@
+{
+  "eo_number": "8773",
+  "title": "Executive Order 8773\u2014Authorizing and Directing the Secretary of War to Take Possession of and Operate the Inglewood Plant of North American Aviation, Inc.",
+  "date_iso": "1941-06-09",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Secretary of War is authorized to take possession, operate the plant 'through such person or persons as he may designate,' and 'do all things necessary or incidental thereto' \u2014 broad, largely unchecked operational authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Termination occurs when the President determines the plant 'will be privately operated in a manner consistent with the needs of the national defense' \u2014 an entirely self-assessed standard with no independent review and no outer time bound."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: seizure of this one plant to resolve this one labor dispute and resume production."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'To do all things necessary or incidental thereto' is an open-ended operational standard with no defined limits."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable. Sub-flag does not apply \u2014 the seizure is a discrete, strike-specific intervention terminating on its own resolution, not an authority whose continuation depends on perpetuating the cited national emergency.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Termination is governed entirely by presidential self-assessment with no outer time bound \u2014 a genuine, unaddressed review gap for what is explicitly a temporary labor-dispute intervention, not an evergreen policy."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The strike itself, not this order, disrupted the ongoing National Defense Mediation Board process; the order responds to an already-stalled mediation, it does not bypass it."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external party has a specified role in checking whether or when the plant should be returned to private operation \u2014 purely presidential self-assessment."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "One of the first major WWII-era federal seizures of a private plant to resolve a labor dispute framed as a national-security necessity \u2014 sets a significant precedent for this mode of federal intervention that recurs repeatedly later in the corpus (see EO 9540, EO 9570)."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Secretary of War exercises seizure authority directly; no other agency's operational mandate is redirected."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/20 = 30.0%. A well-known historical seizure (the Inglewood/North American Aviation strike-breaking order); structurally similar to the later labor-dispute seizure orders in this corpus (EO 9540, EO 9570)."
+}

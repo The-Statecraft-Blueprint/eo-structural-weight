@@ -1,0 +1,27 @@
+{
+  "eo_number": "8683",
+  "title": "Executive Order 8683\u2014Establishing Naval Defensive Sea Areas Around and Naval Airspace Reservations Over the Islands of Rose, Tutuila, and Guam",
+  "date_iso": "1941-02-14",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 340,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Secretary of the Navy is authorized to prescribe regulations and grant entry authorizations \u2014 real regulatory discretion, though narrow and standard for a military security-zone designation of this era."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A single named official (Secretary of the Navy) is clearly responsible for enforcement and regulation."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: establishing security zones around three named islands."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Penalties are specifically cross-referenced to existing statutes (Criminal Code \u00a744 for sea-area violations, the Civil Aeronautics Act for airspace violations), and the trigger (unauthorized entry) is clearly defined."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "No emergency declaration is cited as the basis for this order (it relies on standing Criminal Code and Air Commerce Act authority); a standing military security-zone designation of this kind is evergreen by nature, not an emergency measure requiring periodic reauthorization."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Enforcement explicitly includes 'the cooperation of the local law enforcement officers of the United States' \u2014 a real, named enforcement partner beyond self-policing by the Navy alone."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A standard, narrow military security-zone designation, consistent with established practice for the era; no novel precedent identifiable from the text."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The local law enforcement cooperation clause is a coordination request, not a redirection of another agency's mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The exception for U.S. public vessels/aircraft is narrow and does not undermine the security zone's purpose."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/22 = 4.5%. A clean, well-defined order."
+}

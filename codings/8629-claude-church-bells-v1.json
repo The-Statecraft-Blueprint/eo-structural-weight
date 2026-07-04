@@ -1,0 +1,27 @@
+{
+  "eo_number": "8629",
+  "title": "Executive Order 8629\u2014Establishing the Office of Production Management in the Executive Office of the President and Defining Its Functions and Duties",
+  "date_iso": "1941-01-07",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 950,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "While the formal 'Office' has four members, operational authority to 'discharge and perform the administrative responsibilities' (Sec. 3) rests with just the Director General and Associate Director General, granted power to 'formulate and execute in the public interest all measures needful and appropriate' \u2014 broad and open-ended, with no external check named."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The Director General answers to the President, and Sec. 5's Priorities Board provides a real internal review function with specified considerations ('general social and economic considerations and the effect... upon the civilian population') \u2014 a genuine, if internal, accountability structure."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Many sub-functions are listed but all serve one coherent purpose: defense production mobilization and coordination."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This order establishes OPM's functions; it does not itself create enforcement standards against private third parties, which would come from OPM's own subsequent orders."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "The compliance regime this body will administer is not yet operative in this establishing order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Authority is explicitly tied to 'the national emergency as declared by the President... on September 8, 1939,' with no reauthorization or review mechanism despite being emergency-contingent authority \u2014 the kind of authority that should have a natural end tied to the emergency's resolution."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 7 revokes two prior executive orders (8572, 8612) as part of reorganizing the same function into this new body \u2014 restructuring, not removal of external oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No direct third-party-facing compliance regime is established by this organizational order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a major coordinating body with sweeping authority over national production and materials \u2014 an institutional precedent and structural template for the wartime economic-mobilization apparatus that follows (WPB and successors)."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Secretaries of War and Navy are explicit participating members rather than agencies whose mandates are redirected; the Selective Training and Service Act authority transferred (Sec. 2h) comes from the President's own office, not from another agency."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created by this organizational order."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/14 = 21.4%."
+}

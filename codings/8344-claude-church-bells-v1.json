@@ -1,0 +1,27 @@
+{
+  "eo_number": "8344",
+  "title": "Executive Order 8344\u2014Withdrawal of Public Land for Classification\u2014Alaska",
+  "date_iso": "1940-02-10",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 76,
+  "source_url": "",
+  "word_count": 220,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A self-executing land withdrawal under existing Pickett Act authority; no ongoing discretionary authority is exercised by any official."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A single, discrete withdrawal action with no ongoing program in which responsibility could become unclear."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: withdrawal of the named acreage for classification."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "The order changes land status; it does not itself create a new compliance regime, relying instead on the pre-existing general public-land-law framework for administration."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "The withdrawal is explicitly 'for classification and in aid of legislation' \u2014 a stated temporary, pending purpose \u2014 yet continues 'until revoked by the President or by act of Congress' with no review point or deadline tied to the classification process it exists to serve."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order explicitly preserves 'all valid existing rights and... all existing withdrawals and reservations made for public purposes' \u2014 no existing oversight or right is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime with a regulated party is created by this land-status action."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A large but routine application of the well-established Pickett Act withdrawal-for-classification mechanism, referenced in the text as one of several 'existing withdrawals' \u2014 not a novel precedent."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The order carves out approximately 570 of 2,500,000 acres via named, specific surveys \u2014 narrow and clearly bounded, not broad enough to undermine the withdrawal's purpose."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/14 = 7.1%."
+}

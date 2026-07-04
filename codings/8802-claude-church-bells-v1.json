@@ -1,0 +1,27 @@
+{
+  "eo_number": "8802",
+  "title": "Executive Order 8802\u2014Reaffirming Policy of Full Participation in the Defense Program by All Persons, Regardless of Race, Creed, Color, or National Origin, and Directing Certain Action in Furtherance of Said Policy",
+  "date_iso": "1941-06-25",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 350,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The five-member Committee on Fair Employment Practice 'shall take appropriate steps to redress grievances which it finds to be valid' (Sec. 3) \u2014 real, if collectively exercised, discretion over what counts as an appropriate remedy, with no external check on that judgment."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "The 'duty' of employers and labor organizations not to discriminate has no specified penalty or consequence for non-compliance beyond the Committee's undefined 'appropriate steps.'"},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: non-discrimination in defense employment."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Appropriate steps to redress grievances' (Sec. 3) is undefined \u2014 no specified remedy, penalty, or enforcement mechanism against a non-compliant employer or labor organization."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "Unlike EO 9981's later 'as rapidly as possible... without impairing efficiency or morale' clause, this order's non-discrimination mandate is stated directly and unconditionally, with no comparable delay-justifying escape valve.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Permanence carve-out applies: ending employment discrimination has no natural end-state that would make continued authority inappropriate \u2014 evergreen by nature, consistent with the same finding for EO 9981."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Creates a new investigatory and complaint-redress mechanism; removes no existing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The Committee's complaint-receiving function (Sec. 3) gives individual workers a channel to surface violations, unlike orders with no analogous third-party-facing mechanism."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The foundational precedent for the federal fair-employment-practice model, direct precursor to EO 9981's nearly identical advisory-committee structure seven years later \u2014 the weak-enforcement template (investigation and 'appropriate steps' rather than defined penalties) persists across that gap uncorrected."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Committee is established within the Office of Production Management (created the same year by EO 8629) by design, not by redirecting another agency's existing mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "No coverage exemptions undermining the non-discrimination policy are identifiable."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 4/22 = 18.2%. Direct historical precursor to EO 9981 (Truman, 1948); scores lower than 9981 (27.3%) because it lacks an equivalent Flag 5 finding and has a slightly stronger third-party complaint channel, despite being the more historically foundational order of the two."
+}

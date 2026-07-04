@@ -1,0 +1,27 @@
+{
+  "eo_number": "8785",
+  "title": "Executive Order 8785\u2014Regulating Transactions in Foreign Exchange and Foreign-Owned Property, Providing For the Reporting of All Foreign-Owned Property, and Related Matters",
+  "date_iso": "1941-06-14",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 2100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Sec. 7: 'the decision of the Secretary with respect to the granting, denial, or other disposition of an application or license shall be final' \u2014 explicit, unreviewable individual discretion over licensing decisions with real property and (per Sec. 8) criminal-liability consequences. This serves rather than defeats the order's stated national-security purpose, so PRESENT rather than CRITICAL per the calibration anchor."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "The Secretary's licensing decisions are final with no internal or external review process specified."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Extensive technical detail, but all provisions serve one coherent regulatory scheme: foreign-exchange and foreign-property control for national security."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The order is unusually detailed and specific overall, but Sec. 5(E)(iv) extends 'national' coverage to 'any other person who there is reasonable cause to believe is a national' \u2014 an elastic, self-administered standard letting the same official who enforces the order also expand who is covered by it."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's sanctions-enforcement purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Explicitly invoked during 'a period of unlimited national emergency'; Sec. 9 allows the order to be amended or revoked at any time, but this is a revisability clause, not a review or reauthorization requirement tied to resolution of the underlying emergency with each named country."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Establishes a new regulatory scheme under existing TWEA \u00a75(b) authority; does not remove any pre-existing external oversight mechanism."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Given the Secretary's licensing decisions are final (Sec. 7), no external party \u2014 judicial or otherwise \u2014 is positioned to check individual applications of this sweeping authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The 'national' and 'foreign country' definitions (Sec. 5) use expansive, open-ended 'including but not limited to' language and delegate ongoing coverage-determination authority to the Secretary \u2014 a textually broad, reusable authority claim independent of this order's specific wartime context."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4(A) names the Attorney General alongside the Secretary of the Treasury in a coordinated, parallel investigative role \u2014 designed cooperation, not a redirection of DOJ's mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Licensing operates as a narrow, case-by-case exception requiring affirmative Treasury approval against a default of prohibition \u2014 the opposite of a broad carve-out that swallows the rule."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/22 = 27.3%. This order is a foundational predecessor to the modern U.S. economic sanctions (OFAC) architecture and reads as historically significant, but scores moderate, sub-threshold structural weight \u2014 its unusual specificity forecloses most vague-enforcement findings, and its concentration of authority serves rather than undermines its stated purpose (no CRITICAL findings). A clean illustration of the scheme's design principle that structural weight and historical/political significance are distinct measures."
+}

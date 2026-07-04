@@ -1,0 +1,27 @@
+{
+  "eo_number": "9621",
+  "title": "Executive Order 9621\u2014Termination of the Office of Strategic Services and Disposition of Its Functions",
+  "date_iso": "1945-09-20",
+  "president": "Harry S. Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 680,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Secretaries of State and War have wind-down discretion over an explicitly temporary interim body, not ongoing operational concentration."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear chain of responsibility with a specific, dated termination milestone (December 31, 1945) for the interim Service."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Splitting OSS functions between State (intelligence/research) and War (remaining functions) is one coherent reorganization action."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "An internal government reorganization, not a third-party compliance regime."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "The Interim Research and Intelligence Service is explicitly 'abolished as of the close of business December 31, 1945' (Sec. 2) \u2014 a clean, explicit termination date."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "An internal reorganization with no third-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "The order's text is narrowly scoped and explicitly self-terminating; its later historical role as the institutional precursor to the CIA came through separate legislative action two years afterward, not through authority claimed in this text."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "OSS functions are carefully, explicitly divided between State and War Departments with specific criteria for each."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/12 = 0.0%. The Interim Research and Intelligence Service created here at State became the institutional seed of the CIA's analytical function, but this order's own text is narrowly and explicitly self-terminating \u2014 consistent with the methodology's principle of scoring the text, not later historical significance."
+}

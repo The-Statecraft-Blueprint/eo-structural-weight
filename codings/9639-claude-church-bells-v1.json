@@ -1,0 +1,27 @@
+{
+  "eo_number": "9639",
+  "title": "Executive Order 9639\u2014Authorizing the Secretary of the Navy to Take Possession of and Operate Certain Plants and Facilities Used in the Transportation, Refining and Processing of Petroleum and Petroleum Products",
+  "date_iso": "1945-10-04",
+  "president": "Harry S. Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 1200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad, open-ended authority ('in any manner that he deems necessary') applied across dozens of named companies spanning the entire national petroleum refining, transportation, and pipeline industry \u2014 the largest-scale application of this authority type in the corpus, though the same concentration serves rather than defeats the order's stated purpose."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 7 sets a concrete cap: termination 'in no event more than sixty days after' productive efficiency is restored, for each plant or facility individually."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Despite covering dozens of distinct companies, this is one coherent action addressing a single nationwide labor disruption in one industry."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Sec. 3 requires operation under 'terms and conditions of employment which are lawfully in effect at the time possession... is taken' \u2014 a real status-quo constraint."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "PRESENT", "points": 1, "justification": "Sec. 5 authorizes FBI investigation of 'any matter affecting the operation' of the seized facilities upon the Secretary's request, with no defined standard \u2014 the same open-ended concern found in EO 9595, now applicable across an entire national industry rather than one company."},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "The 60-day cap in Sec. 7 is a genuine, explicit termination trigger."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No judicial-process-blocking or similar oversight-removal language is present."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The 60-day cap and status-quo-employment-terms requirement provide real, checkable constraints on the core seizure authority; the FBI-investigation concern is captured under Flag 5."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This order applies the established seizure template at a dramatically larger scale than any prior instance in this corpus \u2014 an entire national industry seized simultaneously \u2014 a meaningful precedent for the scale at which this authority can be invoked in a single instrument."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 6's cooperation directive spans six federal agencies but is framed as support for the Secretary's exercise of authority, not a redirection of any of their own mandates."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/20 = 15.0%. The largest-scale seizure order in this corpus by far (dozens of companies, entire national petroleum industry), yet scores similarly to single-company seizures with comparable design features \u2014 scale alone does not drive structural weight, design does; the scale itself is credited only under Flag 9's second-order-effects finding."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "9661",
+  "title": "Executive Order 9661\u2014Possession, Control, and Operation of the Transportation System, Plants, and Facilities of the Great Lakes Towing Company, Cleveland, Ohio",
+  "date_iso": "1945-11-29",
+  "president": "Harry S. Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 600,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Director of the Office of Defense Transportation is authorized to operate the seized system 'in such a manner as he may deem necessary' \u2014 broad, open discretion with no external check."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Sec. 4: possession terminates 'when he determines that such possession... are no longer necessary' \u2014 self-assessed, with no outer time bound, unlike several sibling seizure orders in this corpus with explicit 60-day caps."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: seizure of this one company's transportation system."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Sec. 2 requires operation under 'terms and conditions of employment in effect at the time possession is taken' \u2014 a real status-quo constraint."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No outer time bound; termination rests entirely on the Director's own self-assessment, consistent with the Flag 2 finding."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "CRITICAL", "points": 2, "justification": "Sec. 3 explicitly blocks ordinary judicial process: 'Except with the prior written consent of the Director, no attachment by mesne process, garnishment, execution, or otherwise shall be levied' \u2014 the same affirmative closure of legal remedy pathways already established as CRITICAL in EO 9570 and EO 9341."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Combined with the judicial-process block (Flag 7) and the absence of any outer time bound (Flag 2/6), no external party has any meaningful avenue to check this seizure's exercise or duration."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "By November 1945 this specific pattern, including the mesne-process-blocking clause, is an established, repeated template (see EO 9341, EO 9570) rather than a novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 6's request-based cooperation with the Secretary of the Navy for protection and resources is coordination, not mandate redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/20 = 30.0%. Notably less protective than its better-designed sibling seizure orders (e.g. EO 9474, EO 9639) \u2014 no 60-day cap, and shares the judicial-process-blocking clause with EO 9341 and EO 9570."
+}

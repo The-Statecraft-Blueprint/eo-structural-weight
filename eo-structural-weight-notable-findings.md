@@ -60,6 +60,7 @@ Explicitly out of scope here: anything framed in terms of the gridlock/book hypo
 | 10521 | 1954 | 8.3% | Negative | A | Establishes NSF's coordinating role over all federal science policy — foundational to the modern federal science-funding apparatus |
 | 10560 | 1954 | 8.3% | Negative | A | Implements PL-480, "Food for Peace" — one of the most consequential agricultural/foreign-aid programs in U.S. history |
 | 11126 | 1963 | 8.3% | Negative | A | JFK's last substantive domestic order (3 weeks before his assassination) — the institutional follow-through on the Commission on the Status of Women, direct groundwork for the Equal Pay Act and Title VII |
+| 12318 | 1981 | 8.3% | Negative | A | Foundational statutory establishment of OIRA within OMB — one of the most consequential and enduring institutions in the modern federal regulatory process |
 
 The scoring scheme's design principle — "an EO transferring enormous authority cleanly... could score very low structural weight while being politically significant, and that's correct, not a flaw" — keeps showing up empirically, not just as a theoretical possibility:
 

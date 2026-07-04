@@ -1,0 +1,27 @@
+{
+  "eo_number": "11636",
+  "title": "Executive Order 11636\u2014Employee-Management Relations in the Foreign Service of the United States",
+  "date_iso": "1971-12-17",
+  "president": "Richard Nixon",
+  "congress_number": 92,
+  "source_url": "",
+  "word_count": 4200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Employee-Management Relations Commission is a multi-member, cross-agency body (Labor, Civil Service Commission, OMB) with a formal appeal structure to the Board, and grievance/disputes panels include public members \u2014 genuinely distributed."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "An extensive, specific procedural structure (Board, Commission, Disputes Panel, Grievance panels) with defined roles and appeal rights."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "A comprehensive framework covering recognition, consultation, appeals, grievances, and unfair practices, all coherently serving one purpose: Foreign Service labor relations."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Sec. 3(b) allows agency heads to unilaterally suspend provisions of this Order 'in emergency situations' based on their own determination that this is 'necessary in the national interest,' with no further defined standard."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing, peacetime labor-relations framework, evergreen by nature, not tied to a resolvable emergency."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3(b)'s suspension power explicitly preserves employee access to grievance procedures even during a suspension \u2014 a deliberate limit protecting the most fundamental due-process channel."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The extensive public-membership requirement on grievance and disputes panels provides a genuine external, non-government check."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "This extends an already-established broader federal labor-relations framework (explicitly cross-referenced to EO 11491) to a specific workforce, rather than asserting a wholly novel authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 18 carefully and explicitly amends two existing related orders (EO 11491, EO 11264) to properly integrate Foreign Service coverage."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The 'management official' and 'confidential employee' exclusions from organizing rights are standard, narrow categories consistent with ordinary labor law, not a broad undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/22 = 4.5%. A comprehensive, well-designed labor-relations framework with genuine due-process protections throughout."
+}

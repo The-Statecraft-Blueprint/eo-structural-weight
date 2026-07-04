@@ -1,0 +1,27 @@
+{
+  "eo_number": "11512",
+  "title": "Executive Order 11512\u2014Planning, Acquisition, and Management of Federal Space",
+  "date_iso": "1970-02-27",
+  "president": "Richard Nixon",
+  "congress_number": 91,
+  "source_url": "",
+  "word_count": 1200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Sec. 2(b) provides a genuine appeal mechanism: an affected agency head disagreeing with the Administrator's determination may request review by the President through the Director of the Bureau of the Budget within thirty days."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Seven specific enumerated policy factors (Sec. 2(a)) guide decisions, combined with the appeal mechanism, provide real, checkable structure."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: federal space planning and management."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The seven enumerated guiding factors, while requiring judgment, are specific and are backstopped by the presidential appeal mechanism."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing administrative function (federal property management), evergreen by nature; this order itself supersedes a prior order (EO 11035), evidencing periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The presidential appeal mechanism is an added check, not a removal of an existing one."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The thirty-day appeal window with Bureau of the Budget review provides a real, if internal-to-government, external check on the Administrator's determinations."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, if comprehensive, administrative property-management framework; no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 2(a)(2) requires consultation with the Secretaries of HUD, HEW, and Commerce for site-selection factors \u2014 designed coordination, not conflict."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/20 = 0.0%. A well-designed order with a genuine, structured appeal-to-the-President mechanism for agency disagreements."
+}

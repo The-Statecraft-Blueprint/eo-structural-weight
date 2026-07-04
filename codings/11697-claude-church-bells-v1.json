@@ -1,0 +1,27 @@
+{
+  "eo_number": "11697",
+  "title": "Executive Order 11697\u2014Inspection by Department of Agriculture of Income Tax Returns Made Under the Internal Revenue Code of 1954 of Persons Having Farm Operations",
+  "date_iso": "1973-01-17",
+  "president": "Richard Nixon",
+  "congress_number": 93,
+  "source_url": "",
+  "word_count": 220,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A narrow, specific authorization for Agriculture to inspect certain tax data 'for statistical purposes only,' bounded by a cross-referenced Treasury Decision."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Compliance with the Secretary of the Treasury's specific rules and regulations is required, providing a real, cross-referenced compliance framework."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single, narrow purpose: inter-agency statistical data access."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Bounded by a specific referenced Treasury Decision with its own rules and 'for statistical purposes only' limitation."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "A government-to-government data-sharing arrangement, not a third-party compliance regime with an incentive structure.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing data-sharing arrangement for an ongoing statistical need, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This requires compliance with Treasury's own existing rules and regulations rather than bypassing them."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A government-to-government data-sharing arrangement with no obvious third-party monitor."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, technical inter-agency data-sharing arrangement; no broad authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Access is carefully bounded to occur within IRS premises under IRS/Treasury's own rules, not overriding IRS's mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Narrowly scoped to specific data, taxable years, and purpose, bounded by Treasury's existing regulatory framework \u2014 not a broad undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/18 = 0.0%."
+}

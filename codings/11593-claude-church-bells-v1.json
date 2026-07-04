@@ -1,0 +1,27 @@
+{
+  "eo_number": "11593",
+  "title": "Executive Order 11593\u2014Protection and Enhancement of the Cultural Environment",
+  "date_iso": "1971-05-13",
+  "president": "Richard Nixon",
+  "congress_number": 92,
+  "source_url": "",
+  "word_count": 1500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Sec. 2(b) requires agencies to refer questionable cases to the Secretary of the Interior for an opinion, and requires the Advisory Council on Historic Preservation be given an opportunity to comment before demolition or alteration of a qualifying property \u2014 a real, multi-layered review process."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Extensive, specific procedural requirements with concrete deadlines (July 1, 1973 for inventories; January 1, 1972 for maintenance procedures)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related sub-requirements (inventory, interim protection, documentation, maintenance standards) all coherently serve one purpose: historic preservation."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Appear to qualify,' 'reasonable period,' and 'questionable actions' leave genuine judgment calls even within the structured multi-step review process."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Permanence carve-out applies: historic preservation implements multiple permanent statutes and is evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This adds the Advisory Council review-and-comment step and Secretary of the Interior consultation requirement; no existing oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The Advisory Council on Historic Preservation, a body with its own separate statutory standing, provides a genuine external check before qualifying properties can be demolished or altered."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes durable federal historic-preservation review procedures that substantially persist in the modern Section 106 review process."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Careful, multi-agency coordination among Interior, the Advisory Council, and individual agencies with clearly defined, non-overlapping roles."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/20 = 10.0%. Establishes review procedures that substantially persist in the modern historic-preservation review process."
+}

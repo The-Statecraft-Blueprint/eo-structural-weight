@@ -1,0 +1,27 @@
+{
+  "eo_number": "11490",
+  "title": "Executive Order 11490\u2014Assigning Emergency Preparedness Functions to Federal Departments and Agencies",
+  "date_iso": "1969-10-28",
+  "president": "Richard Nixon",
+  "congress_number": 91,
+  "source_url": "",
+  "word_count": 12000,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Functions are distributed across twenty-nine separate departments and agencies, each assigned responsibilities within its own natural jurisdiction, rather than concentrated in a single official. The Director of the Office of Emergency Preparedness has a coordinating and evaluative role (Sec. 102(b), 103), but this is bounded and does not consolidate the distributed assignments."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 105 and Sec. 3011 both explicitly state that this order 'does not confer authority to put into effect any emergency plan' developed under it \u2014 actual implementation requires separate congressional or presidential authorization at the time of a real emergency. This express, twice-stated limitation is a significant structural safeguard, converting what would otherwise be sweeping operational authority into planning-only responsibility."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Dozens of distinct policy areas are covered, but each department's assignment is germane to its own existing jurisdiction and all serve one coherent overarching purpose: national emergency preparedness planning."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "Given the explicit planning-only limitation (Flag 2), there is no operative enforcement regime yet in effect to assess for vagueness."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No operative compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category strongly applies: the order's own preamble notes this planning activity 'has been an established program... for more than twenty years,' and Sec. 3015 revokes and consolidates over twenty prior orders, directly evidencing an established pattern of periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3014 explicitly preserves 'any now existing assignment of functions... made by statute, Executive order, or Presidential directives' \u2014 protective, not removing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "An internal government planning framework with no operative third-party compliance regime, per the planning-only limitation."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The sheer scale and comprehensiveness of this planning framework \u2014 spanning virtually the entire executive branch and covering scenarios up to and including nuclear attack \u2014 is itself a significant structural fact, even though the order's own text bounds its current legal effect to planning rather than operational authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Each of the twenty-nine parts is carefully scoped to one agency's own natural jurisdiction, and Sec. 3013 requires both mutual consent of the agencies involved and OEP Director concurrence for any function transfer \u2014 a deliberate, conflict-avoiding design."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "This assigns planning responsibilities rather than creating a regulated population with exemptions."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/14 = 7.1%. One of the longest and most comprehensive orders in the corpus \u2014 consolidating emergency preparedness planning across twenty-nine departments and agencies for contingencies up to nuclear attack \u2014 yet it scores very low because of an explicit, twice-stated limitation to planning authority only. Possibly the clearest illustration in the corpus that a real, specific self-limiting design feature can neutralize what would otherwise be an enormous concentration finding, regardless of the order's sheer scale."
+}

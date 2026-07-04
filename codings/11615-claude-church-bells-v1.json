@@ -1,0 +1,27 @@
+{
+  "eo_number": "11615",
+  "title": "Executive Order 11615\u2014Providing for Stabilization of Prices, Rents, Wages, and Salaries",
+  "date_iso": "1971-08-15",
+  "president": "Richard Nixon",
+  "congress_number": 92,
+  "source_url": "",
+  "word_count": 1200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Sec. 3(a) delegates 'all of the powers conferred on the President by the Economic Stabilization Act of 1970' to the newly-created Cost of Living Council, which is authorized to prescribe definitions, grant exemptions, and issue regulations largely on its own determination (Sec. 4(a))."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No review or appeal process is specified for individuals or businesses affected by Council determinations, despite the nationwide scope of the freeze on prices, rents, wages, and salaries."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: economy-wide price and wage stabilization."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The core freeze standard itself (Sec. 1(a)) is objective and reference-period-based, but Sec. 4(a)'s power to 'make exceptions or grant exemptions... as it determines to be necessary and appropriate' is open-ended with no defined criteria."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "PRESENT", "points": 1, "justification": "The undefined exemption-granting criteria (Flag 4) create a structural incentive for affected parties to seek exemptions from the Council rather than simply complying with the freeze."},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "The core freeze itself is explicitly limited to 90 days (Sec. 1(a)), but the broader delegation of Economic Stabilization Act powers to the Council (Sec. 3(a)) does not expire with it \u2014 Sec. 3(b) directs the Council to develop follow-on policies 'after the expiration of the 90-day period,' and this authority became the basis for the multi-phase wage-price control program that followed."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This exercises a specific, recent congressional delegation (the Economic Stabilization Act of 1970); no independent oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 3(c) requires the Council to consult with representatives of agriculture, industry, labor, and the public \u2014 a real, if general, stakeholder-input channel."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "One of the most historically significant peacetime economic interventions in U.S. history (part of the 'Nixon Shock'), establishing a broad, government-wide price and wage control mechanism with substantial precedent value for the multi-phase program that followed."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Council consolidates stabilization authority into one body, but the affected departments' own Secretaries (Treasury, Agriculture, Commerce, Labor) sit directly on the Council rather than being bypassed \u2014 a designed consolidation with their direct participation."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "Beyond the one specifically named exemption (raw agricultural products, Sec. 1(c)), Sec. 4(a) gives the Council open-ended authority to grant further exemptions with no defined criteria."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 7/22 = 31.8%. The famous Nixon 90-day wage-price freeze, part of the 'Nixon Shock.' Unlike several other historically major orders in this corpus, this one is both highly significant *and* genuinely structurally weighty \u2014 a useful counter-example to the divergence pattern, since not every consequential order turns out to be well-designed."
+}

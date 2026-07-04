@@ -1,0 +1,27 @@
+{
+  "eo_number": "11514",
+  "title": "Executive Order 11514\u2014Protection and Enhancement of Environmental Quality",
+  "date_iso": "1970-03-05",
+  "president": "Richard Nixon",
+  "congress_number": 91,
+  "source_url": "",
+  "word_count": 1600,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Council on Environmental Quality is a multi-member body established by the underlying statute (NEPA), and agency-facing requirements (Sec. 2) are reasonably specific rather than open-ended."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 2(d) requires agencies to report compliance-review findings to CEQ by a specific deadline (September 1, 1970)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple distinct agency responsibilities (monitoring, public information, data-sharing, statutory review) all coherently implement one statute, NEPA."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Fullest practicable provision' and 'as appropriate' give agencies real discretion over implementation intensity without a firm floor."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Permanence carve-out applies: environmental protection is an ongoing, permanent government function, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates new evaluation, public-participation, and reporting requirements; no existing oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 2(b) requires 'the fullest practicable provision of timely public information... including provision for public hearings' \u2014 a real, structural public-participation mechanism providing genuine external input into agency environmental decisions."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This implements NEPA and establishes what became the central, still-operating federal environmental review apparatus (including the Environmental Impact Statement process), with the order's own text claiming a broad, ongoing, government-wide mandate."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "CEQ's role is explicitly to coordinate existing agency functions, and Sec. 3(g) operates 'under the foreign policy guidance of the Secretary of State' for international matters \u2014 deferential, coordinated design."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/20 = 10.0%. Implements NEPA and establishes the Council on Environmental Quality's ongoing federal environmental review role \u2014 one of the most historically significant environmental-governance orders in the corpus, scoring low due to genuine public-participation and reporting safeguards."
+}

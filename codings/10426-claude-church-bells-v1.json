@@ -1,0 +1,27 @@
+{
+  "eo_number": "10426",
+  "title": "Executive Order 10426\u2014Setting Aside Submerged Lands of the Continental Shelf as a Naval Petroleum Reserve",
+  "date_iso": "1953-01-16",
+  "president": "Harry S. Truman",
+  "congress_number": 83,
+  "source_url": "",
+  "word_count": 600,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Sec. 1(b) explicitly limits the reservation to oil and gas only and states it 'shall not interfere with the use of the lands or waters within the reserved area for any lawful purpose not inconsistent with the reservation' \u2014 broad in geographic scope but narrow and bounded in purpose."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 3(b) provides specific financial-accounting provisions for a Treasury suspense account, subject to congressional direction."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related provisions (reservation, jurisdictional transfer, revocation of a predecessor order) all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This is a jurisdictional and administrative transfer, not a new substantive compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A permanent jurisdictional reservation, not a temporary-authority grant."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 2 explicitly preserves the existing operating stipulation from the ongoing United States v. State of California litigation \u2014 a careful preservation of a prior legal commitment rather than an override."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No new third-party compliance regime is created by this jurisdictional transfer."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This reassigns jurisdiction over the entire U.S. continental shelf's oil and gas resources from Interior to the Navy amid the major early-1950s federalism dispute over offshore ('tidelands') oil rights, issued four days before Eisenhower's inauguration and contemporaneous with Congress's own action on the Submerged Lands Act."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "A deliberate, explicit, well-documented functional transfer from Interior to Navy, not an ambiguous overlap."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/12 = 8.3%. Historically notable timing: issued during the final days of the Truman administration, in the midst of the major tidelands-oil federalism controversy that Congress and the incoming Eisenhower administration were simultaneously addressing through the Submerged Lands Act."
+}

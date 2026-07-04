@@ -1,0 +1,27 @@
+{
+  "eo_number": "10560",
+  "title": "Executive Order 10560\u2014Administration of the Agricultural Trade Development and Assistance Act of 1954",
+  "date_iso": "1954-09-09",
+  "president": "Dwight D. Eisenhower",
+  "congress_number": 83,
+  "source_url": "",
+  "word_count": 1000,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Functions are extensively distributed across Agriculture, the Foreign Operations Administration, State, Treasury, the Bureau of the Budget, Defense Mobilization, and Defense, each tied to specific statutory subsections."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 5 explicitly reserves congressional-reporting functions to the President rather than delegating them away."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Six distinct functional delegations all coherently implement one comprehensive statute."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A delegation-of-functions order implementing an existing statute, not creating new substantive standards."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing delegation for an ongoing statutory program."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3(b) explicitly subordinates all delegated functions to the Secretary of State's foreign-policy responsibilities, consistent with EO 10464's design."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No third-party compliance regime is created by this delegation order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Implements Public Law 480, the 'Food for Peace' program, one of the most historically significant agricultural and foreign-aid programs in U.S. history, shaping agricultural surplus policy and international food-security assistance for decades."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "An extensive but carefully coordinated, statute-anchored division of roles across many agencies."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/12 = 8.3%. Implements PL-480, a program of enormous and lasting historical significance, yet scores low due to extensive, careful, cross-agency-coordinated distribution of authority combined with an explicit reservation of congressional-reporting accountability and a foreign-policy cross-check \u2014 a third example this batch, alongside EO 10426 and EO 10521, of genuinely significant orders built with well-distributed, protective architecture."
+}

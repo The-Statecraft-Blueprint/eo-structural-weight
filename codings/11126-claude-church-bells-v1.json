@@ -1,0 +1,27 @@
+{
+  "eo_number": "11126",
+  "title": "Executive Order 11126\u2014Establishing a Committee and a Council Relating to the Status of Women",
+  "date_iso": "1963-11-01",
+  "president": "John F. Kennedy",
+  "congress_number": 88,
+  "source_url": "",
+  "word_count": 1000,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A broadly representative structure: a seven-member Cabinet-level interdepartmental Committee plus a seventeen-member Citizens' Advisory Council, both coordination-focused rather than concentrating operational authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 103 requires an annual consolidated report to the President covering both bodies' activities."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Two related bodies with explicit cross-information-sharing (Sec. 102(5)) coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "Coordination and advisory functions with no binding compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing coordination body for an ongoing policy concern, evergreen by nature, consistent with EO 9775."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates new coordination and advisory structures rather than removing any existing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "The seventeen-member Citizens' Advisory Council provides genuine, independent, non-governmental external input by design."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The direct institutional follow-through on the President's Commission on the Status of Women's landmark 1963 report, establishing lasting Cabinet-level coordination machinery that fed directly into subsequent employment-discrimination and civil-rights legislation."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Broad, flexible membership with provision for temporary participation by other relevant agency heads (Sec. 101(b)), a well-designed, non-conflicting structure."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/12 = 8.3%. Issued November 1, 1963, three weeks before President Kennedy's assassination \u2014 among his last substantive domestic-policy orders. Genuinely historically significant as the direct institutional follow-up to the Commission on the Status of Women (chaired by Eleanor Roosevelt), whose report helped lay groundwork for the Equal Pay Act and later Title VII protections, yet scores low due to its careful, coordination-focused, broadly representative design."
+}

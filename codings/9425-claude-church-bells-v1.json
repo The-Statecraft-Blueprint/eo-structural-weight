@@ -1,0 +1,27 @@
+{
+  "eo_number": "9425",
+  "title": "Executive Order 9425\u2014Establishing the Surplus War Property Administration",
+  "date_iso": "1944-02-19",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 780,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Administrator operates 'subject to the general supervision of the Director of War Mobilization' and with the assistance of a fourteen-agency Policy Board \u2014 a genuinely distributed, checked design."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear supervisory chain (Administrator to Director of War Mobilization) plus the broad-based Policy Board provide real internal accountability."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Many sub-functions across property types, but all coherently serve one purpose: surplus war property disposition."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'No Government agency shall transfer or dispose of surplus war property in contravention' of the Administrator's regulations (Sec. 4), which the Administrator has broad discretion to prescribe with no defined outer limits."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No review or reauthorization mechanism is specified despite the Administration's function being tied to the inherently temporary wartime-surplus/reconversion period."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 7's supersession of conflicting prior orders is standard housekeeping; no external oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The fourteen-agency Policy Board provides real, broad-based interagency input and oversight into the Administration's operations."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Sec. 3 allows the Administration to 'also' exercise disposition functions 'heretofore conferred by law on any Government agency' \u2014 creating concurrent, government-wide authority over what were previously agency-specific functions, a significant structural precedent."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "PRESENT", "points": 1, "justification": "Sec. 3's concurrent-authority grant means the Administration can exercise disposition functions that legally remain with the originating agency, creating genuine potential for overlapping jurisdiction across the federal government's property disposition activities."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 4/20 = 20.0%."
+}

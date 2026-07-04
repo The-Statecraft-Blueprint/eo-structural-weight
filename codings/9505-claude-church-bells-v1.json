@@ -1,0 +1,27 @@
+{
+  "eo_number": "9505",
+  "title": "Executive Order 9505\u2014Authorizing the Secretary of War to Take Possession of and Operate the Plants and Facilities of Cudahy Brothers Company of Cudahy, Wisconsin",
+  "date_iso": "1944-12-06",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 380,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad seizure and operating authority ('any manner that he deems necessary'), narrowed somewhat by the requirement to observe a specific National War Labor Board directive order (Sec. 2)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4 sets a concrete 60-day cap, and Sec. 2 ties operation to a specific, named directive order."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: seizure of this one company's plants."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Sec. 2 requires observing a specific, named War Labor Board directive order."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4's 60-day cap is a genuine, explicit termination trigger."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No judicial-process-blocking or similar oversight-removal language is present."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The 60-day cap and the requirement to follow a specific pre-existing War Labor Board determination provide real checks."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This order is triggered by a 'threatened' rather than an actual interruption of operations \u2014 a lower activation threshold than most sibling seizure orders in this corpus, which require an existing disturbance. Expanding the trigger condition to threatened-but-not-yet-realized disruption is a meaningful precedent for how broadly this authority can be invoked."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "No other agency's mandate is implicated; no conflict is created."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/20 = 10.0%. Distinguished from most sibling seizure orders by acting on a merely 'threatened' rather than actual interruption."
+}

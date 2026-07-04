@@ -1,0 +1,27 @@
+{
+  "eo_number": "9484",
+  "title": "Executive Order 9484\u2014Authorizing the Secretary of War to Take Possession of and Operate the Plants and Facilities of the Farrell Cheek Steel Company, Located at Sandusky, Ohio",
+  "date_iso": "1944-09-23",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad seizure and operating authority ('any manner that he deems necessary'), though narrowed in practice by the requirement to observe specific, already-issued War Labor Board directive orders (Sec. 2)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4 sets a concrete 60-day cap, and Sec. 2 requires a report to the President if net operating income proves insufficient to cover accrued wage increases \u2014 a specific, textually explicit reporting obligation."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: seizure of this one company's plants to resolve an ongoing labor disturbance."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Sec. 2 requires observing specific, named War Labor Board directive orders (with exact dates), a concrete operating constraint rather than open discretion."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4's 60-day cap after restored productive efficiency is a genuine, explicit termination trigger."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No judicial-process-blocking or similar oversight-removal language is present."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The 60-day cap, the requirement to follow specific pre-existing War Labor Board determinations, and the reporting-to-President obligation together provide multiple real checks."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine application of the established wartime plant-seizure template."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "No other agency's mandate is implicated; this order does not include a management-preservation or multi-agency cooperation clause, but neither creates any conflict."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/20 = 5.0%. Notable for the reporting-to-President obligation on wage shortfalls \u2014 a real, specific accountability feature not present in several sibling seizure orders."
+}

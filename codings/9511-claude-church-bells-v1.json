@@ -1,0 +1,27 @@
+{
+  "eo_number": "9511",
+  "title": "Executive Order 9511\u2014Authorizing the Secretary of War to Take Possession of and Operate the Properties of the Cleveland Electric Illuminating Company, Located in and Around Cleveland, Ohio",
+  "date_iso": "1945-01-12",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 110,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "'In such manner as he deems necessary for the successful prosecution of the War' \u2014 broad, open discretion with no external check."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A concrete 60-day cap on possession is set, tied to the Secretary's own determination that possession is no longer necessary."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: seizure of this one utility's properties."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'In such manner as he deems necessary' has no defined limits, and unlike several sibling orders in this batch, this one includes no status-quo-employment-terms constraint or specific directive-order compliance requirement."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "The 60-day cap is a genuine, explicit termination trigger."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No judicial-process-blocking or similar oversight-removal language is present."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The 60-day cap provides a real, checkable structural constraint even without additional specific operating conditions."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine application of the established wartime plant-seizure template."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "No other agency's mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/20 = 10.0%. One of the sparest, single-paragraph seizure orders in the corpus \u2014 has the standard 60-day cap but lacks the status-quo-employment-terms or specific-directive-compliance language found in several sibling orders."
+}

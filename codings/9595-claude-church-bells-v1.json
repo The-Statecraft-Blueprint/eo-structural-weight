@@ -1,0 +1,27 @@
+{
+  "eo_number": "9595",
+  "title": "Executive Order 9595\u2014Authorizing the Secretary of War to Take Possession of and Operate the Plants and Facilities of the United States Rubber Company, Located in Or Around Detroit, Michigan",
+  "date_iso": "1945-07-30",
+  "president": "Harry S. Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 440,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad seizure and operating authority, meaningfully bounded by the protective requirements in Secs. 2 and 3."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 5 sets a concrete 60-day cap after productive efficiency is restored."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: seizure of this one company's plants."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Sec. 2 requires operation 'in accordance with the terms and conditions of employment which are in effect at the time possession thereof is taken.'"},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "PRESENT", "points": 1, "justification": "Sec. 4 directs the FBI to 'immediately undertake an investigation of any matter affecting the operation of said plants' upon the Secretary of War's request \u2014 an open-ended investigative trigger with no defined standard, distinct from the other seizure orders in this batch, creating latent potential for investigative involvement in labor-relations matters beyond straightforward plant security."},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "The 60-day cap in Sec. 5 is a genuine, explicit termination trigger."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No judicial-process-blocking or similar oversight-removal language is present."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The 60-day cap and status-quo-employment-terms requirement provide real, checkable constraints on the core seizure authority; the FBI-investigation concern is captured under Flag 5."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The FBI-investigation-on-request clause (Sec. 4) is a new feature not present in sibling seizure orders in this corpus, representing a template expansion that normalizes FBI involvement in labor-dispute-adjacent seizures."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3's management-preservation clause and Sec. 4's cooperation directive are protective, anti-conflict design features."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/20 = 15.0%. Otherwise near-identical to EO 9593, distinguished by the added open-ended FBI investigative clause."
+}

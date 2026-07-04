@@ -1,0 +1,27 @@
+{
+  "eo_number": "9508",
+  "title": "Executive Order 9508\u2014Authorizing the Secretary of War to Take Possession of and to Operate Certain Plants and Facilities of Montgomery Ward & Co., Incorporated",
+  "date_iso": "1944-12-27",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 1350,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad operational authority ('any manner that he deems essential'), though the seizure itself is triggered by, and bounded by, enforcing specific already-adjudicated National War Labor Board directive orders (Sec. 1-2) rather than open policy discretion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The action is grounded in and bounded by an existing, already-completed NWLB adjudication process (directive orders with specific dates), plus the standard 60-day cap (Sec. 4) and a wage-shortfall reporting obligation to the President (Sec. 2) \u2014 among the most procedurally grounded seizure orders in this corpus."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Spans multiple facilities across several cities, but all are operations of one company subject to one coherent enforcement action, not a bundling of distinct issues."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Sec. 2 requires observing specific, named NWLB directive orders by exact date \u2014 concrete, not open-ended."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4's 60-day cap is a genuine, explicit termination trigger."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This order reinforces rather than bypasses an existing oversight process \u2014 it enforces compliance with an NWLB adjudication the company had already contested and lost."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The seizure's entire justification rests on an independent, quasi-judicial NWLB determination that already occurred, plus the 60-day cap \u2014 multiple real external checks are built into the order's own design and justification."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Uses federal seizure power specifically as an enforcement mechanism against a private company's defiance of an administrative board's directive orders, functionally giving NWLB determinations coercive force via the threat of seizure \u2014 a notable precedent for using this authority to compel compliance with agency adjudications rather than merely to respond to production disruption."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3's cooperation directive to named agencies is coordination, not mandate redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "Sec. 5's broad definition of covered 'plants and facilities' expands rather than narrows coverage \u2014 the opposite of an exemption."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/20 = 10.0%. The historically most famous and controversial seizure order in this corpus, yet structurally one of the lowest-scoring \u2014 it enforces an already-adjudicated determination rather than exercising open-ended judgment, a clean illustration that structural weight and historical/political salience are distinct measures."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "9351",
+  "title": "Executive Order 9351\u2014Authorizing the Secretary of the Navy to Take Possession of and Operate the Plant of the Howarth Pivoted Bearings Company at Philadelphia, Pennsylvania",
+  "date_iso": "1943-06-14",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 220,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Secretary of the Navy is authorized to 'do all things necessary or incidental' to plant operation, with no external check on that discretion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Possession terminates when the President determines the plant 'will be operated privately in a manner consistent with the war effort' \u2014 self-assessed, no outer time bound."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: seizure of this one plant to secure war-materiel production."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'To do all things necessary or incidental to that end' is an open-ended operational standard with no defined limits."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No outer time bound; termination rests entirely on presidential self-assessment."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No judicial-process-blocking or similar oversight-removal language is present."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external party has a specified role in checking whether or when the plant should be returned to private operation."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "By mid-1943 this is a routine application of the already-established plant-seizure template (see EO 8773)."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Secretary of the Navy exercises seizure authority directly; no other agency's mandate is redirected."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/20 = 25.0%."
+}

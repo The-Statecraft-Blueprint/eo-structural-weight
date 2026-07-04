@@ -1,0 +1,27 @@
+{
+  "eo_number": "9437",
+  "title": "Executive Order 9437\u2014Revocation of Executive Order No. 9165, Providing for the Protection of Essential Facilities from Sabotage and Other Destructive Acts",
+  "date_iso": "1944-04-18",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 90,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A pure revocation; no new decision-making authority is created for anyone."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "No ongoing program is created by a revocation for responsibility to become unclear about."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: revoking the named prior order."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A revocation removes a compliance regime rather than creating a new one."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A one-time revocation grants no ongoing authority requiring reauthorization."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order explicitly preserves substance while revoking form: it 'shall not be deemed to terminate any facility security functions of the War Department nor to preclude any necessary cooperative arrangement' with the agencies named in the revoked order \u2014 protective language, not a removal of oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A housekeeping revocation with explicit continuity language for the underlying protective function; minimal second-order effect."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The order explicitly preserves 'necessary cooperative arrangement' with the agencies named in the revoked order \u2014 careful preservation, not redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/8 = 0.0%."
+}

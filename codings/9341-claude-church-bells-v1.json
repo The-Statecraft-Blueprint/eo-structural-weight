@@ -1,0 +1,27 @@
+{
+  "eo_number": "9341",
+  "title": "Executive Order 9341\u2014Directing the Director of the Office of Defense Transportation To Take Control of the Properties of the American Railroad Company of Porto Rico",
+  "date_iso": "1943-05-13",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Director is authorized to take possession and operate the railroad 'in such manner as he deems necessary,' with broad discretion over terms of employment (Sec. 2) and use of advances from earnings (Sec. 4)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Possession terminates when 'the President determines that such possession and operation are no longer required' (Sec. 6) \u2014 self-assessed with no outer time bound, though the underlying labor dispute itself is separately delegated to NWLB for independent resolution (Sec. 3)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: seizure of this one railroad to resolve a labor-dispute-caused interruption."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'In such manner as he deems necessary for the successful prosecution of the war' (Sec. 1) is an open-ended operational standard."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No outer time bound on the possession/termination determination, which rests entirely on presidential self-assessment."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "CRITICAL", "points": 2, "justification": "Sec. 4 explicitly blocks ordinary judicial process: 'no attachment by mesne or garnishee process or on execution or otherwise shall be levied' without the Director's prior written consent \u2014 an affirmative closure of a specific, pre-existing legal remedy pathway, identical in kind to the finding in EO 9570."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Beyond the NWLB's separate role in resolving the underlying labor dispute, no external party has a role in checking the possession/termination decision itself, and Sec. 4's judicial-process block further narrows available recourse."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "By May 1943, wartime labor-dispute seizures of this kind were an established, repeated pattern (see EO 8773, and later EO 9459, EO 9474, EO 9540, EO 9570 in this corpus); this order applies an existing template."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 8's cooperation with the Secretary of the Interior and the Puerto Rico government, and Sec. 3's delegation of the underlying labor dispute to NWLB (an agency already tasked with exactly this function), reflect designed coordination, not mandate redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 7/20 = 35.0% \u2014 lands precisely on the interim significance threshold, a genuine toss-up rather than a confident call either way. Shares the judicial-process-blocking clause pattern with EO 9570."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "9387",
+  "title": "Executive Order 9387\u2014Establishing an Advisory Board on Just Compensation and Prescribing Its Functions",
+  "date_iso": "1943-10-15",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 340,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Board sets general standards and formulae to guide WSA's compensation decisions rather than making individual case determinations itself, and is composed of three named, independent federal judges (Learned Hand, John J. Parker, Joseph C. Hutcheson Jr.) rather than executive-branch officials with a stake in minimizing payouts."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The Board's function (standard-setting) and its relationship to WSA ('will be guided by') are clearly specified."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: establishing compensation standards for requisitioned vessels."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Standard-setting via reasoned formulae developed by independent judicial figures is a safeguard against arbitrary vagueness, distinct from unchecked administrative discretion."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 2 sets an explicit, well-designed fixed term: members 'shall serve for a period of three months or for such lesser period of time as may be required for the completion of the Functions of the Board.'"},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The Board's composition of independent federal judges, rather than executive-branch officials with a financial stake in the outcome, is itself a structural check."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "Narrowly focused on a bounded compensation-methodology question for one requisition program; no broad or reusable authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Board guides rather than displaces WSA's own compensation decisions; no mandate conflict is created."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/20 = 0.0%. One of the most cleanly designed orders coded to date \u2014 an independent, judicially-staffed, time-limited standard-setting body is a genuinely good structural pattern worth naming as such, not just an absence of problems."
+}

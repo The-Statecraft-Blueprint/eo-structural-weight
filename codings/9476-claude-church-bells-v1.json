@@ -1,0 +1,27 @@
+{
+  "eo_number": "9476",
+  "title": "Executive Order 9476\u2014Authorizing the Secretary of the Interior to Take Possession of and Operate the Mines, Collieries, and Preparation Facilities of Certain Coal Companies",
+  "date_iso": "1944-09-03",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 430,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad seizure and operating authority, meaningfully bounded by the protective requirements in Secs. 2 and 4, identical in structure to EO 9474."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 5 sets a concrete 60-day cap after productive efficiency is restored."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: seizure of the four named coal companies to end labor-disturbance-caused interruptions."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Sec. 2 requires operation 'in accordance with the terms and conditions of employment which are in effect at the time possession thereof is taken' \u2014 a concrete status-quo constraint."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "The 60-day cap in Sec. 5 is a genuine, explicit termination trigger."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No judicial-process-blocking or similar oversight-removal language is present."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The 60-day cap and status-quo-employment-terms requirement provide real, checkable constraints."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine application of the established wartime coal-seizure template."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3's cooperation directive and Sec. 4's explicit preservation of management's own functions are protective, anti-conflict design features, identical in structure to EO 9474."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/20 = 5.0%. Structurally identical to EO 9474, issued the same day, covering four additional named coal companies."
+}

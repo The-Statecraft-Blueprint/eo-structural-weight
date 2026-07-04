@@ -1,0 +1,27 @@
+{
+  "eo_number": "7651",
+  "title": "Executive Order 7651\u2014Modifying Executive Order of June 8, 1926, Creating Reservoir Site Reserve No. 17, Pacific Slope Basins, California",
+  "date_iso": "1937-07-01",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 75,
+  "source_url": "",
+  "word_count": 750,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Authorizes Federal Power Commission licensing on specific lands, bounded by a protective condition preserving the reserve's primary purpose."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A specific, well-designed condition requires licensees to remove infrastructure at their own expense within thirty days of notice if the land is needed for reservoir purposes."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose despite extensive technical land descriptions."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The removal condition is precise: thirty days, at the licensee's own expense."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "The removal-on-notice condition specifically prevents licensees from relying on their infrastructure remaining if the reservoir's primary purpose materializes, rather than creating an incentive problem.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing regulatory modification enabling an ongoing licensing practice with a built-in protective condition, not a temporary-authority grant."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The removal condition carefully preserves the reserve's primary purpose rather than removing any oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No distinct third-party monitoring gap beyond what is already addressed by the removal condition."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, technical land-use modification for a specific site."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Interior retains notice-and-reclaim rights over FPC-licensed activities, a well-coordinated design."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/16 = 0.0%. A genuinely well-designed, protective land-use modification balancing power-project licensing against the reserve's primary purpose."
+}

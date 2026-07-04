@@ -1,0 +1,27 @@
+{
+  "eo_number": "11537",
+  "title": "Executive Order 11537\u2014Amending the Selective Service Regulations Concerning the Ordering of Registrants for Induction",
+  "date_iso": "1970-06-16",
+  "president": "Richard Nixon",
+  "congress_number": 91,
+  "source_url": "",
+  "word_count": 300,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "This expands the circumstances under which a registrant who refused a physical examination can be compelled to report for induction proceedings before medical eligibility is confirmed, though the underlying acceptability determination requirement is preserved."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The order explicitly preserves the substantive protection: 'he shall not be inducted until his acceptability has been satisfactorily determined.'"},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "A single, narrow procedural amendment."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The triggering condition (refusal or failure to comply with a physical-examination order) is precisely specified."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "This closes a potential avoidance pathway (declining to appear for a required physical exam) rather than creating a new incentive problem.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing regulatory amendment to an ongoing (at the time) Selective Service system."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The broader Selective Service appeals and review process for other aspects of classification and induction remains intact."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "This concern is addressed under Flags 1 and 2."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Issued during the Vietnam War draft era, this amendment is directly responsive to a documented draft-resistance tactic (declining to appear for the required physical examination) and carries genuine substantive significance in that historical context."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 2/14 = 14.3%. A genuinely mixed case: the amendment can be read either as closing a procedural loophole used by some draft resisters, or as creating a real, if narrow, due-process tension by allowing induction proceedings to begin before medical eligibility is confirmed. Both readings are noted here rather than adjudicated, consistent with this project's evenhanded treatment of contested historical policy."
+}

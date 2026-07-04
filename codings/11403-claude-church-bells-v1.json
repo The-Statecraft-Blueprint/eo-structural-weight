@@ -1,0 +1,27 @@
+{
+  "eo_number": "11403",
+  "title": "Executive Order 11403\u2014Providing for the Restoration of Law and Order in the Washington Metropolitan Area",
+  "date_iso": "1968-04-05",
+  "president": "Lyndon B. Johnson",
+  "congress_number": 90,
+  "source_url": "",
+  "word_count": 450,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad, open-ended authority is granted to the Secretary of Defense to 'take all appropriate steps' using 'such of the Armed Forces... as he may deem necessary' \u2014 a significant concentration of domestic military authority, though exercised within the recognized statutory framework for civil-disorder response (10 U.S.C. Chapter 15)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No reporting or review requirement is specified in this order's own text."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "A single, coherent purpose: restoring order."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'All appropriate steps' and 'as he may deem necessary' are broad, open-ended authorizations with no defined operational limits."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Sec. 3(a) explicitly authorizes National Guard federalization 'for an indefinite period... until relieved by appropriate orders' \u2014 no automatic termination trigger is specified, though the acute, unpredictable nature of a live civil-disorder response makes some indefiniteness operationally understandable."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This establishes a new emergency response rather than removing a pre-existing check."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A military and law-enforcement deployment order, not a private-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "One of the most significant domestic military deployments in recent U.S. history at the time, issued the day after Martin Luther King Jr.'s assassination amid nationwide urban unrest, authorizing indefinite deployment of federal military force in the nation's capital with broad, largely undefined operational discretion."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4 permits coordinated sub-delegation to military department secretaries."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 6/18 = 33.3%. Issued in direct response to the Washington, D.C. riots following Martin Luther King Jr.'s assassination on April 4, 1968. This project's methodology scores the architecture of the deployment authority \u2014 its breadth, its indefinite duration, its lack of a reporting requirement \u2014 rather than passing judgment on the legitimacy of responding to the underlying crisis, consistent with how the instrument treats other extraordinary domestic-security orders in this corpus."
+}

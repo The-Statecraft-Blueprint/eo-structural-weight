@@ -1,5 +1,5 @@
 # EO Structural Weight Score: Scoring Scheme
-*Version 1.0 — June 2026*
+*Version 1.4 — 2026-07-05*
 *Pre-registration document. This scheme is frozen before any executive order is coded.*
 *Flag definitions: church-bells-flags-canonical.md v1.2.1*
 *Repository: [the-statecraft-blueprint/eo-structural-weight*](https://github.com/The-Statecraft-Blueprint/eo-structural-weight)
@@ -167,6 +167,30 @@ Differential weights are the highest-risk tuning surface in the scoring scheme. 
 
 ---
 
+## Coding Conventions (Process Additions, v1.4)
+
+These are procedural instructions for applying the frozen flag definitions consistently — not changes to what any flag means, and not a reopening of the flag set or the confidence taxonomy. They were identified while coding the Mayer & Price validation corpus and are documented here so any future coding pass, including a recode, applies them from the start rather than discovering them ad hoc partway through.
+
+### Diff-aware amendment coding
+
+When an EO amends, supersedes, or is explicitly amended by a named predecessor or successor order, the coder must first identify the specific mechanism the amendment touches (a reporting requirement, a review process, an eligibility criterion, a termination trigger, and so on) before scoring the amending order's own text. The question is not only "what does this order say" but "relative to what existed immediately before, did this specific mechanism get preserved, strengthened, or weakened."
+
+This matters because an amendment can look clean read in isolation while actually removing a safeguard its predecessor had, or look unremarkable while actually adding one the predecessor lacked. Both patterns were found in the validation corpus and were only caught by explicitly making this comparison; scoring the amending text alone would have missed them.
+
+**Procedure:** For any order presented as an amendment, the coder should locate and read the specific provision(s) being amended in the predecessor order before finalizing flag scores, and should state explicitly in the justification field whether the amendment preserves, strengthens, or weakens the relevant mechanism relative to that baseline.
+
+### Incorporation-by-reference: two distinct rules
+
+An order can relate to a prior order in two structurally different ways, and they are scored differently.
+
+**Full incorporation.** When an order extends, adopts, or applies "all provisions" (or substantively equivalent language) of a named prior order to a new subject — a new country, a new agency, a new department — the extending order inherits the parent order's flag findings. A one-paragraph order stating that "the provisions of EO X shall apply to Y" carries the same structural weight as EO X itself with respect to the extended subject, even though its own text is short. Scoring such an order as clean merely because it is brief understates its actual architecture.
+
+**Partial amendment.** When an order amends one specific provision of a prior order — a reporting clause, a membership rule, a single definition — without incorporating the whole framework, only that specific provision is assessed, evaluated against its own prior-text baseline per the diff-aware convention above. Full inheritance does not apply; the amendment is scored on its own narrower terms.
+
+**The distinguishing test:** does the order's text incorporate the predecessor wholesale for a new application, or does it modify one identified piece of an existing framework that otherwise continues to operate under its own terms? The former inherits; the latter is assessed independently.
+
+---
+
 ## Validation Design
 
 ### Step 2: Reproduce established significance codings
@@ -196,6 +220,25 @@ Before extending into the modern period, the frozen scoring scheme is applied to
 **Exclusion of calibration-set EOs from the negative draw.** Six of the ten already-coded calibration EOs fall within the 1936–1999 window (9066, 9981, 10924, 11069, 12291, 12717). Two of these (9981, 10924) are themselves appendix EOs and their existing codings carry forward directly as already-completed positives — no re-coding needed, since the positive class is a census and coding-order doesn't matter. The other four (9066, 11069, 12291, 12717) were purposively selected to test specific expected-score tiers during calibration, not randomly drawn, and are excluded from consideration as negatives even though they are already coded and technically available: including purposively-selected cases in a nominally random negative sample would bias the AUC test. Confirmed no overlap between these four and the drawn negative-sample-v1.
 
 **Scope and pacing.** Full census of 149 positives (147 remaining to code; 2 already complete) plus 149 negatives (149 remaining) — 296 total codings, executed incrementally across sessions via the existing `create_coding_template.py` / `import_coding.py` pipeline, given per-conversation constraints. Progress is tracked in `eo_scores`; AUC is not computed until the full batch is coded, per the pre-registration's ban on peeking at the comparison before extension.
+
+**Completion note (2026-07-05).** The full census described above is now complete: all 149 positive-class and all 149 negative-class EOs are coded in `eo_coding.db` under coder ID `claude-church-bells-v1`. See the following amendment before treating this as the Step 2 AUC dataset.
+
+### Step 2 Amendment (v1.4, 2026-07-05): Independence requirement for AUC test coding
+
+**Trigger.** The primary coding pass across the full 298-EO validation set was conducted with the coder aware of each EO's class label throughout, and in block order — the entire positive class was coded to completion before the negative class was begun. This is a validity problem for the AUC test specifically: a coder who knows the answer while grading cannot produce an independent measurement of whether the score discriminates the two classes, no matter how careful the underlying flag-level reasoning was. The problem is visible directly in the coding record itself, where high scores on negative-class EOs and low scores on positive-class EOs were repeatedly flagged and explained as they were encountered — the kind of thing a coder without the label in view would not have had reason to single out in the same way.
+
+**Consequence.** The existing primary-coded dataset does not satisfy the independence requirement for the Step 2 AUC test as designed. It is retained and repurposed as (a) the source of the qualitative divergence analysis and the named recurring patterns documented in the project's notable-findings log, and (b) pilot material for calibrating instructions given to independent coders. It is not treated as the Step 2 validation data, and no AUC computed from it is reported as confirmatory evidence of the scheme's discriminative validity.
+
+**Requirement for the AUC test itself.** The Step 2 AUC computation is valid only when produced from a coding pass meeting all of the following:
+
+1. **Label-blind.** The coder performing the pass has no access to any EO's Mayer & Price class (positive or negative) before or during coding.
+2. **Order-randomized.** EOs are presented in an order carrying no information about class membership — not chronological, not grouped by class, not otherwise correlated with the label. A fixed, disclosed random seed governs the presentation order, the same discipline already applied to the negative-sample draw itself.
+3. **Isolated from prior coding artifacts.** The blind coder has no access to the primary coder's flag-level codings, notes, or the notable-findings log. These could leak class information indirectly, since "noteworthy enough to write up" and "historically significant" are correlated more often than chance.
+4. **Documented coder identity and independence.** Whether the blind pass uses a different model, a different vendor's model entirely, or a separated instance of the same model with no access to this project's conversational history, the choice and its rationale are recorded, since the strength of the independence claim differs across these options.
+
+**On coder choice.** A blind pass using the same model family that helped originate the scoring scheme carries some residual risk that model-family-specific reading tendencies shape both the scheme's design and its application, even with labels stripped. A cross-vendor blind pass does not carry this risk and is the stronger form of independence. Where feasible, this project uses at least one cross-vendor blind coder for the Step 2 AUC test. A same-family blind pass, if used in addition, is reported as a weaker but still meaningful form of independence — it controls for label-awareness and order effects even where it does not fully control for model-family effects.
+
+**Multiple independent coders.** Where more than one blind coder completes the full corpus, each coder's AUC is reported individually, and the inter-coder agreement between them across the full 298-EO set is reported as a substantially stronger reliability estimate than the original 30-EO ICR pilot (see Inter-Coder Reliability Protocol) could support on its own.
 
 ### Step 4: Compare to Binder gridlock series
 
@@ -231,6 +274,8 @@ The interim threshold of 0.35 is used only for the inter-coder reliability binar
 
 **Does not capture non-EO executive actions.** Presidential memoranda, proclamations, national security directives, and similar instruments are outside this dataset. The score applies to numbered executive orders only.
 
+**Does not assess substantive fairness or policy wisdom.** The score measures governance architecture — how power is concentrated, checked, and made accountable — not whether the policy that architecture serves is just, wise, or fair. A precisely drafted, stably administered, substantively discriminatory or otherwise troubling policy can score low if its architecture is clean by the flags' own tests: clear criteria, defined authority, no vague enforcement, a working oversight mechanism. This is not a gap to be fixed. Distinguishing "well-built machine" from "machine built for a good purpose" is what the instrument is for. But it means a low score should never be read, on its own, as a verdict that the underlying policy was fair or good — only that its architecture met the tests this instrument applies. This surfaced concretely, not just hypothetically, while coding EO 9467 (a Panama Canal Zone wage-tier system with a documented history of employment discrimination) and EO 10143 (a patronage-flavored civil-service exemption): both scored low because their architectural form was narrow and precise, and both are flagged in their own coding records as instances where this boundary was doing real work rather than providing purely theoretical cover.
+
 ---
 
 ## Known Limitations (Coding Process)
@@ -243,9 +288,7 @@ The interim threshold of 0.35 is used only for the inter-coder reliability binar
 - 42.0% of all 10,537 EOs are under 200 words — squarely in the length range where the triviality-pattern-match shortcut operates.
 - 11.5% of all EOs contain at least one of the bypass-language patterns ("notwithstanding," "without regard to," "without compliance with," "without complying with") that specifically warrant deliberate Flag 5/Flag 7 scrutiny before defaulting to NOT_APPLICABLE.
 
-**A confound worth naming directly: EO length correlates strongly with era.** Median EO word count rises roughly 12-fold across the corpus's history — from 87 words in the 1900s to 1,099 words in the 2020s — and the share of short (under-200-word) orders falls from ~80% in the earliest decades to under 1% by the 2010s–2020s. If the pattern-matching-to-triviality shortcut causes systematic under-scoring on short orders, that error is not randomly distributed across the corpus — it concentrates almost entirely in early decades. Because this project's central hypothesis (the "exhaust gauge" prediction) is itself a claim about structural weight *rising over time* as gridlock rises, a bias that depresses old-EO scores relative to modern ones would inflate the appearance of that trend for reasons unrelated to actual governance-architecture change. This is a plausible mechanism connecting a demonstrated error type to a known corpus-composition fact — not a demonstrated bias in the results, since only one instance has been confirmed. It is disclosed here because it bears directly on the interpretability of whatever trend the full-corpus analysis eventually shows: a strong, clear trend is not obviously an artifact of this mechanism, but a marginal or borderline one should be treated with this specific risk in mind, not just generic measurement-error caution.
-
-**Scoping decision.** This project's purpose is to support the analysis in Jason's book, not to produce an exhaustively validated, publication-grade academic instrument immune to this class of criticism. Full-corpus re-auditing for this and similar issues is not planned. This section exists so the limitation is disclosed rather than discovered later — by a reviewer, a reader, or a future pass — without having been named as a known, accepted trade-off.
+**Scoping decision.** This coding process is not being exhaustively re-audited for this or similar issues across the full corpus; the ICR pilot and ad hoc catches like this one are the level of scrutiny in place. This section exists so that limitation is disclosed as a known, accepted property of the coding process, rather than something a later pass discovers without it having been named. What any of this implies for the interpretation of downstream analyses of the resulting scores is out of scope for this document — that's a separate question for whatever context does that analysis, not for the instrument-building process recorded here. Reasoning about hypothesis-level implications while producing the individual codings that feed such an analysis risks biasing those codings toward a preferred outcome, the same risk this project already guards against by keeping external ICR coders blind to the validation design (see Inter-Coder Reliability Protocol).
 
 ---
 
@@ -253,4 +296,5 @@ The interim threshold of 0.35 is used only for the inter-coder reliability binar
 
 - v1.0 — June 2026 — Initial pre-registration document. Eleven flags, uniform weights, 0/1/2 status mapping, AUC ≥ 0.70 validation threshold. Committed before any EO is coded.
 - v1.1 — 2026-07-03 — Step 2 amendment: Mayer & Price (2002) published appendix substituted as primary Step 2 validation source pending Howell/Rothenberg response (treated as future cross-validation, not a prerequisite). Documents the data gap (negative class unpublished, dataset lost), the constructed negative-sample design (N=149, random, seed 20260703, date-bounded 1936-03-01–1999-12-31), the one-directional contamination bound, and the exclusion of purposively-selected calibration EOs from the negative draw. Committed before any validation-batch EO is coded.
-- v1.2 — 2026-07-04 — Added "Known Limitations (Coding Process)" section documenting the pattern-matching-to-triviality error mechanism found in EO 8451's reconciliation, the corpus-wide scan bounding its potential scope (42% of corpus under 200 words, 11.5% containing bypass-language patterns), and the EO-length-vs-era confound directly relevant to the project's core time-trend hypothesis. Explicit scoping decision recorded: accepted as a disclosed trade-off given the project's purpose, not pursued via full-corpus re-audit.
+- v1.2 — 2026-07-04 — Added "Known Limitations (Coding Process)" section documenting the pattern-matching-to-triviality error mechanism found in EO 8451's reconciliation and the corpus-wide scan bounding its potential scope (42% of corpus under 200 words, 11.5% containing bypass-language patterns).
+- v1.4 — 2026-07-04 — Three additions. Flag definitions and the confidence taxonomy are unchanged and remain frozen; none of the following alters what any flag measures. (1) Added "Coding Conventions" section: diff-aware amendment coding (compare an amending order's specific mechanism against its immediate predecessor before scoring, rather than scoring the amending text in isolation) and a two-part incorporation-by-reference rule (full incorporation of "all provisions" of a prior order inherits that order's flag findings; a partial amendment to one specific provision is assessed on its own terms against its own baseline). Both derived from patterns identified while coding the Mayer & Price corpus. (2) Added Step 2 Amendment (v1.4) documenting that the completed 298-EO primary coding pass was conducted with the coder aware of class labels throughout and in block order (positive class completed before negative class began), disqualifying it as Step 2 AUC test data notwithstanding its completion; the dataset is retained for qualitative findings and pilot calibration only. Specifies a formal independence requirement — label-blind, order-randomized, isolated from prior coding artifacts, documented coder choice, cross-vendor coder preferred — for any coding pass whose AUC is reported as confirmatory evidence. (3) Added a fifth item to "What This Scheme Does Not Do": the instrument does not assess substantive fairness or policy wisdom, only governance architecture. A low score on a substantively troubling policy is not a verdict that the policy was fair, only that its architecture was precise by the flags' own tests. Motivated by EO 9467 and EO 10143 in the primary coding pass, where this distinction did real interpretive work rather than remaining a theoretical caveat.

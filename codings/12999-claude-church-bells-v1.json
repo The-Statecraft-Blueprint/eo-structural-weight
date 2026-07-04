@@ -1,0 +1,27 @@
+{
+  "eo_number": "12999",
+  "title": "Executive Order 12999\u2014Educational Technology: Ensuring Opportunity for All Children in the Next Century",
+  "date_iso": "1996-04-17",
+  "president": "William J. Clinton",
+  "congress_number": 104,
+  "source_url": "",
+  "word_count": 1500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A beneficial, distributive directive prioritizing schools and nonprofits for surplus federal computer equipment, not a concentration of authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 3(b) requires agencies to submit implementation plans within six months, coordinated through the Office of Science and Technology Policy."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related provisions (equipment transfer, teacher volunteering, definitions) all coherently serve one purpose: educational technology access."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A beneficial distribution directive, not a compliance regime against private parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing policy directive for an ongoing beneficial purpose."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Sec. 6 states this order does not create any right or benefit enforceable at law by a party against the United States \u2014 a fifth confirmed instance of the no-private-right-of-action pattern already logged in this project (EO 12114, EO 12615, EO 12662, EO 12735)."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "This concern is captured under Flag 7."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "A notable digital-divide and educational-access initiative from the mid-1990s 'National Information Infrastructure' policy era."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Well-coordinated through OSTP and GSA."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "This is a benefit-distribution directive; preference categories for recipients are not exemptions from a regulatory scheme."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 2/12 = 16.7%. A fifth confirmed instance of the no-private-right-of-action clause, now spanning environmental review, procurement, trade adjudication, sanctions, and educational technology \u2014 a genuinely broad range of subject matter for what appears to be a standard executive-order drafting convention."
+}

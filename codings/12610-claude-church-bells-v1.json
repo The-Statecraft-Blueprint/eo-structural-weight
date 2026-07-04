@@ -1,0 +1,27 @@
+{
+  "eo_number": "12610",
+  "title": "Executive Order 12610\u2014Continuance of Certain Federal Advisory Committees",
+  "date_iso": "1987-09-30",
+  "president": "Ronald Reagan",
+  "congress_number": 100,
+  "source_url": "",
+  "word_count": 500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A routine, periodic continuation of eleven already-established advisory committees under standard Federal Advisory Committee Act renewal procedures."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Each continued committee retains its own underlying order's reporting requirements."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Bundling multiple unrelated committees into one periodic administrative renewal order is a standard housekeeping practice, not a forced acceptance of substantively unrelated policy provisions."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "An administrative continuation and termination action, not a compliance regime."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 1 sets an explicit continuation end date: September 30, 1989."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3 properly terminates eight commissions whose work is complete (including the Presidential Commission on the Space Shuttle Challenger Accident) rather than allowing them to linger indefinitely \u2014 a positive governance-hygiene action."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "Routine, periodic administrative housekeeping with no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Each committee remains under its own designated department."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/12 = 0.0%. A genuinely well-designed periodic administrative cleanup: renewing still-active committees with a defined end date while properly closing out completed ones, including the Challenger Accident Commission."
+}

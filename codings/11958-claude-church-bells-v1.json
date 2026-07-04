@@ -1,0 +1,27 @@
+{
+  "eo_number": "11958",
+  "title": "Executive Order 11958\u2014Administration of Arms Export Controls",
+  "date_iso": "1977-01-18",
+  "president": "Gerald R. Ford",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 1900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Authority is distributed primarily between State and Defense by specific statutory section, with Treasury and Commerce receiving narrower slices, and extensive mandatory cross-consultation requirements throughout."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Extremely detailed, section-by-section delegation with required concurrence obligations built in (e.g., Sec. 1(l)(1) requires State's designations to have Defense's concurrence)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Comprehensive implementation of one statute (the Arms Export Control Act) across its many sections, all coherently serving one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Sec. 1(a)'s proviso lets the Secretary of State find whether a proposed transfer to an otherwise-ineligible country 'will strengthen the security of the United States and promote world peace' \u2014 a genuinely open-ended judgment standard for this specific exception category."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing implementation of a permanent statute; this order itself supersedes a prior delegation order (EO 11501), evidencing periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The extensive mandatory cross-consultation and concurrence requirements throughout are added checks, not removed ones."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Extensive mandatory cross-agency consultation and concurrence requirements (State, Defense, Treasury, and the Arms Control and Disarmament Agency checking each other across different provisions) provide real, structured internal checks."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "Routine, comprehensive delegation of an already-established statutory framework; not a novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The extensive cross-consultation and concurrence design throughout is a carefully constructed, conflict-avoiding distribution of authority."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/20 = 5.0%. Issued two days before the Ford-to-Carter transition; a heavily cross-checked, well-designed delegation order despite its complexity and comprehensive scope."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "11832",
+  "title": "Executive Order 11832\u2014Establishing a National Commission on the Observance of International Women's Year, 1975",
+  "date_iso": "1975-01-09",
+  "president": "Gerald R. Ford",
+  "congress_number": 94,
+  "source_url": "",
+  "word_count": 900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A purely advisory, promotional body (up to 35 members) with no operational or regulatory authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 2(h) sets a clear structure: conclude work by end of 1975, report within thirty days, then terminate."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related functions (promotion, action-agenda items, liaison, encouraging private-sector participation) all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 2(h) sets an explicit, hard termination trigger: conclude by end of 1975, report within thirty days, 'The Commission shall then be terminated.'"},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed; this creates a new advisory function."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "An advisory body with independent, private-citizen membership; no ongoing third-party compliance regime is created."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A time-limited, task-specific commission implementing a UN-designated observance year; no ongoing authority is claimed."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4's interdepartmental task force is coordination, not mandate redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/14 = 0.0%. Another exemplary time-limited independent advisory commission, joining EO 9387, EO 9808, and EO 11076 as clean designs of this type."
+}

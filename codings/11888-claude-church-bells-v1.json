@@ -1,0 +1,27 @@
+{
+  "eo_number": "11888",
+  "title": "Executive Order 11888\u2014Implementing the Generalized System of Preferences",
+  "date_iso": "1975-11-24",
+  "president": "Gerald R. Ford",
+  "congress_number": 94,
+  "source_url": "",
+  "word_count": 1300,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Exercises specific, statutorily-defined presidential designation authority (Trade Act \u00a7\u00a7502-503), with required procedural predecessors (public comment, ITC advice, congressional notification) already completed per the order's own recitals."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Extremely detailed technical amendments with precise cross-references to exact tariff schedule item numbers and numeric value-added thresholds."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple technical provisions all implement one statute (Title V of the Trade Act of 1974)."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Eligibility criteria are precise, objective, numeric standards (35% and 50% value-added thresholds)."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category strongly applies: this order supersedes a prior order (EO 11844) issued less than a year earlier, directly evidencing an active, ongoing pattern of periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order's own recitals confirm the statutorily-required congressional notification was completed before these designations were made."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The objective, numeric eligibility criteria are checkable and auditable by customs authorities."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "Routine, technical implementation of an already-established, congressionally-designed trade preference program; no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No conflicting agency mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The 'A*' exclusion list (Sec. 9(c)(iii)) reflects the GSP statute's own built-in competitive-need limitation, specifically enumerated rather than a broad, undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/20 = 0.0%. Extremely well-specified, numerically precise trade-policy implementation."
+}

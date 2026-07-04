@@ -1,0 +1,27 @@
+{
+  "eo_number": "11808",
+  "title": "Executive Order 11808\u2014Establishing the President's Economic Policy Board, and for Other Purposes",
+  "date_iso": "1974-09-30",
+  "president": "Gerald R. Ford",
+  "congress_number": 93,
+  "source_url": "",
+  "word_count": 720,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "While the full Board is broad (nearly the entire economic cabinet), Sec. 4's smaller Executive Committee meets daily and the Chairman is designated 'principal spokesman for the Executive Branch on matters of economic policy' (Sec. 3) \u2014 real operational concentration in a smaller group despite the nominally broad full membership."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No reporting requirement or review mechanism is specified for the Board's or Executive Committee's exercise of its 'oversee all economic policy' mandate."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Comprehensive scope across one coherent domain (economic policy coordination), not a bundling of unrelated matters."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Oversee the formulation, coordination, and implementation of all economic policy' (Sec. 3) is extremely broad with no defined limits on what concrete actions this authorizes."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing coordination body for an ongoing government function, evergreen by nature, similar to other standing coordination structures in this corpus."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 6 carefully amends several existing bodies (Council on Wage and Price Stability, Council on International Economic Policy, National Advisory Council, Committee on East-West Trade) rather than dissolving them, preserving continuity."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external check exists on this internal-executive-branch body's exercise of its broad economic-policy mandate."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "A significant, novel peacetime economic-policy-coordination superstructure, comparable in ambition to wartime mobilization coordination bodies but explicitly designed for ongoing peacetime governance."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 6 deliberately and explicitly restructures four existing bodies with specific role assignments, rather than creating ad hoc overlap."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/20 = 25.0%. Ford's first major economic-governance reorganization, roughly seven weeks into his presidency."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "11810",
+  "title": "Executive Order 11810\u2014Continuing the Regulation of Exports",
+  "date_iso": "1974-09-30",
+  "president": "Gerald R. Ford",
+  "congress_number": 93,
+  "source_url": "",
+  "word_count": 480,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Continuation of export-control authority rests entirely with the executive under emergency powers 'notwithstanding the expiration' of its original statutory basis (Sec. 1), bounded somewhat by the specific CFR provisions it cross-references."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "The Secretary of Commerce administers the continued regulations, but no reporting, review, or congressional-approval mechanism exists to justify continued reliance on a lapsed statute."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "PRESENT", "points": 1, "justification": "The preamble stacks three distinct rationale frames \u2014 national security vigilance, foreign policy responsibilities, and domestic economic protection from scarce-material drain \u2014 under one continuation action, identical in structure to EO 11796."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The operative enforcement mechanics are precisely anchored to existing, specific, published CFR provisions (Title 15, Chapter III, Subchapter B, Parts 368-399) cross-referenced by section number."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "CRITICAL", "points": 2, "justification": "Zombie Emergency Trap sub-flag fires: this order relies on the same 'continued existence' of the national emergencies declared in 1950 and 1971 to sustain export-control authority after its enabling statute expired \u2014 identical in mechanism to EO 11796, issued just two months earlier, confirming this is a repeated pattern in the same statutory lineage rather than an isolated instance.", "sub_flag_fired": true},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "CRITICAL", "points": 2, "justification": "Congress itself built a natural end-state into this authority \u2014 the Export Administration Act's own statutory expiration \u2014 and this order's entire function, like EO 11796 before it, is to defeat that intended sunset via emergency-powers continuation."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "CRITICAL", "points": 2, "justification": "'Notwithstanding the expiration of the Export Administration Act of 1969' (Sec. 1) directly substitutes unilateral executive continuation for a lapsed statutory authorization-and-oversight framework Congress designed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Distinct from routine customs enforcement of the underlying export rules, no external actor \u2014 judicial, congressional, or otherwise \u2014 has standing or a specified mechanism to challenge the continued reliance on lapsed statutory authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "This is the second consecutive instance of this exact continuation mechanism in two months (following EO 11796), now spanning a presidential transition (Nixon to Ford) \u2014 reinforcing rather than merely repeating the precedent that standing national-emergency declarations can be used to continue a major regulatory regime indefinitely after Congress's specific statutory authorization has lapsed."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3 affirmatively states this order's delegations 'shall not affect the authority of any agency or official pursuant to any other delegation' \u2014 protective, anti-conflict language."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 2's fine-cap ($10,000 maximum) adjusts penalty severity; it does not exempt anyone from coverage under the export-control rules."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 12/22 = 54.5% \u2014 numerically identical to EO 11796. This order confirms the Zombie Emergency Trap pattern first identified in EO 11796 is not an isolated instance: it is the same statutory continuation chain (EO 11533 \u2192 EO 11683 \u2192 this order), reissued just two months after EO 11796, spanning the Nixon-to-Ford presidential transition. Notably, this order's own continuation chain does not mention EO 11796 in its citation history, suggesting either a drafting inconsistency or a parallel/overlapping continuation action \u2014 worth flagging for anyone tracing this specific statutory lineage further through the corpus."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "11992",
+  "title": "Executive Order 11992\u2014Committee on Selection of Federal Judicial Officers",
+  "date_iso": "1977-05-24",
+  "president": "Jimmy Carter",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 800,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A purely advisory, investigative committee reporting candidate names to the President, who retains full appointment discretion; Sec. 4 makes Committee members ineligible for the very positions they vet, a real conflict-of-interest safeguard."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 3(c) requires a report within 60 days listing no more than five candidates \u2014 a specific, checkable deadline and format."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: vetting candidates for a narrow category of judicial appointments."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The Committee applies 'criteria established by the President or by the Attorney General,' deferring the actual substantive selection criteria to a separate, unspecified process rather than defining them here."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "Sec. 4's ineligibility rule is a positive design feature preventing an obvious self-dealing conflict of interest.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 8 sets an explicit termination date: 'shall terminate on December 31, 1978, unless sooner extended' \u2014 a clean default toward termination requiring affirmative extension rather than affirmative termination."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 7 delegates most Federal Advisory Committee Act compliance functions to the Attorney General but explicitly excludes the annual congressional reporting requirement from that delegation \u2014 a technical carve-out preserving the reporting chain, not a removal of it."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The Federal Advisory Committee Act's own transparency requirements govern this Committee's operations, combined with the member-ineligibility safeguard."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "The order's own text is narrowly scoped, explicitly excluding the most significant category of judicial appointments (circuit and district judges); it claims no broad or reusable authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "The Attorney General provides administrative support by design, not a competing mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/18 = 5.6%. First Carter-era order in this corpus, narrowly scoped to non-Article-III judicial appointments."
+}

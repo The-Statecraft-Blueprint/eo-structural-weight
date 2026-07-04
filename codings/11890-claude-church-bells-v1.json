@@ -1,0 +1,27 @@
+{
+  "eo_number": "11890",
+  "title": "Executive Order 11890\u2014Amending Executive Order No. 10422, as Amended, Prescribing Procedures for Making Available to the Secretary General of the United Nations Certain Information Concerning United States Citizens Employed or Being Considered for Employment on the Secretariat of the United Nations",
+  "date_iso": "1975-12-10",
+  "president": "Gerald R. Ford",
+  "congress_number": 94,
+  "source_url": "",
+  "word_count": 700,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "This narrows rather than expands government screening authority and explicitly incorporates Privacy Act of 1974 compliance throughout."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Clear, specific amendments to the investigation procedure."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related amendments (investigation procedure, disqualification standard) coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The new disqualification standard requires 'specific intent' and 'unlawfully' advocating or practicing force or violence, a materially more precise standard than a bare-association or advocacy test."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing screening-procedure amendment."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This adds Privacy Act compliance requirements rather than removing any existing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No third-party compliance regime is created."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This narrows a Cold War-era loyalty-screening standard originally issued in 1953 to require specific intent and unlawful conduct rather than mere association or advocacy, a significant, rights-protective narrowing of governmental screening power comparable to EO 11785's dismantling of the Attorney General's list."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/14 = 7.1%. A third instance of the 'power-narrowing reads clean' pattern already logged for EO 11785: a loyalty-security screening standard originating in the McCarthy era is narrowed to require specific intent and unlawful conduct, and the order scores low precisely because it reduces rather than expands governmental power over individuals."
+}

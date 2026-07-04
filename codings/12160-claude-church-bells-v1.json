@@ -1,0 +1,27 @@
+{
+  "eo_number": "12160",
+  "title": "Executive Order 12160\u2014Federal Consumer Programs",
+  "date_iso": "1979-09-26",
+  "president": "Jimmy Carter",
+  "congress_number": 96,
+  "source_url": "",
+  "word_count": 2100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Sec. 1-303 gives the Chairperson broad, largely undefined authority to 'establish such policies, definitions, procedures, and standards' as necessary to implement, interpret, and apply the entire Order \u2014 significant interpretive power concentrated in one person despite the Council's nominally broad twelve-department membership."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "The Chairperson's broad interpretive authority (Flag 1) has no defined independent review process, despite the otherwise detailed reporting structure elsewhere in the order."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Five required program elements (consumer affairs staff, participation, information, training, complaint handling) all coherently serve one purpose: consumer program enhancement."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Extensive, detailed procedural sequencing (60-day comment periods, 30/90/30-day publication deadlines) gives the program elements real specificity."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing coordination function for an ongoing government need, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates extensive new public-participation and complaint-handling requirements rather than removing any existing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Required 60-day public comment periods on draft agency consumer programs, mandatory consumer-participation procedures, and required complaint-handling systems together constitute a genuine, structural external-input mechanism."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a comprehensive, government-wide consumer-protection coordination apparatus \u2014 a significant institutional structure for its era."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Careful coordination design with twelve-department Council representation and use of the existing U.S. Office of Consumer Affairs (Sec. 1-802)."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "Sec. 1-902(c) allows an agency to be excluded from the order's requirements entirely if it demonstrates to the Chairperson's satisfaction, within thirty days, that its activities have 'no substantial impact upon consumers' \u2014 a self-assessment-adjacent exemption category that could be broadly claimed."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 4/22 = 18.2%."
+}

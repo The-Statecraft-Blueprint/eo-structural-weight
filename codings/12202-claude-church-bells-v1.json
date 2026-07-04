@@ -1,0 +1,27 @@
+{
+  "eo_number": "12202",
+  "title": "Executive Order 12202\u2014Nuclear Safety Oversight Committee",
+  "date_iso": "1980-03-18",
+  "president": "Jimmy Carter",
+  "congress_number": 96,
+  "source_url": "",
+  "word_count": 1300,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A five-member independent citizen committee (none receiving federal salary), purely advisory in function."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-201 requires periodic reporting to the President, the Secretary of Energy, and the Secretary of Health, Education, and Welfare \u2014 a real, multi-recipient reporting structure."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related oversight functions (NRC reforms, industry training, technical modifications, emergency planning) all coherently serve one purpose: post-Three Mile Island nuclear safety oversight."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 1-402 sets an explicit, hard termination date: September 30, 1980."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This adds an important, independent monitoring layer over the Nuclear Regulatory Commission itself, whose adequacy the Three Mile Island accident had called into question."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "An independent citizen advisory body with no ongoing third-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "Narrowly scoped to a specific crisis-response monitoring function with an explicit termination date; no ongoing or expansive authority is claimed."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 1-209's information-access agreements with relevant agencies are a designed arrangement, not an override of the NRC's mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/14 = 0.0%. A direct, independent oversight response to the Three Mile Island accident, cleanly scoped and time-limited."
+}

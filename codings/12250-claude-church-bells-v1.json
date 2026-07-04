@@ -1,0 +1,27 @@
+{
+  "eo_number": "12250",
+  "title": "Executive Order 12250\u2014Leadership and Coordination of Nondiscrimination Laws",
+  "date_iso": "1980-11-02",
+  "president": "Jimmy Carter",
+  "congress_number": 96,
+  "source_url": "",
+  "word_count": 1500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Attorney General receives broad coordinating and approval authority over all federal agencies' nondiscrimination enforcement, though bounded by an explicit carve-out excluding equal-employment coordination (Sec. 1-503) and by each agency retaining its own implementing authority subject to AG approval rather than AG takeover."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-304 requires an annual report to the President through OMB \u2014 a specific, concrete accountability mechanism."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple nondiscrimination statutes (Title VI, Title IX, Section 504) are coordinated under one mechanism, all coherently addressing the same category of provisions."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Sec. 1-204's 'reasonable time limits' for initiating sanctions defers the concrete standard to the Attorney General's own subsequent guideline-development process rather than defining it here."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Permanence carve-out applies: nondiscrimination coordination is a standing, permanent government function, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Secs. 1-501 and 1-502 carefully preserve existing regulations issued under predecessor orders until formally revoked or modified \u2014 protective, continuity-preserving language."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Extensive interagency and state/local coordination requirements (memoranda of understanding, information sharing, cooperative programs per Sec. 1-206) provide real structure."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a major, still-operative institutional structure for coordinating federal civil-rights enforcement across dozens of agencies \u2014 the resulting DOJ coordination regulations (28 CFR Part 42) remain the operative framework decades later."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Each agency retains its own implementing authority subject to AG coordination and approval rather than direct takeover, and Sec. 1-503 explicitly excludes equal-employment coordination from this authority."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/20 = 15.0%. A significant, still-operative institutional structure for federal civil-rights enforcement coordination."
+}

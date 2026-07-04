@@ -1,0 +1,27 @@
+{
+  "eo_number": "12264",
+  "title": "Executive Order 12264\u2014Export of Banned or Significantly Restricted Substances",
+  "date_iso": "1981-01-15",
+  "president": "Jimmy Carter",
+  "congress_number": 97,
+  "source_url": "",
+  "word_count": 3500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Sec. 1-301 explicitly states the order's intent 'to rely primarily on the notification procedures... and to resort to the imposition of export controls only in a very few instances' \u2014 a genuinely self-limiting design constraining discretion toward the least restrictive available tool, implemented through a six-agency task force."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-303 provides a clear escalation mechanism: if State and Commerce cannot agree, the matter is referred to the President."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Extremely comprehensive substance-category definitions (foods, drugs, devices, pesticides, chemicals) all coherently serve one purpose: banned-substance export policy."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Extensive, precise cross-references to dozens of specific statutory provisions define 'banned or significantly restricted substance,' and export-control decision criteria (Sec. 1-305) are concrete and enumerated."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing regulatory framework implementing a permanent statute (the Export Administration Act), evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates extensive new notification, reporting, and task-force review requirements beyond bare statutory minimums; no existing oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-6 requires an independent annual evaluation report on the order's own effectiveness (by CEQ, State, and Commerce), and Sec. 1-306 requires the State Department to consider the affected foreign government's own input before any export license is recommended \u2014 genuine, multiple external and self-evaluative checks."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a significant, novel international public-health notification regime, predecessor to later chemical and hazardous-substance export notification norms \u2014 a meaningful institutional innovation, though deliberately bounded and export-control-averse by design."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The six-agency interagency task force (Sec. 1-304), explicitly tasked to 'endeavor to reach consensus,' is a carefully coordinated design."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 1-701's trade-secret protection is a protective limitation on information-sharing, not a coverage exemption; the substantive scope of covered substances is comprehensively defined, not carved out from."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/22 = 4.5%. Issued five days before the end of the Carter administration; one of the most exemplary orders coded in this project \u2014 explicit self-restraint favoring notification over export controls, a built-in self-evaluation requirement, and extensive multi-agency consensus review. Fourth in a run of well-designed late-Carter orders alongside EO 12088, EO 12139, and EO 12217."
+}

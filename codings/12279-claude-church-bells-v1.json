@@ -1,0 +1,27 @@
+{
+  "eo_number": "12279",
+  "title": "Executive Order 12279\u2014United States-Iran Agreement on Release of the American Hostages",
+  "date_iso": "1981-01-19",
+  "president": "Jimmy Carter",
+  "congress_number": 97,
+  "source_url": "",
+  "word_count": 750,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Sec. 1-101 directly compels private banks to transfer specific Iranian assets under IEEPA authority \u2014 a strong, mandatory, self-executing command, though narrowly tailored to implementing a specific, already-negotiated international agreement (the Algiers Accords) rather than open-ended discretion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The order implements specific diplomatic agreements with clearly defined asset-transfer mechanics to a named recipient (the Federal Reserve Bank of New York) as directed by Treasury."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: implementing the Algiers Accords hostage-release and asset-transfer agreement."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Specific, mandatory transfer instructions with defined mechanics, including interest calculated 'at commercially reasonable rates' to a designated recipient."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "The operative provisions are a one-time compelled asset transfer implementing a specific settlement, not an ongoing regulatory authority requiring periodic reauthorization."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "CRITICAL", "points": 2, "justification": "Sec. 1-102 nullifies all rights, powers, and privileges derived from prior court-ordered attachments, injunctions, or other litigation against the specified Iranian assets, and bars affected parties from exercising them \u2014 a direct, en masse override of existing final federal court orders and private litigants' judicially-recognized claims, done to implement a diplomatic settlement rather than through case-by-case judicial process."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-104 directs the Attorney General to intervene in and defend the order's legality in litigation, showing the administration anticipated and prepared for judicial review challenging the order itself, even as it nullified the specific prior attachments \u2014 the order's own validity remained subject to court testing (subsequently addressed in Dames & Moore v. Regan)."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "A landmark, precedent-setting exercise of executive authority to nullify private judicial rights and settle major international claims disputes via emergency economic powers \u2014 later validated by the Supreme Court, but structurally a significant assertion of executive power over final judicial determinations regardless of its subsequent legal validation."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Treasury and the Federal Reserve Bank of New York execute the transfer per specific direction; no competing agency mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "This compels action rather than creating coverage exemptions."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/16 = 31.25%. Issued on Carter's final full day in office, implementing the Algiers Accords that resolved the Iran Hostage Crisis. Judicial validation in Dames & Moore v. Regan (1981) confirms this exercise of authority was lawful, but per this project's design principle, legal validity and structural weight are separate axes \u2014 the order's nullification of existing federal court attachments en masse is a genuine, severe structural feature independent of whether courts later upheld it."
+}

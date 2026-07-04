@@ -1,0 +1,27 @@
+{
+  "eo_number": "9253",
+  "title": "Executive Order 9253\u2014Extension of the Provisions of Executive Order No. 9001 of December 27, 1941, to Contracts of the Immigration and Naturalization Service, Department of Justice",
+  "date_iso": "1942-10-09",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 130,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Extends an already-established delegated authority (EO 9001) to a new agency; creates no new authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "No new ambiguity is created; the order extends an existing, already-defined framework."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single, narrow purpose: extending an existing contracting authority to one additional agency."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The order is explicitly 'subject to the limitations and regulations contained in' EO 9001, incorporating existing, defined standards rather than creating new ones."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "A narrow technical extension inherits the parent order's incentive structure rather than creating a new one.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category applies: this extends an existing wartime contracting authority, revised through ordinary reference rather than requiring independent reauthorization."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "This narrow extension inherits enforcement infrastructure from the parent order (EO 9001) rather than needing to re-establish it."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow technical extension of an existing framework to one additional agency; no new authority claim or precedent."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Extends INS's own contracting authority; does not redirect another agency's mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created; the order extends coverage rather than carving from it."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/18 = 0.0%. Among the narrowest, most technical orders in the batch."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "9040",
+  "title": "Executive Order 9040\u2014Defining Additional Functions and Duties of the War Production Board",
+  "date_iso": "1942-01-24",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 380,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "'The Chairman... may exercise the powers, authority, and discretion conferred upon him by this or any other Order through such officials or agencies and in such manner as he may determine; and his decisions shall be final' (Sec. 3) \u2014 explicit, unreviewable authority in a single official, absorbing the functions of three predecessor bodies. Concentration serves rather than defeats the order's own production-coordination purpose, so PRESENT rather than CRITICAL per the calibration anchor."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "'His decisions shall be final' (Sec. 3) \u2014 no review process or external check specified."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Absorbs three predecessor functions (OPM, SPAB, National Defense Act \u00a7120 authority) but all serve one coherent purpose: wartime production coordination."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The order transfers very broad authority ('perform the functions and exercise the powers heretofore vested in...') without specifying operative standards for how that authority is to be exercised, deferring entirely to the Chairman's own subsequent orders."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Authority is tied to ongoing wartime production needs with no reauthorization or review mechanism specified."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 5's supersession of conflicting prior orders replaces one wartime coordination structure (OPM) with another (WPB); it does not remove judicial or congressional oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Given the Chairman's decisions are final with no review process, no external party has standing to check exercises of this authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Consolidates wartime economic authority previously split across three bodies into a single chairman with final say \u2014 a significant institutional precedent for concentrated economic-coordination structures."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4 formally abolishes the Office of Production Management and transfers its personnel, records, property, and funds to WPB \u2014 a clean, deliberate succession rather than an ad hoc redirection creating overlap or conflict."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/20 = 30.0%. The most concentrated single-official authority grant in this batch \u2014 explicit 'final' decision language with no review, absorbing three predecessor bodies' functions."
+}

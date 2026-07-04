@@ -1,0 +1,27 @@
+{
+  "eo_number": "9102",
+  "title": "Executive Order 9102\u2014Establishing the War Relocation Authority in the Executive Office of the President and Defining Its Functions and Duties",
+  "date_iso": "1942-03-18",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "CRITICAL", "points": 2, "justification": "The Director is granted authority to formulate and effectuate the entire removal, relocation, maintenance, and supervision program for a population designated under EO 9066 (Sec. 2), including power to prescribe regulations, make delegations 'as he may deem necessary' (Sec. 3d-e), and unilaterally set the terms and compensation of compelled labor in the War Relocation Work Corps (Sec. 7). This is total, unchecked administrative control over the liberty, labor, and property of a designated population, directly paralleling the core structural pathology already established as CRITICAL for the companion authorizing order, EO 9066."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "CRITICAL", "points": 2, "justification": "The Director is 'responsible to the President' only (Sec. 1); no appeal, complaint, or review mechanism is specified for the population most directly affected by the Director's administration of relocation, maintenance, and compelled-labor terms."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: implementing the relocation program authorized under EO 9066."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Prescribe regulations necessary or desirable to promote effective execution of such program' (Sec. 3d) is open-ended rule-making authority with no defined standards or limits on how relocation, maintenance, or work terms are administered."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "PRESENT", "points": 1, "justification": "The Director unilaterally sets compensation terms for compelled Work Corps labor (Sec. 7) for a population with no bargaining power, market alternative, or consent mechanism \u2014 a structural incentive toward exploitative terms with no external check.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Work Corps enlistment is tied to 'the duration of the present war' (Sec. 7), but the broader removal, relocation, and supervision authority (Secs. 1-6, 8-9) has no comparable end-date or review mechanism."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 11 explicitly preserves the authority and functions of numerous other orders and proclamations, and explicitly does not limit the FBI's functions \u2014 preserving rather than removing other oversight structures."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external body \u2014 judicial or otherwise \u2014 is given a role in checking the Director's exercise of removal, relocation, or labor-term-setting authority over the affected population."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "Operationalizes and institutionalizes one of the most significant civil-liberties violations in American governance history, establishing that a dedicated administrative agency can be built via executive order to implement forced relocation of an entire population designated by national-security rationale \u2014 a precedent-setting institutional template, consistent with the companion order EO 9066's own CRITICAL rating on this dimension."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 6 directs War and Justice Department cooperation rather than overriding their mandates, and Sec. 10 explicitly delineates WRA/military jurisdiction 'to avoid duplication of evacuation activities' \u2014 deliberate coordination, not ambiguous overlap."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "This order administers who implements relocation once a population is designated under EO 9066; it does not itself define or carve out coverage."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 10/20 = 50.0%. Companion implementing order to EO 9066 (Japanese American internment), already an established CRITICAL-heavy calibration anchor. This order shares and operationalizes the same core structural pathology \u2014 total, unchecked administrative control over a designated population's liberty and labor \u2014 and is scored accordingly. The most severe order coded in the validation batch to date."
+}

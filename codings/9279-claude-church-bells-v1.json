@@ -1,0 +1,27 @@
+{
+  "eo_number": "9279",
+  "title": "Executive Order 9279\u2014Providing for the Most Effective Mobilization and Utilization of the National Manpower and Transferring the Selective Service System to the War Manpower Commission",
+  "date_iso": "1942-12-05",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 1350,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Chairman designates which areas/industries face mandatory hiring channels and which workers are 'more urgently needed' elsewhere (Sec. 5), controlling labor mobility with real enforcement consequences (Sec. 5b) \u2014 broad discretion, partially offset by the appeal mechanism required under Sec. 7(c)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 7(c) explicitly requires the Chairman to 'establish such procedures (including appeals) as are necessary to assure a hearing to any person claiming that any action... is unfair or unreasonable'; Sec. 9 provides a further appeal channel to the President. A genuine, textually explicit accountability structure."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Selective Service transfer, hiring controls, and training-program oversight are distinct mechanisms but all coherently serve one stated purpose: effective wartime manpower mobilization."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'More urgently needed' and 'more essential' (Sec. 5) are Chairman-determined designations carrying real consequences (mandatory hiring channels, worker-retention restrictions) with no defined objective criteria \u2014 the appeal mechanism (Flag 2) addresses process, not the underlying vagueness of the substantive standard."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "PRESENT", "points": 1, "justification": "Because employers cannot retain workers designated 'more urgently needed' elsewhere, and no objective criteria govern that designation, employers have a structural incentive to seek favorable essential-designations for their own workforce rather than simply complying with a fixed standard."},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 13 sets an explicit termination trigger: the order continues 'until the termination of Title I of the First War Powers Act, 1941' \u2014 a well-defined end-point tied to the underlying statutory authority."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Appeal mechanisms are affirmatively created (Secs. 7c, 9), not removed; no existing oversight is eliminated."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The explicit appeal mechanism (Sec. 7c) gives affected individuals a genuine, if imperfect, channel to challenge 'unfair or unreasonable' actions."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a significant, novel wartime labor-market control apparatus (mandatory hiring channels, worker-retention restrictions) beyond what contemporaneous dispute-resolution bodies (e.g., the National War Labor Board) established \u2014 direct control over labor allocation and mobility, not just dispute adjudication."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 2 formally, comprehensively transfers the Selective Service System (functions, personnel, records, funds) to the War Manpower Commission while local and appeal boards 'continue to exercise' their functions under the new supervisory structure \u2014 a clean, deliberate transfer, not ad hoc overlap."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 7(b)'s hardship-relief provision is discretionary and explicitly bounded ('insofar as he finds so doing will not interfere with the effective prosecution of the war') \u2014 narrow, purpose-consistent relief, not a broad carve-out undermining the labor-control scheme."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 4/22 = 18.2%. Notable for having one of the more genuinely functional appeal/accountability mechanisms (Sec. 7c, 9) of any order coded in this batch, despite real vagueness in its underlying discretionary standards."
+}

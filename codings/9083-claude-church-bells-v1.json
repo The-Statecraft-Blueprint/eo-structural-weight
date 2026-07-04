@@ -1,0 +1,27 @@
+{
+  "eo_number": "9083",
+  "title": "Executive Order 9083\u2014Redistribution of Maritime Functions",
+  "date_iso": "1942-02-28",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 1450,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "This order disperses functions across the Bureau of Customs and the Coast Guard rather than concentrating them, with each exercised 'under the direction and supervision of' the respective Secretary."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Section-by-section, highly specific functional assignments to named officials with clear supervisory chains (Treasury for Customs, Navy for Coast Guard)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Extensive technical detail, but all sections serve one coherent purpose: wartime reorganization of maritime regulatory functions."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The order transfers well-established, pre-existing regulatory functions (vessel inspection, licensing, registry) with their own already-defined legal standards; it reassigns administration rather than creating new standards."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "The underlying vessel-safety and registry regime's existing incentive structure is undisturbed by this reassignment of administering officials.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 9 sets an explicit termination trigger: the order 'remain[s] in force until the termination of Title I of the First War Powers Act, 1941' \u2014 a well-designed, defined end-point."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The existing regulatory frameworks (inspection, licensing, casualty investigation) are preserved in substance; only the administering official changes."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Existing enforcement mechanisms (inspections, license suspension/revocation, casualty investigation boards) transfer intact with the functions themselves."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine wartime administrative reorganization of existing maritime functions; no new authority claim is made."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Despite redistributing one bureau's functions across two other agencies plus transfers from the Maritime Commission and Collectors of Customs, each section (2 through 5) specifies precisely what transfers where \u2014 careful, deliberate reallocation rather than the ambiguous overlap this flag targets."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 6 transfers an existing waiver authority (to waive navigation/inspection laws) to new officials; it does not create a new or broadened exemption regime."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/22 = 0.0%. A long, highly detailed order that scores cleanly precisely because of its care and specificity \u2014 length and technical density are not proxies for structural weight."
+}

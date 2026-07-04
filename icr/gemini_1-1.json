@@ -1,0 +1,921 @@
+[
+{
+"eo_number": "7329",
+"title": "Executive Order 7329—Authorizing the Acquisition of Land Near Petersburg, Virginia, for Emergency Conservation Work",
+"date_iso": "1936-03-30",
+"president": "Franklin D. Roosevelt",
+"congress_number": 74,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7329-authorizing-the-acquisition-land-near-petersburg-virginia-for](https://www.presidency.ucsb.edu/documents/executive-order-7329-authorizing-the-acquisition-land-near-petersburg-virginia-for)",
+"word_count": 412,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order distributes decision-making authority through standard administrative channels rather than pooling it unchecked, requiring funds to move from the Director of Emergency Conservation Work to the Department of the Interior, subject to requisition by the National Park Service."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument clearly identifies the specific officials and agencies responsible for executing and directing the funds, namely the Director of Emergency Conservation Work, the Secretary of the Interior, and the Director of the National Park Service."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order is structurally unified, with all provisions directly serving the singular problem frame of acquiring contiguous land to protect the Petersburg National Military Park from environmental degradation."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This instrument authorizes a one-time property acquisition and fund transfer; it does not establish an ongoing behavioral compliance relationship or regulatory rules for any class of actors."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "Because this order dictates a discrete transactional land acquisition rather than a regulatory framework, the concept of creating ongoing compliance incentives is completely inapplicable."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order commands a one-time, self-executing physical land purchase and monetary allocation, leaving no ongoing grant of program authority that could be subject to an expiration or renewal mechanism."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text does not contain any provisions that explicitly bypass, restrict, or eliminate existing legislative, judicial, or administrative oversight mechanisms."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no ongoing regulatory or behavioral enforcement regime established here, rendering third-party enforcement incentives inapplicable."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow administrative and transactional land acquisition order with no systemic or generic precedential implications."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "While multiple agencies are involved, the order cleanly structures the statutory fund transfers and operational handoffs between Emergency Conservation Work and the Department of the Interior without creating jurisdictional friction."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order does not create an ongoing compliance framework, meaning there is no population of coverage from which exemptions could be carved out."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "7344",
+"title": "Executive Order 7344—Revocation of Executive Order No. 5791 of February 2, 1932, Withdrawing Public Lands in Colorado",
+"date_iso": "1936-04-11",
+"president": "Franklin D. Roosevelt",
+"congress_number": 74,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7344-revocation-executive-order-no-5791-february-2-1932-withdrawing-public](https://www.presidency.ucsb.edu/documents/executive-order-7344-revocation-executive-order-no-5791-february-2-1932-withdrawing-public)",
+"word_count": 97,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is a simple, discrete land status adjustment where executive authority is entirely spent upon execution rather than vertically pooled in an unaccountable manner."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order is purely self-executing and establishes a transparent, objective trigger condition for its legal effect: 'the date of the official filing of the plat of resurvey of the said township.'"
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a single-provision instrument revoking a single previous executive action, leaving no secondary mechanisms or policy frames to bundle against."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The instrument changes a public land designation but introduces no ongoing behavioral rules, compliance mandates, or enforcement systems."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "Because the order lacks an ongoing regulatory compliance framework, it is structurally incapable of generating behavioral or gaming incentives."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order is a one-time, self-executing status change that contains no ongoing grant of administrative power, making sunsetting an inapplicable concept."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text does not alter, restrict, or eliminate any pre-existing judicial, legislative, or administrative review mechanisms."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no ongoing compliance regime or public enforcement structure created, rendering third-party mechanics irrelevant."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a highly localized, narrow land-status transaction with no broader systemic, generic, or structural precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "No secondary executive agencies or conflicting mandates are named or structurally implicated anywhere in the text."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no population of regulatory coverage established, so no architecture of waivers or exemptions can exist."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "7392",
+"title": "Executive Order 7392—Revocation of Executive Order No. 6014 of February 6, 1933, Withdrawing Public Lands in Oregon",
+"date_iso": "1936-06-19",
+"president": "Franklin D. Roosevelt",
+"congress_number": 74,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7392-revocation-executive-order-no-6014-february-6-1933-withdrawing-public](https://www.presidency.ucsb.edu/documents/executive-order-7392-revocation-executive-order-no-6014-february-6-1933-withdrawing-public)",
+"word_count": 95,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "As a discrete, self-executing land status adjustment, this order does not construct or concentrate ongoing vertical governance authority."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument is structurally clean and self-executing, relying on an explicit and objective external trigger for its implementation: 'the date of the official filing of the plat of resurvey of said township.'"
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The text contains a single provision revoking a single prior order, meaning there are no distinct policy elements to bundle."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order modifies a public land withdrawal but introduces no behavioral regulations or enforcement mechanics for a covered class."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "In the absence of an ongoing compliance regime or behavioral standard, the order cannot generate gaming or perverse incentives."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order executes a discrete status shift rather than granting durable administrative powers, meaning the concept of a sunset clause does not apply."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text contains no language that waives, removes, or weakens any existing layers of administrative or judicial oversight."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "Because there is no active regulatory framework or ongoing enforcement cycle, third-party monitoring mechanics are inapplicable."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a localized administrative action concerning specific public acreage with no systemic policy ramifications or broad precedential weight."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "No secondary federal entities are named or structurally impacted, precluding any lateral authority or mandate friction."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no population of coverage from which exceptions or waivers could be structurally carved out."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "7856",
+"title": "Executive Order 7856—Rules Governing the Granting and Issuing of Passports in the United States",
+"date_iso": "1938-03-31",
+"president": "Franklin D. Roosevelt",
+"congress_number": 75,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-7856-rules-governing-the-granting-and-issuing-passports-the-united-states](https://www.presidency.ucsb.edu/documents/executive-order-7856-rules-governing-the-granting-and-issuing-passports-the-united-states)",
+"word_count": 7817,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "While paragraph 1 states that 'Only the Secretary of State may grant and issue passports,' this aligns with standard statutory delegation and is checked by a highly rule-bound, multi-layered administrative process involving clerks of courts and passport agents."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order meticulously defines the direct responsibilities and precise obligations of applicants, supporting witnesses, clerks of courts, and passport agents at every stage of the verification process."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The vast text maintains structural integrity, strictly unifying all provisions around the single policy mechanism and frame of passport issuance procedures and criteria."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "ABSENT",
+"points": 0,
+"justification": "The evidentiary standards, document specifications, photographic guidelines, and identity verification requirements are thoroughly and explicitly detailed across 127 structured clauses."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "The rigorous verification design, mandatory oaths, and witness validation rules align applicant behaviors with accurate, truthful disclosures rather than rewarding gaming."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "This qualifies under the standing procedural framework carve-out; it dictates permanent administrative functions and explicitly indicates routine update through ordinary supersession in paragraph 127: 'This order supersedes Executive Order No. 5860...'"
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order codifies standard bureaucratic checkpoints and legal verifications without removing or restricting pre-existing judicial or statutory administrative review."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The compliance model features a robust multi-party check, explicitly requiring under paragraphs 40–43 that applicants be validated by a credible third-party supporting witness who faces legal liability under oath."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 124 explicitly expands executive power beyond routine procedures by granting the Secretary of State absolute, unconstrained discretion to 'refuse to issue a passport, to restrict a passport... to withdraw or cancel a passport,' creating a broad precedent for restricting citizen movement."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The framework successfully coordinates cross-cutting requests—such as integrating verifications from the War Department in paragraph 99—without overriding or conflicting with those entities' statutory baselines."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "ABSENT",
+"points": 0,
+"justification": "The passport fee exemptions structured in Part IX are tightly bounded, explicitly restricted to clear classes (e.g., official personnel, seamen, or families visiting military graves), and require strict departmental documentation to activate."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "8233",
+"title": "Executive Order 8233—Prescribing Regulations Governing the Enforcement of the Neutrality of the United States",
+"date_iso": "1939-09-05",
+"president": "Franklin D. Roosevelt",
+"congress_number": 76,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8233-prescribing-regulations-governing-the-enforcement-the-neutrality-the](https://www.presidency.ucsb.edu/documents/executive-order-8233-prescribing-regulations-governing-the-enforcement-the-neutrality-the)",
+"word_count": 669,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "Authority is explicitly distributed horizontally across various existing executive structures (War, Navy, Treasury, Commerce, Justice) based on their functional specialties rather than vertically pooled in a single unaccountable hand."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 3 introduces an accountability gap by leaving enforcement over merchant vessels to a fluid division of labor that the 'Secretary of the Treasury and the Secretary of Commerce may mutually agree upon,' without establishing an ultimate arbiter if a failure occurs."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order is structurally unified, focusing entirely on distributing administrative and operational duties to enforce a single, cohesive problem frame: the 1939 neutrality proclamation."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "PRESENT",
+"points": 1,
+"justification": "The text directs departments to conduct 'Enforcement of the neutrality... as prescribed in the above-mentioned proclamation,' but fails to outline the concrete trigger conditions, operational guidelines, or legal consequences for civilian non-compliance within this instrument."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "While issued within a foreign crisis context, the text allocates duties to existing agency structures without setting up open-ended programmatic funding or emergency expansions that would create structural reasons to perpetuate the underlying conflict."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order states it shall apply 'during said war,' establishing a clear connection to a temporary crisis condition, yet it fails to include any integrated reauthorization timeline or internal review mechanism to manage the eventual expiration of these domestic powers."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order supplements existing agency tasks ('which duties shall be in addition to the duties now prescribed') without dismantling or explicitly restricting any statutory administrative, judicial, or legislative review checks."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "PRESENT",
+"points": 1,
+"justification": "The neutrality enforcement relies entirely on government policing and direct agency surveillance, lacking any structural mechanisms or incentives designed to enable external third-party actors to monitor or surface vessel violations."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 1 grants the military land forces (War Department) broad domestic enforcement authority over civilian or neutral foreign entities within U.S. jurisdiction, setting a durable precedent for militarized domestic policing during external conflicts."
+},
+{
+"flag_number": 10,
+"flag_name": "PRESENT",
+"points": 1,
+"justification": "Paragraph 3 builds overlapping operational mandates by forcing the Treasury, Commerce, and Interior departments into shared jurisdictional spaces in territories and possessions, creating considerable potential for lateral administrative friction."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The instrument outlines internal bureaucratic duties for federal entities rather than constructing an external regulatory or behavioral compliance system with a waiver structure for private citizens."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "8451",
+"title": "Executive Order 8451—Authorizing the Appointment of Russell Sturgis to the Position of Assistant Territorial Representative in the Wage and Hour Division, Department of Labor, Without Regard to the Requirements of the Civil Service Rules",
+"date_iso": "1940-06-20",
+"president": "Franklin D. Roosevelt",
+"congress_number": 76,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8451-authorizing-the-appointment-russell-sturgis-the-position-assistant](https://www.presidency.ucsb.edu/documents/executive-order-8451-authorizing-the-appointment-russell-sturgis-the-position-assistant)",
+"word_count": 87,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is a minor personnel action that executes a single hiring exception; it does not construct or pool systemic governance authority in an unchecked office."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order is transparent and targeted, specifically naming the single individual (Russell Sturgis) and the precise agency position to be filled."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order contains a single administrative provision authorizing one discrete appointment, precluding any capacity for remedy or frame bundling."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This personnel document manages an individual internal appointment; it does not implement a regulatory standard of conduct or behavioral compliance regime."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "Because this order creates no ongoing external regulatory compliance dynamic, it cannot generate gaming or perverse behavioral incentives."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The authorization is a one-time, self-executing human resources exception that carries no durable systemic authority requiring a sunset clause."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order explicitly removes standard administrative checks by directing that the appointment proceed 'without compliance with the requirements of the Civil Service Rules,' directly preempting established competitive merit oversight."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no active regulatory framework or public enforcement architecture, rendering third-party monitoring mechanics inapplicable."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a hyper-specific individual employment carve-out that possesses no systemic policy ramifications or generic precedential weight."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "While it touches both the Department of Labor and Civil Service baselines, it relies on an explicit statutory mechanism (Civil Service Act section 2) to execute the appointment cleanly without inducing active mandate friction."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "Although the order is itself an exception, it does not design a structural architecture of waivers or exemptions for a broad class of covered actors."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "8736",
+"title": "Executive Order 8736—Partial Revocation of Executive Order No. 5214 of October 30, 1929, Withdrawing Public Lands for Naval Purposes",
+"date_iso": "1941-04-14",
+"president": "Franklin D. Roosevelt",
+"congress_number": 77,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8736-partial-revocation-executive-order-no-5214-october-30-1929](https://www.presidency.ucsb.edu/documents/executive-order-8736-partial-revocation-executive-order-no-5214-october-30-1929)",
+"word_count": 230,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "The partial land revocation is fully self-executing, and the narrow authority left to the Secretary of the Navy to manage ingress/egress regulations over the remaining plot does not represent an unchecked vertical pooling of power."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "Responsibility for managing access rules over the partial tract is clearly and explicitly assigned to a single, easily identifiable actor: the Secretary of the Navy."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a brief, single-provision land status adjustment, leaving no room for separate remedies or distinct problem frames to bundle."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The instrument mainly coordinates an administrative boundary reduction; the minor instruction regarding naval ingress/egress rules does not establish an ongoing behavioral compliance regime for a regulated public class."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "In the absence of a structured behavioral compliance or regulatory standard, the order is incapable of generating gaming incentives."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The land status adjustment is self-executing and final upon release, meaning there is no ongoing grant of programmatic authority requiring a sunset clause."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text does not contain any provisions that explicitly dismantle, alter, or restrict pre-existing judicial or administrative review channels."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "Because there is no active regulatory enforcement cycle created, third-party monitoring concepts are entirely irrelevant."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow, localized land-boundary adjustment with no broad systemic consequences or generic policy precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order names the Department of the Navy but does so cleanly to subtract specific acreage from a naval reservation, creating no lateral mandate friction or jurisdictional overlapping with other bodies."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no population of regulatory coverage established, so no architecture of exceptions or waivers can exist."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "8944",
+"title": "Executive Order 8944—Directing the Federal Works Administrator to Take Possession of and Operate a Certain Project of the Grand River Dam Authority",
+"date_iso": "1941-11-19",
+"president": "Franklin D. Roosevelt",
+"congress_number": 77,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-8944-directing-the-federal-works-administrator-take-possession-and-operate](https://www.presidency.ucsb.edu/documents/executive-order-8944-directing-the-federal-works-administrator-take-possession-and-operate)",
+"word_count": 565,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order concentrates absolute operational, managerial, and contractual control over a physical asset in the Federal Works Administrator ('through such person or persons as he may designate') without any external administrative or judicial checks on that authority."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order leaves no doubt regarding who is responsible for implementation, explicitly assigning absolute managerial obligation to the Federal Works Administrator and the valuation task to the Federal Power Commission."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The provisions are tightly integrated, strictly limiting all mechanisms to the immediate physical seizure, funding, and running of the Grand River Dam project for national defense."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 1 empowers the Administrator to operate the facility for generating power 'necessary to the safety and defense of the United States, and for other purposes involving the safety of the United States,' leaving the exact operational limits and definitions of 'safety' completely open-ended."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "While national safety is invoked, this is a targeted physical seizure of a specific infrastructure asset rather than a general emergency invocation that constructs ongoing funding pools or open-ended programmatic powers for the agency to perpetuate. Explicit requirements for just compensation and restoration costs further check exploitation risks."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "PRESENT",
+"points": 1,
+"justification": "The asset seizure tracks a clear crisis end-state ('until such time as it shall appear to the President that further retention... is unnecessary'), yet the instrument contains no built-in expiration dates, forcing its duration to rest entirely on unreviewable executive whim."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 4 explicitly allows the Federal Works Administrator to hire workforce personnel 'without compliance with the requirements of the Civil Service Rules,' bypassing standard statutory civil service merit protections and hiring oversight."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This order concerns a direct physical expropriation and government operation of a utility project rather than an ongoing regulatory compliance relationship governing a broad class of private actors."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "PRESENT",
+"points": 1,
+"justification": "By allowing the wholesale waiving of civil service standards for an entire project workforce and approving the physical nationalization of a state utility under a broad 'safety' frame, the order establishes a powerful structural precedent for executive infrastructure control."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order coordinates potential inter-agency conflict cleanly by utilizing the independent statutory expertise of the Federal Power Commission to determine fair compensation, avoiding lateral mandate clash."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "No ongoing external regulatory regime is constructed, meaning an architecture of compliance waivers or exemptions for private entities does not apply."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "9246",
+"title": "Executive Order 9246—Providing for the Coordination and Control of the Rubber Program",
+"date_iso": "1942-09-17",
+"president": "Franklin D. Roosevelt",
+"congress_number": 77,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-9246-providing-for-the-coordination-and-control-the-rubber-program](https://www.presidency.ucsb.edu/documents/executive-order-9246-providing-for-the-coordination-and-control-the-rubber-program)",
+"word_count": 474,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 1 concentrates total responsibility for and absolute control over all phases of the nation's rubber program in the Chairman of the War Production Board and an appointed Rubber Director, completely unfettered by external administrative check or judicial review."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The vertical reporting lines are distinct and rigid: the Rubber Director is explicitly 'appointed by and responsible to the Chairman of the War Production Board,' who holds centralized liability for the program."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text maintains structural focus, strictly binding all agency directives and research initiatives around the single problem frame and remedy of the wartime rubber shortage."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 3 empowers the Rubber Director to issue commands to other agencies 'in such manner and for such period of time as he deems advisable,' without clarifying the standard of conduct or explicit limits governing these sweeping inter-agency directives."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "The order focuses resources entirely toward resolving a specific resource deficit during mobilization, avoiding structures that reward failure or grant open-ended agency authority traps."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "PRESENT",
+"points": 1,
+"justification": "The program's core authority tracks a temporary crisis condition ('assuring an adequate supply of rubber for war'), but the order contains no explicit expiration date or periodic mandatory reauthorization pressure."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 3 states that 'full compliance shall be accorded such directives by the Federal agencies concerned,' effectively stripping those subordinate agencies of their normal statutory administrative autonomy, internal consultations, or review processes regarding rubber affairs."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This instrument is an internal executive branch mobilization and coordination order rather than a behavioral compliance framework governing private industrial entities."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "PRESENT",
+"points": 1,
+"justification": "Forcing independent statutory bodies (such as the Reconstruction Finance Corporation and Department of Agriculture) to subordinate their operations to a single commodity director creates a powerful structural precedent for centralized command-economy governance."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "PRESENT",
+"points": 1,
+"justification": "Paragraph 3 directly overrides the independent statutory mandates of six major federal entities, including the Board of Economic Warfare and the Department of Agriculture, by forcing them to execute commands at the discretion of the Rubber Director, creating severe lateral friction saved only by an explicit exception for the Price Administrator in Paragraph 5."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order governs internal executive reorganizations and agency workflows rather than constructing an external regulatory waiver system for private actors."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "9387",
+"title": "Executive Order 9387—Establishing an Advisory Board on Just Compensation and Prescribing Its Functions",
+"date_iso": "1943-10-15",
+"president": "Franklin D. Roosevelt",
+"congress_number": 78,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-9387-establishing-advisory-board-just-compensation-and-prescribing-its](https://www.presidency.ucsb.edu/documents/executive-order-9387-establishing-advisory-board-just-compensation-and-prescribing-its)",
+"word_count": 432,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "The body created is purely advisory ('Advisory Board on Just Compensation') and tasked with setting general standard formulae for an existing agency rather than pooling vertical un-checked executive power."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The composition of the Board is highly transparent, explicitly naming three specific judges, and their mandate to generate rules for the War Shipping Administration is clearly bound."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text maintains narrow thematic cohesion, strictly dedicating all clauses to a single remedy: forming a valuation panel to guide shipping compensation."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This order creates an internal standard-setting advisory board to guide a federal agency; it does not implement a compliance mandate or behavioral rules for private citizens."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "Because this order lacks an external regulatory compliance dynamic, it cannot generate structural gaming or perverse incentives for private actors."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order includes a clean, explicit sunset clause in paragraph 2, limiting the members' service to 'a period of three months or for such lesser period of time as may be required for the completion of the Functions.'"
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order introduces an additional internal expert check to aid an agency without explicitly eliminating, restricting, or preemption any pre-existing legislative or judicial oversight."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no ongoing public compliance regime or external enforcement cycle, making third-party incentive checks inapplicable."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is a narrow, temporary standard-setting panel utilizing established judicial figures to stabilize wartime valuation metrics, introducing no problematic systemic precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text outlines a cooperative operational structure, establishing that the War Shipping Administration will supply resources and utilize the Board's formulae without creating lateral mandate friction."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order establishes an internal expert board rather than a regulatory compliance framework with an integrated waiver system for private actors."
+}
+],
+"notes": ""
+}
+]

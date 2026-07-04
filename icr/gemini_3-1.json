@@ -1,0 +1,922 @@
+[
+{
+"eo_number": "11514",
+"title": "Executive Order 11514—Protection and Enhancement of Environmental Quality",
+"date_iso": "1970-03-05",
+"president": "Richard Nixon",
+"congress_number": 91,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-11514-protection-and-enhancement-environmental-quality](https://www.presidency.ucsb.edu/documents/executive-order-11514-protection-and-enhancement-environmental-quality)",
+"word_count": 1059,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "Authority is horizontally distributed across the heads of all Federal agencies and the Council on Environmental Quality, which functions primarily as an advisory and coordinating body to assist the President."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order explicitly divides internal implementation liabilities, assigning specific administrative assessment actions to agency heads in Section 2 and coordinating evaluative roles to the Council in Section 3."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument maintains structural focus, unifying all agency directives and Council mandates around the singular problem frame of implementing the National Environmental Policy Act of 1969."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "PRESENT",
+"points": 1,
+"justification": "Section 2(a) commands agency heads to 'Monitor, evaluate, and control on a continuing basis their agencies' activities' and 'develop programs and measures,' but fails to outline any quantitative compliance metrics, standardized triggers, or formal consequences for failing to meet national environmental goals."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "The design encourages inter-agency transparency and reporting without introducing open-ended programmatic funding mechanisms or emergency expansions that reward compliance failures."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "This order qualifies under the permanence carve-out for rights guarantees and statutory policy mandates, as it implements a permanent nationwide environmental protection framework with no natural end-state."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order significantly expands rather than restricts external checks, explicitly mandating in Section 2(b) the development of public disclosure procedures, including timely information sharing and public hearings."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The framework establishes robust external entry points by requiring agencies under Section 2(b) to ensure 'timely public information and understanding' and provide public hearings 'in order to obtain the views of interested parties,' giving third-party public interest groups standing and access to information."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text adheres strictly to reinforcing the statutory requirements of NEPA across the executive branch, creating no unexpected generic or systemic governance precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order coordinates cross-cutting compliance cleanly by mandating that the Council on Environmental Quality issue guidelines to agencies under Section 3(h), structuring a shared procedural layer without overriding existing operational statutory mandates."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument contains no broad waiver systems, carve-outs, or discretionary exclusions that undermine its stated population of coverage."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "11636",
+"title": "Executive Order 11636—Employee-Management Relations in the Foreign Service of the United States",
+"date_iso": "1971-12-17",
+"president": "Richard Nixon",
+"congress_number": 92,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-11636-employee-management-relations-the-foreign-service-the-united-states](https://www.presidency.ucsb.edu/documents/executive-order-11636-employee-management-relations-the-foreign-service-the-united-states)",
+"word_count": 4023,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "Decision authority is balanced across multiple distinct entities including the Board of the Foreign Service, the independent Employee-Management Relations Commission, and specific disputes panels rather than pooled in a single unchecked official."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order clearly establishes specific administrative channels and assigns explicit obligations for handling elections, grievances, and unfair labor practices to the Commission and independent panels."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The lengthy document maintains absolute structural unity, strictly limiting its mechanisms to the singular problem frame of employee-management labor relations within the Foreign Service."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "ABSENT",
+"points": 0,
+"justification": "The standards of conduct for organizations, definitions of unfair practices (Section 13), and election procedures under Section 7 are explicitly detailed to provide consistent application."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "The framework sets up reciprocal obligations for consultation and secret ballot elections without establishing budgetary traps or authority expansions that reward organizational failure."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "This qualifies under the standing procedural framework carve-out, as it creates an ongoing administrative and regulatory structure for labor relations that operates continuously and details explicit interactions with other executive orders."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument constructs a new parallel system of workplace checks and dispute panels that features public membership, rather than removing or restricting any pre-existing external statutory review."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "Recognized employee organizations are granted explicit legal standing and direct institutional incentives under Section 7 and 9 to monitor compliance, file appeals, and surface unfair management practices."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "PRESENT",
+"points": 1,
+"justification": "By carving the Foreign Service entirely out of general federal labor relations frameworks (Section 18) and allowing agency heads to classify positions as 'management officials' based on 'sole judgment' (Section 2(c)(3)), the order enables an expansive precedent for agency-controlled parallel personnel architectures."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 5(a) cleanly coordinates potential friction by creating a joint Commission composed of representatives from Labor, CSC, and OMB, using their expertise without overlapping or conflicting with their core statutory mandates."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "PRESENT",
+"points": 1,
+"justification": "Section 3(b) establishes a broad and unconstrained waiver structure by permitting the head of a foreign affairs agency, in his 'sole judgment,' to 'suspend temporarily any provision of this Order with respect to any post, bureau, office, or activity' during written emergency determinations, leaving the criteria for an emergency completely unconstrained by external checks."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "11796",
+"title": "Executive Order 11796—Continuing the Regulation of Exports",
+"date_iso": "1974-07-30",
+"president": "Richard Nixon",
+"congress_number": 93,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-11796-continuing-the-regulation-exports](https://www.presidency.ucsb.edu/documents/executive-order-11796-continuing-the-regulation-exports)",
+"word_count": 463,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "PRESENT",
+"points": 1,
+"justification": "Section 1 vertically pools expansive regulatory control over exports within the executive branch by continuing the administrative mandates of an expired statute, sustaining this authority in the Secretary of Commerce without any concurrent legislative check or administrative counterweight."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order avoids accountability gaps by clearly transferring and maintaining the explicit administrative and regulatory enforcement obligations within the Secretary of Commerce."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order is structurally cohesive, focusing entirely on a single problem frame and remedy: preserving the continuity of export control administrative rules following a legislative lapse."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "ABSENT",
+"points": 0,
+"justification": "The instrument avoids ambiguity by explicitly incorporating highly specific, pre-existing regulations under Section 2, referencing parts 368 to 399 of Title 15 of the Code of Federal Regulations."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "PRESENT",
+"points": 1,
+"sub_flag_fired": true,
+"justification": "The order explicitly triggers the Zombie Emergency Trap sub-flag; it derives its operative authority from the 'continued existence of the national emergencies declared by Proclamation No. 2914 of December 16, 1950, and Proclamation No. 4074 of August 15, 1971' to keep export regulations alive. This creates a strong institutional incentive to perpetuate old emergency declarations indefinitely to anchor domestic trade controls that Congress let expire."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "PRESENT",
+"points": 1,
+"justification": "The order explicitly addresses a temporary crisis caused by the expiration of a statute ('Notwithstanding the expiration of the Export Administration Act of 1969'), yet it lacks any integrated sunset clause, review schedule, or reauthorization timeline of its own, remaining permanent until revoked."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "PRESENT",
+"points": 1,
+"justification": "By utilizing emergency powers to artificially sustain a sweeping regulatory framework whose statutory authorization explicitly lapsed, the order effectively preempts and bypasses standard legislative reauthorization cycles and congressional oversight checks."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "PRESENT",
+"points": 1,
+"justification": "The export control regime depends entirely on self-reporting by commercial actors or direct policing by the Department of Commerce, leaving the enforcement loop completely lacking in external third parties with the standing and incentive to surface non-compliance."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "PRESENT",
+"points": 1,
+"justification": "The text establishes an expansive constitutional and structural precedent, legitimizing the practice of maintaining expired statutory frameworks indefinitely by re-anchoring them to old, open-ended presidential emergency declarations."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order cleanly continues existing delegations within the Department of Commerce and preserves other agencies' standard authority in Section 3, avoiding any new horizontal mandate conflicts."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order simply carries forward a pre-existing regulatory block wholesale rather than engineering a new architecture of discretionary waivers or broad individual exemptions."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "12023",
+"title": "Executive Order 12023—Central Intelligence Agency Retirement and Disability System",
+"date_iso": "1977-12-01",
+"president": "Jimmy Carter",
+"congress_number": 95,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-12023-central-intelligence-agency-retirement-and-disability-system](https://www.presidency.ucsb.edu/documents/executive-order-12023-central-intelligence-agency-retirement-and-disability-system)",
+"word_count": 455,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order implements highly rule-bound, standard benefit configurations conforming to statutory civil service principles rather than creating an unchecked vertical pooling of power."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The Director of Central Intelligence is explicitly designated as the official responsible for maintaining the system and Fund in accordance with the specified guidelines, leaving no ambiguity."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text is structurally unified, strictly limiting all mechanisms to the narrow, single focus of administrative principles for the CIA Retirement and Disability System."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "ABSENT",
+"points": 0,
+"justification": "The constraints and triggers are mathematically precise, establishing exact application deadlines such as 'before the one hundred and fifteenth anniversary of the participant's birth' and 'within 30 years after the death.'"
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "The order prescribes rigid mechanical timelines for benefit applications and salary deposits, creating no gaming traps or structural reasons to subvert the system."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "This qualifies under the standing administrative framework carve-out; the underlying retirement system is a permanent administrative asset updated routinely through statutory and executive supersession."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order operates cleanly within statutory boundaries, reinforcing provisions under the Central Intelligence Agency Retirement Act of 1964 without removing or limiting external review."
+},
+{
+"flag_number": 4,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "Individual system participants and their beneficiaries have direct, powerful personal economic incentives and explicit standing to monitor compliance and file timely claims under Section 1."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is a narrow, minor administrative benefit alignment order with no broad systemic or generic policy precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text cleanly routes salary deductions into the Treasury of the United States to the credit of the Fund, aligning with statutory fiscal rules without generating lateral mandate friction."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "ABSENT",
+"points": 0,
+"justification": "While Section 1(b) grants the Director discretion to consider annuity allotments, this is a narrow, standard personal option for retirees rather than a broad, discretionary compliance waiver architecture."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "12051",
+"title": "Executive Order 12051—Waiver under the Trade Act of 1974 with respect to the Hungarian People's Republic",
+"date_iso": "1978-04-07",
+"president": "Jimmy Carter",
+"congress_number": 95,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-12051-waiver-under-the-trade-act-1974-with-respect-the-hungarian-peoples](https://www.presidency.ucsb.edu/documents/executive-order-12051-waiver-under-the-trade-act-1974-with-respect-the-hungarian-peoples)",
+"word_count": 78,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order represents a discrete exercise of a specific, statutorily delegated authority that requires reporting to Congress, preserving external legislative accountability."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order is completely self-executing, carrying zero ambiguity regarding its immediate legal effect, scope, or responsibility."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The instrument consists of a single operational sentence waiving a specific provision for a single nation, leaving no secondary policy mechanisms to bundle against."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order suspends a trade restriction for Hungary; it does not implement an ongoing behavioral rule or domestic regulatory compliance relationship."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "Because the order lacks an ongoing regulatory compliance framework, it is structurally incapable of generating behavioral gaming incentives."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is an immediate, self-executing statutory waiver tied directly to annual legislative review cycles under Section 402(d) of the Trade Act, possessing no continuous program framework of its own to sunset."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text explicitly confirms adherence to statutory checks, stating that the President has 'made the report to the Congress required by Section 402(c)(2).'"
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no ongoing compliance regime or public enforcement cycle created, rendering third-party monitoring mechanics irrelevant."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow foreign trade transaction targeted at one nation under explicit statutory guidance, carrying no broad or systemic precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "No secondary executive agencies or conflicting mandates are named or structurally affected anywhere in the brief text."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "While the order is itself an exception, it does not construct an architectural framework of nested waivers or unconstrained discretionary exemptions for a covered class."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "12232",
+"title": "Executive Order 12232—Historically Black Colleges and Universities",
+"date_iso": "1980-08-08",
+"president": "Jimmy Carter",
+"congress_number": 96,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-12232-historically-black-colleges-and-universities](https://www.presidency.ucsb.edu/documents/executive-order-12232-historically-black-colleges-and-universities)",
+"word_count": 450,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "Decision authority over the initiative is distributed horizontally among the Secretary of Education, the Director of OMB, and the heads of individual executive agencies rather than pooled in an unchecked central position."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "Sections 1-106 and 1-107 prevent accountability gaps by explicitly demanding that the head of each agency and the Secretary of Education designate a specific immediate subordinate responsible for implementing the order."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order displays strict structural cohesion, focusing all mechanisms and agency reviews exclusively on a single problem frame: increasing the participation of HBCUs in federal programs."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "PRESENT",
+"points": 1,
+"justification": "Section 1-101 commands the Secretary to implement an initiative designed to achieve a 'significant increase' in participation, but the text leaves the operational criteria, baseline metrics, and consequences for non-compliance entirely unrefined and vague."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "The order focuses on identifying and eliminating unintended procedural barriers within existing programs without introducing funding structures that reward failure or create open-ended authority traps."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "This establishes a standing administrative procedural framework for executive program accessibility which is maintained via continuous operations and annual reporting (Section 1-108), qualifying under the permanence carve-out."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order does not eliminate pre-existing checks, actually adding an internal reporting obligation to the President (Section 1-108) and expanding stakeholder commentary in Section 1-107(b)."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 1-107(b) explicitly structures external accountability by mandating that 'each President of a historically Black college or university is given the opportunity to comment on the implementation,' giving affected third parties voice and incentive to surface deficiencies."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is an internal executive management directive regarding program eligibility barriers, generating no expansive systemic or problematic legal precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 1-102 cleanly coordinates lateral interaction by requiring the Secretary of Education to act 'in consultation with the Director of the Office of Management and Budget and the heads of the other Executive agencies' to set goals, avoiding mandate conflicts."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order directs the general elimination of barriers rather than designing a waiver architecture or unconstrained discretionary carve-outs that undermine its intent."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "12434",
+"title": "Executive Order 12434—Alaska Railroad Rates",
+"date_iso": "1983-07-19",
+"president": "Ronald Reagan",
+"congress_number": 98,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-12434-alaska-railroad-rates](https://www.presidency.ucsb.edu/documents/executive-order-12434-alaska-railroad-rates)",
+"word_count": 546,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "Rate-fixing authority is explicitly checked, subjecting the Secretary of Transportation's rate decisions to the external authority and approval of the Interstate Commerce Commission pursuant to Section 3."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order cleanly assigns distinct administrative functions, placing operational and filing obligations on the Secretary of Transportation and regulatory review duties on the Commission."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text maintains total structural integrity, strictly limiting all provisions to the single frame and remedy of establishing Alaska Railroad rate procedures."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "ABSENT",
+"points": 0,
+"justification": "The standards of conduct are highly precise, explicitly incorporating multiple specific statutory subchapters and sections of Title 49 of the United States Code in Section 3 to govern rate reviews."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "ABSENT",
+"points": 0,
+"sub_flag_fired": false,
+"justification": "By forcing the government-operated rail carrier to file rates under the same statutory constraints as comparable commercial private carriers, the order aligns incentives and avoids structural market distortions."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "This qualifies under the standing procedural framework carve-out; it creates a long-term administrative and utility rate-setting infrastructure under the Alaska Railroad Act, updated through explicit supersession in Section 4(a)."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "Rather than removing checks, the order actively expands oversight by subjecting a state-operated utility directly to external independent regulatory review via the Interstate Commerce Commission."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 2(b) ensures that any contract filed with the Commission 'shall be available to any other shipper,' providing commercial third parties with direct transparency and powerful economic incentives to monitor compliance or challenge rates."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is a routine administrative coordination of a state enterprise under established public utility concepts, introducing no unexpected or expansive structural precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order prevents lateral friction by cleanly structuring the intersection between the Department of Transportation's operational mandate and the Commission's statutory regulatory role under Section 3."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "ABSENT",
+"points": 0,
+"justification": "Contract rate access is explicitly made non-discriminatory and open to any contemporaneous shipper under Section 2(b), leaving no unconstrained waiver architecture."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "12811",
+"title": "Executive Order 12811—Waiver Under the Trade Act of 1974 With Respect to Tajikistan and Turkmenistan",
+"date_iso": "1992-06-24",
+"president": "George Bush",
+"congress_number": 102,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-12811-waiver-under-the-trade-act-1974-with-respect-tajikistan-and](https://www.presidency.ucsb.edu/documents/executive-order-12811-waiver-under-the-trade-act-1974-with-respect-tajikistan-and)",
+"word_count": 90,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order represents a bounded exercise of a specific, statutorily delegated waiver power that requires submission of a report to Congress, preserving external legislative checks."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order is entirely self-executing, carrying zero ambiguity regarding its immediate legal effect or scope."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The instrument contains a single operational provision waiving a statutory restriction for two specified nations, leaving no distinct policy frames to bundle against."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order suspends a trade restriction for Tajikistan and Turkmenistan; it does not implement an ongoing domestic behavioral rule or regulatory compliance relationship."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "Because the order lacks an ongoing regulatory compliance framework, it is structurally incapable of generating behavioral or gaming incentives."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a one-time, self-executing statutory waiver tied to a broader legislative review pattern under Section 402(d) of the Trade Act, possessing no continuous program framework of its own to sunset."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The text explicitly satisfies statutory oversight checks, noting that the President has 'made the report to the Congress required by section 402(c)(2) of the Act.'"
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "No ongoing compliance regime or public enforcement cycle is established, rendering third-party monitoring mechanics irrelevant."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow foreign trade transaction targeted at two specific nations under explicit statutory guidelines, carrying no broad or systemic precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "No secondary federal agencies or conflicting mandates are named or horizontally affected by the text."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "While the order is itself an exception, it does not design a complex architectural framework of discretionary waivers or nested exclusions."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "12864",
+"title": "Executive Order 12864—United States Advisory Council on the National Information Infrastructure",
+"date_iso": "1993-09-15",
+"president": "William J. Clinton",
+"congress_number": 103,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-12864-united-states-advisory-council-the-national-information](https://www.presidency.ucsb.edu/documents/executive-order-12864-united-states-advisory-council-the-national-information)",
+"word_count": 594,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "The entity formed is explicitly advisory ('United States Advisory Council on the National Information Infrastructure') and tasked with giving suggestions to the Secretary of Commerce, lacking standalone executive operational command."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "The reporting structure is transparent and clear, requiring the Council to advise the Secretary of Commerce, who controls its appointments and administrative support."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "ABSENT",
+"points": 0,
+"justification": "The council maintains narrow thematic cohesion, strictly dedicating all provisions to the single problem frame of advising on strategies for National Information Infrastructure development."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order constructs an investigative advisory board to conduct research and formulate reports; it does not implement a compliance mandate or behavioral regulations for private citizens."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "Because this order lacks an external regulatory compliance dynamic, it cannot generate structural gaming or perverse incentives for private actors."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 4(b) includes a clean, explicit sunset clause, dictating that 'The Council shall exist for a period of two years from the date of this order, unless the Council’s charter is subsequently extended.'"
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "The order explicitly implements and operates under the guidelines of the Federal Advisory Committee Act, preserving standard statutory check structures."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "There is no ongoing public compliance regime or external enforcement cycle, making third-party incentive checks inapplicable."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is a standard temporary advisory body setup under FACA guidelines, creating no unexpected or expansive structural precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 3(a) sets up a cooperative data-sharing structure ('heads of executive agencies shall, to the extent permitted by law, provide... such information') without overriding or conflicting with horizontal mandates."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order establishes an advisory board rather than a regulatory compliance framework with an integrated waiver system for private actors."
+}
+],
+"notes": ""
+},
+{
+"eo_number": "12937",
+"title": "Executive Order 12937—Declassification of Selected Records Within the National Archives of the United States",
+"date_iso": "1994-11-10",
+"president": "William J. Clinton",
+"congress_number": 103,
+"source_url": "[https://www.presidency.ucsb.edu/documents/executive-order-12937-declassification-selected-records-within-the-national-archives-the](https://www.presidency.ucsb.edu/documents/executive-order-12937-declassification-selected-records-within-the-national-archives-the)",
+"word_count": 176,
+"coder_id": "gemini-2.5-collaborator",
+"coded_date": "2026-07-03",
+"flags": [
+{
+"flag_number": 1,
+"flag_name": "Power Concentration",
+"status": "ABSENT",
+"points": 0,
+"justification": "This is a self-executing declassification order where final authority over specific FOIA exclusions is shared between the Archivist and the head of an affected agency under Section 2, preventing unchecked vertical pooling."
+},
+{
+"flag_number": 2,
+"flag_name": "Accountability Gaps",
+"status": "ABSENT",
+"points": 0,
+"justification": "Obligations are explicit and tightly bound, assigning the task of public disclosure to the Archivist of the United States with a fixed, mandatory 30-day timeline."
+},
+{
+"flag_number": 3,
+"flag_name": "Bundling",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order contains a single operational theme declassifying a closed list of files, leaving no secondary policy mechanisms to bundle against."
+},
+{
+"flag_number": 4,
+"flag_name": "Vague Enforcement",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The order changes the classification status of a fixed archival data set; it does not implement an ongoing behavioral rule or regulatory compliance relation for a covered public class."
+},
+{
+"flag_number": 5,
+"flag_name": "Perverse Incentives",
+"status": "NOT_APPLICABLE",
+"points": null,
+"sub_flag_fired": false,
+"justification": "In the absence of a structured behavioral compliance or regulatory regime, the order is incapable of generating gaming incentives."
+},
+{
+"flag_number": 6,
+"flag_name": "Sunset Provisions",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a one-time, immediate, and self-executing declassification directive with a hard 30-day execution target, leaving no ongoing grant of program power to sunset."
+},
+{
+"flag_number": 7,
+"flag_name": "Preemption of Oversight",
+"status": "ABSENT",
+"points": 0,
+"justification": "It operates within established statutory oversight boundaries, explicitly conditioning the retention of sensitive data on authorized exemptions to the Freedom of Information Act under Section 2."
+},
+{
+"flag_number": 8,
+"flag_name": "Third-Party Incentive Gaps",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "Because there is no active regulatory enforcement cycle created, third-party monitoring concepts are entirely irrelevant."
+},
+{
+"flag_number": 9,
+"flag_name": "Second/Third-Order Effects",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "This is a narrow, transactional administrative action releasing a specific historical record batch, carrying no systemic policy consequences or generic precedents."
+},
+{
+"flag_number": 10,
+"flag_name": "Inter-Agency Cannibalization",
+"status": "ABSENT",
+"points": 0,
+"justification": "Section 2 avoids lateral mandate friction by ensuring that NARA's disclosure timeline is subject to mutual agreement if the head of an affected agency determines specific data requires statutory protection under FOIA."
+},
+{
+"flag_number": 11,
+"flag_name": "Exemptions Architecture",
+"status": "NOT_APPLICABLE",
+"points": null,
+"justification": "The narrow reference to standard statutory FOIA exemptions in Section 2 does not represent the creation of a broad new waiver or exemption architecture."
+}
+],
+"notes": ""
+}
+]

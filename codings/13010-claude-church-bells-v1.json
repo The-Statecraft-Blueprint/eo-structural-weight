@@ -1,0 +1,27 @@
+{
+  "eo_number": "13010",
+  "title": "Executive Order 13010\u2014Critical Infrastructure Protection",
+  "date_iso": "1996-07-15",
+  "president": "William J. Clinton",
+  "congress_number": 104,
+  "source_url": "",
+  "word_count": 1900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A multi-layered structure (Commission reporting through a Principals Committee that reviews all recommendations, overseen by a Steering Committee) with broadly representative membership across ten agencies."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4(g) requires ongoing reports and recommendations 'as they become available,' explicitly stating the Commission 'shall not limit itself to producing one final report' \u2014 real, continuing accountability."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related functions (threat assessment, policy recommendation, interim coordination) all coherently serve one purpose: critical infrastructure protection."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This is a study and interim-coordination structure; no binding compliance regime is created against private infrastructure owners by this order itself."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 6(f) sets an explicit one-year termination for the Commission and related bodies, and Sec. 7(h) sets a defined termination for the interim task force tied to the Commission's own termination \u2014 a well-designed, staged sunset."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 7(b) explicitly states the interim task force 'will not supplant any existing programs or organizations.'"},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4(b) requires the Commission to identify and consult with public and private sector infrastructure owners and operators and with Congress \u2014 a genuine, structured multi-stakeholder engagement requirement."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This is the foundational federal framework for critical infrastructure and cybersecurity policy, the direct institutional precursor to the modern U.S. cybersecurity apparatus \u2014 genuinely significant."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "An elaborate but carefully structured multi-committee design with clearly defined roles at each level."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/16 = 6.25%. The foundational order for U.S. critical infrastructure and cybersecurity policy \u2014 this Commission's work led directly to PDD-63 and the broader federal cybersecurity framework that followed. Scores very low due to careful, consultative, multi-layered design despite its genuinely foundational significance."
+}

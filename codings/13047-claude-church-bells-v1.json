@@ -1,0 +1,27 @@
+{
+  "eo_number": "13047",
+  "title": "Executive Order 13047\u2014Prohibiting New Investment in Burma",
+  "date_iso": "1997-05-20",
+  "president": "William J. Clinton",
+  "congress_number": 105,
+  "source_url": "",
+  "word_count": 950,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Exercises authority delegated by a specific congressional statute (Section 570 of the 1997 appropriations act) requiring a specific presidential certification as a precondition, though broad IEEPA-based implementation discretion follows once that trigger is met."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No independent review process for affected investors is specified in this order's own text."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related provisions (investment prohibition, facilitation ban, evasion ban) all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "An extensive, precise definitions section (Sec. 4) defines 'new investment' and related terms with specific exclusions for not-for-profit humanitarian activities."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No review or reauthorization mechanism is specified for the underlying emergency and sanctions authority."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order is explicitly transmitted to Congress."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external check is specified on the Secretary of the Treasury's implementation authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "A significant sanctions action responding to a documented human-rights crisis, implementing a specific congressional directive with real international significance."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Standard Treasury/State sanctions administration coordination."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 4(f) explicitly excludes not-for-profit educational, health, and humanitarian programs from the covered 'economic development' definition \u2014 a narrow, purpose-consistent carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/20 = 25.0%."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "13021",
+  "title": "Executive Order 13021\u2014Tribal Colleges and Universities",
+  "date_iso": "1996-10-19",
+  "president": "William J. Clinton",
+  "congress_number": 104,
+  "source_url": "",
+  "word_count": 1600,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A purely advisory Board, with the Secretary of Education coordinating agency efforts; distributed, not concentrated."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 5 requires detailed Five-Year Plans with 'annual performance indicators and appropriate measurable objectives' plus Annual Performance Reports \u2014 genuinely specific, measurable accountability."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related sub-requirements (Board, Initiative Office, Five-Year Plans, private-sector engagement) all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A goal-setting and coordination initiative, not a compliance regime with defined violations."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 7 sets an explicit termination: two years after the order, unless renewed by the President."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates new planning and reporting requirements rather than removing any existing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Board membership explicitly includes representatives of tribal colleges themselves \u2014 direct stakeholder representation on the body, not merely an opportunity to comment."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a durable, government-wide coordination initiative for tribal college support, comparable in institutional significance to EO 12232's HBCU initiative."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "A coordination model with no competing mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/14 = 7.1%. Notably better-designed than its predecessor-in-spirit, EO 12232: an explicit sunset with a renewal requirement and direct stakeholder board membership, rather than an open-ended review gap."
+}

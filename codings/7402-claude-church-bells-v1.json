@@ -1,0 +1,27 @@
+{
+  "eo_number": "7402",
+  "title": "Executive Order 7402\u2014Modification of Executive Order No. 6910 of November 26, 1934, as Amended, Withdrawing Public Lands in Certain States",
+  "date_iso": "1936-06-26",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 74,
+  "source_url": "",
+  "word_count": 100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A narrow, technical modification enabling the Secretary of the Interior to withdraw specific tracts for reclamation purposes under an existing statute."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear, specific modification with no ambiguity about responsibility."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: enabling a specific land withdrawal for reclamation."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A land-status action creating no compliance regime."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "This modifies an underlying 'temporary' withdrawal order (EO 6910) with no defined end-date, consistent with the permanence gap already identified in similar land-withdrawal orders in this corpus (EO 7329, EO 8344)."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "An extremely narrow, technical, routine application of an established land-management mechanism."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/12 = 8.3%. First negative-class EO coded, drawn from the pre-registered negative sample (N=149, seed 20260703)."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "8225",
+  "title": "Executive Order 8225\u2014Abolishing Customs Collection District Number 44 (Iowa); Extending Limits of Customs Collection District Number 39 (Chicago) To Include the State of Iowa; and Revoking the Designations of Des Moines, Iowa, Oklahoma City, Oklahoma, and Tulsa, Oklahoma, as Customs Ports of Entry",
+  "date_iso": "1939-08-24",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 76,
+  "source_url": "",
+  "word_count": 200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Exercises specific, existing statutory authority for routine customs administrative reorganization."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Four clear, specific, itemized organizational changes."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related actions (district abolition, territory reassignment, port-of-entry revocations) all coherently serve one purpose: customs field-organization streamlining."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "An organizational and jurisdictional reassignment, not a compliance regime against private parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A permanent organizational restructuring, not a temporary-authority grant."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Routine administrative streamlining; no oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, bounded administrative reorganization with an explicit thirty-day transition period allowing affected importers and customs brokers to adjust."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "An internal Customs Bureau reorganization; no other agency is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/10 = 0.0%. A well-designed administrative reorganization with a sensible built-in transition period."
+}

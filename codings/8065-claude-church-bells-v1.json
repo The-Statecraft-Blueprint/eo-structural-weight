@@ -1,0 +1,27 @@
+{
+  "eo_number": "8065",
+  "title": "Executive Order 8065\u2014Establishing the Necedah Migratory Waterfowl Refuge",
+  "date_iso": "1939-03-14",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 76,
+  "source_url": "",
+  "word_count": 950,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Grants the Secretary of Agriculture rule-making authority over permitted activities within the refuge, a standard and appropriately-scoped regulatory grant for a conservation area."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear, specific designation with an explicit statutory basis."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related elements (land reservation, criminal prohibition, land-order amendment) all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The criminal prohibition is reasonably specific ('hunt, trap, capture, wilfully disturb, or kill any bird or wild animal... or enter thereon'); the deferral of specific permitted activities to the Secretary's future regulations is a standard, appropriately-scoped pattern for refuge management."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A permanent wildlife refuge and conservation designation, not a temporary-authority grant requiring review."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "Standard federal wildlife-refuge criminal enforcement applies; no distinct external-monitoring gap is identifiable."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A larger-scale (approximately 40,500 acres) but routine application of an already well-established conservation mechanism (Migratory Bird Conservation Act refuges with criminal trespass and take prohibitions)."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "This carefully amends a prior land-classification withdrawal order (EO 6964) to exclude the refuge area, a deliberate, coordinated adjustment."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/16 = 0.0%. Notable among the wildlife-refuge orders in this batch for its larger scale (approximately 40,500 acres) and explicit criminal-enforcement provision, yet it still scores cleanly given its routine, well-established regulatory structure."
+}

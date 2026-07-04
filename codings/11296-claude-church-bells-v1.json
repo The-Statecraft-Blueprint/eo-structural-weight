@@ -1,0 +1,27 @@
+{
+  "eo_number": "11296",
+  "title": "Executive Order 11296\u2014Evaluation of Flood Hazard in Locating Federally Owned or Financed Buildings, Roads, and Other Facilities, and in Disposing of Federal Lands and Properties",
+  "date_iso": "1966-08-10",
+  "president": "Lyndon B. Johnson",
+  "congress_number": 89,
+  "source_url": "",
+  "word_count": 1100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Responsibility is distributed across 'the heads of the executive agencies' broadly; no single official is granted concentrated authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4 ties compliance directly to the budget process: appropriations requests for new construction must be accompanied by a statement on the agency's flood-hazard evaluation findings \u2014 a genuinely well-designed, structural transparency mechanism."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related sub-requirements (siting, lending, land disposal, planning) all coherently serve one purpose: flood-hazard-conscious federal decision-making."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The order's operative standards are qualified throughout by 'as far as practicable,' 'whenever practical and economically feasible,' and 'as may be desirable' \u2014 genuinely soft, aspirational compliance standards without firm, mandatory thresholds."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing federal planning-policy framework, evergreen by nature, not tied to a resolvable emergency."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This adds a new evaluation and reporting requirement; no existing oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No independent review of agencies' own 'practicability' determinations is specified \u2014 agencies self-assess whether compliance is practicable, with no external check on that judgment."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "A genuinely forward-looking policy innovation, establishing flood-hazard consideration as a standing requirement across all federal siting, lending, and land-disposal decisions \u2014 predating much of the environmental-policy movement that followed (NEPA, 1970)."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3's designation of the Army Corps of Engineers and TVA as information sources, with other agencies directed to cooperate, is coordination, not mandate redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/20 = 15.0%. A genuinely forward-thinking policy predating the broader environmental-policy movement, with a real structural strength (the budget-tied reporting requirement in Sec. 4) alongside real softness in its compliance standards."
+}

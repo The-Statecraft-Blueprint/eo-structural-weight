@@ -1,0 +1,27 @@
+{
+  "eo_number": "11098",
+  "title": "Executive Order 11098\u2014Amending the Selective Service Regulations",
+  "date_iso": "1963-03-14",
+  "president": "John F. Kennedy",
+  "congress_number": 88,
+  "source_url": "",
+  "word_count": 2400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A technical amendment to an existing, comprehensive regulatory system, narrowing or clarifying specific procedural rules rather than creating new discretionary authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Extremely detailed procedural rules throughout (specific forms by number, specific definitions, specific timelines)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple distinct technical amendments (mailing procedures, classification criteria, appeal standing, physical exam procedures) all serve one coherent regulatory system: Selective Service administration."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Exceptionally granular specificity throughout, including precise definitions of 'child,' 'physician,' 'dentist,' and 'veterinarian' and exact procedural sequences."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "Sec. 2(b)(3)'s pregnancy-certification timing requirement is a narrow, technical anti-fraud safeguard, not a perverse incentive.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category strongly applies: the preamble cites twelve prior amending orders (10001 through 10984), directly evidencing an extensive, ongoing pattern of periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 4(a) expands rather than narrows appeal standing, adding dependents and occupational-deferment requesters as parties who may appeal."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "An extensive, structured appeal-board process with specific standing rules provides a real external check."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, technical regulatory amendment within an already extensively developed framework; no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "This amendment narrows rather than broadens an existing dependency exemption (excluding physicians, dentists, and veterinarians); no new exemption architecture is introduced."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/18 = 0.0%. Extremely dense but extremely well-specified technical regulation."
+}

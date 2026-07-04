@@ -1,0 +1,27 @@
+{
+  "eo_number": "11327",
+  "title": "Executive Order 11327\u2014Assigning Authority to Order Certain Persons in the Ready Reserve to Active Duty",
+  "date_iso": "1967-02-15",
+  "president": "Lyndon B. Johnson",
+  "congress_number": 90,
+  "source_url": "",
+  "word_count": 320,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Delegates authority to call up a narrowly and specifically defined category of Ready Reservists (three objective conditions in Sec. 1), not open-ended authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Clear, specific eligibility criteria plus Sec. 3's explicit fairness-consideration requirements (family responsibilities, essential employment)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: narrow call-up authority."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Sec. 3's fairness-consideration factors ('appropriate consideration' for family responsibilities and essential employment) have no defined weighting process, even though the eligibility criteria themselves are objective."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "An explicit, clean expiration date is set: authority runs 'until June 30, 1968.'"},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The narrow, objective eligibility criteria and explicit fairness-consideration requirement provide real, if imperfectly proceduralized, structure."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, time-limited, criteria-bound delegation; no broad precedent is claimed."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/18 = 5.6%."
+}

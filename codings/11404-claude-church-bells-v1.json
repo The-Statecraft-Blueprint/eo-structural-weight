@@ -1,0 +1,27 @@
+{
+  "eo_number": "11404",
+  "title": "Executive Order 11404\u2014Providing for the Restoration of Law and Order in the State of Illinois",
+  "date_iso": "1968-04-07",
+  "president": "Lyndon B. Johnson",
+  "congress_number": 90,
+  "source_url": "",
+  "word_count": 260,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Secretary of Defense is authorized to 'take all appropriate steps' and use armed forces 'as he may deem necessary' \u2014 broad, open-ended operational authority over domestic military deployment, though exercised under an existing, congressionally-provided framework for exactly this contingency (Chapter 15, Title 10) rather than a novel executive assertion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No reporting requirement, review point, or check-in mechanism is specified for how or when this authority gets reassessed."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: responding to the specific described civil disorder."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Take all appropriate steps' and 'as he may deem necessary' are undefined operational standards for domestic military action."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable. Sub-flag does not apply: the underlying circumstance is an active, real-time, resolvable civil disorder, not an indefinitely-invoked standing emergency declaration.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "National Guard units serve 'for an indefinite period and until relieved by appropriate orders' (Sec. 3), with no formal review or reporting mechanism specified for when that determination is made, though the underlying circumstance is inherently time-bound."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This exercises an existing, congressionally-provided domestic emergency-response framework (the Insurrection Act, Chapter 15 of Title 10) for its intended purpose; no independent oversight is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external party has a defined role in checking the scope, duration, or manner of the Secretary's exercise of this authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "This is a specific application of a well-established, statutorily-anticipated domestic emergency-response mechanism with precedent going back to federal deployments during the 1950s-60s civil rights era; the text does not claim any novel authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4's delegation authority to the Secretaries of the military departments is a normal internal Department of Defense chain, not a redirection of another agency's mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/20 = 25.0%. Issued at 1:01 a.m., three days after the assassination of Dr. Martin Luther King Jr., in response to civil disorder in Illinois. Scored on the same structural terms as any other domestic-deployment order in this corpus: broad but statutorily-anchored operational authority, an open-ended deployment duration, and no specified external check \u2014 findings about governance architecture, not about the historical moment itself."
+}

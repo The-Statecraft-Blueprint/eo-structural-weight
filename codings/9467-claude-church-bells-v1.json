@@ -1,0 +1,27 @@
+{
+  "eo_number": "9467",
+  "title": "Executive Order 9467\u2014Amendment of Executive Order No. 1888 of February 2, 1914, as Amended, Relating to Conditions of Employment in the Service of the Panama Canal and the Panama Railroad Company on the Isthmus of Panama",
+  "date_iso": "1944-08-19",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Exercises specific statutory authority to amend an existing employment-regulation order, with the Governor given bounded administrative discretion over specific matters (leave, passes, medical-care charges)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Six clear, specific, itemized paragraph amendments."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related employment-condition amendments all coherently amend one existing comprehensive employment-regulation order."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The compensation-tier criteria are precise (specific dollar and hourly thresholds tied to citizenship status), not ambiguous, notwithstanding the substantive nature of the distinction they draw."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's own stated purpose is identifiable at the architectural level.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing employment-regulation framework; one specific provision (Sec. 6, on leave commutation) is explicitly limited to the duration of the war plus six months, but the order as a whole amends a permanent regulatory structure."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No distinct external-monitoring mechanism is relevant to this internal employment-regulation amendment."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This order maintains and amends the historically significant, long-standing citizenship-based wage-tier employment system for the Panama Canal Zone workforce (commonly known as the 'gold roll/silver roll' system), which persisted for decades and was later the subject of significant reform."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The named exceptions to the citizenship-based wage cap (prior-service exception, emergency exception, a bounded 200-employee gubernatorial discretion) are narrow exceptions to a restrictive rule, not carve-outs undermining a protective purpose."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/16 = 6.25%. Methodological note: this order amends the historically significant Panama Canal Zone citizenship-based wage-tier employment system. Consistent with this project's design, the instrument scores governance architecture (concentration, accountability, oversight) rather than the substantive fairness of a policy; the discriminatory nature of the underlying wage-tier system is not itself something any flag is designed to capture, and its absence from the flag findings should not be read as an endorsement of that system. Flag 9 registers the order's substantive historical significance; the criteria themselves are architecturally precise rather than vague, which is why Flag 4 does not fire despite the substantive concern."
+}

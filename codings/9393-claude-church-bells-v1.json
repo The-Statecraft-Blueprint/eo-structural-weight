@@ -1,0 +1,27 @@
+{
+  "eo_number": "9393",
+  "title": "Executive Order 9393\u2014Possession and Operation of Coal Mines",
+  "date_iso": "1943-11-01",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 750,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Secretary of the Interior is authorized to seize mines where a strike or stoppage 'has occurred or is threatened' \u2014 a fairly broad trigger, though exercising a specific, recently-enacted congressional statute (the War Labor Disputes Act) for a defined labor-dispute-response purpose."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The Secretary must apply to the National War Labor Board for approval of any contract governing terms and conditions of employment during the seizure \u2014 a genuine, specific external-approval requirement."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related provisions (possession, operation, worker protections, contract approval) all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Although 'as he deems necessary for the successful prosecution of the war' is broad discretionary language, the overall structure is bounded by the NWLB contract-approval requirement and an explicit termination deadline."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Possession must be terminated as soon as no longer required, and in no event more than sixty days after restoration of pre-seizure productive efficiency \u2014 a genuine, hard outer limit combined with an earlier-termination option, one of the best-designed seizure-termination provisions in this corpus."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The National War Labor Board contract-approval requirement is a real, preserved external check, not removed by this order."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Explicit worker-protection provisions preserve union membership, collective bargaining, and concerted activity rights, and management retains its functions 'to the maximum degree possible' \u2014 the recurring positive features of the protective seizure-order template already logged in this project."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The executive response to the major 1943 coal strikes, a significant wartime labor-relations crisis with lasting consequences for postwar labor legislation debates."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The order explicitly notes it does not repeal or amend EO 9370 (authorizing the Economic Stabilization Director's enforcement role), a deliberate coordination with the broader wage-stabilization apparatus."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created; this is a seizure action."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 2/20 = 10.0%. The government's response to the major 1943 coal strikes led by the United Mine Workers. A historically significant seizure order that nonetheless fits the well-designed protective seizure-order template already identified in this corpus: hard termination deadline, real NWLB contract-approval check, and explicit preservation of worker organizing rights."
+}

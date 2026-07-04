@@ -1,0 +1,27 @@
+{
+  "eo_number": "9379",
+  "title": "Executive Order 9379\u2014Executive Order Establishing a Special Emergency Board To Report on the Adjustment of Wages for Employees of the Pacific Electric Railway Company of Los Angeles, California",
+  "date_iso": "1943-09-23",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 78,
+  "source_url": "",
+  "word_count": 400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A three-member board drawn from the established National Railway Labor panel, with its recommendations subject to review and potential override by the Economic Stabilization Director \u2014 a checked, layered process."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A specific, multi-recipient reporting requirement (the President, the Economic Stabilization Director, the National War Labor Board, and the Commissioner of Internal Revenue) with specific deadlines."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose despite a multi-step review process."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This uses already-established wage-stabilization criteria from the broader EO 9250 framework rather than creating new standards."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A single-dispute, one-time board with a specific reporting deadline and implicit termination upon report submission."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This adds multiple layers of review (Board, then Economic Stabilization Director) rather than removing any."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A well-coordinated, multi-body review chain."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, single-dispute-specific mechanism."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Well-coordinated among the Board, the Economic Stabilization Director, and the National War Labor Board."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/10 = 0.0%. A well-designed, multi-layered wartime labor-dispute review mechanism."
+}

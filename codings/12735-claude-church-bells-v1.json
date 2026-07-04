@@ -1,0 +1,27 @@
+{
+  "eo_number": "12735",
+  "title": "Executive Order 12735\u2014Chemical and Biological Weapons Proliferation",
+  "date_iso": "1990-11-16",
+  "president": "George Bush",
+  "congress_number": 101,
+  "source_url": "",
+  "word_count": 2200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Secretary of State has significant discretion over which countries and persons are sanctioned (Secs. 4-5), though this authority is distributed across State, Commerce, Treasury, and Defense with defined roles."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No independent (non-executive) review process exists for sanctioned parties, though Sec. 4(b)(4) does provide a State-Department-controlled path to lift sanctions upon evidence of cessation."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related mechanisms (export controls, sanctions on persons, sanctions on countries) all coherently serve one purpose: chemical and biological weapons non-proliferation."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Knowingly and materially contributed' and 'substantial preparations' (Sec. 4-5) are open-textured standards triggering severe sanctions with no further specification."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "The underlying emergency declaration and sanctions authority persist indefinitely with no independent review trigger, only case-by-case Secretary of State determinations for individual sanctions (Sec. 6)."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Sec. 8 explicitly states this order creates no right or benefit enforceable at law by a party against the United States \u2014 the same no-private-right-of-action pattern found in EO 12114, EO 12615, and EO 12662."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Given the no-cause-of-action provision (Flag 7), no meaningful external check exists on individual sanctions determinations."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a comprehensive, novel unilateral sanctions regime specifically targeting chemical and biological weapons proliferation \u2014 a genuinely significant policy innovation."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Carefully defined role division (State leads country/negotiation determinations, Commerce handles export licensing, Treasury handles import sanctions) with required consultations throughout."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 4(b)(5)'s named exemption categories (military operational requirements, sole-source suppliers, spare parts, medical and humanitarian items) are narrow and purpose-consistent, standard for sanctions regimes."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 7/22 = 31.8%. Fourth confirmed instance of the no-private-right-of-action pattern in this corpus (see EO 12114, EO 12615, EO 12662), now appearing in a sanctions-regime context."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "12834",
+  "title": "Executive Order 12834\u2014Ethics Commitments by Executive Branch Appointees",
+  "date_iso": "1993-01-20",
+  "president": "William J. Clinton",
+  "congress_number": 103,
+  "source_url": "",
+  "word_count": 3200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The President retains a waiver power (Sec. 3), but it requires written certification and mandatory Federal Register publication identifying the person, position, and reasons \u2014 a genuinely transparent check on the discretion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "An extensive, specific enforcement mechanism (Sec. 5): debarment proceedings with notice and hearing, judicial civil actions, injunctive relief, and a constructive-trust remedy for improperly received value \u2014 remarkably well-specified accountability."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related pledge provisions (lobbying ban, foreign-agent ban, trade-negotiator restrictions) all coherently serve one purpose: executive branch ethics."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "An extensive, precise definitions section (Sec. 2) defines every key term with cross-references to existing statutory definitions (18 U.S.C. \u00a7207)."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "The order directly closes off the 'revolving door' incentive it was designed to address, rather than creating a new one.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing ethics framework, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 5(b)(2) explicitly provides for judicial review of agency debarment determinations \u2014 an affirmative preservation of judicial oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The debarment-with-hearing-rights process, judicial review, and DOJ civil enforcement authority together constitute real, multi-layered external checks."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This is the first genuinely enforcement-backed executive ethics pledge in this corpus, in sharp contrast to EO 10939 and EO 11141, both of which declared standards with no enforcement mechanism at all \u2014 a significant, textually-grounded institutional innovation."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "The Office of Government Ethics, individual agencies, and the Attorney General each have clearly defined, non-conflicting roles."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 2(c)'s exclusions from the 'lobby' definition (state/local government communications, judicial proceedings, academic and nonprofit grant communications, scientific information, sworn testimony) are narrow and specific, consistent with standard lobbying-disclosure law carve-outs."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/20 = 5.0%. Clinton's first executive order, signed the day of his inauguration. A flagship example of well-designed governance: unlike EO 10939 (Kennedy's ethics guide) and EO 11141 (LBJ's age-discrimination policy), both of which declared standards with zero enforcement architecture, this order builds a complete, multi-layered enforcement system with genuine teeth."
+}

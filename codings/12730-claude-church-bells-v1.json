@@ -1,0 +1,27 @@
+{
+  "eo_number": "12730",
+  "title": "Executive Order 12730\u2014Continuation of Export Control Regulations",
+  "date_iso": "1990-09-30",
+  "president": "George Bush",
+  "congress_number": 101,
+  "source_url": "",
+  "word_count": 550,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Continuation of export-control authority rests entirely with the executive under emergency powers 'notwithstanding the expiration' of its original statutory basis, bounded somewhat by the specific CFR provisions it cross-references."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No reporting, review, or congressional-approval mechanism exists to justify continued reliance on a lapsed statute."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "PRESENT", "points": 1, "justification": "The preamble stacks three distinct rationale frames \u2014 national security vigilance, foreign policy including boycott-cooperation, and domestic economic protection \u2014 under one continuation action, identical in structure to EO 11796, EO 11810, and the original EO 12470 chain."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The operative enforcement mechanics are precisely anchored to existing, specific, published CFR provisions (Title 15, Chapter III, Subchapter C, Parts 768-799)."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "CRITICAL", "points": 2, "justification": "Zombie Emergency Trap sub-flag fires: 'Notwithstanding the expiration of the Export Administration Act of 1979' (Sec. 1) makes termination purely presidential. This is the third confirmed instance of this exact mechanism in this corpus (see EO 11796, EO 11810) and, critically, it recurs five years after EO 12525 (1985) rescinded the prior emergency declaration following Congress's proper statutory reauthorization \u2014 the underlying Act lapsed again, and the same workaround was redeployed.", "sub_flag_fired": true},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "CRITICAL", "points": 2, "justification": "Congress's own intended statutory sunset is defeated via emergency continuation. Sec. 4 does state 'it is my intention to terminate this order upon the enactment into law of a bill reauthorizing the authorities' \u2014 a more self-aware acknowledgment of the arrangement's intended temporariness than EO 11796 or EO 11810 contained \u2014 but this is aspirational language, not a binding, defined termination trigger or independent review mechanism, so the underlying structural gap remains."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "CRITICAL", "points": 2, "justification": "'Notwithstanding the expiration of the Export Administration Act of 1979' directly substitutes unilateral executive continuation for a lapsed statutory authorization-and-oversight framework Congress designed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external actor has standing or a specified mechanism to challenge the continued reliance on lapsed statutory authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "This is the third confirmed instance of this precedent in the corpus, now demonstrating the pattern recurs even after an apparent resolution (EO 12525): the underlying statutory lapse-and-emergency-continuation cycle is not a one-time historical anomaly but a recurring feature of how this specific statutory authority gets maintained whenever Congress fails to reauthorize on schedule."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "No other agency's mandate is redirected; the order preserves the existing administrative structure."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "No new exemption architecture is created beyond what is inherited from the continuing regulations."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 12/22 = 54.5% \u2014 numerically identical to EO 11796 and EO 11810. This is an important correction to the earlier finding logged for EO 12525: that order's rescission of the emergency declaration was not a permanent resolution of the underlying pathology. The Export Administration Act lapsed again in 1990, and the identical 'notwithstanding the expiration' mechanism was redeployed with mathematically identical severity. The real pattern is cyclical, not resolved: Congress reauthorizes, the Act eventually lapses again, and the emergency-powers workaround gets reinstated, apparently repeating until Congress either reauthorizes on a sustained basis or permanently restructures the underlying statute."
+}

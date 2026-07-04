@@ -1,0 +1,27 @@
+{
+  "eo_number": "12961",
+  "title": "Executive Order 12961\u2014Presidential Advisory Committee on Gulf War Veterans' Illnesses",
+  "date_iso": "1995-05-26",
+  "president": "William J. Clinton",
+  "congress_number": 104,
+  "source_url": "",
+  "word_count": 900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A twelve-member committee explicitly excluding full-time federal employees, purely advisory in function."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Reports through three named Secretaries; Sec. 2(f) requires an interim report within six months and a final report by a specific date."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related review areas (research, coordination, treatment, outreach, risk factors) all coherently serve one purpose: reviewing the government's response to Gulf War veterans' illnesses."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4(b) sets a clean, self-executing termination: thirty days after submitting its final report."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 2(d) explicitly excludes legal-liability determinations from the Committee's scope, a deliberate and sensible boundary preventing the Committee from being misused for that purpose."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with independent, non-federal-employee membership."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A significant but narrow, task-specific, time-limited response to a real public-health concern; the order's own text claims no ongoing or expansive authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/12 = 0.0%. Another exemplary time-limited advisory commission, handling a genuinely sensitive public-health topic (Gulf War Syndrome) with appropriate structural care."
+}

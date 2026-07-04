@@ -1,0 +1,27 @@
+{
+  "eo_number": "12675",
+  "title": "Executive Order 12675\u2014Establishing the National Space Council",
+  "date_iso": "1989-04-20",
+  "president": "George Bush",
+  "congress_number": 101,
+  "source_url": "",
+  "word_count": 1100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A twelve-member, Cabinet-level coordinating body; Sec. 2(c) explicitly states 'the creation and operation of the Council shall not interfere with existing lines of authority and responsibilities in the departments and agencies.'"},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 8 requires an annual report on space policy and strategy."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related functions (policy review, recommendations, coordination, technology exchange) all coherently serve one purpose: national space policy coordination."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A coordination and advisory body with no binding compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing coordination body for an ongoing government function, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 2(c)'s explicit non-interference clause is protective of existing agency authority, not a removal of oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A coordination body with no third-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a significant, durable Cabinet-level space-policy coordination body drawing on nearly every relevant department \u2014 a meaningful institutional structure."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Extensive membership drawn from every relevant department, combined with the explicit non-interference clause, is designed to avoid rather than create conflict."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/14 = 7.1%."
+}

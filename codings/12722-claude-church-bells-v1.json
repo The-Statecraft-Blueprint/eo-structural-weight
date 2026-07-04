@@ -1,0 +1,27 @@
+{
+  "eo_number": "12722",
+  "title": "Executive Order 12722\u2014Blocking Iraqi Government Property and Prohibiting Transactions with Iraq",
+  "date_iso": "1990-08-02",
+  "president": "George Bush",
+  "congress_number": 101,
+  "source_url": "",
+  "word_count": 750,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad blocking authority and wide implementation discretion for the Secretary of the Treasury, a standard structure for IEEPA-based sanctions orders."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No review process for affected persons is specified in this order's own text."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple prohibited-transaction categories (import, export, transportation, credit, travel) all coherently serve one purpose: a comprehensive sanctions response to Iraq's invasion of Kuwait."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Sec. 2(h)'s catch-all anti-evasion provision ('any transaction... which evades or avoids, or has the purpose of evading or avoiding, any of the prohibitions') is broad and open-ended, in contrast to the more specifically enumerated categories elsewhere in the order."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No review or reauthorization mechanism is specified despite being tied to a newly-declared national emergency."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order is explicitly transmitted to Congress, a real transparency feature."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external check is specified on the Secretary of the Treasury's exercise of blocking authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This is the United States' first, immediate legal response to Iraq's invasion of Kuwait, issued the same day as the invasion \u2014 establishing the initial sanctions framework for what became a major international response."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4's redelegation and multi-agency cooperation provisions reflect coordination, not conflict."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The exclusions for publications and humanitarian donations (Sec. 2(b)) are narrow, standard, purpose-consistent exceptions in sanctions law."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/22 = 27.3%. Issued the same day as Iraq's invasion of Kuwait, August 2, 1990."
+}

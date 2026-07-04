@@ -1,0 +1,27 @@
+{
+  "eo_number": "12708",
+  "title": "Executive Order 12708\u2014Amendments to the Manual for Courts-Martial, United States, 1984",
+  "date_iso": "1990-03-23",
+  "president": "George Bush",
+  "congress_number": 101,
+  "source_url": "",
+  "word_count": 2800,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Narrow, technical procedural amendments to an existing military-justice code; no new broad authority is created."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Extensive, precise procedural rules throughout."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple distinct procedural amendments all coherently serve one system: court-martial procedure under the Uniform Code of Military Justice."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Exceptionally granular specificity throughout, with exact rule citations and exact procedural sequences."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category applies: this cites three prior amending orders (12484, 12550, 12586), evidencing ongoing periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 6 requires the Secretary of Defense to transmit a copy of this order to Congress under 10 U.S.C. \u00a7836, consistent with EO 12340's identical positive feature."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Extensive procedural rights are preserved and clarified throughout, including defense-counsel service requirements and waiver-relief provisions."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, technical procedural amendment within an already-comprehensive system; no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/16 = 0.0%."
+}

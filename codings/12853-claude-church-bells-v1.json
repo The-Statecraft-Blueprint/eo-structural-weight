@@ -1,0 +1,27 @@
+{
+  "eo_number": "12853",
+  "title": "Executive Order 12853\u2014Blocking Government of Haiti Property and Prohibiting Transactions With Haiti",
+  "date_iso": "1993-06-30",
+  "president": "William J. Clinton",
+  "congress_number": 103,
+  "source_url": "",
+  "word_count": 900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Broad blocking authority for the Secretary of the Treasury, the standard structure for IEEPA-based sanctions orders."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No review process for affected persons is specified in this order's own text."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple prohibited-transaction categories all coherently serve one purpose: sanctions against the de facto Haitian regime."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Sec. 3(c)'s catch-all anti-evasion clause and Sec. 2's Treasury-Secretary designation standard for which Haitian nationals are covered are both open-ended, standard features of sanctions-order drafting."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No review or reauthorization mechanism is specified."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order is explicitly transmitted to Congress."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external check is specified on the Secretary of the Treasury's exercise of blocking and designation authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Formally implements United Nations Security Council Resolution 841 into U.S. domestic law, consistent with the significant international-law connection found in EO 12724's implementation of Resolution 661."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 7 carefully manages the transition from prior orders, explicitly stating this order 'supplements' rather than replaces EO 12779 \u2014 a well-coordinated succession."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 4 narrows a prior humanitarian exemption specifically to exclude the de facto regime and blocked persons from benefiting from it \u2014 an anti-loophole-closing provision, not a broadening one."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/22 = 27.3%. Consistent with the pattern established by comparable UN-resolution-implementing sanctions orders (EO 12722, EO 12724)."
+}

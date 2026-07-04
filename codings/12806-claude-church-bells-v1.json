@@ -1,0 +1,27 @@
+{
+  "eo_number": "12806",
+  "title": "Executive Order 12806\u2014Establishment of a Fetal Tissue Bank",
+  "date_iso": "1992-05-19",
+  "president": "George Bush",
+  "congress_number": 102,
+  "source_url": "",
+  "word_count": 250,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A fairly standard administrative-implementation delegation to the Secretary of Health and Human Services, not unusually broad."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4 requires a specific progress report to the President by December 31, 1992."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: establishing the tissue bank and its access procedures."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Appropriate peer review process' and 'meritorious research projects' (Sec. 2) are somewhat open-textured standards without further specification, though the tissue source itself is precisely defined."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No review or reauthorization mechanism exists for the underlying program beyond the single specified progress report; the program itself has no defined review point."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3 explicitly requires consistency with 'all other applicable legal requirements related to fetal tissue,' deferring to rather than displacing existing legal frameworks."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The required peer review process (Sec. 2) provides a real, if not fully detailed, external scientific check on research access."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes new federal biomedical research infrastructure with a specific, deliberately bounded scope \u2014 tissue is drawn exclusively from ectopic pregnancies and spontaneous abortions, a textually explicit limitation excluding induced abortions."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "The order's tissue-source limitation defines the program's scope from the outset rather than creating an exemption from a broader mandate."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/18 = 16.7%."
+}

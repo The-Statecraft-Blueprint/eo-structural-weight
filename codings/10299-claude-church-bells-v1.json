@@ -1,0 +1,27 @@
+{
+  "eo_number": "10299",
+  "title": "Executive Order 10299\u2014Designating an Additional Agency Pursuant to Section 103(a) of the Renegotiation Act of 1951",
+  "date_iso": "1951-10-31",
+  "president": "Harry S. Truman",
+  "congress_number": 82,
+  "source_url": "",
+  "word_count": 150,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A narrow, specific designation bringing one agency under an existing statutory renegotiation framework."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear, specific designation."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This designates an agency as covered by an already-established statutory renegotiation framework rather than creating new standards."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing designation under an ongoing statutory program with its own defined scope."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "This designation is governed by the Renegotiation Act's own statutory review process."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine extension of an already-established profit-limitation and anti-profiteering framework to a specific additional agency."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/10 = 0.0%. Notable as an example of Congress institutionalizing anti-profiteering contract review as a standing statutory program (the Renegotiation Act) rather than relying on ad hoc executive-order provisions, echoing the same principle behind EO 9001's Title II profit caps during WWII."
+}

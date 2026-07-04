@@ -1,0 +1,27 @@
+{
+  "eo_number": "9969",
+  "title": "Executive Order 9969\u2014Suspension of Eight-hour Law as to Work by the Alaska Railroad, Department of the Interior",
+  "date_iso": "1948-06-19",
+  "president": "Harry S. Truman",
+  "congress_number": 80,
+  "source_url": "",
+  "word_count": 500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A narrow exercise of a specific, statute-provided emergency-suspension exception, bounded to one railroad, one seasonal rehabilitation purpose, and a defined five-month period."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The Secretary of the Interior must make a specific finding that suspension is essential for each particular work, a real case-by-case check rather than a blanket suspension."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This suspends an existing labor-hour restriction rather than creating a new compliance regime."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "An explicit, specific five-month duration, effective immediately."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order substitutes one protective mechanism for another rather than bare removal: the daily eight-hour cap is suspended, but wages are guaranteed on a forty-hour administrative workweek with time-and-a-half overtime for hours beyond that \u2014 a genuinely well-designed protective substitution suited to the seasonal-rehabilitation context."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The overtime-pay guarantee is a real, textually explicit worker protection, not left to later administrative discretion."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "Narrow and bounded in scope (one railroad, one five-month period, a specific rehabilitation purpose) despite invoking national-security framing in the preamble."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "A narrow, bounded exemption from the Eight-Hour Law for a specific purpose and duration, paired with a real compensating protection rather than an undermining carve-out."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/16 = 0.0%. A genuinely well-designed order: rather than simply removing a worker protection, it substitutes a more contextually appropriate one (weekly overtime pay in place of a daily hour cap) for a specific, bounded, seasonal purpose."
+}

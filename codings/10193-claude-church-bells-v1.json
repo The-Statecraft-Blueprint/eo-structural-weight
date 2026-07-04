@@ -1,0 +1,27 @@
+{
+  "eo_number": "10193",
+  "title": "Executive Order 10193\u2014Providing for the Conduct of the Mobilization Effort of the Government",
+  "date_iso": "1950-12-16",
+  "president": "Harry S. Truman",
+  "congress_number": 81,
+  "source_url": "",
+  "word_count": 480,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Director is granted authority to 'direct, control, and coordinate all mobilization activities of the Executive Branch... including but not limited to production, procurement, manpower, stabilization, and transport' (Sec. 2) \u2014 an extremely broad, sweeping grant now standing above the previously-distributed EO 10161 delegation structure."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Sec. 4's requirement to 'report to the President' is a thin accountability mechanism relative to the sweeping scope of authority granted \u2014 it provides internal reporting up an already-existing chain, not independent review."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: mobilization coordination."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The Director may 'issue such directives, consonant with law, on policy and operations... as may be necessary' (Sec. 4) \u2014 no defined limits on what may be directed beyond bare legality."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No review or reauthorization mechanism is specified despite being tied to Korean War-era mobilization needs."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Given the sweeping, largely unchecked coordinating authority, no external party has a role in checking its exercise."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Creates a new, more concentrated coordination layer above the deliberately distributed EO 10161 structure \u2014 a meaningful institutional shift from distributed delegation toward centralized single-Director coordination."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3's subordination of the EO 10161/10172 delegates to the Director's supervision is a clean, explicit reorganization, not ambiguous overlap."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/20 = 30.0%. Creates a genuine 'mobilization czar' position with sweeping, largely unchecked coordinating authority above the more carefully distributed EO 10161 framework."
+}

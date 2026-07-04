@@ -1,0 +1,27 @@
+{
+  "eo_number": "10277",
+  "title": "Executive Order 10277\u2014Amending Regulations Relating to the Safeguarding of Vessels, Harbors, Ports, and Waterfront Facilities of the United States",
+  "date_iso": "1951-08-01",
+  "president": "Harry S. Truman",
+  "congress_number": 82,
+  "source_url": "",
+  "word_count": 850,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Amends \u00a76.10-1 and \u00a76.10-7 to flip the eligibility presumption: the original EO 10173 denied employment only if the Commandant affirmatively found a person inimical to security; this amendment denies employment unless the Commandant is affirmatively satisfied the person is NOT inimical \u2014 a meaningful expansion of the Commandant's practical gatekeeping power, shifting the burden onto the individual. The pre-existing appeal mechanism is preserved, which keeps this at PRESENT rather than CRITICAL."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The \u00a76.10-9 appeal Board (Coast Guard, management, and labor representation) is unchanged and preserved by this amendment."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: amending the existing port security regulations."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The underlying 'character and habits of life' standard remains as undefined as in EO 10173, now more consequential because ambiguity favors exclusion under the flipped presumption."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "The underlying open-ended, threat-based regulatory regime (EO 10173) is unchanged in this respect by the amendment."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight is removed; the new Subpart 6.19 clarifies rather than displaces responsibility, and the appeal mechanism persists unchanged."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The same labor/management-inclusive appeal Board from EO 10173 persists unchanged."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The burden-of-proof flip is a genuinely significant precedent \u2014 moving from a presumption of eligibility (government must justify exclusion) to a presumption of exclusion (individual must prove eligibility) for an entire occupational category on security grounds, mirroring the guilt-presumption pattern that became prominent in Cold War-era loyalty-security screening."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The same agency (Coast Guard) amends its own existing rules; no other agency's mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "The Commandant's unbounded category-exemption power from EO 10173 (\u00a76.10-1) persists unchanged in this amendment."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/22 = 22.7% \u2014 numerically identical to EO 10173, but the underlying substance shifted meaningfully: this amendment reverses the burden of proof governing an entire occupational category's employment eligibility. Second of three related port-security orders in this batch (see EO 10173, EO 10352)."
+}

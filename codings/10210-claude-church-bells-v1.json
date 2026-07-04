@@ -1,0 +1,27 @@
+{
+  "eo_number": "10210",
+  "title": "Executive Order 10210\u2014Authorizing the Department of Defense and the Department of Commerce to Exercise the Functions and Powers Set Forth in Title II of the First War Powers Act, 1941, as Amended",
+  "date_iso": "1951-02-02",
+  "president": "Harry S. Truman",
+  "congress_number": 82,
+  "source_url": "",
+  "word_count": 1700,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Grants authority to contract 'without regard to the provisions of law relating to the making, performance, amendment, or modification of contracts' (para 1) \u2014 a genuine bypass of normal contracting procedure, though extensively bounded by the many specific safeguards elsewhere in the order."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Para 6 requires complete contracting data to be maintained and made available for public inspection (with appropriate classified exceptions) \u2014 a real, explicit transparency mechanism, reinforced by para 11's Comptroller General access clause."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related provisions (contracting authority, non-discrimination, fee limits, GAO access) all coherently serve one purpose: defense contracting flexibility with appropriate safeguards."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Extensive specificity throughout \u2014 specific fee caps (10%/6%), specific referenced statutes (Walsh-Healey, Davis-Bacon) that continue to apply, specific required warranty language."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "Para 10's anti-kickback warranty clause specifically guards against contingent-fee lobbying to secure contracts \u2014 a positive design feature addressing exactly this class of risk.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Tied to the First War Powers Act as amended by a 1951 act, with no independent termination trigger or review point specified in this order's own text."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Para 5 explicitly states that 'advertising, competitive bidding, and bid, payment, performance or other bonds or other forms of security need not be required' \u2014 a genuine, explicit waiver of standard procurement safeguards."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The Comptroller General access clause (para 11) and public-data-inspection requirement (para 6) provide real external channels for scrutiny."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A sweeping contracting-flexibility grant, but one that shows real self-awareness of its own risks through numerous specific, targeted countermeasures rather than an unchecked expansion of authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Part II's extension to Commerce includes an explicit proviso preserving Commerce's own separate procurement authority \u2014 a careful, deliberate extension."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "The bidding/bonding waiver is a removal of a specific procurement-oversight mechanism (captured under Flag 7), not a coverage-population exemption."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/20 = 15.0%. A substantial contracting-flexibility grant that nonetheless scores low due to extensive, specific, targeted safeguards \u2014 public data inspection, GAO access, fee caps, and an anti-kickback warranty clause."
+}

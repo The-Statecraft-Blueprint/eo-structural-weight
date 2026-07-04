@@ -1,0 +1,27 @@
+{
+  "eo_number": "10173",
+  "title": "Executive Order 10173\u2014Regulations Relating to the Safeguarding of Vessels, Harbors, Ports, and Waterfront Facilities of the United States",
+  "date_iso": "1950-10-18",
+  "president": "Harry S. Truman",
+  "congress_number": 81,
+  "source_url": "",
+  "word_count": 2200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Commandant has broad, largely unilateral discretion over merchant-marine employment eligibility based on subjective satisfaction as to an individual's 'character and habits of life' (\u00a76.10-1, 6.10-7), a single official's judgment determining access to an entire occupation."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "\u00a76.10-9 provides a genuine appeal mechanism with a balanced Board (one Coast Guard officer, one management representative, one labor representative), a real structured due-process check."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related subparts (identification, dangerous cargo, sabotage reporting, penalties) coherently serve one purpose: port and vessel security."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The core eligibility standard \u2014 'character and habits of life... such as to authorize the belief that the presence of the individual... would be inimical to the security of the United States' \u2014 is genuinely subjective and undefined, determining an individual's livelihood."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure distinct from the vagueness already captured under Flag 4 is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Grounded in a finding that security is 'endangered by reason of subversive activity,' with no reauthorization or review mechanism specified for this open-ended, threat-based regulatory regime."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The appeal mechanism (\u00a76.10-9) is a new addition, not a removal of any existing check."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The appeal Board's labor and management representation (\u00a76.10-9) provides a genuine, non-Coast-Guard-internal check."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes employment-eligibility gatekeeping tied to subjective security-character determinations as a template for an entire occupational category \u2014 a meaningful precursor pattern to the broader Cold War-era loyalty-security screening architecture that followed."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "\u00a76.04-11's provision for enlisting other agencies' aid is coordination, not mandate redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "\u00a76.10-1 gives the Commandant unbounded discretion to 'designate categories of merchant vessels to which the foregoing shall not apply,' with no stated criteria governing which categories qualify for exemption from the entire screening regime."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/22 = 22.7%. First of three related port-security orders in this batch (see also EO 10277, EO 10352); establishes the baseline eligibility presumption that later amendments meaningfully alter."
+}

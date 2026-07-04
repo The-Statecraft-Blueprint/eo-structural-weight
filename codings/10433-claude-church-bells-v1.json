@@ -1,0 +1,27 @@
+{
+  "eo_number": "10433",
+  "title": "Executive Order 10433\u2014Further Providing for the Administration of the Defense Production Act of 1950, as Amended",
+  "date_iso": "1953-02-04",
+  "president": "Dwight D. Eisenhower",
+  "congress_number": 83,
+  "source_url": "",
+  "word_count": 380,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Sec. 2 makes the Director of Defense Mobilization also, ex officio, the Economic Stabilization Administrator \u2014 consolidating two previously separate, independently Senate-confirmed leadership roles into one person."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Consolidating two roles into one reduces the number of independently accountable senior officials overseeing mobilization and stabilization, without introducing any new independent check to compensate."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: administrative consolidation and reorganization."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A pure administrative reorganization creating no new third-party compliance regime."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A one-time reorganization action layered onto existing ongoing authority; it does not itself create new ongoing authority requiring its own sunset."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3 explicitly preserves existing orders and regulations 'except as inconsistent herewith' \u2014 continuity-preserving, not oversight-removing."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A pure administrative reorganization with no third-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Folding the Economic Stabilization Administrator role into the ODM Director role is a meaningful institutional change, reducing from two to one the number of independently accountable senior officials in the mobilization/stabilization structure originally designed in EO 10161."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 1(b)'s transfer of the Defense Production Administration's records, property, personnel, and funds to ODM is a clean, explicit, deliberate succession."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/12 = 25.0%. First Eisenhower-era order in this batch; consolidates two previously separate senior mobilization roles into one."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "10352",
+  "title": "Executive Order 10352\u2014Amendment of the Regulations Relating to the Safeguarding of Vessels, Harbors, Ports, and Waterfront Facilities of the United States",
+  "date_iso": "1952-05-19",
+  "president": "Harry S. Truman",
+  "congress_number": 82,
+  "source_url": "",
+  "word_count": 220,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Further amends \u00a76.10-1 to extend the already-flipped exclusion presumption (established by EO 10277) from licensed officers and certificated men to all persons employed on merchant vessels \u2014 broadening the population subject to the Commandant's gatekeeping discretion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The \u00a76.10-9 appeal Board established in EO 10173 is unaffected by this amendment."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single, narrow purpose: extending the scope of one existing provision."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The same undefined 'character and habits of life' standard now applies to a broader population."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "The underlying open-ended, threat-based regulatory regime is unchanged in this respect."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed or altered by this narrow scope extension."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The existing appeal mechanism is unaffected."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Broadening the already-flipped exclusion presumption to cover all merchant vessel employees, not just licensed personnel, is a further, meaningful step extending the reach of the security-screening apparatus established across EO 10173 and EO 10277."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "No other agency's mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "The Commandant's category-exemption power from EO 10173 persists unchanged."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 5/22 = 22.7%. Third of three related port-security orders in this batch (see EO 10173, EO 10277) \u2014 extends the burden-shifted presumption established in EO 10277 to a substantially broader population."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "9691",
+  "title": "Executive Order 9691\u2014Directing the Civil Service Commission to Resume Operations Under the Civil Service Rules, and Authorizing the Adoption of Special Regulations During the Transitional Period",
+  "date_iso": "1946-02-04",
+  "president": "Harry S. Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 1900,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Civil Service Commission exercises substantial discretion, but as the standard, well-established merit-system regulator operating under long-standing statutory constraints (Civil Service Act, Veterans' Preference Act) with detailed procedural rules set directly by this order."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4 provides a genuine correction mechanism: 'upon establishment before the Commission that this order of selection has not been followed in any case, the person appointed may be removed' \u2014 an explicit, textually specific accountability provision."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related sub-provisions (resuming exams, veterans' preference, temporary-appointment rules, status conversion) all coherently serve one purpose: normalizing civil service operations postwar."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Extensive, precise specificity throughout \u2014 exact preference-point thresholds, exact deadlines, exact eligibility conditions."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "The detailed preference-ordering rules and Sec. 4's removal-for-noncompliance mechanism are specifically designed to prevent circumvention.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Multiple explicit review mechanisms with concrete deadlines: the Commission must submit recommendations for general Civil Service Rules revision by July 1, 1946 (Sec. 3), recommendations for Schedule A revision by the same date (Sec. 7), and Sec. 7 sets a hard cutoff of December 31, 1946 for excepted-position continuity absent formal inclusion."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 9 explicitly preserves reemployment rights 'heretofore acquired by any person under any law or Executive order' \u2014 no existing right or oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 4 explicitly requires departments and agencies to 'keep such records and make such reports as will show that the preferences... have been granted' \u2014 a textually explicit compliance-verification mechanism, paired with the removal remedy for violations."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A well-scoped, appropriately bounded transitional order restoring normal peacetime civil service operations; no novel or expansive authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Civil Service Commission operates within its own established jurisdiction; no other agency's mandate is redirected."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 7's exception process for certain professional/scientific/technical positions requires public Federal Register notice and a hard December 31, 1946 cutoff for formal inclusion \u2014 narrow, transparent, and bounded, not an undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/22 = 0.0%. One of the most exemplary designs coded to date \u2014 extensive specificity, multiple explicit review deadlines, and a built-in removal-for-noncompliance enforcement mechanism, despite covering a genuinely complex transitional subject matter."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "10028",
+  "title": "Executive Order 10028\u2014Defining Noncombatant Service and Noncombatant Training",
+  "date_iso": "1949-01-13",
+  "president": "Harry S. Truman",
+  "congress_number": 81,
+  "source_url": "",
+  "word_count": 130,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A pure definitional order applying existing statutory terms; no new authority is created."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "No ambiguity is created; this clarifies existing statutory terms."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: defining two related terms for one statutory section."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The order's entire purpose is to define terms more precisely, and the definitions given are reasonably specific \u2014 this reduces rather than creates vagueness."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "A pure definitional order creates no compliance regime of its own.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category applies: this is an evergreen definitional framework used repeatedly across Selective Service administration, not a temporary grant of authority."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A pure definitional order with no compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow definitional clarification with no broader claimed authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/14 = 0.0%."
+}

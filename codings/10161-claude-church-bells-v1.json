@@ -1,0 +1,27 @@
+{
+  "eo_number": "10161",
+  "title": "Executive Order 10161\u2014Delegating Certain Functions of the President Under the Defense Production Act of 1950",
+  "date_iso": "1950-09-09",
+  "president": "Harry S. Truman",
+  "congress_number": 81,
+  "source_url": "",
+  "word_count": 4800,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Authority is deliberately distributed by specific subject matter across many named officials (Interior for energy, Agriculture for food, ICC for transportation, Commerce for everything else, plus the new Economic Stabilization Agency for stabilization functions), rather than concentrated in one person. The NSRB Chairman's coordinating role (Sec. 802) is itself bounded, requiring presidential approval for directives."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Detailed, section-by-section delegation with clearly named officials for each function, and Sec. 801 requires every delegate to be 'guided by such policies and program directives as the President may from time to time prescribe.'"},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Nine distinct Parts cover different titles of one underlying statute (the Defense Production Act of 1950), each separately organized with its own specific delegate \u2014 comprehensive implementation of a comprehensive statute, not bundling of unrelated matters."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Delegates exercise priorities and allocations powers 'in such manner as will in his judgment promote adequate supplies and their proper distribution' (Sec. 102c) \u2014 real discretionary judgment without a fully objective standard, though bounded by extensive procedural and definitional specificity elsewhere in the order."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "This order implements the Defense Production Act of 1950, itself a temporary, periodically-renewed statute, but the order's own text does not tie its provisions to the Act's eventual expiration or specify an independent review point."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 902(b)(3)'s subpoena power is explicitly conditioned on the scope and purpose of the investigation being defined in advance; no existing oversight mechanism is removed, and checks are built in throughout (presidential-approval requirements, mandatory DOJ/FTC consultation)."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 701(c) requires consultation with the Attorney General and Federal Trade Commission, and their approval, before certain voluntary-agreement actions \u2014 a genuine, textually explicit external check for a specific sensitive category of delegated authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Creates the Economic Stabilization Agency, a major new independent agency with Senate-confirmed leadership, and comprehensively restructures economic-mobilization authority for the Korean War era \u2014 a significant institutional precedent comparable in scale to the WWII-era OPM/WPB structure."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The order is carefully designed to prevent inter-agency conflict: specific subject-matter delegation avoiding overlap, an explicit 'claimant' procedure (Sec. 103) for resolving competing demands between delegates, and a dedicated coordinating role for the NSRB Chairman (Sec. 802a) to resolve interagency issues."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "Sec. 902(c)'s exclusions from sub-delegation authority are limiting provisions, not exemptions from the Act's requirements."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/20 = 15.0%. A massive, complex order (creating an entire new federal agency and comprehensively delegating a major statute) that nonetheless scores low because of its genuinely careful, well-organized design \u2014 explicit conflict-avoidance mechanisms, built-in external consultation requirements, and deliberate subject-matter distribution rather than concentration. Complexity and scale are not proxies for structural weight."
+}

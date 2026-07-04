@@ -1,0 +1,27 @@
+{
+  "eo_number": "9801",
+  "title": "Executive Order 9801\u2014Removing Wage and Salary Controls Adopted Pursuant to the Stabilization Act of 1942",
+  "date_iso": "1946-11-09",
+  "president": "Harry S. Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A pure deregulation action terminating existing controls; no new authority is created."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "No ongoing program is created by a termination of controls."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: terminating wage and salary stabilization controls."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "Removes a compliance regime rather than creating one."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A one-time termination action grants no ongoing authority requiring reauthorization."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Removing wage/salary controls is a substantive deregulatory action, not removal of a review or check mechanism."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "The order includes a careful savings clause preserving legal consequences for past violations while ending the regime going forward \u2014 well-crafted, no concerning broader effect."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/10 = 0.0%."
+}

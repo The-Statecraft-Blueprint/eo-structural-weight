@@ -1,0 +1,27 @@
+{
+  "eo_number": "9989",
+  "title": "Executive Order 9989\u2014Transferring Jurisdiction Over Blocked Assets to the Attorney General",
+  "date_iso": "1948-08-20",
+  "president": "Harry S. Truman",
+  "congress_number": 80,
+  "source_url": "",
+  "word_count": 620,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Attorney General inherits 'all powers and authority vested in the President by sections 3(a) and 5(b)' of the Trading With the Enemy Act \u2014 the same broad, largely unchecked discretion already identified in the predecessor framework (EO 8389, as exercised by Treasury in EO 8785), now relocated rather than newly created."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "No internal or external review process is specified for the Attorney General's exercise of this transferred authority, consistent with the original framework's design."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: transferring jurisdiction over a defined, shrinking category of remaining blocked assets."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The order incorporates EO 8389's 'national' and 'foreign country' definitions without modification, carrying forward the same elastic 'reasonable cause to believe' coverage-expansion standard already identified in EO 8785."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "This is an inherently winding-down function (administering a shrinking residual category of assets three years after the war's end), yet no explicit termination date is set for the Attorney General's authority over it."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Sec. 3 explicitly bars a specific category of legal challenge: no affected person may challenge the validity of an action 'on the ground that... such action was within the jurisdiction of the Attorney General rather than the Secretary of the Treasury or vice versa' \u2014 a real, if narrow, limitation on available challenge grounds."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Combined with the concentrated, unreviewed authority (Flags 1-2) and the challenge-ground limitation (Flag 7), no meaningful external check exists on the Attorney General's exercise of this transferred authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine administrative handoff of a shrinking regulatory category; no dramatically new authority is claimed."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3 explicitly clarifies that 'nothing in this order shall be deemed to limit or remove any powers heretofore conferred upon the Secretary of the Treasury or the Attorney General' \u2014 a careful, deliberate handoff rather than overlap."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/20 = 30.0%. Largely inherits the structural weaknesses already identified in its parent framework (EO 8389/EO 8785) rather than introducing new ones, plus a novel, narrow limitation on legal challenge grounds specific to the jurisdictional transfer itself."
+}

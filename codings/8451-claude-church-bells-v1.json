@@ -1,0 +1,27 @@
+{
+  "eo_number": "8451",
+  "title": "Executive Order 8451\u2014Authorizing the Appointment of Russell Sturgis to the Position of Assistant Territorial Representative in the Wage and Hour Division, Department of Labor, Without Regard to the Requirements of the Civil Service Rules",
+  "date_iso": "1940-06-20",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 76,
+  "source_url": "",
+  "word_count": 87,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-04",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A one-time, single-named-individual appointment authorization; no ongoing decision-making authority is created for anyone."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A single, discrete personnel action with no ongoing program in which responsibility could become unclear."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: one appointment exemption."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A personnel appointment waiver has no compliance/enforcement regime for anyone's ongoing conduct."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No incentive structure is created by a single personnel waiver."},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A one-time personnel action grants no ongoing authority requiring reauthorization."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "NOT_APPLICABLE", "points": null, "justification": "Civil Service Rules are a merit-hiring mechanism, not the kind of external policy/regulatory oversight (judicial review, IG, congressional reporting) this flag targets. The order also explicitly self-limits: the appointment 'shall not thereby confer a competitive classified civil-service status,' so the underlying merit-system status quo is otherwise preserved."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No ongoing regulatory relationship or compliance regime exists for a single personnel appointment."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A single-person, self-limiting appointment waiver establishes no broader precedent or reusable authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "The order is itself a narrow personnel exemption, not a regulatory regime with a coverage population from which exemptions are carved."}
+  ],
+  "notes": "Reconciliation pass (2026-07-04) against Gemini/ChatGPT re-runs under v1.2.1. Tier-1-equivalent order, structurally comparable to calibration anchors EO-11069/EO-12717. New Gemini and new ChatGPT both agreed on very low structural weight for this EO; no binary classification dispute here."
+}

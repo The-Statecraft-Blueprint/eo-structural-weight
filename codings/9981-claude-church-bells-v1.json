@@ -69,9 +69,9 @@
     {
       "flag_number": 9,
       "flag_name": "Second/Third-Order Effects",
-      "status": "ABSENT",
-      "points": 0,
-      "justification": "Downstream effects are positive; the EO's text structure creates no harmful second-order architectural implications."
+      "status": "PRESENT",
+      "points": 1,
+      "justification": "Reconsidered 2026-07-04 during ICR reconciliation: original ABSENT call ('downstream effects are positive') answered outcome-valence, not the actual operational test (precedent and reusable templates). Two genuine second-order effects: (1) the toothless-advisory-committee-plus-secretary-discretion model, if it becomes the template for future rights-expansion EOs facing institutional resistance, makes enforceable implementation harder to secure on a future pass; (2) the undefined 'efficiency or morale' delay standard is a reusable definitional framework other orders facing implementation resistance could cite as precedent, independent of this order's specific subject matter. Both are the kind of precedent/definitional-reuse concern the flag's operational test asks about."
     },
     {
       "flag_number": 10,

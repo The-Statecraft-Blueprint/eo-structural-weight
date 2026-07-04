@@ -1,0 +1,27 @@
+{
+  "eo_number": "9246",
+  "title": "Executive Order 9246\u2014Providing for the Coordination and Control of the Rubber Program",
+  "date_iso": "1942-09-17",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 474,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-04",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The WPB Chairman is granted 'full responsibility for and control over the Nation's rubber program in all of its phases,' delegated to a Rubber Director answerable only to the Chairman \u2014 broad, centralized authority with no external check named."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "The Rubber Director answers to the WPB Chairman (Sec. 2), a defined internal chain, but no external body reviews the Chairman's own exercise of this 'full responsibility' grant."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Many sub-functions (research, import, production, distribution) are listed, but all are facets of one coherent rubber-supply coordination program, not distinct problem frames bundled together."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Full compliance shall be accorded such directives' (Sec. 3) by named agencies, but the Director may direct them 'in such manner and for such period of time as he deems advisable' \u2014 mandatory compliance paired with an undefined scope of what can be directed."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the program's purpose is identifiable. Sub-flag does not apply \u2014 authority derives from the First War Powers Act, not an invoked emergency declaration this order depends on perpetuating.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No reauthorization or review mechanism is stated; the program runs for 'such period of time as [the Director] deems advisable' (Sec. 3). The order does not itself tie its duration to the war's end or any other natural end-state, so the permanence carve-out does not apply on this text alone."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 5 explicitly preserves the Price Administrator's powers under the Emergency Price Control Act. Sec. 6's supersession of conflicting prior orders reallocates authority among executive actors; it does not remove judicial, congressional, or IG oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "The regulated parties are federal agencies directed to comply with the Rubber Director's directives (Sec. 3); no outside actor is positioned to check whether that compliance is genuine \u2014 enforcement is entirely internal to the executive branch."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Sec. 6's broad supersession clause ('any provision of any Executive Order conflicting with this order is superseded') creates ambiguity about which prior orders remain in force, and centralizing 'all phases' of a critical wartime resource under one coordinating official sets a template for similar total-program czar structures."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "PRESENT", "points": 1, "justification": "Six or more existing agencies (Rubber Reserve Company, Office of Petroleum Coordinator for War, Board of Economic Warfare, Office of Defense Transportation, Office of Price Administration, Department of Agriculture) are explicitly redirected to operate under the Rubber Director's direction (Sec. 3) \u2014 a deliberate reassignment of their operational functions to a newly-created coordinating authority."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "The order does not establish a coverage population with carve-outs; it is a program-coordination structure, not a regulatory scheme with exemptions."}
+  ],
+  "notes": "Reconciliation pass (2026-07-04). Structural weight: 7/20 = 35.0% exactly \u2014 lands precisely on the interim significance threshold. This is a genuine toss-up, not a confident call either way; flagging the exact tie rather than rounding it into either camp. New Gemini (33.3%) and new ChatGPT (63.6%, 4 CRITICAL) both differ from this reconciled read; the CRITICAL escalations on Power Concentration and Inter-Agency Cannibalization in ChatGPT's coding read as treating deliberate, statutorily-sanctioned wartime coordination machinery as a 'core collapse' rather than the intended mechanism, which is why this reconciliation keeps those at PRESENT rather than CRITICAL."
+}

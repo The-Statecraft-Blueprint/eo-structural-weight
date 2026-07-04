@@ -1,0 +1,27 @@
+{
+  "eo_number": "12864",
+  "title": "Executive Order 12864\u2014United States Advisory Council on the National Information Infrastructure",
+  "date_iso": "1993-09-15",
+  "president": "William J. Clinton",
+  "congress_number": 103,
+  "source_url": "",
+  "word_count": 594,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-04",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Secretary's authority to appoint up to 25 members and designate chairs (Sec. 1) is standard, unremarkable Federal Advisory Committee Act structure common across advisory bodies in this corpus; this alone is not a meaningful concentration finding."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The Council is purely advisory with no operational deliverables to fail at; 'no defined metrics for success' is the normal, expected shape of an advisory body's mandate, not an accountability gap."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "The ten enumerated issue areas (Sec. 2(b)) are broad but are facets of one coherent domain \u2014 national information infrastructure policy \u2014 not distinct, unrelated problem frames forced under a single framing."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "An advisory body has no compliance target or enforcement mechanism to be vague about."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "The genuine incentive concern here \u2014 industry-affiliated members advising on policy affecting their own industry without standard ethics constraints \u2014 is a specific, named exemption best captured under Flag 11 rather than double-counted here as a general incentive finding."},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4(b) sets an explicit two-year existence limit 'unless the Council's charter is subsequently extended' \u2014 a genuine, well-designed sunset/reauthorization mechanism."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Sec. 4(a) delegates most presidential FACA oversight functions down to the Secretary, though it explicitly and specifically preserves the most externally meaningful check: 'except that of reporting to Congress.' A partial, not complete, reduction in oversight seniority."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "This is a policy-advisory body, not a compliance regime with 'violations' for a third party to surface; the concept does not map."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The Council's advisory scope spans commerce, national security, privacy, copyright, health care, and education (Sec. 2(b)) for a major, then-unsettled emerging policy domain \u2014 real agenda-setting influence beyond a narrow technical advisory role."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3(a)'s directive that agency heads 'provide... such information as it may require' is an information-request cooperation clause, not a redirection of another agency's operational mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "CRITICAL", "points": 2, "justification": "Sec. 4(c) exempts Council and subcommittee members from being considered special government employees 'for any purpose,' specifically including a named list of federal conflict-of-interest and ethics statutes (18 U.S.C. \u00a7\u00a7 201-203, 205, 207-209, 218-219). This is a broad, specifically-enumerated exemption from ethics law for a body advising on regulatory and commercial policy directly affecting the industries its own members likely represent \u2014 exactly the exemption-architecture failure mode the flag targets."}
+  ],
+  "notes": "Reconciliation pass (2026-07-04). Structural weight: 4/18 = 22.2%, NOT SIGNIFICANT \u2014 sides with Gemini's classification over ChatGPT's, despite agreeing with ChatGPT that Flag 11 is a genuine, well-supported CRITICAL finding (the ethics exemption is real and specific, not overreach). ChatGPT's other PRESENT calls (Flags 1, 2, 3, 5, 8) largely describe normal FACA advisory-committee structure rather than distinguishing structural problems; disagreeing with those keeps the aggregate below threshold even with one confirmed severe finding. Illustrates a real property of the normalized-average design: a single strong, correctly-identified CRITICAL flag does not by itself make an 11-dimension aggregate cross the significance threshold."
+}

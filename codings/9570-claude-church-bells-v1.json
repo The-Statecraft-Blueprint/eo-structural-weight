@@ -1,0 +1,27 @@
+{
+  "eo_number": "9570",
+  "title": "Executive Order 9570\u2014Possession and Operation of the Transportation System, Plants, and Facilities of the Scranton Transit Company Located in and About the City of Scranton, Pennsylvania",
+  "date_iso": "1945-06-14",
+  "president": "Harry S Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 748,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-04",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Director of the Office of Defense Transportation is authorized to 'take possession and assume control' and 'do anything he may deem necessary' (Sec. 1), with no external check named beyond his own eventual determination of necessity."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Termination occurs 'when he determines that such possession... [is] no longer necessary' (Sec. 4) \u2014 self-assessed, with no outer time bound (unlike the comparable EO 9540, which caps retention at 60 days after restored efficiency)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: seizure of this one transit system to end a labor-disturbance-caused interruption."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'In such a manner as he may deem necessary for the successful prosecution of the war' (Sec. 1) is undefined and open-ended."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable. Sub-flag does not apply \u2014 authority derives from specific wartime transportation statutes, not an invoked emergency declaration.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No concrete outer bound exists (contrast EO 9540's 60-day cap); termination is purely the Director's own open-ended self-assessment."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "CRITICAL", "points": 2, "justification": "Sec. 3 explicitly blocks ordinary judicial process: 'Except with the prior written consent of the Director, no attachment by mesne process, garnishment, execution or otherwise shall be levied on or against any of the real or personal property... in the possession of the Director.' This is not a mere absence of oversight but an affirmative closure of a specific, pre-existing legal remedy pathway \u2014 courts cannot be used to reach this property without the Director's own consent. Distinguishes this order from its sibling seizure orders in the batch (EO 8944, EO 9540), neither of which contains an equivalent provision."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Beyond the judicial-process block already captured under Flag 7, no external party has a specified role in checking whether continued possession remains necessary or whether operations are being conducted properly."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "The mesne-process-blocking clause (Sec. 3) is a notable design feature not present in the otherwise-similar EO 8944 or EO 9540, establishing precedent for using wartime seizure orders to also shield seized property from ordinary creditor/legal remedies, not just to take operational control."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "PRESENT", "points": 1, "justification": "Sec. 5 explicitly transfers to the Director 'the functions, powers and duties vested in the Secretary of War' under the Act of August 29, 1916 \u2014 a direct statutory-function transfer from one official to another, not merely a cooperation request."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Reconciliation pass (2026-07-04). Structural weight: 9/20 = 45.0%, SIGNIFICANT. This reconciliation sides with ChatGPT's classification, not Gemini's (33.3%) \u2014 on close reading, the Sec. 3 judicial-process-blocking clause is a genuine, textually explicit, and structurally distinguishing feature this order has that its two sibling seizure orders in the batch (EO 8944, EO 9540) do not. Confirms this ICR pilot's earlier finding: the remaining Gemini/ChatGPT split is not uniformly 'Gemini calibrated, ChatGPT loose' \u2014 in this case Gemini's lower read appears to have missed a specific, severe textual feature."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "8944",
+  "title": "Executive Order 8944\u2014Directing the Federal Works Administrator to Take Possession of and Operate a Certain Project of the Grand River Dam Authority",
+  "date_iso": "1941-11-19",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 565,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-04",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Federal Works Administrator is authorized to 'enter upon, and take possession of, manage, and operate' the project with no external check beyond the President's own eventual determination that retention is unnecessary (Sec. 2)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Retention continues 'until such time as it shall appear to the President that further retention... is unnecessary' (Sec. 2) \u2014 an entirely self-assessed standard with no independent review and no outer time bound."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: seizure and operation of this one project for war-production power."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Scope extends to power 'necessary to the safety and defense of the United States, and for other purposes involving the safety of the United States' \u2014 both clauses are undefined, open-ended standards."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable. Sub-flag does not apply \u2014 authority derives from Federal Power Act \u00a716 and presidential judgment, not an invoked emergency declaration.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "The only review mechanism is the President's own self-assessment of continued necessity (Sec. 2), with no outer time bound and no independent reauthorization requirement. This is a temporary wartime seizure, not an evergreen policy, so the permanence carve-out does not apply \u2014 a genuine, unaddressed review gap."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order invokes its own statutory basis (Federal Power Act \u00a716) rather than bypassing it, and Sec. 3 explicitly preserves the Federal Power Commission's role in fixing compensation \u2014 existing oversight is not removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No third party (courts or otherwise) is given a role in checking whether continued retention remains justified; the ousted licensee has an obvious interest but no specified challenge mechanism in the text."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Signed nine days before Pearl Harbor, this establishes precedent for wartime-footing federal seizure of licensed private utility infrastructure under FPA \u00a716, broadly applicable to other licensed power projects beyond this one."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The transfer of operational control is the statutorily-contemplated mechanism of FPA \u00a716 itself, and the FPC's compensation-setting role is explicitly preserved (Sec. 3) \u2014 a designed transfer, not an unauthorized mandate conflict."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 4's Civil Service Rules exemption for newly-hired operating personnel is narrow and operationally necessary; it does not undermine the seizure's stated purpose."}
+  ],
+  "notes": "Reconciliation pass (2026-07-04). Structural weight: 6/22 = 27.3%, NOT SIGNIFICANT. Sides with Gemini's classification (27.8%) over ChatGPT's (50.0%, 3 CRITICAL) \u2014 on close reading, this order's real weakness is the open-ended, self-assessed retention standard (Flags 2, 6), not the kind of core-purpose-defeating collapse CRITICAL is reserved for."
+}

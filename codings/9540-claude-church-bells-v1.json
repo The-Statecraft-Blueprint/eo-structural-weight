@@ -1,0 +1,27 @@
+{
+  "eo_number": "9540",
+  "title": "Executive Order 9540\u2014Authorizing the Petroleum Administrator to Take the Possession of and to the Cities Service Refining Corporation, Located in and Around Lake Charles, Louisiana",
+  "date_iso": "1945-04-17",
+  "president": "Harry S Truman",
+  "congress_number": 79,
+  "source_url": "",
+  "word_count": 684,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-04",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "The Petroleum Administrator may operate the plant 'in any manner... that he may deem necessary,' exercise any of the company's contractual rights, and (Sec. 6) delegate 'any and all power, authority, and discretion' to a Deputy \u2014 broad, largely unchecked operational authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Unlike comparable seizure orders in this corpus, Sec. 5 sets a concrete outer bound: possession terminates 'in no event more than sixty days after the restoration of productive efficiency' \u2014 a checkable, textually-anchored deadline exists, even though the underlying 'no longer required' determination is self-assessed."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: seizure of this one refinery to end a labor-disturbance-caused production interruption."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'In any manner, in accordance with applicable laws, that he may deem necessary for the successful prosecution of the war' (Sec. 1) is an open-ended operational standard with no defined limits."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable. Sub-flag does not apply \u2014 authority derives from the Selective Training and Service Act and War Labor Disputes Act, not an invoked emergency declaration.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 5's 60-day-after-restoration cap is a genuine, textually-explicit termination trigger \u2014 a materially stronger design feature than the fully open-ended structures in comparable seizure orders in this batch (e.g. EO 8944, EO 9570)."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 2 directs federal agencies (National War Labor Board, War Manpower Commission, Selective Service System, Department of Justice) to cooperate with the Administrator; this is a coordination request, not removal of any agency's own oversight or judicial/congressional review."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "No external party is given a role in checking whether the Administrator's determination of 'productive efficiency restored' is accurate or timely \u2014 the company has an obvious interest but no specified challenge mechanism."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "By April 1945, wartime labor-dispute seizures under this statutory authority were an established, repeated pattern (see EO 8944, EO 9570 in this same corpus) \u2014 this order applies an existing template rather than establishing new precedent or authority."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 2's cooperation directive asks named agencies to support the Administrator; it does not redirect or override their own statutory missions."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Reconciliation pass (2026-07-04). Structural weight: 3/20 = 15.0%, clearly NOT SIGNIFICANT \u2014 lower than both new Gemini (16.7%) and far below new ChatGPT (54.55%, 3 CRITICAL). The 60-day cap in Sec. 5 is a real, specific limiting mechanism that materially distinguishes this order from its two sibling seizure orders in the batch; ChatGPT's coding does not appear to have weighted it."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "9264",
+  "title": "Executive Order 9264\u2014Extension of the Provisions of Executive Order No. 9001 of December 27, 1941, to Contracts of the Department of Commerce",
+  "date_iso": "1942-11-05",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 150,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "This extends 'all... functions and powers' of EO 9001 \u2014 including its broad, minimally-checked wartime contracting authority \u2014 to the Department of Commerce."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Inherits EO 9001's self-determined public-disclosure structure for contract reporting."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single, narrow purpose: extending an existing framework to one additional department."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Inherits EO 9001's remarkably broad, open-ended definition of covered contracts."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "This extension is explicitly made 'subject to the limitations and regulations contained in' EO 9001, incorporating that order's anti-corruption safeguards (profit caps, the cost-plus-percentage prohibition, the anti-lobbying warranty).", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Inherits EO 9001's lack of a formal review or termination mechanism."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Inherits EO 9001's substantial bypass of normal contracting-law oversight, now extended to Commerce."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "This extension is explicitly subject to EO 9001's limitations, which include the explicit preservation of labor-standards laws (Walsh-Healey, Davis-Bacon, Copeland, Eight Hour Law)."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, formulaic extension of an already-established framework to one additional department, not itself a novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "A clean, single-department extension with no conflicting mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "Inherits EO 9001's broad exemption of covered contracts from standard government contracting-law requirements."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 6/22 = 27.3%. A second confirmed instance of structural weight inherited through incorporation by reference, alongside EO 8565's extension of EO 8389 to Romania \u2014 this time extending EO 9001's war-production contracting authority to the Department of Commerce."
+}

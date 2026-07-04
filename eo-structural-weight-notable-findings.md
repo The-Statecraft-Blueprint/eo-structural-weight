@@ -38,6 +38,25 @@ Explicitly out of scope here: anything framed in terms of the gridlock/book hypo
 
 ## Structural weight vs. historical/political significance (recurring divergences)
 
+**Quick-reference index.** The prose entries below give full context for each case; this table exists so the pattern can be cited without hunting through paragraphs. "Divergence type" sorts into three categories: **(A)** positive-class (Mayer & Price significant) but low structural weight — the instrument is measuring architecture, not fame; **(B)** positive-class and high structural weight together — proof the two axes aren't just inversely correlated, they're independent; **(C)** negative-class (not Mayer & Price significant) but elevated structural weight — the mirror image of (A), equally important for validating that the instrument isn't simply reproducing the significance label.
+
+| EO | Date | Score | Class | Type | One-line reason |
+|---|---|---|---|---|---|
+| 9017 | 1942 | 0.0% | Positive | A | Tripartite NWLB balance despite wartime historical weight |
+| 9508 | 1944 | 10.0% | Positive | A | Most famous seizure order (Montgomery Ward), enforces an existing court ruling |
+| 11375 | 1967 | 5.0% | Positive | A | Adds sex to federal EEO coverage; strongest single divergence case found — genuinely significant *and* genuinely well-designed |
+| 11490 | 1969 | 7.1% | Positive | A | 29-agency nuclear-war planning order neutralized by an explicit "planning authority only" clause |
+| 11785 | 1974 | 0.0% | Positive | A | Dismantles the Attorney General's subversive-organizations list; power-narrowing reads clean |
+| 12139 | 1979 | 0.0% | Positive | A | Implements FISA — landmark surveillance-accountability reform |
+| 12369 | 1982 | 0.0% | Positive | A | The "Grace Commission," hugely influential on government-efficiency policy for decades |
+| 12958 | 1995 | 4.5% | Positive | A | Classified-information overhaul; strongest well-designed-governance exemplar in the corpus |
+| 13010 | 1996 | 6.25% | Positive | A | Foundational order behind all later U.S. critical-infrastructure/cybersecurity policy |
+| 11615 | 1971 | 31.8% | Positive | B | Nixon wage-price freeze — both historically major and structurally heavy at once |
+| 8565 | 1940 | 27.8% | Negative | C | One-paragraph extension of the EO 8389 property-control framework to Romania; inherits that framework's weight by incorporation |
+| 9001 | 1941 | 31.8% | Negative | C | Foundational WWII war-production contracting authority, issued 20 days after Pearl Harbor; not in the positive class at all |
+| 9250 | 1942 | 45.5% | Negative | C | FDR's WWII "Hold the Line" economic stabilization order — sweeping, explicitly "final" authority over the entire wartime economy; the highest score yet among negative-class EOs, and not inherited from another order — an independently complex, historically major order Mayer & Price simply did not include |
+| 9264 | 1942 | 27.3% | Negative | C | Extends EO 9001's contracting authority to the Department of Commerce; inherits its structural weight the same way EO 8565 does |
+
 The scoring scheme's design principle — "an EO transferring enormous authority cleanly... could score very low structural weight while being politically significant, and that's correct, not a flaw" — keeps showing up empirically, not just as a theoretical possibility:
 
 - **EO 9017** (National War Labor Board) — arguably the most consequential single labor-relations institution of WWII. Scored 0.0%. The tripartite, balanced design is exactly why.

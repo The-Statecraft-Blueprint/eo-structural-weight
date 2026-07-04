@@ -1,0 +1,27 @@
+{
+  "eo_number": "9204",
+  "title": "Executive Order 9204\u2014Coordination of Federal Activities Affecting the Fishery Industry",
+  "date_iso": "1942-07-21",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 850,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A liaison and coordination role, not direct regulatory command over the fishery industry; functions are limited to information exchange and recommendations."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The Coordinator's functions are specifically defined as liaison and advisory in nature, reasonably bounded."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "Coordination and advisory functions with no binding compliance regime; industry cooperation is voluntary."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4 explicitly ties the order's duration to the underlying statute: it 'shall continue in force and effect so long as Title I of the First War Powers Act, 1941, remains in force' \u2014 a clean, appropriately-scoped, statute-linked sunset."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates a new coordination and information-sharing structure rather than removing any existing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A voluntary, advisory coordination structure with no compliance regime requiring third-party monitoring."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, wartime-specific coordination function tied to a temporary statute."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Each relevant agency designates its own liaison officer rather than the Fishery Coordinator seizing control of their functions \u2014 a cooperative, well-designed structure."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/14 = 0.0%. A well-designed wartime coordination order, notable for explicitly linking its own duration to the underlying statute's own force rather than to a self-determined or indefinite emergency declaration."
+}

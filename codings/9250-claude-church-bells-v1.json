@@ -1,0 +1,27 @@
+{
+  "eo_number": "9250",
+  "title": "Executive Order 9250\u2014Providing for the Stabilizing of the National Economy",
+  "date_iso": "1942-10-03",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 77,
+  "source_url": "",
+  "word_count": 2800,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "CRITICAL", "points": 2, "justification": "A single Economic Stabilization Director is given power to formulate 'a comprehensive national economic policy' covering purchasing power, prices, rents, wages, salaries, profits, rationing, subsidies, 'and all related matters,' with power to issue binding policy directives to all federal departments and agencies; Title VI Sec. 5 states 'the decision of the Director as to such delegation... shall be final' \u2014 an explicitly sweeping, economy-wide, non-reviewable concentration of authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "The Economic Stabilization Board (multiple Cabinet secretaries plus labor, management, and farmer representatives) exists only to 'advise and consult' with the Director, not to approve or check his decisions, which are explicitly final."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Six distinct Titles covering wage stabilization, agricultural pricing, and profits/subsidies all coherently serve one overarching anti-inflation purpose stated in the preamble."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Wage-increase approval criteria ('to correct maladjustments or inequalities, to eliminate substandards of living, to correct gross inequities') are substantially open-ended standards governing economy-wide wage determinations."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "No formal review or termination mechanism is specified for this economy-wide authority, unlike EO 9204's explicit statute-linked sunset issued the same year."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Title II Sec. 9 and Title IV Sec. 4 explicitly suspend specific provisions of the existing Emergency Price Control Act 'insofar as' inconsistent with this order \u2014 a direct suspension of enacted statutory text, though anchored to the newly-enacted Act of October 2, 1942, which appears to specifically authorize this mechanism."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The Economic Stabilization Board's genuinely broad membership, including Cabinet secretaries and labor, management, and farmer representatives, provides real if non-binding external input."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "This is the central legal framework for the entire WWII wage-price stabilization program, colloquially the 'Hold the Line' order \u2014 one of the most consequential home-front economic-policy actions of the war."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "PRESENT", "points": 1, "justification": "The Director's binding policy-directive authority sits above the National War Labor Board's and Price Administrator's own existing statutory wage- and price-setting authority, a layering-above-existing-agencies structure comparable to the Korean War-era Director of Defense Mobilization pattern already logged in this project."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "Title II Sec. 4 gives the National War Labor Board open-ended authority to exempt 'small total wage increases or decreases as it deems necessary,' with no defined threshold for what counts as small or necessary."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 10/22 = 45.5%. A major historical order and a genuine 'significant and structurally weighty' case, alongside EO 11615 \u2014 not a coding error or a contradiction of the project's design, since structural weight and historical significance are meant to be independent axes that sometimes move together and sometimes diverge."
+}

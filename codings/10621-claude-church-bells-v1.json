@@ -1,0 +1,27 @@
+{
+  "eo_number": "10621",
+  "title": "Executive Order 10621\u2014Delegation of Certain Functions of the President to the Secretary of Defense",
+  "date_iso": "1955-07-01",
+  "president": "Dwight D. Eisenhower",
+  "congress_number": 84,
+  "source_url": "",
+  "word_count": 1600,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Each of the roughly fourteen delegated authorities is narrow and specific (e.g., approving voluntary enlistment extensions, setting warrant officer numbers), already defined by its own statute \u2014 a lateral relocation of existing narrow authorities, not a new broad grant."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Each delegated authority is tied to a specific, precisely-cited statute with defined scope."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Many distinct authorities are delegated together, but all coherently relate to Navy and Marine Corps personnel administration."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A pure delegation mechanism; any discretion involved is inherent to the underlying statutes, not created by this order."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this delegation order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing delegation of routine, permanent personnel-administration authorities, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3 explicitly preserves all prior presidential actions on these matters until amended under the new delegation."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No third-party compliance regime is created."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "Routine administrative delegation of narrow, pre-existing authorities; no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "A delegation from the President to the Secretary of Defense; no other agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/12 = 0.0%. Housekeeping delegation of roughly fourteen narrow, pre-existing statutory personnel authorities."
+}

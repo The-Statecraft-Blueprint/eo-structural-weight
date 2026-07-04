@@ -1,0 +1,27 @@
+{
+  "eo_number": "10483",
+  "title": "Executive Order 10483\u2014Establishing the Operations Coordinating Board",
+  "date_iso": "1953-09-02",
+  "president": "Dwight D. Eisenhower",
+  "congress_number": 83,
+  "source_url": "",
+  "word_count": 620,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A multi-member board (Under Secretary of State as chair, Deputy Secretary of Defense, FOA Director, DCI, a presidential representative) reporting to the National Security Council \u2014 genuinely distributed, not concentrated."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Clear reporting chain to the National Security Council, with periodic reports required (Sec. 2)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: coordinating implementation of approved national security policy."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory/coordinative body with no binding compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing coordination body for an ongoing government function (national security policy implementation), evergreen by nature, not tied to a specific emergency."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 6 explicitly preserves other agencies' existing functions, naming the Office of Defense Mobilization specifically."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A coordination body with no third-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a significant new durable interagency layer in the national security policy-implementation apparatus, replacing the Psychological Strategy Board \u2014 a meaningful institutional precedent for how security policy coordination gets structured going forward."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4's abolition and winding-up of the Psychological Strategy Board is a clean, explicit succession; Sec. 6 explicitly protects other agencies' authority."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/14 = 7.1%. Predecessor structure to what eventually evolved into the modern NSC staff coordination apparatus."
+}

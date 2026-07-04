@@ -1,0 +1,27 @@
+{
+  "eo_number": "10816",
+  "title": "Executive Order 10816\u2014Amendment of Executive Order No. 10501 of November 5, 1953, Relating to Safeguarding Official Information in the Interests of the Defense of the United States",
+  "date_iso": "1959-05-07",
+  "president": "Dwight D. Eisenhower",
+  "congress_number": 86,
+  "source_url": "",
+  "word_count": 340,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The historical-research access provision expands rather than restricts access, and the discretion is exercised by each agency over its own originated material \u2014 narrow, self-accountable, liberalizing discretion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Agency heads granting historical-research access must 'take appropriate steps to assure that classified information is not published or otherwise compromised' \u2014 a real, if general, responsibility requirement."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Three narrow, related amendments (declassification clarification, historical-research access, mail-transmission rules) all coherently amend one underlying classification framework."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "'Trustworthy' and 'clearly consistent with the interests of national defense' are subjective standards for the historical-research exception, even though the context is access-expanding rather than access-denying."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category applies: this amends an ongoing classification system, itself evidence of periodic revision as needed."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This expands access beyond the prior restrictive baseline; no oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "This concerns internal agency discretion over who gets access, not an ongoing third-party compliance regime."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, beneficial amendment expanding historical-research access; no concerning broader claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The historical-research exception requires an affirmative dual determination (national-defense consistency and trustworthiness) plus ongoing agency responsibility \u2014 narrow and conditioned, not a broad undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/18 = 5.6%."
+}

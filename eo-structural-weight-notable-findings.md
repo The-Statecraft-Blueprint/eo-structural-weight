@@ -1,0 +1,60 @@
+# EO Structural Weight Score: Notable Findings Log
+*Started 2026-07-05, during validation-batch coding (Mayer & Price 2002 AUC test).*
+
+This is a running log of things worth remembering that surface while coding individual EOs — design patterns, cross-order narratives, and divergences between structural weight and historical/political significance. It's separate from two other documents on purpose:
+
+- **`eo-structural-weight-scoring-scheme.md`'s "Known Limitations" section** is about weaknesses in the *coding process itself* (e.g., the pattern-matching-to-triviality risk found via EO 8451). This document is about substantive findings *in the coded EOs*, not process caveats.
+- **Individual coding files' `notes` fields** capture EO-specific context. This document is for things that span multiple EOs, or that are worth remembering across the whole project — the kind of thing a reader skimming 70+ separate JSON files would never piece together.
+
+Explicitly out of scope here: anything framed in terms of the gridlock/book hypothesis. That reasoning belongs to the TSB-side analysis, not to this instrument-building log (see the Step 4 scope correction, 2026-07-04). Findings below are about governance architecture, not about what they imply for that hypothesis.
+
+---
+
+## Design patterns worth naming
+
+**The "protective seizure order" template exists, and it's identifiable.** Across the many WWII/Korea-era plant-seizure orders coded so far, a cluster of specific, recurring design features reliably separates better- from worse-designed instances of the same basic instrument:
+- An explicit outer time bound (typically 60 days after productive efficiency is restored) — present in EO 9474, 9476, 9484, 9505, 9508, 9593, 9639; **absent** in EO 8944, 9351, 9459, 9511, 9523, 9661, leaving those open-ended and self-assessed.
+- A status-quo-employment-terms requirement, constraining what the seizing official can actually change.
+- An explicit management-preservation clause ("permit the management... to continue with its managerial functions").
+- Compliance with a specific, already-adjudicated labor board directive order (EO 9484, 9505, 9508) rather than open discretion — the single best predictor of a low score among the seizure orders, since it means the seizure enforces an existing determination rather than exercising fresh judgment.
+
+**A specific textual marker reliably predicts a CRITICAL finding: explicit blocking of ordinary judicial process.** The clause "no attachment by mesne process, garnishment, execution, or otherwise shall be levied... [without] the Director's prior written consent" appears in EO 9341, EO 9570, and EO 9661 — three otherwise-unremarkable seizure orders that would score PRESENT-range on Preemption of Oversight without it, but CRITICAL with it, since it's an affirmative closure of a specific pre-existing legal remedy pathway rather than a mere absence of oversight. Worth flagging for the remaining corpus as a searchable phrase, the same way the bypass-language heuristic ("notwithstanding," "without regard to") already is.
+
+**A different textual marker reliably predicts an unusually clean score: independent, time-limited advisory bodies.** EO 9387 (Advisory Board on Just Compensation — three named federal judges, explicit 3-month term) and EO 9808 (President's Committee on Civil Rights — broad non-government representation, automatic dissolution on report submission) both scored 0.0% despite covering substantive, even historically pivotal, subject matter. The common feature: independence from the agency whose decisions the body reviews or investigates, combined with an explicit self-termination mechanism. Worth treating as a positive pattern to name explicitly in any eventual "what good design looks like" discussion, not just an absence of red flags.
+
+---
+
+## Cross-order narratives (the aggregate score hides these)
+
+**Port security, 1950-1952 (EO 10173 → EO 10277 → EO 10352): a real due-process story, hidden behind three identical 22.7% scores.** EO 10173 (Oct 1950) presumes eligibility for merchant marine employment unless the Commandant affirmatively finds someone "inimical to security." EO 10277 (Aug 1951) flips that presumption — employment is denied *unless* the Commandant is affirmatively satisfied the person is *not* inimical. EO 10352 (May 1952) then extends that flipped presumption from licensed officers specifically to *all* persons employed on merchant vessels. All three land at exactly 22.7% because the same appeal mechanism persists throughout and offsets the escalation in the aggregate math — but reading only the scores would completely miss that this is one continuous, worsening story, not three unrelated orders that happen to look alike. This is the clearest demonstration so far of why the underlying flag-level justifications matter more than the headline percentage.
+
+**Fair employment enforcement, 1941-1948 (EO 8802 → EO 9808 → EO 9981): a structural weakness that outlives the people who could have fixed it.** EO 8802 (1941, FDR) establishes the template: an advisory committee that investigates complaints and takes "appropriate steps" with no defined penalty for non-compliant employers. EO 9808 (1946, Truman) is a different, temporary body (the President's Committee on Civil Rights) whose report ("To Secure These Rights") was influential enough to help shape EO 9981. Yet EO 9981 (1948) inherits essentially the *same* weak-enforcement structure as its 1941 ancestor — advisory committee, no defined remedy — despite seven years and an intervening influential report in between. The specific structural gap (Flag 4: no defined consequence for non-compliance) wasn't a one-time oversight; it's a pattern that persisted across two administrations and multiple redesign opportunities.
+
+**Korean War mobilization, 1950-1953 (EO 10161 → EO 10193 → EO 10433): progressive centralization, order by order.** EO 10161 (Sept 1950) deliberately *distributes* Defense Production Act authority across many named officials by subject matter — a designed, checked structure. EO 10193 (Dec 1950), three months later, adds a single "Director of Defense Mobilization" *above* that distributed structure, subordinating all those delegates to one coordinating authority. EO 10433 (Feb 1953, Eisenhower's first order in this corpus) goes further, folding a second Senate-confirmed leadership role (Economic Stabilization Administrator) into the same Director position. Read individually, each order looks like ordinary administrative refinement. Read together, they trace a steady move from distributed to concentrated authority over about 2.5 years — worth contrasting with the opposite pattern below.
+
+**Contrast: WWII demobilization moved the other direction.** EO 9017 (1942) establishes the tripartite National War Labor Board with broad wartime jurisdiction. EO 9672 (Dec 1945) replaces it with the National Wage Stabilization Board — same tripartite design, but explicitly *narrowed* in scope to wage stabilization specifically, with pending cases returned to the parties rather than carried over. Where the Korean War sequence concentrates authority over time, the WWII-to-peacetime sequence appropriately scales it down. Two comparable multi-year institutional sequences in the same corpus, moving in opposite directions.
+
+---
+
+## Structural weight vs. historical/political significance (recurring divergences)
+
+The scoring scheme's design principle — "an EO transferring enormous authority cleanly... could score very low structural weight while being politically significant, and that's correct, not a flaw" — keeps showing up empirically, not just as a theoretical possibility:
+
+- **EO 9017** (National War Labor Board) — arguably the most consequential single labor-relations institution of WWII. Scored 0.0%. The tripartite, balanced design is exactly why.
+- **EO 8785** (predecessor to the modern OFAC sanctions architecture) — scored 27.3%, moderate rather than high, because its unusual specificity forecloses most vagueness findings and its power concentration serves rather than defeats its own stated purpose.
+- **EO 9508** (Montgomery Ward seizure) — the most publicly famous and politically controversial seizure order in the corpus, yet one of the lowest-scoring (10.0%), because it enforces an already-adjudicated NWLB determination rather than exercising open executive judgment.
+- **EO 9639** — the largest-scale seizure order found so far (an entire national industry, dozens of companies) scores similarly to single-company seizures with the same design features. Scale is not structural weight; design is.
+- **EO 10161** — creates an entire new federal agency (the Economic Stabilization Agency) and comprehensively restructures a major statute's administration, yet scores only 15.0% because of genuinely careful conflict-avoidance design (explicit claimant procedures, mandatory external consultation for sensitive actions).
+- **EO 9621** (OSS termination) — the direct institutional seed of what became the CIA, but the order's own text is narrow and explicitly self-terminating. A caution for reading the corpus generally: clean structural design *at the time an order is signed* doesn't guarantee the institution it seeds stays clean as it evolves. The order should be scored on its own text, but its later trajectory is worth knowing about when the corpus results get used for anything beyond the immediate coding.
+
+**Standing, independent oversight boards are a distinct positive pattern from time-limited advisory commissions.** EO 10938 (President's Foreign Intelligence Advisory Board, 1961) scores cleanly for a different reason than EO 9387/9808/11076's clean scores: those bodies are clean because they're time-limited and self-terminating; PFIAB is clean because it's a *standing* body with independent, non-government membership, mandatory information access from the agencies it reviews, and a genuinely durable oversight mandate — and, notably, it actually persisted (in modified form) for decades afterward, one of the few bodies in this corpus where the text's claimed ongoing mandate matches its real institutional durability. Two different routes to a clean score: bounded-and-temporary, or standing-and-independent. A standing body with neither independence nor a real information-access mandate (contrast EO 10842's Board of Inquiry, which persists indefinitely with no automatic termination and no comparably strong independence guarantee) doesn't get the same benefit.
+
+**A code of conduct with no enforcement mechanism at all: EO 10939 (Kennedy's 1961 ethics guide).** Historically notable as one of the first formal presidential ethics codes, direct precursor to the eventual Ethics in Government Act of 1978. Structurally, though, it has a specific, clean gap: it states standards for senior officials ("not compatible with the full and proper discharge," "may result in, or create the appearance of, resulting in") but never specifies *any* investigation, complaint, or consequence mechanism for an official who actually violates them. Sec. 6 requires agency heads to "review or issue internal directives," but that's implementation guidance, not enforcement. This is a clean example of a governance instrument that is entirely dependent on self-policing — worth remembering as a named reference case if a similar gap shows up elsewhere in the corpus (later ethics-related EOs would be a natural place to check whether this gap ever got closed).
+
+---
+
+## Coding-process cross-references
+
+Findings that connect to items in `eo-structural-weight-scoring-scheme.md`'s Known Limitations section:
+
+- The bypass-language heuristic ("notwithstanding," "without regard to," "without compliance with," "without complying with") that emerged from the EO 8451 correction is now joined by a second candidate mechanical marker: the mesne-process/garnishment/execution-blocking clause described above. Both are cheap to search for across the remaining ~230 EOs in this batch and the wider corpus, and both have now independently predicted a real finding more than once.

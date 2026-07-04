@@ -1,0 +1,27 @@
+{
+  "eo_number": "11076",
+  "title": "Executive Order 11076\u2014Establishing the President's Advisory Commission on Narcotic and Drug Abuse",
+  "date_iso": "1963-01-15",
+  "president": "John F. Kennedy",
+  "congress_number": 88,
+  "source_url": "",
+  "word_count": 620,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Seven members appointed 'from persons outside the executive branch,' purely advisory in function."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Clear structure with specific deadlines: an interim report by April 1, 1963, and a final report by November 1, 1963."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: narcotic and drug abuse policy recommendations."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 6 sets an explicit, hard termination date: 'shall terminate not later than December 31, 1963' \u2014 a clean, unambiguous sunset."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed; this creates a new advisory function."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with independent membership; no ongoing third-party compliance regime is created."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, task-specific, time-limited commission with no ongoing authority claimed beyond its report."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3's liaison-designation directive to five named departments is coordination, not mandate redirection."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 5's exemption from civil service and classification laws for Commission staffing is a narrow, standard provision for temporary advisory-body personnel, consistent with similar bodies elsewhere in this corpus (e.g. EO 10938)."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/16 = 0.0%. Another exemplary time-limited independent advisory commission, joining EO 9387, EO 9808, and (partially) EO 10938 as clean designs of this type."
+}

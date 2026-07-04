@@ -1,0 +1,27 @@
+{
+  "eo_number": "10938",
+  "title": "Executive Order 10938\u2014Establishing the President's Foreign Intelligence Advisory Board",
+  "date_iso": "1961-05-04",
+  "president": "John F. Kennedy",
+  "congress_number": 87,
+  "source_url": "",
+  "word_count": 340,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Members are appointed 'from among qualified persons outside the Government,' and the Board's function is purely advisory \u2014 no operational authority is granted."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear, structured reporting requirement: 'continuing review and assessment... report thereon to the President each six months or more frequently.'"},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: foreign intelligence oversight and advice."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing oversight function for an ongoing government need (foreign intelligence oversight), evergreen by nature rather than tied to a resolvable emergency."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates a new oversight and review mechanism over the CIA and other intelligence agencies \u2014 the opposite of removing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The Board's independent, non-government membership combined with mandatory information access from the agencies it reviews ('shall make available to the Board any information... which the Board may require') constitutes a genuine external check."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a durable, independent oversight institution for the entire U.S. intelligence community with a broad, ongoing review mandate ('continuing review and assessment of all functions of the Central Intelligence Agency, and of other executive departments and agencies') \u2014 a significant, still-existing institutional structure (in modified form) rather than a narrow one-off body."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 4's revocation of the prior EO 10656 is a clean succession."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/16 = 6.25%. The President's Foreign Intelligence Advisory Board has persisted, with modifications, into the present day \u2014 a rare case in this corpus of a body whose textually-claimed ongoing mandate (Flag 9) matches its actual long-term institutional durability."
+}

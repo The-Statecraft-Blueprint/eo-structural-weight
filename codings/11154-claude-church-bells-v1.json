@@ -1,0 +1,27 @@
+{
+  "eo_number": "11154",
+  "title": "Executive Order 11154\u2014Exemption of J. Edgar Hoover from Compulsory Retirement for Age",
+  "date_iso": "1964-05-08",
+  "president": "Lyndon B. Johnson",
+  "congress_number": 88,
+  "source_url": "",
+  "word_count": 180,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "This exempts one named individual from compulsory retirement for an indefinite period of time, unlike every other individual retirement exemption in this corpus (EO 7525, EO 8047, EO 8231, EO 8287, EO 9033), which were bounded to specific six-month or one-year terms."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Unlike the time-bounded exemptions elsewhere in this corpus, which required periodic re-application and re-justification, this order sets no future review or renewal point at all."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A personnel action creating no compliance regime."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "The order explicitly states the exemption is 'for an indefinite period of time' \u2014 a clear, explicit absence of any sunset or review mechanism, in stark contrast to the specific-term pattern established by every other individual retirement exemption in this corpus."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism outside this order is removed by its own text."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "CRITICAL", "points": 2, "justification": "This order enabled the indefinite continuation of J. Edgar Hoover as FBI Director for an additional eight years until his 1972 death, a period historians widely document as including substantial abuses of federal law-enforcement power (including COINTELPRO and extensive surveillance of political and civil-rights figures). The order removes, without any defined end-point, a structural safeguard \u2014 mandatory retirement age \u2014 that exists specifically to ensure periodic turnover in powerful government positions, applied here to arguably the single most consequential law-enforcement office in the federal government."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The exemption remains narrow in form (one named individual); its indefinite duration is captured under Flags 1, 2, and 6 rather than here."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 5/14 = 35.7%. The most structurally significant individual-exemption order found in this corpus, precisely because it breaks the established pattern (time-bounded, periodically renewed) that every comparable order follows. This project's methodology scores the architecture \u2014 an indefinite exemption from a safeguard designed to ensure turnover in powerful offices \u2014 rather than adjudicating Hoover's tenure itself; the historical consequences are noted here as documented context for why the structural choice mattered, not as an independent judgment."
+}

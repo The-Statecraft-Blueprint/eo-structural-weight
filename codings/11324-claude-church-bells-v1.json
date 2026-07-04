@@ -1,0 +1,27 @@
+{
+  "eo_number": "11324",
+  "title": "Executive Order 11324\u2014Creating an Emergency Board to Investigate Disputes Between the Carriers Represented by the National Railway Labor Conference and Certain of Their Employees",
+  "date_iso": "1967-01-28",
+  "president": "Lyndon B. Johnson",
+  "congress_number": 90,
+  "source_url": "",
+  "word_count": 1500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A three-member board with powers defined entirely by the Railway Labor Act, with an explicit conflict-of-interest exclusion, structurally identical to the smaller single-carrier boards elsewhere in this corpus despite covering dozens of railroads nationwide."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A specific thirty-day reporting deadline."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose despite covering a large, named list of carriers."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "The Board's powers are entirely defined by the Railway Labor Act."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A single-dispute, bounded-duration investigatory board by its nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This exercises the statutory Railway Labor Act emergency-board process exactly as Congress designed it."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "The Railway Labor Act's broader framework provides real external checks."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, statutory dispute-resolution mechanism, though covering effectively the entire U.S. railroad industry by name."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 0/10 = 0.0%. Notable for its scale \u2014 the attached carrier list names nearly every major railroad in the United States \u2014 but structurally identical to the smaller single-carrier emergency boards elsewhere in this corpus."
+}

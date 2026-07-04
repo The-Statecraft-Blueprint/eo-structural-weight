@@ -1,0 +1,27 @@
+{
+  "eo_number": "11190",
+  "title": "Executive Order 11190\u2014Providing for the Screening of the Ready Reserve of the Armed Forces",
+  "date_iso": "1964-12-29",
+  "president": "Lyndon B. Johnson",
+  "congress_number": 88,
+  "source_url": "",
+  "word_count": 100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "This delegates the entire screening-regulation-writing authority to the Secretary of Defense with no criteria, categories, or guidance whatsoever, replacing EO 10651's detailed, multi-paragraph criteria (age/fitness standards, hardship provisions, critical-occupation rules, an elected-officials carve-out) with a single unconditioned sentence."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "EO 10651 required periodic reports to the President for evaluation against manpower requirements (Sec. 10); this order contains no such requirement at all."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "No screening criteria are specified anywhere in this order, a more open-ended standard than even EO 10651's already-flagged 'extreme hardship' language, since at least that order specified some criteria."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A standing delegation for an ongoing military-readiness function."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "This removes both the periodic-reporting requirement and all specific screening criteria that constrained discretion under its predecessor, EO 10651 \u2014 a significant reduction in the accountability structure the prior order had built in."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "This concern is captured under Flags 2 and 7."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This substantially increases the Secretary of Defense's unconstrained discretion relative to the detailed predecessor order it revokes, a genuine structural expansion despite the text's brevity."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No exemption categories are specified in this order's own text; EO 10651's elected-officials carve-out is not carried forward explicitly, though the Secretary of Defense's unconstrained delegated authority could recreate it by regulation."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 5/14 = 35.7%. This order explicitly revokes EO 10651 (Sec. 2) and replaces its detailed, criteria-based screening framework with a one-sentence blank-check delegation to the Secretary of Defense. It scores higher (35.7%) than its longer, more detailed predecessor (22.2%) \u2014 a clean, concrete illustration that textual brevity is not the same thing as good structural design. This is the most severe instance yet of the quiet-regression pattern logged elsewhere in this project (EO 12072, EO 9296): rather than narrowly weakening one provision, it eliminates an entire detailed regulatory framework and its reporting requirement in favor of unconstrained discretion."
+}

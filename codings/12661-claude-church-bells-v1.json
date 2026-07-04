@@ -1,0 +1,27 @@
+{
+  "eo_number": "12661",
+  "title": "Executive Order 12661\u2014Implementing the Omnibus Trade and Competitiveness Act of 1988 and Related International Trade Matters",
+  "date_iso": "1988-12-27",
+  "president": "Ronald Reagan",
+  "congress_number": 100,
+  "source_url": "",
+  "word_count": 3400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Authority is distributed by specific subject matter across many named officials (primarily USTR, with Defense, Treasury, and Commerce receiving narrower slices), each delegation specific and statutorily anchored."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Extremely detailed, section-by-section delegation with specific statutory cross-references, and Sec. 5-101 explicitly retains 'Executive oversight and direction of the President' over all actions taken under this order."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Five distinct Parts cover many trade-policy areas, but all implement one comprehensive statute (the Omnibus Trade Act) plus closely related statutes."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Extensive specificity throughout, including precise timelines for the Toshiba/Kongsberg sanctions and precise membership for interagency bodies."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "The specific Toshiba/Kongsberg sanctions have an explicit three-year sunset (Sec. 2-201); the broader delegation framework implements a permanent statute and is evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 5-101's explicit presidential-oversight-retention clause and multiple required congressional reports preserve rather than remove accountability."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Extensive mandatory interagency consultation requirements throughout, plus required public and congressional reporting, provide real structured checks."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Comprehensive implementation of the major 1988 trade reform act, including the landmark Toshiba-Kongsberg export-control sanctions responding to the 1987 submarine-technology transfer scandal \u2014 genuinely significant."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Careful, section-by-section delegation to specifically named officials with defined roles and dedicated coordinating bodies."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The sanctions-exception process (Sec. 2-201(3)) is narrowly bounded by specific statutory criteria and delegated to specific officials, a standard bounded exception process rather than a broad undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/22 = 4.5%. A massive, comprehensive trade-implementation order that scores very low due to careful, distributed, well-checked design despite its scale and complexity."
+}

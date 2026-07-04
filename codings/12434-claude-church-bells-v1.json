@@ -1,0 +1,27 @@
+{
+  "eo_number": "12434",
+  "title": "Executive Order 12434\u2014Alaska Railroad Rates",
+  "date_iso": "1983-07-19",
+  "president": "Ronald Reagan",
+  "congress_number": 98,
+  "source_url": "",
+  "word_count": 600,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Sec. 1 explicitly subjects the Secretary of Transportation's rate-setting authority to the independent Interstate Commerce Commission's authority \u2014 a genuine, substantive external check retained rather than bypassed."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Rates must be filed with the ICC 'to the same extent as rates are filed by comparable rail carriers' \u2014 a real, established regulatory filing and review process."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: establishing Alaska Railroad rate-setting procedure."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Rates must be set 'to the same extent as comparable rail carriers subject to the jurisdiction of the Interstate Commerce Commission' \u2014 an objective, externally-anchored benchmark, not a self-defined standard."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing rate-setting procedural framework, evergreen by nature; supersedes a prior order (EO 11107), evidencing periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This preserves and formalizes the ICC's oversight role over Alaska Railroad rates rather than removing it."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 2(b) requires that any filed contract be made available to other shippers under similar conditions \u2014 a genuine, structural non-discrimination and transparency requirement protecting competing third parties."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, narrow, technical rate-setting-procedure delegation; no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "The Secretary of Transportation and ICC roles are clean and cooperative, not competing."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/18 = 0.0%. A genuinely well-designed delegation, notable for a design feature not previously seen in this corpus: it explicitly preserves an independent regulatory agency's (the ICC's) oversight over the delegated rate-setting authority rather than creating a parallel or unchecked structure, combined with a real shipper non-discrimination requirement."
+}

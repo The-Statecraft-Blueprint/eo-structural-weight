@@ -1,0 +1,27 @@
+{
+  "eo_number": "12632",
+  "title": "Executive Order 12632\u2014Exclusions From the Federal Labor-Management Relations Program",
+  "date_iso": "1988-03-23",
+  "president": "Ronald Reagan",
+  "congress_number": 100,
+  "source_url": "",
+  "word_count": 500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Exercises a narrow, congressionally-authorized presidential determination mechanism (5 U.S.C. \u00a77103(b)) for specifically named national-security-related units, not a novel or broad claim."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "This order exists specifically to cure a defect a federal court identified in its predecessor (EO 12559, held invalid in AFGE v. Reagan for failing to expressly state its required determinations) by now explicitly setting forth those determinations \u2014 a demonstrated, positive instance of judicial review improving executive transparency."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: labor-relations exclusion for specifically named national-security-related units."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The exclusion criteria are statutory (5 U.S.C. \u00a77103(b)), and the specific units affected are precisely named, not a vague category."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing exclusion determination for security-sensitive positions, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This exercises a specific, congressionally-anticipated exception mechanism (5 U.S.C. \u00a77103(b) itself authorizes presidential exclusion determinations for security-sensitive units) rather than an ad hoc removal of oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Affected employees retain judicial recourse, as demonstrated by the successful underlying litigation (AFGE v. Reagan) that led to this reissued order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, specific-unit exclusion determination; no broad authority claim, though procedurally notable as a real instance of executive-judicial correction."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The exclusion is narrow (two specific DOJ sub-units) and grounded in specific statutory criteria, not a broad undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/18 = 0.0%. A genuinely interesting process story: EO 12559 was struck down by a federal district court for failing to expressly state its required statutory determinations; this order reissues the same substantive exclusions while explicitly curing that procedural defect \u2014 a clean example of judicial review functioning as intended, with the executive branch correcting course rather than circumventing the ruling."
+}

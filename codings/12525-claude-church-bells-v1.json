@@ -1,0 +1,27 @@
+{
+  "eo_number": "12525",
+  "title": "Executive Order 12525\u2014Termination of Emergency Authority for Export Controls",
+  "date_iso": "1985-07-12",
+  "president": "Ronald Reagan",
+  "congress_number": 99,
+  "source_url": "",
+  "word_count": 320,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "This revokes emergency authority and rescinds a declaration of economic emergency; it reduces rather than concentrates power."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A clear, specific revocation with defined provisions preserving enforcement continuity for actions taken while the prior order was in effect."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: terminating emergency-based export control authority now that a proper statutory basis exists."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This transitions export controls from an emergency basis to a proper statutory basis rather than creating a new compliance standard."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "NOT_APPLICABLE", "points": null, "justification": "A one-time rescission action, not an ongoing authority grant requiring reauthorization."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This restores a proper congressionally-authorized statutory basis for export controls, the opposite of bypassing legislative oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime is created by this order."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "This is a corrective, contracting action retiring emergency-based authority rather than an expansive claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency or mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/8 = 0.0%. This is the resolution of the Zombie Emergency Trap chain first identified in EO 11796 and confirmed recurring in EO 11810 (both July/September 1974): Sec. 1 explicitly rescinds the declaration of economic emergency 'in view of the extension by Public Law 99-64... of the authorities contained in the Act' \u2014 meaning Congress finally passed a proper statutory reauthorization of the Export Administration Act, and the executive branch correspondingly retired the emergency-powers workaround that had substituted for it for roughly eleven years. Worth noting for the eventual writeup: the specific structural pathology identified in 1974 was not a permanent, unresolvable feature \u2014 it persisted until Congress acted, and ended when Congress did."
+}

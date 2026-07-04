@@ -1,0 +1,27 @@
+{
+  "eo_number": "12615",
+  "title": "Executive Order 12615\u2014Performance of Commercial Activities",
+  "date_iso": "1987-11-19",
+  "president": "Ronald Reagan",
+  "congress_number": 100,
+  "source_url": "",
+  "word_count": 1200,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Responsibility is distributed across agency heads, with OMB providing coordination and guidance rather than concentrated control."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Extremely detailed deadlines, a required senior-level coordinating official (Sec. 1(g)), and quarterly reporting to the President through OMB (Sec. 1(h))."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related sub-requirements (identification, study, budget estimates, job placement) all coherently serve one purpose: commercial-activity privatization review."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "References the specific, established methodology of OMB Circular No. A-76, as revised, rather than creating a vague standalone standard."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "Sec. 1(e)'s incentive-compensation provision requires OMB negotiation and is explicitly bounded to rewarding productivity gains, a deliberate and bounded incentive-alignment feature rather than a perverse one.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing federal procurement policy framework, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Sec. 5 states 'nothing in this Order shall be construed to confer a private right of action on any person' \u2014 an explicit foreclosure of judicial enforcement of the order's own requirements, the same pattern found in EO 12114."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 2(b) requires public publication of the commercial-activity inventory and study schedules, and Sec. 1(f) requires a job-placement program for affected employees \u2014 genuine external and protective mechanisms."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This is the historically significant 'A-76' competitive-sourcing framework, which became a decades-long, contentious feature of federal procurement policy cited in countless subsequent disputes and reviews."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "OMB, OPM, and individual agency roles are clearly delineated and coordinated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "The no-private-right-of-action provision is captured under Flag 7; no separate coverage exemption is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/18 = 11.1%. The historically significant 'A-76' federal competitive-sourcing framework. Second confirmed instance of the no-private-right-of-action pattern in this corpus (see EO 12114)."
+}

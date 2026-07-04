@@ -1,0 +1,27 @@
+{
+  "eo_number": "12331",
+  "title": "Executive Order 12331\u2014President's Foreign Intelligence Advisory Board",
+  "date_iso": "1981-10-20",
+  "president": "Ronald Reagan",
+  "congress_number": 97,
+  "source_url": "",
+  "word_count": 620,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Members are appointed from among 'trustworthy and distinguished citizens outside the Government,' purely advisory in function."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 3 requires reporting 'periodically, but at least semi-annually.'"},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: intelligence community oversight and advice."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing oversight function for an ongoing government need, evergreen by nature, consistent with EO 10938."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This creates independent oversight of intelligence agencies rather than removing any existing oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 5 grants the Board access to all information necessary from any agency, combined with independent, non-government membership \u2014 a genuine external check."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Sec. 2 authorizes the Board to 'continually review the performance of all agencies' engaged in intelligence \u2014 a broad, ongoing, textually-claimed oversight mandate over the entire intelligence community, consistent with EO 10938's equivalent finding."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "The Board advises rather than commands intelligence agencies."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/16 = 6.25% \u2014 identical to EO 10938's score, reflecting the near-identical structural design of this re-established version of PFIAB."
+}

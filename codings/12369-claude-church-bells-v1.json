@@ -1,0 +1,27 @@
+{
+  "eo_number": "12369",
+  "title": "Executive Order 12369\u2014President's Private Sector Survey on Cost Control in the Federal Government",
+  "date_iso": "1982-06-30",
+  "president": "Ronald Reagan",
+  "congress_number": 97,
+  "source_url": "",
+  "word_count": 800,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A purely advisory committee of up to 150 private-life members, funded largely by private-sector resources rather than federal appropriations (Sec. 3(e))."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Clear, specific advisory function administered through the Secretary of Commerce."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related review areas (efficiency, accountability, cost savings) all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4(b) sets an explicit termination date: December 31, 1982, unless sooner extended."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with independent, private-citizen membership."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "The order's own text is narrowly bounded to advisory, time-limited review; its later substantial influence on government-efficiency policy debate came from the resulting report, not from authority claimed in this text."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/12 = 0.0%. This is the 'Grace Commission,' whose eventual report proved highly influential in government-efficiency policy debate for decades \u2014 another clean illustration that structural weight and historical significance are distinct measures."
+}

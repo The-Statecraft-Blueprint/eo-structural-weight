@@ -1,0 +1,27 @@
+{
+  "eo_number": "12662",
+  "title": "Executive Order 12662\u2014Implementing the United States-Canada Free-Trade Implementation Act",
+  "date_iso": "1988-12-31",
+  "president": "Ronald Reagan",
+  "congress_number": 100,
+  "source_url": "",
+  "word_count": 750,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Narrow, distributed implementation provisions (notice requirements, Secretariat establishment, panel-decision acceptance)."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1's 75-day notice requirement for standards-related rules is a specific, transparency-enhancing procedural requirement, longer than standard APA notice periods."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related implementation provisions all coherently implement one trade agreement."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The 'urgent circumstances' exception to the notice requirement is bounded by the specifically-defined term 'legitimate domestic objective' (Sec. 1(b)(1): health, safety, security, environment, or consumer interests)."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Implements a permanent trade agreement, evergreen by nature; the U.S.-Canada FTA became the direct template for NAFTA."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Sec. 3 commits the President to 'accept, as a whole, all decisions of binational panels and extraordinary challenge committees' \u2014 a substantial advance commitment to accept adjudication by an internationally-constituted body in place of ordinary domestic judicial review of certain trade-remedy determinations, though implementing a congressionally-approved international agreement."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Sec. 4 states the order 'does not create any right or benefit... enforceable at law by a party against the United States' \u2014 the same no-private-right-of-action pattern found in EO 12114 and EO 12615, here compounding the binational-panel commitment's further limitation on domestic judicial recourse."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Implements the historic U.S.-Canada Free-Trade Agreement, the direct template for NAFTA; the binational panel dispute-resolution mechanism itself was a genuinely novel departure from purely domestic trade-remedy review."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "A clean, single-purpose Commerce Department Secretariat designation."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 1(c)'s exclusion of agricultural and food goods from the extended-notice requirement is narrow and specific, consistent with the underlying agreement's own chapter structure."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 3/22 = 13.6%. Implements the direct predecessor to NAFTA. Third confirmed instance of the no-private-right-of-action pattern (see EO 12114, EO 12615), here paired with a distinctive additional feature: an advance commitment to accept binational panel adjudication in place of domestic judicial review."
+}

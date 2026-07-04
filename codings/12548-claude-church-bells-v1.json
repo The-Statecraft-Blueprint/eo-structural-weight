@@ -1,0 +1,27 @@
+{
+  "eo_number": "12548",
+  "title": "Executive Order 12548\u2014Grazing Fees",
+  "date_iso": "1986-02-14",
+  "president": "Ronald Reagan",
+  "congress_number": 99,
+  "source_url": "",
+  "word_count": 550,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Grazing fees are set by a precise mathematical formula with objectively computed inputs (Forage Value Index, Beef Cattle Price Index, Prices Paid Index) and a defined floor and cap, leaving essentially no room for discretionary judgment."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The formula is entirely mechanical, leaving no ambiguity about how the fee is computed or who is responsible."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single purpose: establishing the grazing fee formula."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "An exact formula with exact weightings, an explicit annual-change cap (plus or minus 25 percent), and an explicit floor ($1.35 per animal unit month)."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing fee-setting mechanism implementing the Public Rangelands Improvement Act's own formula structure, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 3 explicitly continues existing rules, practices, policies, and regulations rather than removing any oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Because the fee is formula-driven from publicly available Statistical Reporting Service data, any affected party can independently verify the calculation \u2014 a genuine, structural transparency mechanism."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, narrow fee-setting mechanism; no broad authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Agriculture and Interior jointly exercise their own existing respective authorities without conflict."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/18 = 0.0%. A genuinely exemplary order for its type: an entirely objective, publicly-verifiable mathematical formula leaves essentially no room for arbitrary exercise of the fee-setting authority."
+}

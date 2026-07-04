@@ -1,0 +1,27 @@
+{
+  "eo_number": "12296",
+  "title": "Executive Order 12296\u2014President's Economic Policy Advisory Board",
+  "date_iso": "1981-03-02",
+  "president": "Ronald Reagan",
+  "congress_number": 97,
+  "source_url": "",
+  "word_count": 550,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A purely advisory board of private citizens that works alongside, rather than commands, the Cabinet Council on Economic Affairs."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The Board reports 'whenever requested,' a reasonably clear and bounded function."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: economic policy advice."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with no compliance regime against third parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 4(b) sets an explicit termination date: December 31, 1982, unless sooner extended."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A purely advisory body with independent, private-citizen membership."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A narrow, time-limited advisory body; no broad authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Explicitly designed to work with, not over, the existing Cabinet Council on Economic Affairs."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/14 = 0.0%. Unlike EO 11808's Ford-era Economic Policy Board, which concentrated real operational power in a daily-meeting Executive Committee, this board is purely advisory with no comparable operational locus."
+}

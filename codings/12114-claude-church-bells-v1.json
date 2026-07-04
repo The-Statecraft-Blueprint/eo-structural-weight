@@ -1,0 +1,27 @@
+{
+  "eo_number": "12114",
+  "title": "Executive Order 12114\u2014Environmental Effects Abroad of Major Federal Actions",
+  "date_iso": "1979-01-04",
+  "president": "Jimmy Carter",
+  "congress_number": 96,
+  "source_url": "",
+  "word_count": 2100,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Distributed across every Federal agency taking covered actions, with the Department of State and Council on Environmental Quality in coordinating, not controlling, roles."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A specific eight-month implementation deadline and required consultation with State and CEQ on agency procedures."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple categories of covered actions (global commons, foreign nations, toxic exports, protected resources) all coherently serve one purpose: extending environmental review to extraterritorial effects."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Sec. 2-5(b) allows agencies to modify the content, timing, and availability of environmental review documents based on a long list of foreign-policy, national-security, and commercial factors, with no defined limits on how broadly these grounds may be invoked."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "PRESENT", "points": 1, "justification": "The breadth of self-determined modification grounds (Flag 4) creates a structural incentive for agencies to invoke them to minimize environmental review burden."},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing environmental-policy framework, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "Sec. 3-1 explicitly states 'nothing in this Order shall be construed to create a cause of action' \u2014 an explicit foreclosure of judicial enforcement of the Order's own procedural requirements by affected parties."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Combined with the no-cause-of-action provision (Flag 7) and the broad, agency-self-determined exemption and modification authority (Flags 4-5 and 11), no meaningful external check exists on how agencies exercise this authority."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "A genuinely novel extension of NEPA-style environmental review to actions with extraterritorial effects \u2014 this order remains the operative framework for such review to this day, a significant and lasting institutional innovation."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 3-3 designates a lead agency for multi-agency actions, a sensible, designed coordination mechanism."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "PRESENT", "points": 1, "justification": "Sec. 2-5(a) lists seven broad categorical exemptions, including one (actions the agency itself determines lack significant effect) that is entirely self-judging with no external check \u2014 particularly significant in combination with the no-cause-of-action provision (Flag 7), since no party can challenge an agency's own 'not significant' determination."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 6/22 = 27.3%. A significant, still-operative extension of environmental review to actions affecting the environment abroad, but with real structural concerns \u2014 the combination of a no-cause-of-action clause with broad, self-determined exemption categories is a notable design pattern worth watching for elsewhere in the corpus."
+}

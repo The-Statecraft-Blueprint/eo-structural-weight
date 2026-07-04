@@ -1,0 +1,27 @@
+{
+  "eo_number": "12139",
+  "title": "Executive Order 12139\u2014Foreign Intelligence Electronic Surveillance",
+  "date_iso": "1979-05-23",
+  "president": "Jimmy Carter",
+  "congress_number": 96,
+  "source_url": "",
+  "word_count": 480,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "The Attorney General's authority is narrowly bounded by the underlying Foreign Intelligence Surveillance Act's own certification requirements; for most surveillance, an independent FISA Court order is required. This order faithfully implements that statutory architecture rather than circumventing it."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-103 requires certifying officials to be Presidentially-appointed, Senate-confirmed officials specifically \u2014 a genuine, textually explicit safeguard against delegating certification authority to lower-level, unconfirmed officials."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single coherent purpose: implementing FISA's authorization procedures."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "This order implements a detailed statute (FISA) with its own extensive definitions and procedures; it designates who exercises delegated authority rather than creating new standards."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Implements a permanent statutory framework; evergreen, standing national-security authorization structure."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Secs. 1-104 and 1-105 explicitly require surveillance to be conducted 'in accordance with that Act as well as this Order' \u2014 reinforcing rather than displacing the FISA Court's independent judicial oversight for the relevant categories of surveillance."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The independent, Article III FISA Court provides genuine external judicial oversight for court-order surveillance, and the Senate-confirmation requirement for certifying officials (Flag 2) provides an additional accountability layer."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "This order implements, without expanding beyond, a new statutory framework (FISA) that itself represents a major accountability reform relative to the prior, wholly unchecked surveillance regime that preceded it; the order establishes new checks rather than creating a concerning expansive precedent."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Officials from State, Defense, CIA, and FBI are each designated within their own proper domains; no mandate is redirected."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/16 = 0.0%. Implements the Foreign Intelligence Surveillance Act of 1978 \u2014 the direct legislative response to the Church Committee's revelations of unchecked surveillance abuses. One of the most historically significant national-security orders in the corpus, scoring 0% precisely because it establishes and faithfully preserves genuine judicial and Senate-confirmation checks, in direct contrast to several other national-security-domain orders in this corpus that score highly (EO 9066, EO 9102, the Export Administration Act zombie-emergency chain). A strong candidate flagship example of well-designed governance."
+}

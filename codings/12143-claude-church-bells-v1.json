@@ -1,0 +1,27 @@
+{
+  "eo_number": "12143",
+  "title": "Executive Order 12143\u2014Maintaining Unofficial Relations with the People on Taiwan",
+  "date_iso": "1979-06-22",
+  "president": "Jimmy Carter",
+  "congress_number": 96,
+  "source_url": "",
+  "word_count": 1400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "Sec. 1-203(b) gives the Secretary of State discretion to except certain contracts from normal contracting law upon a case-by-case determination that this is 'necessary to protect the foreign policy interests of the United States' \u2014 real discretion, though the order also carefully reserves several specific, sensitive functions to the President himself (Sec. 1-103), showing deliberate rather than blanket delegation."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "The case-by-case determination requirement in Sec. 1-203(b), combined with specific presidential reservations for the most sensitive functions, provides real structure."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple technical provisions (functional delegation, applicable-law specification, contracting exceptions, counterpart-instrumentality designation) all coherently implement one statute, the Taiwan Relations Act."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Extensive, specific statutory citations throughout; the one open-ended standard (Sec. 1-203(b)) is bounded by a case-by-case determination requirement."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Implements a permanent statutory framework (the Taiwan Relations Act), which remains the operative basis of U.S.-Taiwan relations."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No independent oversight is removed; specific presidential reservations preserve direct presidential accountability for the most sensitive functions."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "The careful statutory implementation and presidential reservations provide reasonable structure for what is an inherently unusual diplomatic arrangement."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes the enduring, still-operative legal architecture for unofficial U.S.-Taiwan relations following the recognition of the People's Republic of China \u2014 a genuinely significant, durable diplomatic and legal framework."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "Clean division of roles between the Department of State and the Office of Personnel Management."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The extensive list of contracting-law exceptions (Sec. 1-202) is specifically enumerated and serves the narrow, legitimate purpose of enabling the American Institute in Taiwan to function despite lacking normal diplomatic-agency status \u2014 a necessary technical accommodation, not a broad undermining carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/20 = 10.0%. Establishes the still-operative legal architecture for unofficial U.S.-Taiwan relations following the switch of diplomatic recognition to the People's Republic of China."
+}

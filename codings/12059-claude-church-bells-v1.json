@@ -1,0 +1,27 @@
+{
+  "eo_number": "12059",
+  "title": "Executive Order 12059\u2014United States Circuit Judge Nominating Commission",
+  "date_iso": "1978-05-11",
+  "president": "Jimmy Carter",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 1500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A distributed, thirteen-panel advisory structure with explicit diversity requirements (Sec. 2(c)), purely recommending to the President who retains full nomination discretion."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Detailed selection standards (Sec. 4) covering bar membership, integrity, health, legal ability, and judicial temperament."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "A single coherent purpose executed across thirteen geographic panels, not a bundling of unrelated matters."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The qualitative selection standards ('reputations for integrity,' 'outstanding legal ability,' 'judicial temperament') involve genuine subjectivity, and panels may adopt additional criteria as they see fit (Sec. 4(c)), though this is largely inherent to any merit-selection process."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "Sec. 5 prohibits Commission members from being considered as nominees during service or for one year afterward \u2014 a deliberate, robust anti-self-dealing safeguard.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Sec. 8 sets an explicit termination date: December 31, 1978, unless sooner extended by the President."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 9's revocation of prior related orders (EO 11972, EO 11993) is a clean succession, not a removal of oversight."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 3(a)(1) requires public notice of vacancies inviting suggestions \u2014 a real, transparent public-input mechanism."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "Establishes a systematic, nationwide, thirteen-panel merit-selection structure for circuit judgeships specifically \u2014 a significant, historically important expansion of judicial merit-selection reform beyond the narrower non-Article-III scope of EO 11992."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 2/18 = 11.1%. A significant expansion of Carter's judicial merit-selection reform to circuit court appointments, with a more robust conflict-of-interest safeguard than its predecessor EO 11992."
+}

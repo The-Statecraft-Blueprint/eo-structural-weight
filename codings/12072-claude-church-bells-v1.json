@@ -1,0 +1,27 @@
+{
+  "eo_number": "12072",
+  "title": "Executive Order 12072\u2014Federal Space Management",
+  "date_iso": "1978-08-16",
+  "president": "Jimmy Carter",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 1400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "This revokes EO 11512 (Sec. 1-303) and replaces its formal thirty-day appeal-to-the-President mechanism with a weaker 'notify and consider additional information' step (Sec. 1-203(e)) \u2014 a real increase in the Administrator's effectively unchecked discretion relative to the predecessor order."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "The loss of the formal appeal mechanism from EO 11512, with no comparable substitute, is a genuine accountability gap relative to its predecessor."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple related urban-development and space-management criteria all coherently serve one purpose."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "The extensive multi-factor urban-impact criteria (Sec. 1-104: local development compatibility, economic impact, housing availability, transportation access) require real judgment with no defined weighting process."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive concern distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing administrative function, evergreen by nature; supersedes a prior order (EO 11512), evidencing periodic revision."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "PRESENT", "points": 1, "justification": "This revokes EO 11512's formal appeal-to-the-President mechanism and replaces it with a weaker notify-and-consider process \u2014 a genuine, identifiable removal of an existing procedural safeguard, distinct from the more common pattern in this corpus of successor orders adding rather than removing checks."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-203(c) requires consultation with Federal, State, regional, and local officials and consideration of their objections \u2014 real, if less formal than its predecessor's appeal right, external input."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "This embeds space acquisition within established Carter-era urban policy goals; it implements rather than exceeds existing policy direction."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "ABSENT", "points": 0, "justification": "Sec. 1-203(b) requires coordination with OMB; the order is generally well-coordinated with other agencies' input."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No coverage population or exemption structure is created."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 4/20 = 20.0%. Notable as a rare example in this corpus of a successor order regressing on a specific procedural safeguard \u2014 EO 11512's formal thirty-day presidential appeal right does not carry over here, replaced by a weaker consultation requirement, contrary to the more common pattern of successor orders adding rather than removing checks."
+}

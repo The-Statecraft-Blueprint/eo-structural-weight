@@ -1,0 +1,27 @@
+{
+  "eo_number": "12041",
+  "title": "Executive Order 12041\u2014Generalized System of Preferences for Developing Countries",
+  "date_iso": "1978-02-25",
+  "president": "Jimmy Carter",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 400,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Exercises specific statutory modification authority (Trade Act \u00a7504(c)); bounded and narrow."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Precise technical amendments with specific annex and tariff-item cross-references."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple technical provisions all implement one statute, Title V of the Trade Act of 1974."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "Modifies existing eligibility criteria that are themselves objective and numeric (per EO 11888)."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure rewarding behavior contrary to the order's purpose is identifiable.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "Standing-procedural-framework category applies: this amends EO 11888, itself a periodically-revised framework."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "No existing oversight mechanism is removed."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Eligibility remains governed by objective, auditable criteria."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine technical amendment; no novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No conflicting agency mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Amends the existing 'A*' competitive-need exclusion annexes, narrow and specifically enumerated, consistent with EO 11888."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 0/20 = 0.0%."
+}

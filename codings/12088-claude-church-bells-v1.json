@@ -1,0 +1,27 @@
+{
+  "eo_number": "12088",
+  "title": "Executive Order 12088\u2014Federal Compliance With Pollution Control Standards",
+  "date_iso": "1978-10-13",
+  "president": "Jimmy Carter",
+  "congress_number": 95,
+  "source_url": "",
+  "word_count": 1500,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "positive",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "A multi-layered, distributed compliance system: individual agency heads bear compliance responsibility, EPA provides technical oversight, and OMB serves as an escalation point for unresolved conflicts."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-103 defines 'applicable pollution control standards' as 'the same substantive, procedural, and other requirements that would apply to a private person' \u2014 a clear, objective standard with no special government carve-out, combined with a detailed annual planning and reporting requirement and a clear conflict-escalation chain (agency to EPA to OMB)."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Multiple pollution-control statutes (TSCA, Clean Water Act, Safe Drinking Water Act, Clean Air Act, and others) are covered, but all coherently serve one purpose: federal facility compliance with environmental law."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "ABSENT", "points": 0, "justification": "The 'same standard as a private person' definition (Sec. 1-103) is objective, tying federal compliance to whatever standard already applies externally, with no separately-defined vague federal standard."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "The order specifically prevents the federal government from operating under weaker standards than private parties, closing off a potential loophole rather than creating one.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "A standing compliance framework for an ongoing government function, evergreen by nature."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "Sec. 1-604 explicitly states the conflict-resolution procedures are 'in addition to, not in lieu of, other procedures, including sanctions, for the enforcement of applicable pollution control standards' \u2014 explicitly preserving rather than substituting for normal enforcement."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "ABSENT", "points": 0, "justification": "Sec. 1-601 requires a violating agency to obtain the notifying agency's approval of its compliance plan \u2014 real, substantial approval authority held by state, local, or interstate agencies over federal facility compliance, not merely a consultation requirement."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "This establishes a comprehensive, durable federal-facility environmental-compliance framework covering essentially every major pollution-control statute \u2014 a significant, lasting institutional structure."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "EPA, OMB, and individual agency roles are clearly delineated with no competing mandate."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "Sec. 1-701 requires exemptions to rest on a specific presidential determination tied to narrow statutory grounds (national security or paramount U.S. interest), with mandatory EPA input (1-703) and a sixty-day OMB response deadline (1-704) \u2014 a narrow, high-threshold, presidentially-gated process, not a broad or easy carve-out."}
+  ],
+  "notes": "Validation batch (positive). Structural weight: 1/22 = 4.5%. One of the most exemplary orders coded in this project to date: an objective same-standard-as-private-parties compliance rule, explicit non-substitution for normal enforcement, real external (state/local) approval authority over federal compliance plans, and a narrow, presidentially-gated exemption process requiring EPA sign-off. A strong candidate example of well-designed governance architecture."
+}

@@ -1,0 +1,27 @@
+{
+  "eo_number": "8580",
+  "title": "Executive Order 8580\u2014Extension of Trust Periods on Indian Lands Expiring During Calendar Year 1941",
+  "date_iso": "1940-10-29",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 76,
+  "source_url": "",
+  "word_count": 150,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "ABSENT", "points": 0, "justification": "Exercises an already-established, congressionally-anticipated trust-extension mechanism used routinely for managing Indian land allotment trust periods, applied uniformly rather than through new discretionary authority."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "ABSENT", "points": 0, "justification": "A uniform administrative extension is the established, standard mechanism for this trust system rather than a case-by-case determination requiring individualized review."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single, coherent purpose applied uniformly to all qualifying lands."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "NOT_APPLICABLE", "points": null, "justification": "This extends a protective trust status; it does not create a compliance regime against private parties."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "NOT_APPLICABLE", "points": null, "justification": "No compliance regime exists for an incentive structure to attach to.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "ABSENT", "points": 0, "justification": "The order specifies a defined further term (25 years from each trust's original expiration), not an open-ended or indefinite continuation."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "The order explicitly states it does not apply 'to any case in which the Congress has specifically reserved to itself authority to extend the period of trust' \u2014 an affirmative, textually explicit deference to reserved congressional authority."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "NOT_APPLICABLE", "points": null, "justification": "A protective trust extension benefiting trust beneficiaries, not a compliance regime requiring third-party monitoring."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "PRESENT", "points": 1, "justification": "A blanket, nationwide extension of trust protections potentially affecting a very large number of individual and tribal land parcels \u2014 genuinely significant in scale and subject matter given its substantial consequences for Native American land tenure and federal trust relationships, notwithstanding that it applies a routine, established mechanism."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "ABSENT", "points": 0, "justification": "The congressional-reservation carve-out is a protective deference to Congress's own reserved authority, not a broad carve-out undermining the trust-extension's purpose."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 1/16 = 6.25%. A broad-scale, subject-matter-significant action \u2014 a blanket extension of trust status for Indian lands nationwide \u2014 that nonetheless scores low due to its well-established, uniform mechanism and its explicit textual deference to congressional authority where reserved."
+}

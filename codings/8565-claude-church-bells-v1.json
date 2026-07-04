@@ -1,0 +1,27 @@
+{
+  "eo_number": "8565",
+  "title": "Executive Order 8565\u2014Amendment of Executive Order No. 8389 of April 10, 1940, as Amended",
+  "date_iso": "1940-10-10",
+  "president": "Franklin D. Roosevelt",
+  "congress_number": 76,
+  "source_url": "",
+  "word_count": 150,
+  "coder_id": "claude-church-bells-v1",
+  "coded_date": "2026-07-05",
+  "validation_batch": "mayer-price-2002-v1",
+  "validation_class": "negative",
+  "flags": [
+    {"flag_number": 1, "flag_name": "Power Concentration", "status": "PRESENT", "points": 1, "justification": "This extends 'all the provisions' of EO 8389 \u2014 including the broad Treasury Secretary licensing discretion previously identified in that lineage (see EO 8785, EO 9989) \u2014 to a new country, Romania."},
+    {"flag_number": 2, "flag_name": "Accountability Gaps", "status": "PRESENT", "points": 1, "justification": "Inherits the parent framework's absence of independent review for affected persons or property."},
+    {"flag_number": 3, "flag_name": "Bundling", "status": "ABSENT", "points": 0, "justification": "Single, narrow purpose: extending an existing framework to one additional country."},
+    {"flag_number": 4, "flag_name": "Vague Enforcement", "status": "PRESENT", "points": 1, "justification": "Inherits the elastic 'national' and interest-of-any-nature definitional structure previously identified in this lineage."},
+    {"flag_number": 5, "flag_name": "Perverse Incentives", "status": "ABSENT", "points": 0, "justification": "No incentive structure distinct from the vagueness already captured under Flag 4.", "sub_flag_fired": false},
+    {"flag_number": 6, "flag_name": "Sunset Provisions", "status": "PRESENT", "points": 1, "justification": "Inherits the parent framework's lack of an independent review or expiration mechanism tied to the underlying wartime property-control emergency."},
+    {"flag_number": 7, "flag_name": "Preemption of Oversight", "status": "ABSENT", "points": 0, "justification": "This extension does not itself remove any additional oversight beyond what the base framework already established."},
+    {"flag_number": 8, "flag_name": "Third-Party Incentive Gaps", "status": "PRESENT", "points": 1, "justification": "Inherits the parent framework's lack of an independent check on the Treasury Secretary's licensing discretion."},
+    {"flag_number": 9, "flag_name": "Second/Third-Order Effects", "status": "ABSENT", "points": 0, "justification": "A routine, formulaic extension of an already-established framework to one additional country, not itself a novel authority claim."},
+    {"flag_number": 10, "flag_name": "Inter-Agency Cannibalization", "status": "NOT_APPLICABLE", "points": null, "justification": "No second agency's competing mandate is implicated."},
+    {"flag_number": 11, "flag_name": "Exemptions Architecture", "status": "NOT_APPLICABLE", "points": null, "justification": "No new exemption structure is created by this extension."}
+  ],
+  "notes": "Validation batch (negative). Structural weight: 5/18 = 27.8%. Methodologically notable: this one-paragraph order simply extends the Trading with the Enemy Act / IEEPA-predecessor framework of EO 8389 to Romania, and inherits that framework's structural properties rather than creating anything new. A negative-class label reflects that Mayer & Price did not judge this specific extension order independently historically significant \u2014 it does not mean the order is structurally weightless. Structural weight can be inherited through incorporation by reference, and this is a clean illustration of that dynamic, distinct from the earlier finding for EO 9989 (a routine transfer within the same lineage) and worth keeping in mind when interpreting any negative-class EOs that turn out to score above the floor."
+}

@@ -2,6 +2,8 @@
 
 A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys — validated by independent blind coding against Mayer & Price's (2002) significance classification, **AUC = 0.7836**.
 
+**→ [How this compares to Mayer & Price's classification: what matches, what diverges, and why](findings/comparison-to-mayer-price.md)**
+
 ---
 
 ## What this is
@@ -91,6 +93,7 @@ Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPL
 
 | File | Description |
 |------|-------------|
+| [`comparison-to-mayer-price.md`](findings/comparison-to-mayer-price.md) | **Start here for the comparison claim.** Where structural weight matches Mayer & Price's classification, where it diverges, and why the divergences are legible rather than noise — with charts. |
 | [`notable-findings.md`](findings/notable-findings.md) | Qualitative results from the primary coding pass: named recurring patterns (the Zombie Emergency Trap continuation chain, quiet regression/strengthening, the no-private-right-of-action drafting convention, and others), a divergence index of orders where structural weight and historical significance diverge, and the methodological lessons that shaped `scoring-scheme.md`'s coding conventions. **This is exploratory material, not validation evidence** — see `validation/` for that. |
 
 ---

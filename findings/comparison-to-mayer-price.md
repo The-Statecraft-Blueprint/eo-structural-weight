@@ -33,7 +33,7 @@ A correlation of 0.78 leaves real daylight, and the cases inside that daylight s
 Several of Mayer & Price's most consequential orders score at or near zero on structural weight — not because the coding missed something, but because these orders achieve major policy change through *well-bounded* mechanisms: multi-party balance, sunset clauses, preserved judicial review, narrow delegated scope.
 
 | EO | Year | Score | What Mayer & Price flagged it for | Why it scores low |
-|---|---|---|---|
+|---|---|---|---|---|
 | 11375 | 1967 | 5.0% | Extends federal equal-employment coverage to sex discrimination | Uses the exact same enforcement architecture already validated for race discrimination — no new discretionary authority, no accountability gap |
 | 12139 | 1979 | 0.0% | Implements FISA, the foundational surveillance-oversight statute | Preserves the FISA Court, requires Senate-confirmed certifying officials — a landmark reform that is *also* a landmark in restraint |
 | 12958 | 1995 | 4.5% | Overhauls the classified-information system | Automatic 25-year declassification default, explicit anti-abuse prohibitions, an independent appeals panel |
@@ -47,7 +47,7 @@ These are not cases where the instrument disagrees with Mayer & Price about what
 The reverse case: orders carrying substantial structural weight that Mayer & Price's methodology didn't select. Some of this is a direct artifact of their sampling window (1949–99 only); some of it reflects orders whose architecture is heavy but whose profile was never politically prominent enough to register on an expert-judgment measure.
 
 | EO | Year | Score | What it does | Why the weight |
-|---|---|---|---|
+|---|---|---|---|---|
 | 9250 | 1942 | 45.5% | FDR's "Hold the Line" wartime economic stabilization order | Sweeping, explicitly "final" authority over the entire wartime economy — the highest score in the negative-class sample, and not inherited from any other order. An independently complex, historically major action that simply falls outside Mayer & Price's window. |
 | 9001 | 1941 | 31.8% | Foundational WWII war-production contracting authority, issued 20 days after Pearl Harbor | Broad, largely unreviewed contracting discretion at the start of the wartime economy |
 | 8565 | 1940 | 27.8% | One-paragraph extension of an existing property-control framework to Romania | Inherits the full weight of the framework it extends by incorporation — brief text, heavy architecture |

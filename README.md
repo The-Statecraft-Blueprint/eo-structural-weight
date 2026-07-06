@@ -10,8 +10,6 @@ Existing political science measures of executive order significance classify ord
 
 This project replaces the importance judgment with a structural audit. Eleven standing governance-architecture flags are applied to each order's text. Each flag either fires or doesn't, and fires at one of two severity levels. The result is a continuous structural-weight score per order: how much governance machinery does this EO deploy, regardless of its political salience?
 
-The measure is designed for a specific purpose: testing whether EO structural weight rises as legislative gridlock rises — the "exhaust gauge" prediction of the engine model of legislative dysfunction developed in *The Statecraft Blueprint*. When the legislative cylinder misfires and gridlock rises, unilateral executive action rises to fill the vacuum. The signal is meant to be in the structural weight of the orders, not the raw count.
-
 This repository is the methodological home for that measure: the frozen scoring rules, the coded data, and the validation evidence. Results, as they're produced, are published through [Church Bells](https://ringthebells.org), the Statecraft Blueprint's nonpartisan legislation and executive-action analysis project.
 
 ---
@@ -20,7 +18,7 @@ This repository is the methodological home for that measure: the frozen scoring 
 
 **Validation complete.** The full 298-order Mayer & Price (2002) validation sample (149 positive-class orders from their published appendix, 149 negative-class orders drawn at random from the general population, seed disclosed) has been coded twice: once by the primary coder with full context, and once by an independent coder blind to every order's class, presentation order randomized, working from a redacted methodology extract. The blind pass is what the AUC claim rests on. See [`validation/auc-results.md`](validation/auc-results.md) for the full computation and every check run against it before it was trusted.
 
-Extension to the full corpus (gridlock comparison against the Binder series) has not yet begun. Per the pre-registered order of operations below, that doesn't start until validation clears — it has.
+Extension to the full corpus is the next phase.
 
 ---
 
@@ -106,13 +104,9 @@ Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPL
 3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.7662
          ↓
 4. Extend coding to the full corpus (1936–present)                          ← next
-         ↓
-5. Aggregate to Congress level
-         ↓
-6. Compare to Binder gridlock series
 ```
 
-Steps 5 and 6 do not begin before step 3 produces an AUC ≥ 0.70 — it has, so step 4 is now open. The scoring scheme (flag definitions and confidence taxonomy) remains frozen through the extension, to avoid fitting the instrument to a corpus it was validated on rather than the one it's meant to generalize to.
+The scoring scheme (flag definitions and confidence taxonomy) remains frozen through the extension, to avoid fitting the instrument to a corpus it was validated on rather than the one it's meant to generalize to.
 
 ---
 
@@ -122,7 +116,6 @@ Steps 5 and 6 do not begin before step 3 produces an AUC ≥ 0.70 — it has, so
 |--------|-----|
 | [American Presidency Project](https://www.presidency.ucsb.edu) | EO full text, 1826–present |
 | Mayer, K. R., & Price, K. (2002). "Unilateral Presidential Powers: Significant Executive Orders, 1949-99." *Presidential Studies Quarterly* | Positive-class significance classification, validation sample |
-| Binder, S. (2003; updated 2025) | Gridlock series, 80th–117th Congress (1947–2022) — for future extension work, not yet used |
 | [Comparative Agendas Project](https://www.comparativeagendas.net) | EO policy topic coding, 1945–2025 — for future extension work, not yet used |
 
 ---
@@ -131,7 +124,7 @@ Steps 5 and 6 do not begin before step 3 produces an AUC ≥ 0.70 — it has, so
 
 **Church Bells** ([ringthebells.org](https://ringthebells.org)) — the nonpartisan governance monitoring project that publishes structural analysis of executive orders and legislation using the eleven-flag methodology. The EO Structural Weight Score formalizes and quantifies what Church Bells briefs do qualitatively.
 
-**The Statecraft Blueprint** ([statecraftblueprint.org](https://statecraftblueprint.org)) — the broader governance reform project within which the engine model of legislative dysfunction was developed. The structural-weight vs. gridlock hypothesis tests one of that model's empirical predictions.
+**The Statecraft Blueprint** ([statecraftblueprint.org](https://statecraftblueprint.org)) — the broader governance reform project this measure supports.
 
 The flag definitions in this repository are authoritative for both Church Bells brief work and this scoring project. Changes to the flags require a new version of `flags-canonical.md` with documented reasoning, and a corresponding update to `scoring-scheme.md`.
 

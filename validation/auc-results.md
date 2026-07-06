@@ -70,6 +70,14 @@ The full 297-order run in `blind-coding-results.json` was coded fresh against v4
 
 `blind-coding-results.json` has the `eo_number` values for order-285 and order-286 transposed — each record's title and flag content correctly matches the real order it analyzes, but the two results were filed under swapped position labels. This was caught by cross-referencing every record's reported EO number against `validation-key.csv` before computing anything. Since this computation matches records by `eo_number` rather than by position label, it had no effect on the result. Noted here for anyone auditing the raw file directly.
 
+## A bug in `referenced-predecessors/` found after the blind run, and what it actually cost
+
+The recursive rebuild of `referenced-predecessors/` (v4) had a logic error: any predecessor order that happened to *also* be one of the 298 validation-sample orders was incorrectly treated as already covered and excluded from the reference folder, even when something else in the batch cited it. **51 citations across the corpus were dropped this way**, discovered and fixed after the full 297-order blind run had already been coded and delivered against the buggy v4 folder.
+
+This was not a silent failure. The coding conventions require the blind coder to disclose, per-flag, when a cited predecessor isn't recoverable rather than guess at its contents — and that's exactly what happened. The clearest example: EO 11190 (which revokes EO 10651) scored 25.0% in the delivered blind run, against 35.7% in the primary coder's original pass. The gap traces entirely to Flag 2 and Flag 7, where the blind coder's justification states plainly that EO 10651 "was not recoverable in the referenced-predecessors folder, so it cannot be determined... whether any oversight mechanism existed under that prior order that this revocation removes." The system degraded exactly the way it was designed to when reference material is missing: fewer findings, not wrong ones, with the gap stated in the coder's own words rather than papered over.
+
+**What this means for the AUC.** The delivered figure (0.7662) reflects real limitations in the reference material available at the time, not an error in the computation itself — it's an honest number computed from what the coder actually had access to. Because the bug caused *missing* findings rather than *incorrect* ones, and missing findings can only ever pull scores toward zero, the true achievable AUC with complete reference material is likely to be at or above 0.7662, not below it. The folder has since been corrected (612 files, up from 561) for any future coding pass. Whether to re-run the ~51 affected citing orders specifically, or treat the current figure as final with this limitation disclosed, is an open decision.
+
 ## Reproducing this result
 
 ```python

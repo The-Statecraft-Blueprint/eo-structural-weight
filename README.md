@@ -1,36 +1,46 @@
 # EO Structural Weight Score
 
-A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys.
+A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys — validated by independent blind coding against Mayer & Price's (2002) significance classification, **AUC = 0.7662**.
 
 ---
 
 ## What this is
 
-Existing political science measures of executive order significance — most notably Mayer (1999), Mayer & Price (2002), Howell (2003), and Chiou & Rothenberg (2017) — classify orders by political importance or policy significance. Those classifications require subjective judgment, which limits reproducibility and auditability.
+Existing political science measures of executive order significance classify orders by political importance or policy significance. Those classifications require subjective judgment, which limits reproducibility and auditability.
 
 This project replaces the importance judgment with a structural audit. Eleven standing governance-architecture flags are applied to each order's text. Each flag either fires or doesn't, and fires at one of two severity levels. The result is a continuous structural-weight score per order: how much governance machinery does this EO deploy, regardless of its political salience?
 
-The measure is designed for a specific purpose: testing whether EO structural weight rises as legislative gridlock rises — the "exhaust gauge" prediction of the engine model of legislative dysfunction developed in *Why Do You Think the Government Doesn't Work?* (Statecraft Blueprint). When the legislative cylinder misfires and gridlock rises, unilateral executive action rises to fill the vacuum. The signal is in the structural weight of the orders, not the raw count — raw EO counts trend downward since the mid-20th century even as gridlock rises, which is why a weighted measure is necessary.
+The measure is designed for a specific purpose: testing whether EO structural weight rises as legislative gridlock rises — the "exhaust gauge" prediction of the engine model of legislative dysfunction developed in *The Statecraft Blueprint*. When the legislative cylinder misfires and gridlock rises, unilateral executive action rises to fill the vacuum. The signal is meant to be in the structural weight of the orders, not the raw count.
 
-This is the methodological home for that measure. Results, once produced, will be published through [Church Bells](https://ringthebells.org), the Statecraft Blueprint's nonpartisan legislation analysis project.
+This repository is the methodological home for that measure: the frozen scoring rules, the coded data, and the validation evidence. Results, as they're produced, are published through [Church Bells](https://ringthebells.org), the Statecraft Blueprint's nonpartisan legislation and executive-action analysis project.
+
+---
+
+## Status
+
+**Validation complete.** The full 298-order Mayer & Price (2002) validation sample (149 positive-class orders from their published appendix, 149 negative-class orders drawn at random from the general population, seed disclosed) has been coded twice: once by the primary coder with full context, and once by an independent coder blind to every order's class, presentation order randomized, working from a redacted methodology extract. The blind pass is what the AUC claim rests on. See [`validation/auc-results.md`](validation/auc-results.md) for the full computation and every check run against it before it was trusted.
+
+Extension to the full corpus (gridlock comparison against the Binder series) has not yet begun. Per the pre-registered order of operations below, that doesn't start until validation clears — it has.
 
 ---
 
 ## What makes this different from existing measures
 
-**Rule application, not judgment.** "Does the Bundling flag fire?" is answerable by reading the text against a written definition. "Is this order significant?" is not. The structural-weight score is designed so two coders reading the same order should reach substantially the same score.
+**Rule application, not judgment.** "Does the Bundling flag fire?" is answerable by reading the text against a written definition. "Is this order significant?" is not. The structural-weight score is designed so two coders reading the same order should reach substantially the same score — and now there's a full-corpus independent test of exactly that.
 
-**Pre-registered.** The scoring scheme — which flags count, how severity maps to points, how scores aggregate — is committed to this repository before any executive order is coded and before the scores are compared to gridlock data. The scheme cannot be adjusted after coding begins without creating a new version with documented reasoning and a gap in the coding timeline.
+**Pre-registered.** The scoring scheme — which flags count, how severity maps to points, how scores aggregate — was committed to this repository before any executive order was coded. Changes after coding began are documented as dated amendments rather than silent edits; see the version history inside [`methodology/scoring-scheme.md`](methodology/scoring-scheme.md) and [`methodology/flags-canonical.md`](methodology/flags-canonical.md).
 
-**Governance-architecture specific.** The eleven flags measure what an order does to the structural fabric of governance: whether it concentrates power, creates accountability gaps, preempts oversight, establishes perverse incentives, cannibalizes existing agency mandates, and so on. This is a different question from political significance, and it produces a different and complementary measure.
+**Governance-architecture specific.** The eleven flags measure what an order does to the structural fabric of governance: whether it concentrates power, creates accountability gaps, preempts oversight, establishes perverse incentives, cannibalizes existing agency mandates, and so on. This is a different question from political significance, and it produces a different and complementary measure — see [`findings/notable-findings.md`](findings/notable-findings.md) for documented cases where the two diverge in both directions.
 
-**Validates against, then extends, the established literature.** The scoring scheme is applied to EOs already coded by Howell and/or Chiou & Rothenberg before it is extended into the modern period. If the structural-weight score cannot reproduce the established significance rankings within a defined margin (AUC ≥ 0.70), the scheme is reviewed before extension proceeds. Validation earns the right to extend.
+**Validated by independent blind coding before extension.** The scoring scheme was applied to the full Mayer & Price (2002) census, then re-coded from scratch by an independent, label-blind coder before any claim about discriminative validity was made. Validation earns the right to extend, not the other way around.
+
+**Explicit about its own scope boundary.** The instrument measures architecture, not substantive fairness or policy wisdom. A precisely drafted, substantively troubling policy can score low, and that's a feature of what's being measured, not a flaw — see "What This Scheme Does Not Do" in `scoring-scheme.md`.
 
 ---
 
 ## The eleven flags
 
-Defined in full in [`church-bells-flags-canonical.md`](church-bells-flags-canonical.md).
+Defined in full in [`methodology/flags-canonical.md`](methodology/flags-canonical.md).
 
 | # | Flag |
 |---|------|
@@ -46,57 +56,63 @@ Defined in full in [`church-bells-flags-canonical.md`](church-bells-flags-canoni
 | 10 | Inter-Agency Cannibalization |
 | 11 | Exemptions Architecture |
 
-Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPLICABLE flags are excluded from the score. The normalized structural-weight score is raw points divided by maximum possible points across applicable flags, producing a 0–1 scale.
+Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPLICABLE flags are excluded from both the numerator and denominator. The normalized structural-weight score is raw points divided by maximum possible points across applicable flags.
 
 ---
 
 ## Repository contents
 
-### Pre-registration documents *(committed before any EO is coded)*
+### `methodology/` — pre-registration documents, frozen before coding
 
 | File | Description |
 |------|-------------|
-| [`church-bells-flags-canonical.md`](church-bells-flags-canonical.md) | Authoritative definitions for all eleven flags — operational tests, key distinctions, applicability notes |
-| [`eo-structural-weight-scoring-scheme.md`](eo-structural-weight-scoring-scheme.md) | Complete scoring scheme — status vocabulary, score mapping, aggregation formula, validation design, inter-coder reliability protocol |
+| [`flags-canonical.md`](methodology/flags-canonical.md) | Authoritative definitions for all eleven flags — operational tests, key distinctions, applicability rules. Currently v1.2.2. |
+| [`scoring-scheme.md`](methodology/scoring-scheme.md) | Complete scoring scheme — status vocabulary, score mapping, aggregation formula, validation design, blind-coding independence requirements. Currently v1.4. |
 
-### Data *(added as project progresses)*
+### `data/`
+
+| File | Description |
+|------|-------------|
+| `mayer-price-2002-appendix.csv` | The 149 positive-class orders, resolved from Mayer & Price's (2002) published appendix |
+| `mayer-price-2002-appendix-provenance.md` | How the appendix list was reconciled into a clean, citable dataset |
+| `negative-sample-v1.csv` | The 149 negative-class orders, random draw, seed `20260703` |
+| `calibration-record.md` | The initial 10-order calibration set coded before the full validation batch began |
+| `eo_coding.db` | SQLite database with every coding record, distinguished by `coder_id`: `claude-church-bells-v1` (primary, label-aware), `cowork-blind-v1` (independent blind validation), plus an earlier 30-order inter-coder reliability pilot under four additional coder IDs |
+
+### `validation/` — the evidence for the AUC claim
 
 | Path | Description |
 |------|-------------|
-| `data/eo-corpus/` | Executive order texts downloaded from the American Presidency Project |
-| `data/eo-index.csv` | Master index of all EOs in the corpus (EO number, title, date, president, Congress) |
-| `data/binder-gridlock-1947-2022.csv` | Binder gridlock series, 80th–117th Congress |
-| `data/eo-counts-app.csv` | Raw EO counts by president and term from the American Presidency Project |
-| `data/coding/` | Per-EO coding records (flag statuses, justifications, scores) |
+| [`auc-results.md`](validation/auc-results.md) | **Start here for the validation claim.** The computation, every integrity check run against it, and how to reproduce it. |
+| `blind-coding-results.json` / `.csv` | The independent blind coder's raw, complete output — 297 orders, unmodified |
+| `validation-key.csv` | Maps each blind-batch position to its real EO number and true Mayer & Price class. Kept confidential during blind coding; published now that coding is complete, so the AUC result is independently checkable. |
+| `blind-coding-package/` | Exactly what was given to the blind coder: task instructions, the redacted methodology extract, the 297-order text batch in randomized order, and 561 reference-only predecessor texts for orders that amend or revoke something earlier |
 
-### Analysis *(added as project progresses)*
+### `findings/`
 
-| Path | Description |
+| File | Description |
 |------|-------------|
-| `analysis/scrape-app-eos.py` | Scraper for bulk EO text download from the American Presidency Project |
-| `analysis/score-eos.py` | Applies scoring scheme to coded EOs, produces score dataset |
-| `analysis/validation.py` | Reproduces established significance codings, computes AUC |
-| `analysis/gridlock-comparison.py` | Aggregates scores to Congress level, compares to Binder series |
+| [`notable-findings.md`](findings/notable-findings.md) | Qualitative results from the primary coding pass: named recurring patterns (the Zombie Emergency Trap continuation chain, quiet regression/strengthening, the no-private-right-of-action drafting convention, and others), a divergence index of orders where structural weight and historical significance diverge, and the methodological lessons that shaped `scoring-scheme.md`'s coding conventions. **This is exploratory material, not validation evidence** — see `validation/` for that. |
 
 ---
 
-## Order of operations (non-negotiable)
+## Order of operations
 
 ```
-1. Freeze scoring scheme  ←  you are here
+1. Freeze scoring scheme
          ↓
-2. Code validation sample (EOs already coded by Howell / Chiou & Rothenberg) [datasets requested]
+2. Code the full Mayer & Price (2002) validation sample (298 orders)         ✓ complete
          ↓
-3. Run AUC validation — confirm structural weight reproduces established rankings
+3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.7662
          ↓
-4. Extend coding to full corpus (1949–present)
+4. Extend coding to the full corpus (1936–present)                          ← next
          ↓
 5. Aggregate to Congress level
          ↓
 6. Compare to Binder gridlock series
 ```
 
-Steps 5 and 6 do not begin before step 3 produces an AUC ≥ 0.70. The scoring scheme is not adjusted between steps 3 and 6.
+Steps 5 and 6 do not begin before step 3 produces an AUC ≥ 0.70 — it has, so step 4 is now open. The scoring scheme (flag definitions and confidence taxonomy) remains frozen through the extension, to avoid fitting the instrument to a corpus it was validated on rather than the one it's meant to generalize to.
 
 ---
 
@@ -105,22 +121,19 @@ Steps 5 and 6 do not begin before step 3 produces an AUC ≥ 0.70. The scoring s
 | Source | Use |
 |--------|-----|
 | [American Presidency Project](https://www.presidency.ucsb.edu) | EO full text, 1826–present |
-| [Comparative Agendas Project](https://www.comparativeagendas.net) | EO policy topic coding, 1945–2025 |
-| Binder (2003; updated 2025) | Gridlock series, 80th–117th Congress (1947–2022) |
-| Howell (2003) | Significance coding, validation sample |
-| Chiou & Rothenberg (2017) | Significance coding, validation sample |
+| Mayer, K. R., & Price, K. (2002). "Unilateral Presidential Powers: Significant Executive Orders, 1949-99." *Presidential Studies Quarterly* | Positive-class significance classification, validation sample |
+| Binder, S. (2003; updated 2025) | Gridlock series, 80th–117th Congress (1947–2022) — for future extension work, not yet used |
+| [Comparative Agendas Project](https://www.comparativeagendas.net) | EO policy topic coding, 1945–2025 — for future extension work, not yet used |
 
 ---
 
 ## Relationship to other projects
 
-This repository is a standalone methodological project. It is connected to two larger efforts:
-
 **Church Bells** ([ringthebells.org](https://ringthebells.org)) — the nonpartisan governance monitoring project that publishes structural analysis of executive orders and legislation using the eleven-flag methodology. The EO Structural Weight Score formalizes and quantifies what Church Bells briefs do qualitatively.
 
 **The Statecraft Blueprint** ([statecraftblueprint.org](https://statecraftblueprint.org)) — the broader governance reform project within which the engine model of legislative dysfunction was developed. The structural-weight vs. gridlock hypothesis tests one of that model's empirical predictions.
 
-The flag definitions in this repository are authoritative for both Church Bells brief work and this scoring project. Changes to the flags require a new version of `church-bells-flags-canonical.md` with documented reasoning, and a corresponding update to the scoring scheme.
+The flag definitions in this repository are authoritative for both Church Bells brief work and this scoring project. Changes to the flags require a new version of `flags-canonical.md` with documented reasoning, and a corresponding update to `scoring-scheme.md`.
 
 ---
 
@@ -128,7 +141,7 @@ The flag definitions in this repository are authoritative for both Church Bells 
 
 If you use the flag definitions, scoring scheme, or data produced by this project, please cite:
 
-> Tanium, Jason. *EO Structural Weight Score* (v1.0). Church Bells / The Statecraft Blueprint, June 2026. https://github.com/jtanium/eo-structural-weight
+> Edwards, Jason. *EO Structural Weight Score* (v1.4). Church Bells / The Statecraft Blueprint, 2026. https://github.com/The-Statecraft-Blueprint/eo-structural-weight
 
 ---
 
@@ -140,4 +153,4 @@ If you use the flag definitions, scoring scheme, or data produced by this projec
 
 ## Contact
 
-Jason Tanium · [ringthebells.org](https://ringthebells.org) · [statecraftblueprint.org](https://statecraftblueprint.org)
+Jason Edwards · [ringthebells.org](https://ringthebells.org) · [statecraftblueprint.org](https://statecraftblueprint.org)

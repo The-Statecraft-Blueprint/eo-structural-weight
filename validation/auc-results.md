@@ -1,82 +1,97 @@
 # AUC Validation Results
 
-*Computed 2026-07-05 against the blind coding run in `blind-coding-results.json`. This document is the evidentiary basis for the project's Step 2 validation claim; see `../methodology/scoring-scheme.md`, Step 2 Amendment (v1.4), for why this specific computation — rather than the primary label-aware coding — is what counts as the validation test.*
+*Computed 2026-07-06 against the blind coding run in `blind-coding-results.json`. This document is the evidentiary basis for the project's Step 2 validation claim; see `../methodology/scoring-scheme.md`, Step 2 Amendment (v1.4), for why this specific computation — rather than the primary label-aware coding — is what counts as the validation test.*
 
 ---
 
 ## Headline result
 
-**AUC = 0.7662**, computed on 296 of the 297 blind-coded orders against their true Mayer & Price (2002) classification (positive = appears in the published appendix; negative = drawn from the general population).
+**AUC = 0.7836**, computed on all 297 blind-coded orders against their true Mayer & Price (2002) classification (positive = appears in the published appendix; negative = drawn from the general population).
 
-This clears the pre-registered threshold of AUC ≥ 0.70 set before any coding began (`scoring-scheme.md`, Validation Design).
+This clears the pre-registered threshold of AUC ≥ 0.70 set before any coding began (`scoring-scheme.md`, Validation Design), and improves on an earlier full-corpus run (AUC = 0.7662) after a bug in the blind-coding package's reference material was found and fixed — see "How this number was reached" below for the full trajectory.
 
 Verified two independent ways:
 - Manual rank-sum (Mann-Whitney U equivalent) computation
 - `sklearn.metrics.roc_auc_score`
 
-Both return 0.7662 to four decimal places.
+Both return 0.7836 to four decimal places.
 
 ## Class separation
 
-| | Mean | Median | Std. dev. |
-|---|---|---|---|
-| Positive class (n=148) | 17.85% | 18.2% | 14.52 |
-| Negative class (n=148) | 5.15% | **0.0%** | 9.82 |
+| | Mean | Median |
+|---|---|---|
+| Positive class (n=148) | 19.19% | 18.2% |
+| Negative class (n=149) | 6.03% | **0.0%** |
 
-The majority of negative-class orders scored exactly zero. This separation is visible before any formal statistic is computed, which is a useful sanity check in itself — the AUC isn't reconstructing a signal that requires the statistic to see.
+All 297 orders received a defined score in this run — including EO 9681, which has no published text and was undefined in the prior run. The blind coder handled the missing text explicitly, scoring only the three decision-structure flags (which remain answerable from the title alone) and marking the rest NOT_APPLICABLE with that limitation stated, rather than leaving the order unscored.
 
-## Accounting: why 296, not 298
+## Accounting: why 297, not 298
 
-The full validation corpus is 298 orders (149 positive, 149 negative). Two are excluded from this computation, both disclosed in advance rather than discovered after the fact:
+The full validation corpus is 298 orders (149 positive, 149 negative). One is excluded from this computation, disclosed in advance:
 
 - **EO 9981** — excluded from the blind batch entirely. It's used as a named, repeated worked example in `flags-canonical.md` (the calibration anchor for the CRITICAL threshold), so a blind coder scoring it would effectively be shown the answer by the reference material it's required to read. See `blind-coding-package/README.md` for the full exclusion rationale.
-- **EO 9681** — no published text exists for this order (recorded historically as "not published"). Both the primary coder and the independent blind coder reached this same conclusion independently and scored it as fully administrative/undefined (applicable_count = 0), which has no computable percentage. This is a data availability limit, not a coding disagreement.
 
-**Combined figure, if wanted:** folding EO 9981 back in using the primary coder's original (label-aware) score for that one order gives AUC = 0.7674 across 297 orders. The difference from the clean 296-order figure is negligible, which is itself reassuring, but the 296-order blind figure is the one that actually demonstrates independence from label awareness and should be treated as the primary result.
+**Combined figure, if wanted:** folding EO 9981 back in using the primary coder's original (label-aware) score for that one order gives AUC = 0.7846 across 298 orders. The difference from the clean 297-order figure is negligible, which is reassuring in itself, but the 297-order blind figure is the one that demonstrates independence from label awareness and should be treated as the primary result.
 
-## Supporting evidence for coding quality
+---
 
-These don't affect the AUC number directly, but they're relevant to whether the AUC should be trusted as reflecting careful, rule-following coding rather than noise that happened to correlate:
+## How this number was reached
 
-**Zero math inconsistencies.** Every one of the 297 records' `applicable_count`, `raw_score`, `max_possible`, and `structural_weight_pct` was independently recomputed from the underlying 11 flag judgments and checked against the reported values. No discrepancies found.
+The AUC did not arrive in one pass. Documenting the trajectory here rather than only reporting the final figure, because the process is itself part of the evidence that this result reflects careful, independently-verified work rather than a number that happened to clear a threshold.
+
+### Step 1: First full-corpus blind run — AUC = 0.7662
+
+The independent coder (Claude Cowork) completed all 297 orders against the v4 blind-coding package. Full structural and math audit at the time found the run clean: no duplicates, all 297 records with 11 flags each, zero arithmetic inconsistencies on independent recomputation. One data-labeling issue was found and disclosed (order-285 and order-286 had transposed `eo_number` values — content was correct, position labels were swapped; had no effect on the AUC since scoring was matched by EO number, not position). Zombie Emergency Trap fired on exactly the four orders identified independently in the primary coding (EO 11796, 11810, 11940, 12730). This run and its full audit trail are preserved in `archive/blind-coding-results-v1-20260705.json` for the record.
+
+### Step 2: A bug found after the fact, in the reference material — not the scoring
+
+Auditing the v4 `referenced-predecessors/` folder (built by a recursive backward citation walk) turned up a logic error: any predecessor order that happened to *also* be one of the 298 validation-sample orders was incorrectly treated as already covered and excluded from the reference folder, even when something else in the batch cited it as an amendment target. **51 citations were dropped this way.**
+
+This was not a silent failure in the delivered scoring. The coding conventions require the blind coder to disclose, per flag, when a cited predecessor isn't recoverable rather than guess at its contents — and that's exactly what happened. The clearest example: EO 11190 (which revokes EO 10651) scored 25.0% in the v1 blind run, against 35.7% in the primary coder's original pass, entirely because Flags 2 and 7 could not be assessed — the coder's own justification stated plainly that EO 10651 "was not recoverable in the referenced-predecessors folder."
+
+The folder was corrected (561 → 612 reference files) and the full corpus re-coded fresh against it.
+
+### Step 3: Second full-corpus blind run — AUC = 0.7836
+
+Same coder, same package apart from the corrected reference folder, full 297 orders coded again from scratch (not just the affected subset, to keep every order coded against consistent reference material). Same structural and math audit run again: clean, 297/297, zero arithmetic inconsistencies, and this time no position-label swap either. Zombie Emergency Trap again fired on exactly the same four orders (11796, 11810, 11940, 12730) — the third independent confirmation of that specific pattern across two blind runs and the original primary coding.
+
+**What actually changed, checked directly rather than assumed:**
+
+Of the 23 orders in the batch that cite one of the 51 previously-unavailable predecessors, 12 increased, 5 decreased, 6 were unchanged (average change: +3.2 percentage points). Spot-checking individual cases against their flag-level justifications shows the changes are a mix of two distinct things, worth telling apart:
+
+- **Genuine fix effects.** EO 9296 moved from 10.0% to 35.0%. Its new Flag 7 justification: *"EO 9001 Title II Para 1 required 'all contracts... shall be reported to the President... at least quarterly'; this order replaces that mandatory presidential reporting with mere[ly discretionary disclosure].*" That is the same finding logged independently in the primary coding's notable-findings log (the "quiet regression" pattern) — rediscovered here with no access to that log, purely because EO 9001's text became available for the comparison the diff-aware convention calls for. EO 11190 moved only modestly (25.0% → 27.3%), but the reasoning underneath changed substantially: Flags 2, 4, and 7 now explicitly cite the diff against EO 10651, while Flags 5, 8, and 11 — previously NOT_APPLICABLE for lack of the comparison — resolved to definitive ABSENT rather than PRESENT. The fix made the finding possible; it didn't guarantee the finding would be large.
+- **Ordinary re-coding variance, unrelated to the fix.** EO 9279 moved from 59.1% to 40.9%, the largest decrease in the batch. None of its four changed flags reference a predecessor comparison — every one is the coder revising its own read of the order's own text (for instance, reversing an earlier judgment that tying an order's duration to "termination of Title I of the First War Powers Act" doesn't count as a real sunset mechanism). This is the kind of variance that would show up in any two independent codings of the same order, fix or no fix, and shouldn't be attributed to the reference-folder correction.
+
+The direction of the aggregate change (net positive) is consistent with the theoretical expectation that a bug causing *missing* findings can only pull scores toward zero, never away from it — but the specific size of any individual order's movement reflects both the fix and ordinary independent judgment, and the two shouldn't be conflated order by order.
+
+---
+
+## Supporting evidence for coding quality (current run)
+
+**Zero math inconsistencies** across all 297 records, independently recomputed from the underlying 11 flag judgments.
 
 **Flag-usage statistics, full corpus (3,267 flag judgments across 297 orders):**
 
 | Status | Count | % |
 |---|---|---|
-| ABSENT | 1,809 | 55.4% |
-| NOT_APPLICABLE | 818 | 25.0% |
-| PRESENT | 603 | 18.5% |
-| CRITICAL | 37 | 1.1% |
+| ABSENT | 1,893 | 57.9% |
+| NOT_APPLICABLE | 633 | 19.4% |
+| PRESENT | 706 | 21.6% |
+| CRITICAL | 35 | 1.1% |
 
-CRITICAL is appropriately rare (reserved for core-collapse findings, not overused as a default severity). NOT_APPLICABLE usage on Flags 1, 2, and 7 — which `flags-canonical.md`'s Application Notes specify as always answerable regardless of an order's brevity — occurred only 1, 1, and 2 times respectively out of 297 each, essentially full compliance with that rule.
+CRITICAL remains appropriately rare. NOT_APPLICABLE usage dropped from 25.0% to 19.4% relative to the v1 run — consistent with fewer flags being defaulted to NA for lack of comparison material, now that more of it is available.
 
-**Zombie Emergency Trap sub-flag fired exactly 4 times**, and on the same four orders identified independently in the primary coding pass: EO 11796, EO 11810, EO 11940, EO 12730 (the export-control continuation chain spanning 1974–1990, three presidencies). An independent, blind, full-corpus pass landing on exactly the same instances — no more, no fewer — is meaningful evidence that this pattern is a genuine textual feature of these orders rather than an artifact of one coder's reading.
+**Zombie Emergency Trap fired exactly 4 times**, on EO 11796, EO 11810, EO 11940, and EO 12730 — identical to both the v1 blind run and the original primary coding. Three independent codings (one label-aware, two blind, on different reference material) landing on exactly the same four orders is strong evidence this is a genuine textual feature of the export-control continuation chain, not an artifact of any single reading.
 
-**Earlier inter-coder reliability pilot.** Before the full corpus was coded, a 30-order sample was independently double-coded by two additional models (Gemini and an early GPT-5.5 variant, two runs each) as a preliminary reliability check. That data is retained in `../data/eo_coding.db` under coder IDs `gemini-2.5-collaborator`, `gemini-2.5-flash`, `gpt-5.5-thinking-v1`, and `gpt-5.5-thinking-v2`, and predates the methodology fixes described below — it's included for completeness, not as validation evidence on its own.
+**Earlier inter-coder reliability pilot.** A 30-order sample was independently double-coded by two additional models (Gemini and an early GPT-5.5 variant, two runs each) before the full corpus was coded. Retained in `../data/eo_coding.db` under coder IDs `gemini-2.5-collaborator`, `gemini-2.5-flash`, `gpt-5.5-thinking-v1`, and `gpt-5.5-thinking-v2` — included for completeness, not as validation evidence on its own.
 
 ## How the blind coding package evolved
 
-The package given to the independent coder (Claude Cowork) went through four revisions, each driven by a specific pilot finding rather than a hypothetical concern:
-
 1. **v1** — initial package: label-blind, randomized presentation order (seed `20260705`), redacted methodology extract.
-2. **v2** — after a 20-order Cowork pilot on v1 found the Zombie Emergency Trap sub-flag over-firing relative to established practice, `flags-canonical.md`'s ZET test was narrowed to require an explicit, acknowledged statutory lapse rather than any authority merely derived from an active emergency statute.
-3. **v3** — after a Gemini pilot showed that scoring an amending order with no way to see what it actually changed produces a different, usually understated score, `referenced-predecessors/` was added: reference-only text (not scored) for any order cited elsewhere in the batch as amended, revoked, or superseded.
-4. **v4** — `referenced-predecessors/` rebuilt as a recursive backward citation walk rather than a single-hop lookup, growing from 252 to 561 reference files. Documented limit: this can only discover *older* material a text actually names; it cannot discover a more recent intermediate amendment that isn't cited. That specific gap (found in a second Cowork pilot, EO 11098's baseline) remains open and is disclosed in `blind-coding-package/coder-instructions.md`.
-
-The full 297-order run in `blind-coding-results.json` was coded fresh against v4, not assembled from earlier pilot rounds, to keep the reference material consistent across every order.
-
-## Known, disclosed data issue in the results file (does not affect the AUC)
-
-`blind-coding-results.json` has the `eo_number` values for order-285 and order-286 transposed — each record's title and flag content correctly matches the real order it analyzes, but the two results were filed under swapped position labels. This was caught by cross-referencing every record's reported EO number against `validation-key.csv` before computing anything. Since this computation matches records by `eo_number` rather than by position label, it had no effect on the result. Noted here for anyone auditing the raw file directly.
-
-## A bug in `referenced-predecessors/` found after the blind run, and what it actually cost
-
-The recursive rebuild of `referenced-predecessors/` (v4) had a logic error: any predecessor order that happened to *also* be one of the 298 validation-sample orders was incorrectly treated as already covered and excluded from the reference folder, even when something else in the batch cited it. **51 citations across the corpus were dropped this way**, discovered and fixed after the full 297-order blind run had already been coded and delivered against the buggy v4 folder.
-
-This was not a silent failure. The coding conventions require the blind coder to disclose, per-flag, when a cited predecessor isn't recoverable rather than guess at its contents — and that's exactly what happened. The clearest example: EO 11190 (which revokes EO 10651) scored 25.0% in the delivered blind run, against 35.7% in the primary coder's original pass. The gap traces entirely to Flag 2 and Flag 7, where the blind coder's justification states plainly that EO 10651 "was not recoverable in the referenced-predecessors folder, so it cannot be determined... whether any oversight mechanism existed under that prior order that this revocation removes." The system degraded exactly the way it was designed to when reference material is missing: fewer findings, not wrong ones, with the gap stated in the coder's own words rather than papered over.
-
-**What this means for the AUC.** The delivered figure (0.7662) reflects real limitations in the reference material available at the time, not an error in the computation itself — it's an honest number computed from what the coder actually had access to. Because the bug caused *missing* findings rather than *incorrect* ones, and missing findings can only ever pull scores toward zero, the true achievable AUC with complete reference material is likely to be at or above 0.7662, not below it. The folder has since been corrected (612 files, up from 561) for any future coding pass. Whether to re-run the ~51 affected citing orders specifically, or treat the current figure as final with this limitation disclosed, is an open decision.
+2. **v2** — after a 20-order pilot found the Zombie Emergency Trap sub-flag over-firing relative to established practice, `flags-canonical.md`'s ZET test was narrowed to require an explicit, acknowledged statutory lapse rather than any authority merely derived from an active emergency statute.
+3. **v3** — after a pilot showed that scoring an amending order with no way to see what it actually changed produces a different, usually understated score, `referenced-predecessors/` was added: reference-only text (not scored) for orders cited elsewhere in the batch as amended, revoked, or superseded.
+4. **v4** — `referenced-predecessors/` rebuilt as a recursive backward citation walk, growing from 252 to 561 reference files. Documented limit, unresolved by design: this can only discover *older* material a text actually names, not a more recent intermediate amendment that isn't cited (found via a separate pilot on EO 11098).
+5. **v4 (corrected)** — the 51-citation exclusion bug described above fixed; folder grew to 612 files. This is what the current 0.7836 result was coded against.
 
 ## Reproducing this result
 
@@ -96,9 +111,11 @@ scores, labels = [], []
 for r in records:
     pct = r.get('structural_weight_pct')
     if pct is None:
-        continue  # EO 9681, undefined
+        continue
     scores.append(pct)
     labels.append(1 if answer_key[r['eo_number']] == 'positive' else 0)
 
-print(roc_auc_score(labels, scores))  # 0.7662
+print(roc_auc_score(labels, scores))  # 0.7836
 ```
+
+The prior run (AUC = 0.7662) can be reproduced the same way against `archive/blind-coding-results-v1-20260705.json`.

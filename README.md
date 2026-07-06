@@ -1,6 +1,6 @@
 # EO Structural Weight Score
 
-A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys — validated by independent blind coding against Mayer & Price's (2002) significance classification, **AUC = 0.7662**.
+A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys — validated by independent blind coding against Mayer & Price's (2002) significance classification, **AUC = 0.7836**.
 
 ---
 
@@ -82,9 +82,10 @@ Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPL
 | Path | Description |
 |------|-------------|
 | [`auc-results.md`](validation/auc-results.md) | **Start here for the validation claim.** The computation, every integrity check run against it, and how to reproduce it. |
-| `blind-coding-results.json` / `.csv` | The independent blind coder's raw, complete output — 297 orders, unmodified |
+| `blind-coding-results.json` / `.csv` | The independent blind coder's raw, complete output — 297 orders, unmodified. Current run, coded against the corrected reference folder. |
+| `archive/` | The prior full-corpus blind run (AUC = 0.7662), kept for the record — see `auc-results.md` for why it was superseded and what changed. |
 | `validation-key.csv` | Maps each blind-batch position to its real EO number and true Mayer & Price class. Kept confidential during blind coding; published now that coding is complete, so the AUC result is independently checkable. |
-| `blind-coding-package/` | Exactly what was given to the blind coder: task instructions, the redacted methodology extract, the 297-order text batch in randomized order, and 561 reference-only predecessor texts for orders that amend or revoke something earlier |
+| `blind-coding-package/` | Exactly what was given to the blind coder: task instructions, the redacted methodology extract, the 297-order text batch in randomized order, and 612 reference-only predecessor texts for orders that amend or revoke something earlier |
 
 ### `findings/`
 
@@ -101,7 +102,7 @@ Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPL
          ↓
 2. Code the full Mayer & Price (2002) validation sample (298 orders)         ✓ complete
          ↓
-3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.7662
+3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.7836
          ↓
 4. Extend coding to the full corpus (1936–present)                          ← next
 ```

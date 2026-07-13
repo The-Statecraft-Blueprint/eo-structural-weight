@@ -20,7 +20,7 @@ This repository is the methodological home for that measure: the frozen scoring 
 
 **Validation complete.** The full 298-order Mayer & Price (2002) validation sample (149 positive-class orders from their published appendix, 149 negative-class orders drawn at random from the general population, seed disclosed) has been coded twice: once by the primary coder with full context, and once by an independent coder blind to every order's class, presentation order randomized, working from a redacted methodology extract. The blind pass is what the AUC claim rests on. See [`validation/auc-results.md`](validation/auc-results.md) for the full computation and every check run against it before it was trusted.
 
-Extension to the full corpus is the next phase.
+**Full-corpus extension complete.** The validated methodology has been applied to the entire 1936–present corpus — 7,149 of 7,151 executive orders now carry a structural weight score, coded at full justification depth (not a rapid-throughput pass) by two independent, non-overlapping coding streams. See [`extension-output/README.md`](extension-output/README.md) for coverage, the annual trend data, and known limitations.
 
 ---
 
@@ -77,7 +77,19 @@ Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPL
 | `mayer-price-2002-appendix-provenance.md` | How the appendix list was reconciled into a clean, citable dataset |
 | `negative-sample-v1.csv` | The 149 negative-class orders, random draw, seed `20260703` |
 | `calibration-record.md` | The initial 10-order calibration set coded before the full validation batch began |
-| `eo_coding.db` | SQLite database with every coding record, distinguished by `coder_id`: `claude-church-bells-v1` (primary, label-aware), `cowork-blind-v1` (independent blind validation), plus an earlier 30-order inter-coder reliability pilot under four additional coder IDs |
+| `eo_coding.db` | SQLite database with every coding record, distinguished by `coder_id`: `claude-church-bells-v1` (primary, label-aware), `cowork-blind-v1`/`v2` (independent blind validation), `cowork-extension-stream-a`/`stream-b` (full-corpus extension), plus an earlier 30-order inter-coder reliability pilot under four additional coder IDs. 7,149 of 7,151 orders from 1936–present now have a score. |
+
+### `extension-output/` — the full-corpus extension (Step 4)
+
+| Path | Description |
+|------|-------------|
+| [`README.md`](extension-output/README.md) | **Start here for the full-corpus claim.** Coverage accounting, composition by coder, and known limitations. |
+| `annual-structural-weight.csv` | Year, order count, mean and median structural weight, 1936–2026 — the underlying chart data |
+| `annual-structural-weight-chart.png` | The trend chart |
+| `stream-a/` | Raw batch output, FDR and Truman (1936–1953), 11 batches, plus a notable-patterns log |
+| `stream-b/` | Raw batch output, Eisenhower through the present, 14 batches, plus per-batch notable-patterns logs |
+
+Same principle as `validation/`: the raw per-order coding is here alongside the aggregate result, not just the aggregate — any number in the annual data can be traced back to the specific order and justification it came from.
 
 ### `validation/` — the evidence for the AUC claim
 
@@ -107,7 +119,7 @@ Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPL
          ↓
 3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.7836
          ↓
-4. Extend coding to the full corpus (1936–present)                          ← next
+4. Extend coding to the full corpus (1936–present)                          ✓ complete
 ```
 
 The scoring scheme (flag definitions and confidence taxonomy) remains frozen through the extension, to avoid fitting the instrument to a corpus it was validated on rather than the one it's meant to generalize to.

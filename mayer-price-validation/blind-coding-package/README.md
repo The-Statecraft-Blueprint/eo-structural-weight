@@ -43,11 +43,13 @@ None of that is in `scoring-instructions.md`. The general principles those examp
 
 **The notable-findings log** — withheld entirely. It's organized around "here's what's interesting," which correlates with class membership more than chance would predict, and would function as a partial answer key even without stating labels outright.
 
-**One EO excluded from the batch: EO 9981.** `flags-canonical.md` uses EO 9981 as a named, repeated calibration anchor — its exact flag tally (5 PRESENT, 0 CRITICAL) is stated explicitly, more than once, to teach the CRITICAL threshold. Redacting those examples out of `flags-canonical.md` would degrade a genuinely useful piece of the training material for no good reason, so instead EO 9981 itself is simply not in the blind batch. My original label-aware coding of EO 9981 carries forward into the combined dataset as a documented exception — see `answer-key-DO-NOT-DISTRIBUTE.csv` (kept separately, see below). This is why the batch is 297, not 298.
+**One EO excluded from the batch: EO 9981.** `flags-canonical.md` uses EO 9981 as a named, repeated calibration anchor — its exact flag tally (5 PRESENT, 0 CRITICAL) is stated explicitly, more than once, to teach the CRITICAL threshold. Redacting those examples out of `flags-canonical.md` would degrade a genuinely useful piece of the training material for no good reason, so instead EO 9981 itself is simply not in the blind batch. My original label-aware coding of EO 9981 carries forward into the combined dataset as a documented exception — see `../validation-key.csv`. This is why the batch is 297, not 298.
 
 ## The answer key
 
-`answer-key-DO-NOT-DISTRIBUTE.csv` (delivered as a separate file, not inside this package) maps each `order-NNN` back to its real EO number and true class (positive/negative). **Do not show this to the coder at any point before or during coding.** Keep it until the blind pass is complete, then use it to compute AUC and inter-coder agreement.
+This section describes the package as it existed *during* blind coding, before the result was known — worth preserving as-written for anyone reproducing the process from scratch. At the time, the answer key was withheld under the filename `answer-key-DO-NOT-DISTRIBUTE.csv`, delivered separately from this package and never shown to the coder before or during coding.
+
+**That coding is now complete.** The key has since been renamed `validation-key.csv`, published at `../validation-key.csv`, and is no longer confidential — publishing it is what makes the AUC result in `../auc-results.md` independently checkable rather than something to take on trust. If you're using this package to run a *new* blind coding pass on a *different* sample, follow the original discipline: keep whatever answer key you're using withheld until that new pass is complete, the same way this one was.
 
 ## How to run this
 

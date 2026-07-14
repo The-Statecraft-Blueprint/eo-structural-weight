@@ -1,40 +1,42 @@
 # EO Structural Weight Score
 
-A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys — validated by independent blind coding against Mayer & Price's (2002) significance classification, **AUC = 0.7836**.
+A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys — validated by independent blind coding against Mayer & Price's (2002) significance classification, **AUC = 0.7836** — and applied to the full 1936–present corpus, **7,149 of 7,151 executive orders scored**.
 
-**→ [How this compares to Mayer & Price's classification: what matches, what diverges, and why](findings/comparison-to-mayer-price.md)**
+**→ [How this compares to Mayer & Price's classification, and why we think it's a better tool for this specific question](mayer-price-validation/comparison-to-mayer-price.md)**
 
 ---
 
-## What this is
+## What this is, and why it exists
 
-Existing political science measures of executive order significance classify orders by political importance or policy significance. Those classifications require subjective judgment, which limits reproducibility and auditability.
+Existing measures of executive order significance — Mayer & Price's being the field's standard reference — classify orders by political importance through expert judgment. That's a real and valuable measure. It's also fundamentally subjective: it can't be independently re-derived by someone else reading the same text, and it doesn't distinguish *how an order achieves what it does* from *how much it mattered that it did*.
 
-This project replaces the importance judgment with a structural audit. Eleven standing governance-architecture flags are applied to each order's text. Each flag either fires or doesn't, and fires at one of two severity levels. The result is a continuous structural-weight score per order: how much governance machinery does this EO deploy, regardless of its political salience?
+This project replaces the importance judgment with a structural audit. Eleven standing governance-architecture flags — power concentration, accountability gaps, oversight preemption, and so on — are applied to each order's actual text. Each flag either fires or doesn't, at one of two severity levels. The result is a continuous structural-weight score per order, answering a different question than significance: *how much unreviewed discretion or unaccountable authority does this order deploy*, independent of how much attention it got.
 
-This repository is the methodological home for that measure: the frozen scoring rules, the coded data, and the validation evidence. Results, as they're produced, are published through [Church Bells](https://ringthebells.org), the Statecraft Blueprint's nonpartisan legislation and executive-action analysis project.
+The two questions are related but not identical, and that's the point. A landmark order can be architecturally clean (FISA implementation, EO 12139, scores 0%); a routine wartime order can be architecturally heavy (EO 9250, 45.5%, entirely outside Mayer & Price's sampling window). Measuring both separately is more informative than either alone — see the comparison link above for the full case, with specific examples in both directions.
+
+This repository is the methodological home for that measure: the frozen scoring rules, every coded record, the validation evidence, and the full-corpus results. Findings, as they accumulate, are published through [Church Bells](https://ringthebells.org), the Statecraft Blueprint's nonpartisan legislation and executive-action analysis project.
 
 ---
 
 ## Status
 
-**Validation complete.** The full 298-order Mayer & Price (2002) validation sample (149 positive-class orders from their published appendix, 149 negative-class orders drawn at random from the general population, seed disclosed) has been coded twice: once by the primary coder with full context, and once by an independent coder blind to every order's class, presentation order randomized, working from a redacted methodology extract. The blind pass is what the AUC claim rests on. See [`validation/auc-results.md`](validation/auc-results.md) for the full computation and every check run against it before it was trusted.
+**Validation complete.** The full 298-order Mayer & Price (2002) validation sample has been coded twice — once with full context, once by an independent coder blind to every order's class. The blind pass is what the AUC claim rests on. Start at [`mayer-price-validation/README.md`](mayer-price-validation/README.md).
 
-**Full-corpus extension complete.** The validated methodology has been applied to the entire 1936–present corpus — 7,149 of 7,151 executive orders now carry a structural weight score, coded at full justification depth (not a rapid-throughput pass) by two independent, non-overlapping coding streams. See [`extension-output/README.md`](extension-output/README.md) for coverage, the annual trend data, and known limitations.
+**Full-corpus extension complete.** The validated methodology has been applied to the entire 1936–present corpus by two independent, non-overlapping coding streams, at full justification depth. Start at [`extension/README.md`](extension/README.md).
 
 ---
 
-## What makes this different from existing measures
+## What makes this different — and why we think it's better suited to this question
 
-**Rule application, not judgment.** "Does the Bundling flag fire?" is answerable by reading the text against a written definition. "Is this order significant?" is not. The structural-weight score is designed so two coders reading the same order should reach substantially the same score — and now there's a full-corpus independent test of exactly that.
+**Rule application, not judgment.** "Does the Bundling flag fire?" is answerable by reading the text against a written definition. "Is this order significant?" is not. Two coders applying the same eleven rules to the same order should converge — and now there's a full-corpus independent test of exactly that.
 
-**Pre-registered.** The scoring scheme — which flags count, how severity maps to points, how scores aggregate — was committed to this repository before any executive order was coded. Changes after coding began are documented as dated amendments rather than silent edits; see the version history inside [`methodology/scoring-scheme.md`](methodology/scoring-scheme.md) and [`methodology/flags-canonical.md`](methodology/flags-canonical.md).
+**Reproducible by construction.** Every score in this repository traces back to a specific coder, a specific piece of source text (preserved in [`database/corpus-texts/`](database/corpus-texts/)), and a specific written justification against a specific version of a frozen rule. Significance classification by expert panel can't be re-derived by someone outside the panel; this can.
 
-**Governance-architecture specific.** The eleven flags measure what an order does to the structural fabric of governance: whether it concentrates power, creates accountability gaps, preempts oversight, establishes perverse incentives, cannibalizes existing agency mandates, and so on. This is a different question from political significance, and it produces a different and complementary measure — see [`findings/notable-findings.md`](findings/notable-findings.md) for documented cases where the two diverge in both directions.
+**Pre-registered.** The scoring scheme was committed before any order was coded. Changes after coding began are dated amendments with stated reasons, not silent edits — see the version histories inside [`methodology/scoring-scheme.md`](methodology/scoring-scheme.md) and [`methodology/flags-canonical.md`](methodology/flags-canonical.md).
 
-**Validated by independent blind coding before extension.** The scoring scheme was applied to the full Mayer & Price (2002) census, then re-coded from scratch by an independent, label-blind coder before any claim about discriminative validity was made. Validation earns the right to extend, not the other way around.
+**Validated before extended.** The scoring scheme was applied to the full Mayer & Price census, then re-coded from scratch by an independent, label-blind coder, *before* any claim about discriminative validity was made or the methodology was applied beyond that sample. Validation earned the right to extend, not the other way around.
 
-**Explicit about its own scope boundary.** The instrument measures architecture, not substantive fairness or policy wisdom. A precisely drafted, substantively troubling policy can score low, and that's a feature of what's being measured, not a flaw — see "What This Scheme Does Not Do" in `scoring-scheme.md`.
+**Explicit about its own scope boundary.** The instrument measures architecture, not substantive fairness or policy wisdom. A precisely drafted, substantively troubling policy can score low — that's a feature of what's being measured, not a flaw. See "What This Scheme Does Not Do" in `scoring-scheme.md`.
 
 ---
 
@@ -56,73 +58,49 @@ Defined in full in [`methodology/flags-canonical.md`](methodology/flags-canonica
 | 10 | Inter-Agency Cannibalization |
 | 11 | Exemptions Architecture |
 
-Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT APPLICABLE flags are excluded from both the numerator and denominator. The normalized structural-weight score is raw points divided by maximum possible points across applicable flags.
+Each flag is scored ABSENT (0), PRESENT (1), or CRITICAL (2) per order. NOT_APPLICABLE flags are excluded from both the numerator and denominator. The normalized structural-weight score is raw points divided by maximum possible points across applicable flags.
 
 ---
 
 ## Repository contents
 
-### `methodology/` — pre-registration documents, frozen before coding
+Every folder below, including nested ones, has its own README explaining exactly what's in it. This section is a map, not the full explanation.
 
-| File | Description |
-|------|-------------|
-| [`flags-canonical.md`](methodology/flags-canonical.md) | Authoritative definitions for all eleven flags — operational tests, key distinctions, applicability rules. Currently v1.2.2. |
-| [`scoring-scheme.md`](methodology/scoring-scheme.md) | Complete scoring scheme — status vocabulary, score mapping, aggregation formula, validation design, blind-coding independence requirements. Currently v1.4. |
+### [`methodology/`](methodology/) — the instrument itself, frozen before coding
 
-### `data/`
+`scoring-scheme.md` (v1.4) and `flags-canonical.md` (v1.2.2). Shared and unchanged across both the validation and the extension — nothing here is specific to Mayer & Price or to any one time period.
 
-| File | Description |
-|------|-------------|
-| `mayer-price-2002-appendix.csv` | The 149 positive-class orders, resolved from Mayer & Price's (2002) published appendix |
-| `mayer-price-2002-appendix-provenance.md` | How the appendix list was reconciled into a clean, citable dataset |
-| `negative-sample-v1.csv` | The 149 negative-class orders, random draw, seed `20260703` |
-| `calibration-record.md` | The initial 10-order calibration set coded before the full validation batch began |
-| `eo_coding.db` | SQLite database with every coding record, distinguished by `coder_id`: `claude-church-bells-v1` (primary, label-aware), `cowork-blind-v1`/`v2` (independent blind validation), `cowork-extension-stream-a`/`stream-b` (full-corpus extension), plus an earlier 30-order inter-coder reliability pilot under four additional coder IDs. 7,149 of 7,151 orders from 1936–present now have a score. |
+### [`mayer-price-validation/`](mayer-price-validation/) — the full validation story, start to finish
 
-### `extension-output/` — the full-corpus extension (Step 4)
+**Start here for the AUC claim and the comparison to Mayer & Price.** Who Mayer & Price are and why we validate against them, the 298-order sample and its provenance, the independent blind coding process (with the complete package given to the blind coder preserved in full), the AUC computation and its revision trajectory, and the comparison analysis. Everything needed to reproduce this specific result lives here.
 
-| Path | Description |
-|------|-------------|
-| [`README.md`](extension-output/README.md) | **Start here for the full-corpus claim.** Coverage accounting, composition by coder, and known limitations. |
-| `annual-structural-weight.csv` | Year, order count, mean and median structural weight, 1936–2026 — the underlying chart data |
-| `annual-structural-weight-chart.png` | The trend chart |
-| `stream-a/` | Raw batch output, FDR and Truman (1936–1953), 11 batches, plus a notable-patterns log |
-| `stream-b/` | Raw batch output, Eisenhower through the present, 14 batches, plus per-batch notable-patterns logs |
+### [`extension/`](extension/) — the full-corpus application (Step 4)
 
-Same principle as `validation/`: the raw per-order coding is here alongside the aggregate result, not just the aggregate — any number in the annual data can be traced back to the specific order and justification it came from.
+**Start here for the full-corpus claim.** The validated methodology applied to all of 1936–present: 7,149 of 7,151 orders scored, by two independent coding streams (FDR/Truman; Eisenhower–present), each with full per-order justification and a running log of cross-order patterns discovered along the way. The annual structural-weight trend and its chart data live here.
 
-### `validation/` — the evidence for the AUC claim
+### [`database/`](database/) — the shared foundational data
 
-| Path | Description |
-|------|-------------|
-| [`auc-results.md`](validation/auc-results.md) | **Start here for the validation claim.** The computation, every integrity check run against it, and how to reproduce it. |
-| `blind-coding-results.json` / `.csv` | The independent blind coder's raw, complete output — 297 orders, unmodified. Current run, coded against the corrected reference folder. |
-| `archive/` | The prior full-corpus blind run (AUC = 0.7662), kept for the record — see `auc-results.md` for why it was superseded and what changed. |
-| `validation-key.csv` | Maps each blind-batch position to its real EO number and true Mayer & Price class. Kept confidential during blind coding; published now that coding is complete, so the AUC result is independently checkable. |
-| `blind-coding-package/` | Exactly what was given to the blind coder: task instructions, the redacted methodology extract, the 297-order text batch in randomized order, and 612 reference-only predecessor texts for orders that amend or revoke something earlier |
+The full text of every in-scope executive order (`corpus-texts/`, one file per order, primary source for every coding decision in this project), and `eo_coding.db`, the consolidated database of every coding record from every coder. **The database is a derived artifact, rebuilt from the JSON coding files — read `database/README.md` before editing it directly.**
 
-### `findings/`
+### [`findings/`](findings/)
 
-| File | Description |
-|------|-------------|
-| [`comparison-to-mayer-price.md`](findings/comparison-to-mayer-price.md) | **Start here for the comparison claim.** Where structural weight matches Mayer & Price's classification, where it diverges, and why the divergences are legible rather than noise — with charts. |
-| [`notable-findings.md`](findings/notable-findings.md) | Qualitative results from the primary coding pass: named recurring patterns (the Zombie Emergency Trap continuation chain, quiet regression/strengthening, the no-private-right-of-action drafting convention, and others), a divergence index of orders where structural weight and historical significance diverge, and the methodological lessons that shaped `scoring-scheme.md`'s coding conventions. **This is exploratory material, not validation evidence** — see `validation/` for that. |
+Named cross-order patterns and structural phenomena — separate from the validation claim itself, and expected to keep growing as more of the full-corpus extension's material gets synthesized.
 
 ---
 
 ## Order of operations
 
 ```
-1. Freeze scoring scheme
+1. Freeze scoring scheme                                                     ✓ complete
          ↓
 2. Code the full Mayer & Price (2002) validation sample (298 orders)         ✓ complete
          ↓
 3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.7836
          ↓
-4. Extend coding to the full corpus (1936–present)                          ✓ complete
+4. Extend coding to the full corpus (1936–present)                          ✓ complete — 7,149 / 7,151 orders
 ```
 
-The scoring scheme (flag definitions and confidence taxonomy) remains frozen through the extension, to avoid fitting the instrument to a corpus it was validated on rather than the one it's meant to generalize to.
+The scoring scheme (flag definitions and confidence taxonomy) remained frozen through the extension, to avoid fitting the instrument to the corpus it was validated on rather than the one it's meant to generalize to.
 
 ---
 

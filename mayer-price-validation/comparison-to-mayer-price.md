@@ -71,4 +71,4 @@ Structural weight answers a question their measure doesn't ask: regardless of po
 
 ## Data and reproduction
 
-All figures in this document are computed from `../validation/blind-coding-results.json` (the independent blind coding run) against `../validation/validation-key.csv` (true Mayer & Price classification). Full computation, audit trail, and the two prior validation iterations that preceded this result are documented in `../validation/auc-results.md`. The complete divergence catalog — every case where the two measures disagree by more than a marginal amount, not just the ones highlighted here — is in `../findings/notable-findings.md`.
+All figures in this document are computed from `blind-coding-results.json` (the independent blind coding run) against `validation-key.csv` (true Mayer & Price classification). Full computation, audit trail, and the two prior validation iterations that preceded this result are documented in `auc-results.md`. The complete divergence catalog — every case where the two measures disagree by more than a marginal amount, not just the ones highlighted here — is in `../findings/notable-findings.md`.

@@ -83,7 +83,7 @@ CRITICAL remains appropriately rare. NOT_APPLICABLE usage dropped from 25.0% to 
 
 **Zombie Emergency Trap fired exactly 4 times**, on EO 11796, EO 11810, EO 11940, and EO 12730 — identical to both the v1 blind run and the original primary coding. Three independent codings (one label-aware, two blind, on different reference material) landing on exactly the same four orders is strong evidence this is a genuine textual feature of the export-control continuation chain, not an artifact of any single reading.
 
-**Earlier inter-coder reliability pilot.** A 30-order sample was independently double-coded by two additional models (Gemini and an early GPT-5.5 variant, two runs each) before the full corpus was coded. Retained in `../data/eo_coding.db` under coder IDs `gemini-2.5-collaborator`, `gemini-2.5-flash`, `gpt-5.5-thinking-v1`, and `gpt-5.5-thinking-v2` — included for completeness, not as validation evidence on its own.
+**Earlier inter-coder reliability pilot.** A 30-order sample was independently double-coded by two additional models (Gemini and an early GPT-5.5 variant, two runs each) before the full corpus was coded. Retained in `../database/eo_coding.db` under coder IDs `gemini-2.5-collaborator`, `gemini-2.5-flash`, `gpt-5.5-thinking-v1`, and `gpt-5.5-thinking-v2` — included for completeness, not as validation evidence on its own.
 
 ## How the blind coding package evolved
 

@@ -44,7 +44,7 @@ These are not cases where the instrument disagrees with Mayer & Price about what
 
 ### Architecturally heavy, but outside their sample
 
-The reverse case: orders carrying substantial structural weight that Mayer & Price's methodology didn't select. Some of this is a direct artifact of their sampling window (1949–99 only); some of it reflects orders whose architecture is heavy but whose profile was never politically prominent enough to register on an expert-judgment measure.
+The reverse case: orders carrying substantial structural weight that Mayer & Price's methodology didn't select. Some of this is a direct artifact of their sampling window (1936–99 only); some of it reflects orders whose architecture is heavy but whose profile was never politically prominent enough to register on an expert-judgment measure.
 
 | EO | Year | Score | What it does | Why the weight |
 |---|---|---|---|---|

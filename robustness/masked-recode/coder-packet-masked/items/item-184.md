@@ -1,0 +1,5 @@
+# item-184
+
+By the authority vested in me as President by the Constitution and the laws of the United States of America, including section 5317 of title of the United States Code, and in order to place additional positions in Level IV of the Executive Schedule, Section 1-101 of Executive Order No. [EO-A], as amended, is further amended by adding thereto the following new subsections:
+"(h) Director, Office for Victims of Crime, Department of Justice.
+"(i) Director, Bureau of Justice Assistance, Department of Justice."

@@ -16,6 +16,17 @@ Verified two independent ways:
 
 Both return 0.7836 to four decimal places.
 
+## Qualifications (added 2026-09-18)
+
+See `../robustness/AUDIT.md` for the full audit. The short version:
+
+- **Uncertainty.** 95% bootstrap CI 0.731–0.835 (2,000 resamples, stratified by class). The lower bound sits just above the 0.70 threshold.
+- **Length baseline.** Word count alone gives AUC = 0.781 and year alone 0.645. The score still adds information: a logit with year and log length improves by likelihood-ratio χ² = 31.6 when the score is added, and AUC rises from 0.788 to 0.837. Within length terciles, the score's AUC is 0.717.
+- **What the blind coder could see.** The blind coder had no labels, but it did see each order's number, title, date and signature. It may have recognized famous orders. The pre-registered masked test in `../robustness/masked-recode/` measures this.
+- **Coder independence.** Both blind runs were done by the same AI model family that helped design the rubric. The v1.4 amendment called for a cross-vendor blind coder where feasible, and that hasn't been done yet.
+- **Label-aware coding.** The original label-aware coding gives AUC 0.673 (CI 0.615–0.731), lower than the blind runs. Label knowledge didn't inflate discrimination. It did push significant orders' scores down by about 8 points (see the audit, §2).
+- **Seven-flag sensitivity.** Dropping the four least reliable flags (3, 9, 10, 11) gives AUC 0.769.
+
 ## Class separation
 
 | | Mean | Median |
@@ -81,7 +92,7 @@ The direction of the aggregate change (net positive) is consistent with the theo
 
 CRITICAL remains appropriately rare. NOT_APPLICABLE usage dropped from 25.0% to 19.4% relative to the v1 run — consistent with fewer flags being defaulted to NA for lack of comparison material, now that more of it is available.
 
-**Zombie Emergency Trap fired exactly 4 times**, on EO 11796, EO 11810, EO 11940, and EO 12730 — identical to both the v1 blind run and the original primary coding. Three independent codings (one label-aware, two blind, on different reference material) landing on exactly the same four orders is strong evidence this is a genuine textual feature of the export-control continuation chain, not an artifact of any single reading.
+**Zombie Emergency Trap fired exactly 4 times**, on EO 11796, EO 11810, EO 11940, and EO 12730 — identical to both the v1 blind run and the original primary coding. Three codings (one label-aware, two blind, on different reference material) landing on the same four orders is good evidence that this is a real textual feature of the export-control continuation chain. Two caveats apply. The ZET test was narrowed in package v2 after a pilot compared it with the primary coding, so some agreement is built in. And the four orders' titles ("Continuing the Regulation of Exports", etc.) signal the statutory lapse on their own.
 
 **Earlier inter-coder reliability pilot.** A 30-order sample was independently double-coded by two additional models (Gemini and an early GPT-5.5 variant, two runs each) before the full corpus was coded. Retained in `../database/eo_coding.db` under coder IDs `gemini-2.5-collaborator`, `gemini-2.5-flash`, `gpt-5.5-thinking-v1`, and `gpt-5.5-thinking-v2` — included for completeness, not as validation evidence on its own.
 

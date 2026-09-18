@@ -1,0 +1,5 @@
+# item-074
+
+By virtue of the authority vested in me by the act of [DATE], [STAT], which amended section 1, Title II of the act of [DATE], [STAT] (50 U.S.C. 191), and as President of the United States, I hereby prescribe the following amendment of the regulations prescribed by Executive Order No. [EO-A] of [DATE], as amended by Executive Order No. [EO-B] of [DATE], which regulations constitute Part 6, Subchapter A, Chapter I, Title 33 of the Code of Federal Regulations:
+Section 6.10-1 is amended to read as follows:
+§ 6.10-1 Issuance of documents and employment of persons aboard vessels. No person shall be issued a document required for employment on a merchant vessel of the United States nor shall any person be employed on a merchant vessel of the United States unless the Commandant is satisfied that the character and habits of life of such person are such as to authorize the belief that the presence of the individual on board would not be inimical to the security of the United States: Provided, that the Commandant may designate categories of merchant vessels to which the foregoing shall not apply.

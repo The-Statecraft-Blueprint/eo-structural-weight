@@ -1,0 +1,4 @@
+# item-109
+
+By virtue of the authority vested in me by the Constitution and statutes of the United States of America, and as President of the United States of America, in order to extend for 30 days the reporting time for the Committee on Selection of the Director of the Federal Bureau of Investigation, Section 3(a) of Executive Order No. [EO-A] of [DATE], is hereby amended to read as follows:
+"The Committee shall submit to the President and to the Attorney General, no later than [DATE], a report listing the names of the five persons whom the Committee considers best qualified to serve as the Director and setting forth such other information as the President or the Attorney General may require.".

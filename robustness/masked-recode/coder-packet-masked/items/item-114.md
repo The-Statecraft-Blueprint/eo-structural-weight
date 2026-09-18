@@ -1,0 +1,3 @@
+# item-114
+
+By virtue of the authority vested in me by section 109 of the Naval Appropriation Act, [YEAR] (Public No. 441, 77th Congress), and section 2 of the War Department Civil Appropriation Act, [YEAR] (Public No. 527, 77th Congress), relating to certain kinds of employment in the Canal Zone, and deeming such course to be in the public interest, I hereby suspend, effective [DATE], compliance with the provisions of the said sections during the continuance of any of the wars in which the United States is now engaged.

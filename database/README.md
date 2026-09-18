@@ -36,4 +36,9 @@ This matters in practice: if you ever need to fix, extend, or merge coding data,
 | `cowork-extension-stream-a` | Full-corpus extension, FDR and Truman (1936–1953). |
 | `cowork-extension-stream-b` | Full-corpus extension, Eisenhower through the present. |
 
-For a single "what's the current best score for this order" view, prefer `claude-church-bells-v1` where it exists (richest justification, part of the validated sample), and one of the two extension coders otherwise — the two extension streams never overlap with each other or with the primary coding, so there's no real conflict to resolve.
+For a single "current best score for this order" view, use `cowork-blind-v2` for the 297 validation orders and the extension coders for everything else. **Don't use `claude-church-bells-v1` as the score of record.** It was coded knowing each order's Mayer & Price class, and it scores significant orders about 8 points lower than the blind runs (see `../robustness/AUDIT.md` §2). Its justifications are still useful reading, but its numbers shouldn't be quoted as the order's score. `../robustness/annual-series-rebuilt.csv` follows this rule.
+
+**Known data issues:**
+
+- `eos.word_count` is NULL for every row. Compute length from `corpus-texts/` (as `../robustness/audit.py` does).
+- Fixed 2026-09-18: a garbled `president` field on EO 14412 and 14413, and on one unnumbered index row. See `../robustness/data-fixes.md`.

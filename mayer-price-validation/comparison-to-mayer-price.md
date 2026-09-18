@@ -2,15 +2,21 @@
 
 *How a rule-based structural audit compares to the field's standard measure of executive order significance.*
 
+> **Correction (2026-09-18).** An earlier version of this document said its figures came from the blind coding run. Its divergence tables actually used the original coding, which knew which orders Mayer & Price had flagged. Several lead examples don't hold in the blind run. The worst are EO 12139 (FISA; 0% claimed, 18.2% blind), EO 11785 (0% claimed, 18.2% in blind v2) and EO 12958 (4.5% claimed, 27–32% blind). Every table below now shows all three codings, and an order is used as an example only if it meets the claim in every coding. The full audit is in `../robustness/AUDIT.md`.
+
 ---
 
 ## The short version
 
-Mayer & Price (2002) classify 149 executive orders (1949–99) as "significant" through expert judgment, and treat everything else as not significant. The EO Structural Weight Score classifies nothing — it applies eleven fixed governance-architecture rules to an order's text and produces a continuous score, with no reference to whether the order is politically important.
+Mayer & Price (2002) classify 149 executive orders (1936–99) as "significant" by expert judgment. The EO Structural Weight Score doesn't classify anything. It applies eleven fixed governance-architecture rules to an order's text and produces a continuous score.
 
-Applied blind to the full 298-order validation sample (their 149 plus a matched random draw of 149 more), structural weight recovers their classification with **AUC = 0.7836** — a coder with no access to Mayer & Price's labels, scoring text alone, reconstructs 78% of the discriminating information in their expert classification.
+Applied by a label-blind AI coder to 297 orders (their 149 plus a random draw of 149 others, with EO 9981 excluded), structural weight separates the two groups with **AUC = 0.784 (95% bootstrap CI 0.731–0.835)**. In plain terms: pick one significant order and one other order at random, and the significant one scores higher 78% of the time.
 
-That's the headline. The more useful finding is in the 22% it doesn't reconstruct — a substantial, well-documented set of cases where the two measures point in different directions, and the reasons are legible rather than random.
+Three qualifications belong next to that number:
+
+- **Length does nearly as well.** Word count alone gives AUC = 0.781. The score adds information beyond length and year (likelihood-ratio χ² = 31.6), and its AUC within length terciles is 0.72. So the score isn't only a length proxy, but a large part of its separating power is shared with length.
+- **The blind coder saw each order's number, title, date and president.** It may have recognized famous orders. A masked re-coding test is designed to check this (`../robustness/masked-recode/`).
+- **The coders are AI models.** Both blind runs used the same model family. Agreement between them is flag-level κ = 0.66, and κ = 0.43 against the original coding. No human coding exists yet.
 
 ![Score distribution by Mayer & Price classification](score-distribution.png)
 
@@ -20,55 +26,84 @@ That's the headline. The more useful finding is in the 22% it doesn't reconstruc
 
 ## Where they agree
 
-The separation between classes is visible before any statistic is computed. Orders in Mayer & Price's appendix score a mean of 19.2% (median 18.2%); orders outside it score a mean of 6.0% (median **0.0%** — most of the general population of executive orders has essentially no governance-architecture machinery in it at all, by this measure).
+In the blind run, orders in Mayer & Price's appendix score a mean of 19.2% (median 18.2%). Orders outside it score a mean of 6.0% (median 0.0%).
 
-This is the expected relationship, and it's reassuring that it holds: significant policy action, on average, deploys more governance machinery — broader delegated authority, less oversight, more discretion — than routine administrative action does. An instrument that measures architecture should correlate with a measure of importance, because important actions usually *do* something architecturally consequential. The 0.78 AUC says that relationship is real and substantial.
+That is the expected relationship. Significant policy action usually deploys more governance machinery than routine administrative action does.
 
-## Where they diverge, and why it isn't noise
+## Where they diverge
 
-A correlation of 0.78 leaves real daylight, and the cases inside that daylight sort into two clean categories.
+About one pair in five is ranked "the wrong way" (1 − AUC = 0.22). Much of that is coding noise, not a meaningful difference between the measures:
 
-### Significant, but architecturally clean
+- 52 of the 296 orders coded three times differ by 20 points or more across the codings.
+- Claims about *individual* orders are therefore only made below when they hold in all three.
 
-Several of Mayer & Price's most consequential orders score at or near zero on structural weight — not because the coding missed something, but because these orders achieve major policy change through *well-bounded* mechanisms: multi-party balance, sunset clauses, preserved judicial review, narrow delegated scope.
+### Significant, but architecturally clean (≤10% in every coding)
 
-| EO | Year | Score | What Mayer & Price flagged it for | Why it scores low |
-|---|---|---|---|---|
-| 11375 | 1967 | 5.0% | Extends federal equal-employment coverage to sex discrimination | Uses the exact same enforcement architecture already validated for race discrimination — no new discretionary authority, no accountability gap |
-| 12139 | 1979 | 0.0% | Implements FISA, the foundational surveillance-oversight statute | Preserves the FISA Court, requires Senate-confirmed certifying officials — a landmark reform that is *also* a landmark in restraint |
-| 12958 | 1995 | 4.5% | Overhauls the classified-information system | Automatic 25-year declassification default, explicit anti-abuse prohibitions, an independent appeals panel |
-| 11785 | 1974 | 0.0% | Dismantles the Attorney General's list of subversive organizations | A power-narrowing reform reads as clean by construction — removing discretion doesn't create a new accountability gap |
-| 13010 | 1996 | 6.25% | Foundational order behind decades of subsequent U.S. cybersecurity policy | Establishes a coordinating framework, not a new grant of unilateral authority |
+38 of the 148 significant orders meet this bar. Examples:
 
-These are not cases where the instrument disagrees with Mayer & Price about what happened. They're cases where "this mattered enormously" and "this was built with restraint" are simultaneously true, and Mayer & Price's binary classification has no way to register the second fact. Structural weight can hold both at once — which is arguably its main advantage as a complementary measure rather than a replacement.
+| EO | Year | Original | Blind v1 | Blind v2 | What it does |
+|---|---|---|---|---|---|
+| 9808 | 1946 | 0.0 | 0.0 | 0.0 | Truman's President's Committee on Civil Rights. Independent membership; dissolves on delivering its report. |
+| 12202 | 1980 | 0.0 | 0.0 | 0.0 | Nuclear Safety Oversight Committee (post–Three Mile Island) |
+| 12183 | 1979 | 0.0 | 0.0 | 0.0 | Revokes Rhodesian sanctions |
+| 12961 | 1995 | 0.0 | 0.0 | 0.0 | Presidential Advisory Committee on Gulf War Veterans' Illnesses |
+| 11375 | 1967 | 5.0 | 4.5 | 4.5 | Adds sex discrimination to federal equal-employment coverage, using the enforcement structure already in place for race |
 
-### Architecturally heavy, but outside their sample
+Many are time-limited advisory bodies or orders that *remove* authority. Both kinds are consistent with an instrument that measures architecture rather than importance.
 
-The reverse case: orders carrying substantial structural weight that Mayer & Price's methodology didn't select. Some of this is a direct artifact of their sampling window (1936–99 only); some of it reflects orders whose architecture is heavy but whose profile was never politically prominent enough to register on an expert-judgment measure.
+**Withdrawn as examples** because they fail in at least one blind run:
 
-| EO | Year | Score | What it does | Why the weight |
-|---|---|---|---|---|
-| 9250 | 1942 | 45.5% | FDR's "Hold the Line" wartime economic stabilization order | Sweeping, explicitly "final" authority over the entire wartime economy — the highest score in the negative-class sample, and not inherited from any other order. An independently complex, historically major action that simply falls outside Mayer & Price's window. |
-| 9001 | 1941 | 31.8% | Foundational WWII war-production contracting authority, issued 20 days after Pearl Harbor | Broad, largely unreviewed contracting discretion at the start of the wartime economy |
-| 8565 | 1940 | 27.8% | One-paragraph extension of an existing property-control framework to Romania | Inherits the full weight of the framework it extends by incorporation — brief text, heavy architecture |
-| 12318 | 1981 | 8.3% | Establishes OIRA's statistical-policy role inside OMB | Low score, but foundational to what became one of the most consequential institutions in the modern regulatory process — a case where even a *modest* score sits on top of major institutional significance, illustrating that the two measures answer genuinely different questions |
+| EO | Year | Original | Blind v1 | Blind v2 | Subject |
+|---|---|---|---|---|---|
+| 12139 | 1979 | 0.0 | 18.2 | 18.2 | FISA implementation |
+| 11785 | 1974 | 0.0 | 0.0 | 18.2 | Ends the Attorney General's list |
+| 12958 | 1995 | 4.5 | 27.3 | 31.8 | Classified-information overhaul |
+| 13010 | 1996 | 6.25 | 21.4 | 4.5 | Critical infrastructure protection |
 
-EO 9250 is the cleanest example: nothing about it is an artifact of another order's weight, nothing about its finding depends on ambiguous judgment calls — it's simply a major, architecturally sweeping order that predates and falls outside the specific 1949–99 census Mayer & Price built.
+**Why the original coding over-produced these examples.** Knowing the labels pushed the original coder's scores for significant orders down by an average of 8.3 points relative to blind v2, while non-significant orders moved only 1.5 points. In the original coding, 64% of significant orders score ≤10. In all three codings, only 26% do. See `../robustness/AUDIT.md` §2.
 
-### Both at once
+### Architecturally heavy, but not in the appendix (≥25% in every coding)
 
-The confirming case: EO 11615, Nixon's 1971 wage-price freeze, is in Mayer & Price's appendix *and* scores 31.8% — historically major and structurally heavy simultaneously. This is what the two measures look like when they're both correctly tracking the same underlying reality, and it's the majority pattern in the data (the whole reason the AUC is 0.78, not 0.50).
+Six of the 148 non-significant orders coded in all three runs meet this bar:
+
+| EO | Year | Original | Blind v1 | Blind v2 | What it does |
+|---|---|---|---|---|---|
+| 9250 | 1942 | 45.5 | 40.9 | 45.5 | FDR's "Hold the Line" wartime economic stabilization order |
+| 9246 | 1942 | 35.0 | 44.4 | 50.0 | Coordination and control of the rubber program |
+| 11940 | 1976 | 54.5 | 40.9 | 31.8 | Continues export controls after their statute lapsed (Zombie Emergency Trap in every coding) |
+| 9001 | 1941 | 31.8 | 36.4 | 45.5 | War-production contracting authority, 20 days after Pearl Harbor |
+| 8565 | 1940 | 27.8 | 38.9 | 31.8 | One-paragraph extension of a property-control framework to Romania; inherits the framework's weight by incorporation |
+| 11190 | 1964 | 35.7 | 25.0 | 27.3 | Screening of the Ready Reserve |
+
+The negative class is a random draw, not Mayer & Price's actual rejected orders, since their full dataset is lost. So "not in the appendix" means "not in the published positives", not "judged insignificant by Mayer & Price". Some of these orders (EO 9250 especially) might well have been classed significant had they been in the original sample.
+
+### Both at once (≥30% in every coding)
+
+Nine significant orders are heavy in every coding, including:
+
+- EO 9102 (War Relocation Authority, 1942): 50.0 / 54.5 / 45.5
+- EO 11615 (Nixon's wage-price freeze, 1971): 31.8 / 40.9 / 50.0
+- EO 11796 (export controls, 1974): 54.5 / 40.9 / 31.8
+- EO 9570 (seizure of transportation systems, 1945)
+- EO 12735 (chemical and biological weapons proliferation, 1990)
 
 ---
 
 ## What this suggests about the two measures
 
-Mayer & Price answer a question structural weight doesn't ask: was this order politically consequential, in the judgment of people who study the presidency. That's a real, valuable measure, and nothing here displaces it.
+Mayer & Price answer a question structural weight doesn't ask: was this order politically consequential, in the judgment of scholars of the presidency.
 
-Structural weight answers a question their measure doesn't ask: regardless of political consequence, how much unreviewed discretion, unaccountable authority, or structurally risky machinery does this specific text deploy. The comparison above is the case for why that's worth measuring separately — because "important" and "architecturally risky" are correlated but not identical, and several of the most instructive cases in American executive-order history are instructive precisely because they come apart. A structural audit is reproducible in a way expert classification structurally cannot be: two people applying the same eleven written rules to the same text should converge, which is a testable claim and, per the blind validation this comparison is built on, one that holds up.
+Structural weight answers a different question: how much unreviewed discretion or unaccountable authority does this text deploy. The two are correlated, but not identical.
+
+The comparison supports that claim at the level of the *distribution*. At the level of *individual orders*, the evidence is thinner than earlier versions of this document suggested:
+
+- single-order scores move by 20+ points between codings for about one order in six;
+- the most quotable "significant but clean" cases came disproportionately from the label-aware coding.
+
+The instrument is designed to be reproducible: two coders applying the same written rules to the same text should converge. That is a testable claim. So far it has been tested only between AI runs, at moderate agreement (flag-level κ 0.43–0.66). Human coding and a masked re-coding test are in progress (`../robustness/masked-recode/`).
 
 ---
 
 ## Data and reproduction
 
-All figures in this document are computed from `blind-coding-results.json` (the independent blind coding run) against `validation-key.csv` (true Mayer & Price classification). Full computation, audit trail, and the two prior validation iterations that preceded this result are documented in `auc-results.md`. The complete divergence catalog — every case where the two measures disagree by more than a marginal amount, not just the ones highlighted here — is in `../findings/notable-findings.md`.
+Blind figures come from `blind-coding-results.json` (the blind-v2 run). Blind-v1 figures come from `archive/blind-coding-results-v1-20260705.json`. Original-coding figures come from `../database/eo_coding.db` (coder `claude-church-bells-v1`). Classes come from `validation-key.csv`. Every number in this document is reproduced by `../robustness/audit.py`; see `../robustness/audit-output.json` → `divergence` for the complete lists.

@@ -1,0 +1,3 @@
+# item-103
+
+By virtue of the authority vested in me as President of the United States, and as Commander-in-Chief of the Army and Navy of the United States, It Is hereby ordered that the American Defense Service Medal, including suitable appurtenances, be established and that the said medal may be awarded, under such regulations as the Secretary of War, the Secretary of the Navy, and the Secretary of the Treasury may prescribe, to personnel of the Army, Navy, Marine Corps, and Coast Guard of the United States serving during the limited emergency proclaimed by me on [DATE] to exist, or during the unlimited emergency proclaimed by me on [DATE].

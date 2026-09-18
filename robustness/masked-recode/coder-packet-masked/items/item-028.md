@@ -1,0 +1,3 @@
+# item-028
+
+By virtue of the authority vested in me as President of the United States of America by Section 402(c)(2) of the Trade Act of [YEAR] ([STAT], 19 U.S.C. 2432(c)(2)), which continues to apply to the Hungarian People's Republic pursuant to Section 402(d), and having made the report to the Congress required by Section 402(c)(2), I waive the application of subsections (a) and (b) of Section 402 of said Act with respect to the Hungarian People's Republic.

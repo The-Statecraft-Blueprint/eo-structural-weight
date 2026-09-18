@@ -1,0 +1,7 @@
+# item-043
+
+On [DATE], the Senate gave its advice and consent to ratification of the Inter-American Convention on Letters Rogatory and Additional Protocol. The instrument of ratification was signed by the President on [DATE]. The Convention and Additional Protocol require that contracting states designate central authorities to give effect to the Convention's provisions.
+In order that the Government of the United States of America may give full and complete effect to the Convention and Additional Protocol, it is expedient and necessary that the Department of Justice perform certain functions.
+Now, Therefore, by virtue of the authority vested in me by section 301 of Title 3 of the United States Code and as President of the United States of America, it is ordered as follows:
+Section 1. Designation of United States Central Authority. The Department of Justice is designated as the Central Authority to transmit and process letters rogatory and to otherwise proceed in conformity with applicable provisions of the Convention and Additional Protocol.
+Sec. 2. Additional Designations. The Department of Justice is authorized to make additional designations provided for in the Convention and Additional Protocol.

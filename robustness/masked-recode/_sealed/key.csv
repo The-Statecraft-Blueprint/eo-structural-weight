@@ -1,0 +1,211 @@
+masked_item_id,unmasked_order_id,eo_number,stratum,date,president,validation_class,in_human_subset
+item-001,order-171,13542,X5-2001-2020,2010-05-13,Barack Obama,,0
+item-002,order-170,14230,X6-Trump2,2025-03-06,Donald J. Trump (2nd Term),,1
+item-003,order-207,11810,V-pos,1974-09-30,Gerald R. Ford,positive,1
+item-004,order-123,14069,X6-Biden,2022-03-15,"Joseph R. Biden, Jr.",,0
+item-005,order-199,9654,V-neg,1945-11-03,Harry S Truman,negative,0
+item-006,order-136,12839,V-pos,1993-02-10,William J. Clinton,positive,1
+item-007,order-025,9969,V-neg,1948-06-19,Harry S Truman,negative,1
+item-008,order-083,9595,V-pos,1945-07-30,Harry S Truman,positive,1
+item-009,order-008,10423,X2-seam-streamA,1953-01-14,Harry S Truman,,0
+item-010,order-038,12145,X3-1955-1980,1979-07-18,Jimmy Carter,,0
+item-011,order-121,8981,X1-1936-1950,1941-12-17,Franklin D. Roosevelt,,0
+item-012,order-049,9246,V-neg,1942-09-17,Franklin D. Roosevelt,negative,0
+item-013,order-079,12312,X4-1981-2000,1981-07-02,Ronald Reagan,,0
+item-014,order-077,10507,X2-seam-streamB,1953-12-10,Dwight D. Eisenhower,,1
+item-015,order-053,14201,X6-Trump2,2025-02-05,Donald J. Trump (2nd Term),,1
+item-016,order-094,11183,X3-1955-1980,1964-10-03,Lyndon B. Johnson,,0
+item-017,order-176,10821,X3-1955-1980,1959-05-20,Dwight D. Eisenhower,,1
+item-018,order-116,9111,V-neg,1942-03-25,Franklin D. Roosevelt,negative,1
+item-019,order-057,12708,V-pos,1990-03-23,George Bush,positive,1
+item-020,order-137,10426,V-neg,1953-01-16,Harry S Truman,negative,1
+item-021,order-075,13650,X5-2001-2020,2013-08-01,Barack Obama,,1
+item-022,order-190,10621,V-pos,1955-07-01,Dwight D. Eisenhower,positive,0
+item-023,order-132,14079,X6-Biden,2022-08-03,"Joseph R. Biden, Jr.",,1
+item-024,order-044,11453,V-neg,1969-01-24,Richard Nixon,negative,1
+item-025,order-173,8595,X1-1936-1950,1940-11-18,Franklin D. Roosevelt,,0
+item-026,order-156,12812,X4-1981-2000,1992-07-22,George Bush,,0
+item-027,order-098,9052,V-neg,1942-02-06,Franklin D. Roosevelt,negative,1
+item-028,order-166,12051,V-neg,1978-04-07,Jimmy Carter,negative,1
+item-029,order-185,12539,X4-1981-2000,1985-12-03,Ronald Reagan,,0
+item-030,order-009,9421,V-neg,1944-02-08,Franklin D. Roosevelt,negative,0
+item-031,order-046,7651,V-neg,1937-07-01,Franklin D. Roosevelt,negative,0
+item-032,order-133,14012,X6-Biden,2021-02-02,"Joseph R. Biden, Jr.",,1
+item-033,order-208,8457,V-neg,1940-06-17,Franklin D. Roosevelt,negative,1
+item-034,order-101,9939,V-neg,1948-03-23,Harry S Truman,negative,0
+item-035,order-198,10340,X2-seam-streamA,1952-04-08,Harry S Truman,,1
+item-036,order-064,14055,X6-Biden,2021-11-18,"Joseph R. Biden, Jr.",,1
+item-037,order-105,13056,X4-1981-2000,1997-07-21,William J. Clinton,,0
+item-038,order-081,14060,X6-Biden,2021-12-15,"Joseph R. Biden, Jr.",,1
+item-039,order-158,13861,X5-2001-2020,2019-03-05,Donald J. Trump (1st Term),,0
+item-040,order-034,14050,X6-Biden,2021-10-19,"Joseph R. Biden, Jr.",,1
+item-041,order-059,9639,V-pos,1945-10-04,Harry S Truman,positive,1
+item-042,order-187,12059,V-pos,1978-05-11,Jimmy Carter,positive,1
+item-043,order-183,12638,V-neg,1988-04-28,Ronald Reagan,negative,0
+item-044,order-011,11315,X3-1955-1980,1966-11-17,Lyndon B. Johnson,,1
+item-045,order-120,8287,V-neg,1939-11-18,Franklin D. Roosevelt,negative,1
+item-046,order-074,13115,V-neg,1999-03-25,William J. Clinton,negative,0
+item-047,order-164,14279,X6-Trump2,2025-04-23,Donald J. Trump (2nd Term),,1
+item-048,order-100,12349,X4-1981-2000,1982-02-26,Ronald Reagan,,0
+item-049,order-165,12132,X3-1955-1980,1979-05-08,Jimmy Carter,,1
+item-050,order-191,10842,V-pos,1959-10-06,Dwight D. Eisenhower,positive,1
+item-051,order-127,10010,X1-1936-1950,1948-10-18,Harry S Truman,,0
+item-052,order-058,8897,X1-1936-1950,1941-09-12,Franklin D. Roosevelt,,0
+item-053,order-153,11832,V-pos,1975-01-09,Gerald R. Ford,positive,0
+item-054,order-128,11950,V-neg,1977-01-06,Gerald R. Ford,negative,1
+item-055,order-026,14119,X6-Biden,2024-03-06,"Joseph R. Biden, Jr.",,1
+item-056,order-056,10969,X3-1955-1980,1961-10-11,John F. Kennedy,,0
+item-057,order-066,11404,V-pos,1968-04-07,Lyndon B. Johnson,positive,0
+item-058,order-078,9476,V-pos,1944-09-03,Franklin D. Roosevelt,positive,0
+item-059,order-163,8609,X1-1936-1950,1940-12-11,Franklin D. Roosevelt,,0
+item-060,order-152,12340,V-pos,1982-01-20,Ronald Reagan,positive,0
+item-061,order-061,14271,X6-Trump2,2025-04-15,Donald J. Trump (2nd Term),,0
+item-062,order-088,12202,V-pos,1980-03-18,Jimmy Carter,positive,0
+item-063,order-125,10945,X3-1955-1980,1961-05-24,John F. Kennedy,,1
+item-064,order-200,10163,X1-1936-1950,1950-09-25,Harry S Truman,,0
+item-065,order-157,12735,V-pos,1990-11-16,George Bush,positive,1
+item-066,order-040,11172,V-neg,1964-08-19,Lyndon B. Johnson,negative,1
+item-067,order-085,11645,X3-1955-1980,1972-02-08,Richard Nixon,,0
+item-068,order-087,10324,X2-seam-streamA,1952-02-06,Harry S Truman,,0
+item-069,order-097,14249,X6-Trump2,2025-03-25,Donald J. Trump (2nd Term),,0
+item-070,order-050,9318,V-neg,1943-03-20,Franklin D. Roosevelt,negative,0
+item-071,order-140,13411,X5-2001-2020,2006-08-29,George W. Bush,,0
+item-072,order-065,9033,V-neg,1942-01-21,Franklin D. Roosevelt,negative,1
+item-073,order-202,12083,X3-1955-1980,1978-09-27,Jimmy Carter,,0
+item-074,order-115,10352,V-pos,1952-05-19,Harry S Truman,positive,1
+item-075,order-007,10527,X2-seam-streamB,1954-04-19,Dwight D. Eisenhower,,0
+item-076,order-051,13408,X5-2001-2020,2006-06-29,George W. Bush,,0
+item-077,order-054,9891,X1-1936-1950,1947-09-15,Harry S Truman,,1
+item-078,order-093,10321,X2-seam-streamA,1952-01-24,Harry S Truman,,0
+item-079,order-076,12334,X4-1981-2000,1981-12-04,Ronald Reagan,,1
+item-080,order-189,10252,X2-seam-streamA,1951-06-09,Harry S Truman,,1
+item-081,order-162,14267,X6-Trump2,2025-04-09,Donald J. Trump (2nd Term),,1
+item-082,order-019,13519,X5-2001-2020,2009-11-17,Barack Obama,,0
+item-083,order-108,10311,V-neg,1951-12-10,Harry S Truman,negative,0
+item-084,order-016,12504,X4-1981-2000,1985-01-31,Ronald Reagan,,1
+item-085,order-142,14197,X6-Trump2,2025-02-03,Donald J. Trump (2nd Term),,0
+item-086,order-037,10483,V-pos,1953-09-02,Dwight D. Eisenhower,positive,0
+item-087,order-204,9341,V-pos,1943-05-13,Franklin D. Roosevelt,positive,0
+item-088,order-147,14095,X6-Biden,2023-04-18,"Joseph R. Biden, Jr.",,1
+item-089,order-197,11226,X3-1955-1980,1965-05-27,Lyndon B. Johnson,,0
+item-090,order-177,10535,X2-seam-streamB,1954-06-09,Dwight D. Eisenhower,,0
+item-091,order-174,14065,X6-Biden,2022-02-21,"Joseph R. Biden, Jr.",,0
+item-092,order-073,12702,X4-1981-2000,1990-02-20,George Bush,,0
+item-093,order-196,14273,X6-Trump2,2025-04-15,Donald J. Trump (2nd Term),,1
+item-094,order-195,10555,X2-seam-streamB,1954-08-23,Dwight D. Eisenhower,,1
+item-095,order-042,11350,X3-1955-1980,1967-05-03,Lyndon B. Johnson,,0
+item-096,order-036,7929,X1-1936-1950,1938-07-14,Franklin D. Roosevelt,,0
+item-097,order-104,13397,X5-2001-2020,2006-03-07,George W. Bush,,0
+item-098,order-151,11063,X3-1955-1980,1962-11-20,John F. Kennedy,,0
+item-099,order-178,10517,X2-seam-streamB,1954-02-10,Dwight D. Eisenhower,,0
+item-100,order-033,10202,X2-seam-streamA,1951-01-12,Harry S Truman,,1
+item-101,order-182,14363,X6-Trump2,2025-11-24,Donald J. Trump (2nd Term),,0
+item-102,order-028,13774,X5-2001-2020,2017-02-09,Donald J. Trump (1st Term),,0
+item-103,order-186,8808,V-neg,1941-06-28,Franklin D. Roosevelt,negative,0
+item-104,order-062,9505,V-pos,1944-12-06,Franklin D. Roosevelt,positive,0
+item-105,order-002,13010,V-pos,1996-07-15,William J. Clinton,positive,0
+item-106,order-145,10464,V-neg,1953-06-25,Dwight D. Eisenhower,negative,0
+item-107,order-086,12525,V-pos,1985-07-12,Ronald Reagan,positive,0
+item-108,order-103,9484,V-pos,1944-09-23,Franklin D. Roosevelt,positive,0
+item-109,order-119,11982,V-neg,1977-04-29,Jimmy Carter,negative,0
+item-110,order-193,12281,X4-1981-2000,1981-01-19,Jimmy Carter,,1
+item-111,order-114,9608,V-pos,1945-08-31,Harry S Truman,positive,1
+item-112,order-067,14120,X6-Biden,2024-03-18,"Joseph R. Biden, Jr.",,1
+item-113,order-188,12342,X4-1981-2000,1982-01-27,Ronald Reagan,,0
+item-114,order-205,9188,X1-1936-1950,1942-06-30,Franklin D. Roosevelt,,0
+item-115,order-113,12318,V-neg,1981-08-21,Ronald Reagan,negative,0
+item-116,order-010,9001,V-neg,1941-12-27,Franklin D. Roosevelt,negative,0
+item-117,order-148,11809,X3-1955-1980,1974-09-30,Gerald R. Ford,,0
+item-118,order-106,11527,V-pos,1970-04-23,Richard Nixon,positive,0
+item-119,order-068,11615,V-pos,1971-08-15,Richard Nixon,positive,1
+item-120,order-181,10298,X2-seam-streamA,1951-10-31,Harry S Truman,,1
+item-121,order-107,12088,V-pos,1978-10-13,Jimmy Carter,positive,0
+item-122,order-082,14361,X6-Trump2,2025-11-20,Donald J. Trump (2nd Term),,1
+item-123,order-032,11490,V-pos,1969-10-28,Richard Nixon,positive,0
+item-124,order-203,12662,V-pos,1988-12-31,Ronald Reagan,positive,0
+item-125,order-030,12771,X4-1981-2000,1991-07-25,George Bush,,1
+item-126,order-110,13256,X5-2001-2020,2002-02-12,George W. Bush,,1
+item-127,order-102,9247,X1-1936-1950,1942-09-17,Franklin D. Roosevelt,,1
+item-128,order-005,14133,X6-Biden,2024-12-30,"Joseph R. Biden, Jr.",,0
+item-129,order-124,8736,V-neg,1941-04-14,Franklin D. Roosevelt,negative,0
+item-130,order-139,12279,V-pos,1981-01-19,Jimmy Carter,positive,0
+item-131,order-160,9734,X1-1936-1950,1946-06-06,Harry S Truman,,1
+item-132,order-134,12006,X3-1955-1980,1977-07-29,Jimmy Carter,,0
+item-133,order-154,10286,X2-seam-streamA,1951-09-06,Harry S Truman,,0
+item-134,order-179,10722,V-neg,1957-08-05,Dwight D. Eisenhower,negative,0
+item-135,order-071,12834,V-pos,1993-01-20,William J. Clinton,positive,0
+item-136,order-146,10493,X2-seam-streamB,1953-10-14,Dwight D. Eisenhower,,1
+item-137,order-192,11126,V-neg,1963-11-01,John F. Kennedy,negative,0
+item-138,order-043,13148,X4-1981-2000,2000-04-21,William J. Clinton,,1
+item-139,order-118,13241,X5-2001-2020,2001-12-18,George W. Bush,,0
+item-140,order-027,11403,V-neg,1968-04-05,Lyndon B. Johnson,negative,1
+item-141,order-055,12331,V-pos,1981-10-20,Ronald Reagan,positive,0
+item-142,order-135,10485,X2-seam-streamB,1953-09-03,Dwight D. Eisenhower,,0
+item-143,order-003,12888,X4-1981-2000,1993-12-23,William J. Clinton,,0
+item-144,order-069,9577,V-neg,1945-07-01,Harry S Truman,negative,0
+item-145,order-180,9296,V-neg,1943-01-30,Franklin D. Roosevelt,negative,0
+item-146,order-045,12544,V-pos,1986-01-08,Ronald Reagan,positive,0
+item-147,order-084,13755,X5-2001-2020,2016-12-23,Barack Obama,,0
+item-148,order-172,11336,V-neg,1967-03-22,Lyndon B. Johnson,negative,0
+item-149,order-018,9159,X1-1936-1950,1942-05-11,Franklin D. Roosevelt,,0
+item-150,order-031,13169,X4-1981-2000,2000-10-06,William J. Clinton,,0
+item-151,order-112,9540,V-neg,1945-04-17,Harry S Truman,negative,1
+item-152,order-155,14140,X6-Biden,2025-01-08,"Joseph R. Biden, Jr.",,1
+item-153,order-047,13949,X5-2001-2020,2020-09-21,Donald J. Trump (1st Term),,0
+item-154,order-149,14290,X6-Trump2,2025-05-01,Donald J. Trump (2nd Term),,1
+item-155,order-143,10550,X2-seam-streamB,1954-08-05,Dwight D. Eisenhower,,0
+item-156,order-039,10218,X2-seam-streamA,1951-02-28,Harry S Truman,,0
+item-157,order-201,7946,X1-1936-1950,1938-08-09,Franklin D. Roosevelt,,1
+item-158,order-109,13459,X5-2001-2020,2008-02-07,George W. Bush,,0
+item-159,order-138,12160,V-pos,1979-09-26,Jimmy Carter,positive,0
+item-160,order-209,14117,X6-Biden,2024-02-28,"Joseph R. Biden, Jr.",,0
+item-161,order-001,12691,X4-1981-2000,1989-09-23,George Bush,,0
+item-162,order-184,12740,V-pos,1990-12-29,George Bush,positive,0
+item-163,order-159,10319,X2-seam-streamA,1952-01-04,Harry S Truman,,0
+item-164,order-023,12897,V-pos,1994-02-03,William J. Clinton,positive,1
+item-165,order-006,14187,X6-Trump2,2025-01-28,Donald J. Trump (2nd Term),,1
+item-166,order-206,9665,V-neg,1945-12-27,Harry S Truman,negative,0
+item-167,order-150,11072,X3-1955-1980,1962-12-28,John F. Kennedy,,0
+item-168,order-095,14156,X6-Trump2,2025-01-20,Donald J. Trump (2nd Term),,0
+item-169,order-122,11346,X3-1955-1980,1967-04-20,Lyndon B. Johnson,,0
+item-170,order-167,8845,X1-1936-1950,1941-08-08,Franklin D. Roosevelt,,0
+item-171,order-070,12867,X4-1981-2000,1993-09-30,William J. Clinton,,0
+item-172,order-194,12937,V-pos,1994-11-10,William J. Clinton,positive,0
+item-173,order-141,10488,X2-seam-streamB,1953-09-23,Dwight D. Eisenhower,,0
+item-174,order-089,8771,X1-1936-1950,1941-06-06,Franklin D. Roosevelt,,1
+item-175,order-126,8596,X1-1936-1950,1940-11-18,Franklin D. Roosevelt,,0
+item-176,order-004,14374,X6-Trump2,2026-01-14,Donald J. Trump (2nd Term),,1
+item-177,order-017,13441,X5-2001-2020,2007-08-01,George W. Bush,,1
+item-178,order-169,13734,X5-2001-2020,2016-08-03,Barack Obama,,0
+item-179,order-020,11260,X3-1955-1980,1965-12-11,Lyndon B. Johnson,,0
+item-180,order-022,9621,V-pos,1945-09-20,Harry S Truman,positive,1
+item-181,order-048,9787,X1-1936-1950,1946-10-05,Harry S Truman,,1
+item-182,order-041,13747,X5-2001-2020,2016-11-04,Barack Obama,,0
+item-183,order-015,13218,X5-2001-2020,2001-06-20,George W. Bush,,0
+item-184,order-090,12749,X4-1981-2000,1991-02-04,George Bush,,0
+item-185,order-063,11465,V-neg,1969-04-10,Richard Nixon,negative,0
+item-186,order-060,12632,V-pos,1988-03-23,Ronald Reagan,positive,1
+item-187,order-144,7479,X1-1936-1950,1936-10-27,Franklin D. Roosevelt,,0
+item-188,order-096,14260,X6-Trump2,2025-04-08,Donald J. Trump (2nd Term),,0
+item-189,order-175,10651,V-neg,1956-01-06,Dwight D. Eisenhower,negative,1
+item-190,order-092,12127,X3-1955-1980,1979-03-31,Jimmy Carter,,1
+item-191,order-099,12928,X4-1981-2000,1994-09-16,William J. Clinton,,0
+item-192,order-210,10924,V-pos,1961-03-01,John F. Kennedy,positive,0
+item-193,order-130,13334,X5-2001-2020,2004-04-10,George W. Bush,,1
+item-194,order-161,14059,X6-Biden,2021-12-15,"Joseph R. Biden, Jr.",,0
+item-195,order-111,12154,X3-1955-1980,1979-09-04,Jimmy Carter,,1
+item-196,order-052,12313,X4-1981-2000,1981-07-13,Ronald Reagan,,1
+item-197,order-014,8623,X1-1936-1950,1940-12-31,Franklin D. Roosevelt,,0
+item-198,order-021,11371,X3-1955-1980,1967-09-06,Lyndon B. Johnson,,0
+item-199,order-035,10299,V-neg,1951-10-31,Harry S Truman,negative,1
+item-200,order-117,9430,V-neg,1944-03-07,Franklin D. Roosevelt,negative,0
+item-201,order-129,13153,X4-1981-2000,2000-05-03,William J. Clinton,,0
+item-202,order-012,14104,X6-Biden,2023-07-28,"Joseph R. Biden, Jr.",,0
+item-203,order-072,8944,V-pos,1941-11-19,Franklin D. Roosevelt,positive,1
+item-204,order-168,11098,V-pos,1963-03-14,John F. Kennedy,positive,0
+item-205,order-080,13242,X5-2001-2020,2001-12-18,George W. Bush,,1
+item-206,order-024,9771,X1-1936-1950,1946-08-24,Harry S Truman,,0
+item-207,order-029,13093,V-neg,1998-07-27,William J. Clinton,negative,0
+item-208,order-091,13513,X5-2001-2020,2009-10-01,Barack Obama,,1
+item-209,order-131,10469,X2-seam-streamB,1953-07-11,Dwight D. Eisenhower,,1
+item-210,order-013,8479,V-neg,1940-07-11,Franklin D. Roosevelt,negative,0

@@ -1,0 +1,2020 @@
+{
+ "auc": {
+  "claude-church-bells-v1": {
+   "n": 297,
+   "auc": 0.6727,
+   "ci95": [
+    0.6148,
+    0.7305
+   ],
+   "label_aware": true
+  },
+  "cowork-blind-v1": {
+   "n": 296,
+   "auc": 0.7662,
+   "ci95": [
+    0.7117,
+    0.8182
+   ],
+   "label_aware": false
+  },
+  "cowork-blind-v2": {
+   "n": 297,
+   "auc": 0.7836,
+   "ci95": [
+    0.7309,
+    0.835
+   ],
+   "label_aware": false
+  }
+ },
+ "confounds_blind_v2": {
+  "auc_year_alone": 0.6454,
+  "auc_wordcount_alone": 0.7812,
+  "auc_score_within_decade": 0.7819,
+  "auc_score_within_era3": 0.8034,
+  "auc_score_within_length_tercile": 0.7166,
+  "auc_score_within_length_tercile_x_era3": 0.7397,
+  "logit_baseline_year_loglength": {
+   "loglik": -165.4,
+   "auc": 0.7881
+  },
+  "logit_plus_score": {
+   "loglik": -149.59,
+   "auc": 0.8369,
+   "LR_chi2_1df": 31.63
+  },
+  "decade_counts": {
+   "1930": {
+    "pos": 2,
+    "neg": 22
+   },
+   "1940": {
+    "pos": 48,
+    "neg": 47
+   },
+   "1950": {
+    "pos": 14,
+    "neg": 18
+   },
+   "1960": {
+    "pos": 14,
+    "neg": 24
+   },
+   "1970": {
+    "pos": 26,
+    "neg": 20
+   },
+   "1980": {
+    "pos": 23,
+    "neg": 9
+   },
+   "1990": {
+    "pos": 21,
+    "neg": 9
+   }
+  }
+ },
+ "divergence": {
+  "cited_in_old_comparison_doc": [
+   {
+    "eo": "11375",
+    "year": "1967",
+    "title": "Executive Order 11375\u2014Amending Executive Order No. 11246, Relating to  Equal Employment Opportunity",
+    "primary": 5.0,
+    "blind_v1": 4.5,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "12139",
+    "year": "1979",
+    "title": "Executive Order 12139\u2014Foreign Intelligence Electronic Surveillance",
+    "primary": 0.0,
+    "blind_v1": 18.2,
+    "blind_v2": 18.18
+   },
+   {
+    "eo": "12958",
+    "year": "1995",
+    "title": "Executive Order 12958\u2014Classified National Security Information",
+    "primary": 4.55,
+    "blind_v1": 27.3,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "11785",
+    "year": "1974",
+    "title": "Executive Order 11785\u2014Amending Executive Order No. 10450, as Amended, Relating to Security Requirements for Government Employment, and for Other Purposes",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 18.18
+   },
+   {
+    "eo": "13010",
+    "year": "1996",
+    "title": "Executive Order 13010\u2014Critical Infrastructure Protection",
+    "primary": 6.25,
+    "blind_v1": 21.4,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "9250",
+    "year": "1942",
+    "title": "Executive Order 9250\u2014Providing for the Stabilizing of the National Economy",
+    "primary": 45.45,
+    "blind_v1": 40.9,
+    "blind_v2": 45.45
+   },
+   {
+    "eo": "9001",
+    "year": "1941",
+    "title": "Executive Order 9001-A\u2014Authorizing and Directing the United States Maritime Commission To Resell the S.S. \"Normandie\" to the Former Owners Thereof",
+    "primary": 31.82,
+    "blind_v1": 36.4,
+    "blind_v2": 45.45
+   },
+   {
+    "eo": "8565",
+    "year": "1940",
+    "title": "Executive Order 8565\u2014Amendment of Executive Order No. 8389 of April 10, 1940, as Amended",
+    "primary": 27.78,
+    "blind_v1": 38.9,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "12318",
+    "year": "1981",
+    "title": "Executive Order 12318\u2014Statistical Policy Functions",
+    "primary": 8.33,
+    "blind_v1": 13.6,
+    "blind_v2": 13.64
+   },
+   {
+    "eo": "11615",
+    "year": "1971",
+    "title": "Executive Order 11615\u2014Providing for Stabilization of Prices, Rents, Wages, and Salaries",
+    "primary": 31.82,
+    "blind_v1": 40.9,
+    "blind_v2": 50.0
+   },
+   {
+    "eo": "9808",
+    "year": "1946",
+    "title": "Executive Order 9808\u2014Establishing the President's Committee on Civil Rights",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "11940",
+    "year": "1976",
+    "title": "Executive Order 11940\u2014Continuing the Regulation of Exports",
+    "primary": 54.55,
+    "blind_v1": 40.9,
+    "blind_v2": 31.82
+   }
+  ],
+  "positives_clean_in_all_three": [
+   {
+    "eo": "10152",
+    "year": "1950",
+    "title": "Executive Order 10152\u2014Regulations Relating to the Right of Members of the Uniformed Services to Incentive Pay for the Performance of Hazardous Duty Required by Competent Orders",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12288",
+    "year": "1981",
+    "title": "Executive Order 12288\u2014Termination of the Wage and Price Regulatory Program",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12548",
+    "year": "1986",
+    "title": "Executive Order 12548\u2014Grazing Fees",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12708",
+    "year": "1990",
+    "title": "Executive Order 12708\u2014Amendments to the Manual for Courts-Martial, United States, 1984",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12502",
+    "year": "1985",
+    "title": "Executive Order 12502\u2014Chemical Warfare Review Commission",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12202",
+    "year": "1980",
+    "title": "Executive Order 12202\u2014Nuclear Safety Oversight Committee",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12183",
+    "year": "1979",
+    "title": "Executive Order 12183\u2014Revoking Rhodesian Sanctions",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "13080",
+    "year": "1998",
+    "title": "Executive Order 13080\u2014American Heritage Rivers Initiative Advisory Committee",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12296",
+    "year": "1981",
+    "title": "Executive Order 12296\u2014President's Economic Policy Advisory Board",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12897",
+    "year": "1994",
+    "title": "Executive Order 12897\u2014Garnishment of Federal Employees' Pay",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12874",
+    "year": "1993",
+    "title": "Executive Order 12874\u2014Establishing an Emergency Board To Investigate a Dispute Between The Long Island Rail Road and Certain of Its Employees Represented by the United Transportation Union",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12961",
+    "year": "1995",
+    "title": "Executive Order 12961\u2014Presidential Advisory Committee on Gulf War Veterans' Illnesses",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "9808",
+    "year": "1946",
+    "title": "Executive Order 9808\u2014Establishing the President's Committee on Civil Rights",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "9437",
+    "year": "1944",
+    "title": "Executive Order 9437\u2014Revocation of Executive Order No. 9165, Providing for the Protection of Essential Facilities from Sabotage and Other Destructive Acts",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12525",
+    "year": "1985",
+    "title": "Executive Order 12525\u2014Termination of Emergency Authority for Export Controls",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "9607",
+    "year": "1945",
+    "title": "Executive Order 9607\u2014Revoking Executive Order 9301 of February 9, 1943, Establishing a Minimum Wartime Workweek of Forty-Eight Hours",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "9622",
+    "year": "1945",
+    "title": "Executive Order 9622\u2014Revocation of Executive Order 9103 of March 18, 1942, Providing Uniform Control Over the Publication and Use of Federal Statistical Information Which Would Give Aid and Comfort to the Enemy",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12434",
+    "year": "1983",
+    "title": "Executive Order 12434\u2014Alaska Railroad Rates",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "11076",
+    "year": "1963",
+    "title": "Executive Order 11076\u2014Establishing the President's Advisory Commission on Narcotic and Drug Abuse",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "9863",
+    "year": "1947",
+    "title": "Executive Order 9863\u2014Designating Public International Organizations Entitled to Enjoy Certain Privileges Exemptions, and Immunities",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12541",
+    "year": "1985",
+    "title": "Executive Order 12541\u2014Amending Executive Order 11157 as It Relates to a Basic Allowance for Quarters While on Sea Duty",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "9801",
+    "year": "1946",
+    "title": "Executive Order 9801\u2014Removing Wage and Salary Controls Adopted Pursuant to the Stabilization Act of 1942",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "11098",
+    "year": "1963",
+    "title": "Executive Order 11098\u2014Amending the Selective Service Regulations",
+    "primary": 0.0,
+    "blind_v1": 4.5,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "10903",
+    "year": "1961",
+    "title": "Executive Order 10903\u2014Delegating Authority of the President With Respect to Regulations Relating to Certain Allowances and Benefits to Government Personnel on Overseas Duty",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "10028",
+    "year": "1949",
+    "title": "Executive Order 10028\u2014Defining Noncombatant Service and Noncombatant Training",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "11375",
+    "year": "1967",
+    "title": "Executive Order 11375\u2014Amending Executive Order No. 11246, Relating to  Equal Employment Opportunity",
+    "primary": 5.0,
+    "blind_v1": 4.5,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "12937",
+    "year": "1994",
+    "title": "Executive Order 12937\u2014Declassification of Selected Records Within the National Archives of the United States",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 5.0
+   },
+   {
+    "eo": "10842",
+    "year": "1959",
+    "title": "Executive Order 10842\u2014Creating a Board of Inquiry To Report on Certain Labor Disputes Affecting the Maritime Industry of the United States",
+    "primary": 5.56,
+    "blind_v1": 0.0,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "12369",
+    "year": "1982",
+    "title": "Executive Order 12369\u2014President's Private Sector Survey on Cost Control in the Federal Government",
+    "primary": 0.0,
+    "blind_v1": 7.1,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "10460",
+    "year": "1953",
+    "title": "Executive Order 10460\u2014Providing for the Performance by the Director of Defense Mobilization of Certain Functions Relating to Telecommunications",
+    "primary": 0.0,
+    "blind_v1": 7.1,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "9083",
+    "year": "1942",
+    "title": "Executive Order 9083\u2014Redistribution of Maritime Functions",
+    "primary": 0.0,
+    "blind_v1": 4.5,
+    "blind_v2": 7.14
+   },
+   {
+    "eo": "12400",
+    "year": "1983",
+    "title": "Executive Order 12400\u2014President's Commission on Strategic Forces",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 7.14
+   },
+   {
+    "eo": "11832",
+    "year": "1975",
+    "title": "Executive Order 11832\u2014Establishing a National Commission on the Observance of International Women's Year, 1975",
+    "primary": 0.0,
+    "blind_v1": 8.3,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "12740",
+    "year": "1990",
+    "title": "Executive Order 12740\u2014Waiver Under the Trade Act of 1974 With Respect to the Soviet Union",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 8.33
+   },
+   {
+    "eo": "12217",
+    "year": "1980",
+    "title": "Executive Order 12217\u2014Federal Compliance With Fuel Use Prohibitions",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 9.09
+   },
+   {
+    "eo": "9387",
+    "year": "1943",
+    "title": "Executive Order 9387\u2014Establishing an Advisory Board on Just Compensation and Prescribing Its Functions",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 9.09
+   },
+   {
+    "eo": "12340",
+    "year": "1982",
+    "title": "Executive Order 12340\u2014Amendments to the Manual for Courts- Martial, United States, 1969 (Revised Edition)",
+    "primary": 0.0,
+    "blind_v1": 9.1,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "11958",
+    "year": "1977",
+    "title": "Executive Order 11958\u2014Administration of Arms Export Controls",
+    "primary": 5.0,
+    "blind_v1": 9.1,
+    "blind_v2": 9.09
+   }
+  ],
+  "negatives_heavy_in_all_three": [
+   {
+    "eo": "9250",
+    "year": "1942",
+    "title": "Executive Order 9250\u2014Providing for the Stabilizing of the National Economy",
+    "primary": 45.45,
+    "blind_v1": 40.9,
+    "blind_v2": 45.45
+   },
+   {
+    "eo": "9246",
+    "year": "1942",
+    "title": "Executive Order 9246\u2014Providing for the Coordination and Control of the Rubber Program",
+    "primary": 35.0,
+    "blind_v1": 44.4,
+    "blind_v2": 50.0
+   },
+   {
+    "eo": "11940",
+    "year": "1976",
+    "title": "Executive Order 11940\u2014Continuing the Regulation of Exports",
+    "primary": 54.55,
+    "blind_v1": 40.9,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "9001",
+    "year": "1941",
+    "title": "Executive Order 9001-A\u2014Authorizing and Directing the United States Maritime Commission To Resell the S.S. \"Normandie\" to the Former Owners Thereof",
+    "primary": 31.82,
+    "blind_v1": 36.4,
+    "blind_v2": 45.45
+   },
+   {
+    "eo": "8565",
+    "year": "1940",
+    "title": "Executive Order 8565\u2014Amendment of Executive Order No. 8389 of April 10, 1940, as Amended",
+    "primary": 27.78,
+    "blind_v1": 38.9,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "11190",
+    "year": "1964",
+    "title": "Executive Order 11190\u2014Providing for the Screening of the Ready Reserve of the Armed Forces",
+    "primary": 35.71,
+    "blind_v1": 25.0,
+    "blind_v2": 27.27
+   }
+  ],
+  "positives_heavy_in_all_three": [
+   {
+    "eo": "9102",
+    "year": "1942",
+    "title": "Executive Order 9102\u2014Establishing the War Relocation Authority in the Executive Office of the President and Defining Its Functions and Duties",
+    "primary": 50.0,
+    "blind_v1": 54.5,
+    "blind_v2": 45.45
+   },
+   {
+    "eo": "11615",
+    "year": "1971",
+    "title": "Executive Order 11615\u2014Providing for Stabilization of Prices, Rents, Wages, and Salaries",
+    "primary": 31.82,
+    "blind_v1": 40.9,
+    "blind_v2": 50.0
+   },
+   {
+    "eo": "11796",
+    "year": "1974",
+    "title": "Executive Order 11796\u2014Continuing the Regulation of Exports",
+    "primary": 54.55,
+    "blind_v1": 40.9,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "9570",
+    "year": "1945",
+    "title": "Executive Order 9570\u2014Possession and Operation of the Transportation System, Plants, and Facilities of the Scranton Transit Company Located in and About the City of Scranton, Pennsylvania",
+    "primary": 45.0,
+    "blind_v1": 31.8,
+    "blind_v2": 36.36
+   },
+   {
+    "eo": "12735",
+    "year": "1990",
+    "title": "Executive Order 12735\u2014Chemical and Biological Weapons Proliferation",
+    "primary": 31.82,
+    "blind_v1": 31.8,
+    "blind_v2": 40.91
+   },
+   {
+    "eo": "10193",
+    "year": "1950",
+    "title": "Executive Order 10193\u2014Providing for the Conduct of the Mobilization Effort of the Government",
+    "primary": 30.0,
+    "blind_v1": 38.9,
+    "blind_v2": 40.91
+   },
+   {
+    "eo": "9040",
+    "year": "1942",
+    "title": "Executive Order 9040\u2014Defining Additional Functions and Duties of the War Production Board",
+    "primary": 30.0,
+    "blind_v1": 40.9,
+    "blind_v2": 38.89
+   },
+   {
+    "eo": "9661",
+    "year": "1945",
+    "title": "Executive Order 9661\u2014Possession, Control, and Operation of the Transportation System, Plants, and Facilities of the Great Lakes Towing Company, Cleveland, Ohio",
+    "primary": 30.0,
+    "blind_v1": 40.0,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "9989",
+    "year": "1948",
+    "title": "Executive Order 9989\u2014Transferring Jurisdiction Over Blocked Assets to the Attorney General",
+    "primary": 30.0,
+    "blind_v1": 36.4,
+    "blind_v2": 45.45
+   }
+  ],
+  "orders_with_20pt_spread": [
+   {
+    "eo": "12730",
+    "year": "1990",
+    "title": "Executive Order 12730\u2014Continuation of Export Control Regulations",
+    "primary": 54.55,
+    "blind_v1": 13.6,
+    "blind_v2": 50.0
+   },
+   {
+    "eo": "9279",
+    "year": "1942",
+    "title": "Executive Order 9279\u2014Providing for the Most Effective Mobilization and Utilization of the National Manpower and Transferring the Selective Service System to the War Manpower Commission",
+    "primary": 18.18,
+    "blind_v1": 59.1,
+    "blind_v2": 40.91
+   },
+   {
+    "eo": "9253",
+    "year": "1942",
+    "title": "Executive Order 9253\u2014Extension of the Provisions of Executive Order No. 9001 of December 27, 1941, to Contracts of the Immigration and Naturalization Service, Department of Justice",
+    "primary": 0.0,
+    "blind_v1": 35.0,
+    "blind_v2": 40.91
+   },
+   {
+    "eo": "12088",
+    "year": "1978",
+    "title": "Executive Order 12088\u2014Federal Compliance With Pollution Control Standards",
+    "primary": 5.0,
+    "blind_v1": 13.6,
+    "blind_v2": 40.91
+   },
+   {
+    "eo": "9728",
+    "year": "1946",
+    "title": "Executive Order 9728\u2014Authorizing the Secretary of the Interior to Take Possession of and to Operate Certain Coal Mines",
+    "primary": 10.0,
+    "blind_v1": 45.5,
+    "blind_v2": 18.18
+   },
+   {
+    "eo": "10173",
+    "year": "1950",
+    "title": "Executive Order 10173\u2014Regulations Relating to the Safeguarding of Vessels, Harbors, Ports, and Waterfront Facilities of the United States",
+    "primary": 22.73,
+    "blind_v1": 54.5,
+    "blind_v2": 40.91
+   },
+   {
+    "eo": "9474",
+    "year": "1944",
+    "title": "Executive Order 9474\u2014Authorizing the Secretary of the Interior to Take Possession of and Operate the Mines, Collieries, and Preparation Facilities of the Ford Collieries Company of Curtisville, Pennsylvania, and Rochester and Pittsburgh Coal Company of Indiana, Pennsylvania",
+    "primary": 5.0,
+    "blind_v1": 36.4,
+    "blind_v2": 22.22
+   },
+   {
+    "eo": "9476",
+    "year": "1944",
+    "title": "Executive Order 9476\u2014Authorizing the Secretary of the Interior to Take Possession of and Operate the Mines, Collieries, and Preparation Facilities of Certain Coal Companies",
+    "primary": 5.0,
+    "blind_v1": 36.4,
+    "blind_v2": 27.27
+   },
+   {
+    "eo": "11527",
+    "year": "1970",
+    "title": "Executive Order 11527\u2014Amending the Selective Service Regulations",
+    "primary": 5.0,
+    "blind_v1": 18.2,
+    "blind_v2": 36.36
+   },
+   {
+    "eo": "9508",
+    "year": "1944",
+    "title": "Executive Order 9508\u2014Authorizing the Secretary of War to Take Possession of and to Operate Certain Plants and Facilities of Montgomery Ward & Co., Incorporated",
+    "primary": 10.0,
+    "blind_v1": 33.3,
+    "blind_v2": 38.89
+   },
+   {
+    "eo": "11458",
+    "year": "1969",
+    "title": "Executive Order 11458\u2014Prescribing Arrangements for Developing and Coordinating a National Program For Minority Business Enterprise",
+    "primary": 7.14,
+    "blind_v1": 33.3,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "8751",
+    "year": "1941",
+    "title": "Executive Order 8751\u2014Establishing the Division of Defense Aid Reports in the Office For Emergency Management of the Executive Office of the President",
+    "primary": 7.14,
+    "blind_v1": 7.1,
+    "blind_v2": 35.71
+   },
+   {
+    "eo": "11435",
+    "year": "1968",
+    "title": "Executive Order 11435\u2014Designating the Secretary of the Interior to Accept on Behalf of the United States Retrocession by any State of Certain Criminal and Civil Jurisdiction Over Indian Country",
+    "primary": 0.0,
+    "blind_v1": 28.6,
+    "blind_v2": 13.64
+   },
+   {
+    "eo": "9621",
+    "year": "1945",
+    "title": "Executive Order 9621\u2014Termination of the Office of Strategic Services and Disposition of Its Functions",
+    "primary": 0.0,
+    "blind_v1": 21.4,
+    "blind_v2": 28.57
+   },
+   {
+    "eo": "10426",
+    "year": "1953",
+    "title": "Executive Order 10426\u2014Setting Aside Submerged Lands of the Continental Shelf as a Naval Petroleum Reserve",
+    "primary": 8.33,
+    "blind_v1": 28.6,
+    "blind_v2": 36.36
+   },
+   {
+    "eo": "11154",
+    "year": "1964",
+    "title": "Executive Order 11154\u2014Exemption of J. Edgar Hoover from Compulsory Retirement for Age",
+    "primary": 35.71,
+    "blind_v1": 8.3,
+    "blind_v2": 8.33
+   },
+   {
+    "eo": "8693",
+    "year": "1941",
+    "title": "Executive Order 8693\u2014Prescribing Regulations Governing the Exportation of Articles and Materials Designated in the President's Proclamation of February 25, 1941, Issued Pursuant to Section 6 of the Act of Congress Approved July 2, 1940, and Amending Regulations of January 15, 1941, Covering the Exportation of Certain Articles and Materials",
+    "primary": 0.0,
+    "blind_v1": 27.3,
+    "blind_v2": 27.27
+   },
+   {
+    "eo": "12958",
+    "year": "1995",
+    "title": "Executive Order 12958\u2014Classified National Security Information",
+    "primary": 4.55,
+    "blind_v1": 27.3,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "11810",
+    "year": "1974",
+    "title": "Executive Order 11810\u2014Continuing the Regulation of Exports",
+    "primary": 54.55,
+    "blind_v1": 27.3,
+    "blind_v2": 50.0
+   },
+   {
+    "eo": "10161",
+    "year": "1950",
+    "title": "Executive Order 10161\u2014Delegating Certain Functions of the President Under the Defense Production Act of 1950",
+    "primary": 15.0,
+    "blind_v1": 40.9,
+    "blind_v2": 36.36
+   },
+   {
+    "eo": "9425",
+    "year": "1944",
+    "title": "Executive Order 9425\u2014Establishing the Surplus War Property Administration",
+    "primary": 20.0,
+    "blind_v1": 22.7,
+    "blind_v2": 45.45
+   },
+   {
+    "eo": "12615",
+    "year": "1987",
+    "title": "Executive Order 12615\u2014Performance of Commercial Activities",
+    "primary": 11.11,
+    "blind_v1": 36.4,
+    "blind_v2": 36.36
+   },
+   {
+    "eo": "9505",
+    "year": "1944",
+    "title": "Executive Order 9505\u2014Authorizing the Secretary of War to Take Possession of and Operate the Plants and Facilities of Cudahy Brothers Company of Cudahy, Wisconsin",
+    "primary": 10.0,
+    "blind_v1": 22.7,
+    "blind_v2": 35.0
+   },
+   {
+    "eo": "9296",
+    "year": "1943",
+    "title": "Executive Order 9296\u2014Amending Paragraph 1 of Title II of Executive Order No. 9001 of December 27, 1941 Concerning Reports of Contracts and Purchases Made Under Authority of Title II of the First War Powers Act, 1941",
+    "primary": 20.0,
+    "blind_v1": 10.0,
+    "blind_v2": 35.0
+   },
+   {
+    "eo": "12632",
+    "year": "1988",
+    "title": "Executive Order 12632\u2014Exclusions From the Federal Labor- Management Relations Program",
+    "primary": 0.0,
+    "blind_v1": 20.0,
+    "blind_v2": 25.0
+   },
+   {
+    "eo": "9484",
+    "year": "1944",
+    "title": "Executive Order 9484\u2014Authorizing the Secretary of War to Take Possession of and Operate the Plants and Facilities of the Farrell Cheek Steel Company, Located at Sandusky, Ohio",
+    "primary": 5.0,
+    "blind_v1": 30.0,
+    "blind_v2": 30.0
+   },
+   {
+    "eo": "11490",
+    "year": "1969",
+    "title": "Executive Order 11490\u2014Assigning Emergency Preparedness Functions to Federal Departments and Agencies",
+    "primary": 7.14,
+    "blind_v1": 31.8,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "12675",
+    "year": "1989",
+    "title": "Executive Order 12675\u2014Establishing the National Space Council",
+    "primary": 7.14,
+    "blind_v1": 31.8,
+    "blind_v2": 22.73
+   },
+   {
+    "eo": "10483",
+    "year": "1953",
+    "title": "Executive Order 10483\u2014Establishing the Operations Coordinating Board",
+    "primary": 7.14,
+    "blind_v1": 31.8,
+    "blind_v2": 22.73
+   },
+   {
+    "eo": "11636",
+    "year": "1971",
+    "title": "Executive Order 11636\u2014Employee-Management Relations in the Foreign Service of the United States",
+    "primary": 4.55,
+    "blind_v1": 27.3,
+    "blind_v2": 27.27
+   },
+   {
+    "eo": "9017",
+    "year": "1942",
+    "title": "Executive Order 9017\u2014Establishing the National War Labor Board",
+    "primary": 0.0,
+    "blind_v1": 22.7,
+    "blind_v2": 22.73
+   },
+   {
+    "eo": "11956",
+    "year": "1977",
+    "title": "Executive Order 11956\u2014Relating to Voluntary Agreements",
+    "primary": 0.0,
+    "blind_v1": 0.0,
+    "blind_v2": 22.73
+   },
+   {
+    "eo": "12114",
+    "year": "1979",
+    "title": "Executive Order 12114\u2014Environmental Effects Abroad of Major Federal Actions",
+    "primary": 27.27,
+    "blind_v1": 50.0,
+    "blind_v2": 45.45
+   },
+   {
+    "eo": "8785",
+    "year": "1941",
+    "title": "Executive Order 8785\u2014Regulating Transactions in Foreign Exchange and Foreign-Owned Property, Providing For the Reporting of All Foreign-Owned Property, and Related Matters",
+    "primary": 27.27,
+    "blind_v1": 45.5,
+    "blind_v2": 50.0
+   },
+   {
+    "eo": "11940",
+    "year": "1976",
+    "title": "Executive Order 11940\u2014Continuing the Regulation of Exports",
+    "primary": 54.55,
+    "blind_v1": 40.9,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "11796",
+    "year": "1974",
+    "title": "Executive Order 11796\u2014Continuing the Regulation of Exports",
+    "primary": 54.55,
+    "blind_v1": 40.9,
+    "blind_v2": 31.82
+   },
+   {
+    "eo": "12661",
+    "year": "1988",
+    "title": "Executive Order 12661\u2014Implementing the Omnibus Trade and Competitiveness Act of 1988 and Related International Trade Matters",
+    "primary": 4.55,
+    "blind_v1": 13.6,
+    "blind_v2": 27.27
+   },
+   {
+    "eo": "12264",
+    "year": "1981",
+    "title": "Executive Order 12264\u2014Export of Banned or Significantly Restricted Substances",
+    "primary": 4.55,
+    "blind_v1": 22.7,
+    "blind_v2": 27.27
+   },
+   {
+    "eo": "10651",
+    "year": "1956",
+    "title": "Executive Order 10651\u2014Providing for the Screening of the Ready Reserve of the Armed Forces Established Under the Provisions of Part II of the Armed Forces Reserve Act of 1952, as Amended",
+    "primary": 22.22,
+    "blind_v1": 18.2,
+    "blind_v2": 40.91
+   },
+   {
+    "eo": "13103",
+    "year": "1998",
+    "title": "Executive Order 13103\u2014Computer Software Piracy",
+    "primary": 5.0,
+    "blind_v1": 13.6,
+    "blind_v2": 27.27
+   },
+   {
+    "eo": "12864",
+    "year": "1993",
+    "title": "Executive Order 12864\u2014United States Advisory Council on the National Information Infrastructure",
+    "primary": 22.22,
+    "blind_v1": 0.0,
+    "blind_v2": 9.09
+   },
+   {
+    "eo": "9204",
+    "year": "1942",
+    "title": "Executive Order 9204\u2014Coordination of Federal Activities Affecting the Fishery Industry",
+    "primary": 0.0,
+    "blind_v1": 22.2,
+    "blind_v2": 9.09
+   },
+   {
+    "eo": "12143",
+    "year": "1979",
+    "title": "Executive Order 12143\u2014Maintaining Unofficial Relations with the People on Taiwan",
+    "primary": 10.0,
+    "blind_v1": 31.8,
+    "blind_v2": 27.27
+   },
+   {
+    "eo": "9608",
+    "year": "1945",
+    "title": "Executive Order 9608\u2014Providing for the Termination of the Office of War Information, and for the Disposition of Its Functions and of Certain Functions of the Office of Inter-american Affairs",
+    "primary": 0.0,
+    "blind_v1": 14.3,
+    "blind_v2": 21.43
+   },
+   {
+    "eo": "9427",
+    "year": "1944",
+    "title": "Executive Order 9427-A\u2014Assignment of Frequencies to Government Radio Stations",
+    "primary": 14.29,
+    "blind_v1": 35.7,
+    "blind_v2": 22.22
+   },
+   {
+    "eo": "9639",
+    "year": "1945",
+    "title": "Executive Order 9639\u2014Authorizing the Secretary of the Navy to Take Possession of and Operate Certain Plants and Facilities Used in the Transportation, Refining and Processing of Petroleum and Petroleum Products",
+    "primary": 15.0,
+    "blind_v1": 36.4,
+    "blind_v2": 22.22
+   },
+   {
+    "eo": "9337",
+    "year": "1943",
+    "title": "Executive Order 9337\u2014Authorizing the Secretary of the Interior To Withdraw and Reserve Lands of the Public Domain and Other Lands Owned or Controlled by the United States",
+    "primary": 0.0,
+    "blind_v1": 21.4,
+    "blind_v2": 14.29
+   },
+   {
+    "eo": "11992",
+    "year": "1977",
+    "title": "Executive Order 11992\u2014Committee on Selection of Federal Judicial Officers",
+    "primary": 5.56,
+    "blind_v1": 21.4,
+    "blind_v2": 0.0
+   },
+   {
+    "eo": "8233",
+    "year": "1939",
+    "title": "Executive Order 8233\u2014Prescribing Regulations Governing the Enforcement of the Neutrality of the United States",
+    "primary": 0.0,
+    "blind_v1": 20.0,
+    "blind_v2": 4.55
+   },
+   {
+    "eo": "11336",
+    "year": "1967",
+    "title": "Executive Order 11336\u2014Delegating to the Secretary of Agriculture Certain Authority Relating to Emergency Livestock Feed",
+    "primary": 0.0,
+    "blind_v1": 20.0,
+    "blind_v2": 18.18
+   },
+   {
+    "eo": "11404",
+    "year": "1968",
+    "title": "Executive Order 11404\u2014Providing for the Restoration of Law and Order in the State of Illinois",
+    "primary": 25.0,
+    "blind_v1": 45.0,
+    "blind_v2": 27.78
+   },
+   {
+    "eo": "9341",
+    "year": "1943",
+    "title": "Executive Order 9341\u2014Directing the Director of the Office of Defense Transportation To Take Control of the Properties of the American Railroad Company of Porto Rico",
+    "primary": 35.0,
+    "blind_v1": 45.0,
+    "blind_v2": 25.0
+   }
+  ],
+  "n_orders_with_20pt_spread": 52,
+  "n_common": 296,
+  "label_aware_bias_by_class": {
+   "positive": {
+    "n": 148,
+    "mean_original": 10.9,
+    "mean_blind_v1": 17.9,
+    "mean_blind_v2": 19.2,
+    "original_minus_blind_v2": -8.3,
+    "original_minus_blind_v1": -7.0,
+    "share_le10_original": 0.635,
+    "share_le10_all_three": 0.257
+   },
+   "negative": {
+    "n": 148,
+    "mean_original": 4.5,
+    "mean_blind_v1": 5.2,
+    "mean_blind_v2": 6.1,
+    "original_minus_blind_v2": -1.5,
+    "original_minus_blind_v1": -0.6,
+    "share_le10_original": 0.892,
+    "share_le10_all_three": 0.689
+   }
+  }
+ },
+ "reliability": {
+  "primary_vs_blind_v2": {
+   "flags": {
+    "n_flag_judgments": 3267,
+    "pct_agree": 0.661,
+    "kappa": 0.427
+   },
+   "per_flag_kappa": {
+    "1": 0.402,
+    "2": 0.375,
+    "3": 0.174,
+    "4": 0.401,
+    "5": 0.451,
+    "6": 0.46,
+    "7": 0.307,
+    "8": 0.301,
+    "9": 0.245,
+    "10": 0.063,
+    "11": 0.113
+   },
+   "scores": {
+    "n": 297,
+    "pearson": 0.722,
+    "spearman": 0.682,
+    "icc_2_1": 0.664,
+    "mean_abs_diff_pts": 7.25,
+    "share_diff_ge_10pts": 0.286,
+    "binary_agree_at_35pct": 0.909
+   }
+  },
+  "primary_vs_blind_v1": {
+   "flags": {
+    "n_flag_judgments": 3267,
+    "pct_agree": 0.676,
+    "kappa": 0.453
+   },
+   "scores": {
+    "n": 296,
+    "pearson": 0.675,
+    "spearman": 0.701,
+    "icc_2_1": 0.638,
+    "mean_abs_diff_pts": 6.9,
+    "share_diff_ge_10pts": 0.274,
+    "binary_agree_at_35pct": 0.912
+   }
+  },
+  "blind_v1_vs_blind_v2": {
+   "flags": {
+    "n_flag_judgments": 3267,
+    "pct_agree": 0.801,
+    "kappa": 0.663
+   },
+   "per_flag_kappa": {
+    "1": 0.774,
+    "2": 0.585,
+    "3": 0.343,
+    "4": 0.65,
+    "5": 0.643,
+    "6": 0.755,
+    "7": 0.462,
+    "8": 0.519,
+    "9": 0.554,
+    "10": 0.52,
+    "11": 0.582
+   },
+   "scores": {
+    "n": 296,
+    "pearson": 0.819,
+    "spearman": 0.755,
+    "icc_2_1": 0.817,
+    "mean_abs_diff_pts": 5.35,
+    "share_diff_ge_10pts": 0.179,
+    "binary_agree_at_35pct": 0.916
+   }
+  },
+  "icr_pilot_30": {
+   "gemini-2.5-collaborator": {
+    "vs_primary_flags": {
+     "n_flag_judgments": 330,
+     "pct_agree": 0.697,
+     "kappa": 0.494
+    },
+    "vs_primary_scores": {
+     "n": 30,
+     "pearson": 0.763,
+     "spearman": 0.865,
+     "icc_2_1": 0.731,
+     "mean_abs_diff_pts": 5.38,
+     "share_diff_ge_10pts": 0.167,
+     "binary_agree_at_35pct": 0.9
+    }
+   },
+   "gemini-2.5-flash": {
+    "vs_primary_flags": {
+     "n_flag_judgments": 330,
+     "pct_agree": 0.57,
+     "kappa": 0.293
+    },
+    "vs_primary_scores": {
+     "n": 18,
+     "pearson": 0.77,
+     "spearman": 0.738,
+     "icc_2_1": 0.501,
+     "mean_abs_diff_pts": 10.55,
+     "share_diff_ge_10pts": 0.389,
+     "binary_agree_at_35pct": 0.833
+    }
+   },
+   "gpt-5.5-thinking-v1": {
+    "vs_primary_flags": {
+     "n_flag_judgments": 330,
+     "pct_agree": 0.464,
+     "kappa": 0.2
+    },
+    "vs_primary_scores": {
+     "n": 30,
+     "pearson": 0.836,
+     "spearman": 0.689,
+     "icc_2_1": 0.535,
+     "mean_abs_diff_pts": 18.2,
+     "share_diff_ge_10pts": 0.7,
+     "binary_agree_at_35pct": 0.733
+    }
+   },
+   "gpt-5.5-thinking-v2": {
+    "vs_primary_flags": {
+     "n_flag_judgments": 330,
+     "pct_agree": 0.588,
+     "kappa": 0.367
+    },
+    "vs_primary_scores": {
+     "n": 30,
+     "pearson": 0.764,
+     "spearman": 0.656,
+     "icc_2_1": 0.61,
+     "mean_abs_diff_pts": 13.06,
+     "share_diff_ge_10pts": 0.5,
+     "binary_agree_at_35pct": 0.833
+    }
+   }
+  },
+  "extension_orders_coded_more_than_once": 0,
+  "extension_orders_total": 6843,
+  "human_codings": 0
+ },
+ "trend": {
+  "coder_ids": [
+   "cowork-extension-stream-a",
+   "cowork-extension-stream-b"
+  ],
+  "by_president": {
+   "Franklin D. Roosevelt": {
+    "n": 2184,
+    "mean": 5.5,
+    "median": 0.0,
+    "share_zero": 0.804,
+    "mean_if_nonzero": 28.1,
+    "median_if_nonzero": 28.6
+   },
+   "Harry S Truman": {
+    "n": 848,
+    "mean": 8.6,
+    "median": 0.0,
+    "share_zero": 0.619,
+    "mean_if_nonzero": 22.6,
+    "median_if_nonzero": 20.0
+   },
+   "Dwight D. Eisenhower": {
+    "n": 461,
+    "mean": 5.7,
+    "median": 0.0,
+    "share_zero": 0.655,
+    "mean_if_nonzero": 16.6,
+    "median_if_nonzero": 10.0
+   },
+   "John F. Kennedy": {
+    "n": 200,
+    "mean": 4.2,
+    "median": 0.0,
+    "share_zero": 0.61,
+    "mean_if_nonzero": 10.7,
+    "median_if_nonzero": 5.6
+   },
+   "Lyndon B. Johnson": {
+    "n": 307,
+    "mean": 8.6,
+    "median": 5.6,
+    "share_zero": 0.355,
+    "mean_if_nonzero": 13.4,
+    "median_if_nonzero": 10.0
+   },
+   "Richard Nixon": {
+    "n": 325,
+    "mean": 8.7,
+    "median": 6.2,
+    "share_zero": 0.295,
+    "mean_if_nonzero": 12.4,
+    "median_if_nonzero": 6.2
+   },
+   "Gerald R. Ford": {
+    "n": 156,
+    "mean": 7.8,
+    "median": 6.2,
+    "share_zero": 0.301,
+    "mean_if_nonzero": 11.1,
+    "median_if_nonzero": 6.2
+   },
+   "Jimmy Carter": {
+    "n": 295,
+    "mean": 10.0,
+    "median": 6.2,
+    "share_zero": 0.461,
+    "mean_if_nonzero": 18.5,
+    "median_if_nonzero": 16.7
+   },
+   "Ronald Reagan": {
+    "n": 358,
+    "mean": 13.3,
+    "median": 0.0,
+    "share_zero": 0.508,
+    "mean_if_nonzero": 27.0,
+    "median_if_nonzero": 16.7
+   },
+   "George Bush": {
+    "n": 151,
+    "mean": 17.8,
+    "median": 16.7,
+    "share_zero": 0.344,
+    "mean_if_nonzero": 27.2,
+    "median_if_nonzero": 16.7
+   },
+   "William J. Clinton": {
+    "n": 345,
+    "mean": 18.9,
+    "median": 16.7,
+    "share_zero": 0.301,
+    "mean_if_nonzero": 27.0,
+    "median_if_nonzero": 22.7
+   },
+   "George W. Bush": {
+    "n": 290,
+    "mean": 18.2,
+    "median": 16.7,
+    "share_zero": 0.217,
+    "mean_if_nonzero": 23.2,
+    "median_if_nonzero": 20.0
+   },
+   "Barack Obama": {
+    "n": 276,
+    "mean": 23.1,
+    "median": 21.4,
+    "share_zero": 0.105,
+    "mean_if_nonzero": 25.8,
+    "median_if_nonzero": 25.0
+   },
+   "Donald J. Trump (1st Term)": {
+    "n": 219,
+    "mean": 24.6,
+    "median": 25.0,
+    "share_zero": 0.087,
+    "mean_if_nonzero": 26.9,
+    "median_if_nonzero": 27.8
+   },
+   "Joseph R. Biden, Jr.": {
+    "n": 162,
+    "mean": 29.9,
+    "median": 28.2,
+    "share_zero": 0.019,
+    "mean_if_nonzero": 30.5,
+    "median_if_nonzero": 28.6
+   },
+   "Donald J. Trump (2nd Term)": {
+    "n": 266,
+    "mean": 36.9,
+    "median": 37.5,
+    "share_zero": 0.026,
+    "mean_if_nonzero": 37.9,
+    "median_if_nonzero": 38.9
+   }
+  },
+  "by_decade": {
+   "1930": {
+    "n": 1030,
+    "mean": 2.2,
+    "median": 0.0,
+    "share_zero": 0.897,
+    "mean_if_nonzero": 21.4,
+    "median_if_nonzero": 20.0
+   },
+   "1940": {
+    "n": 1680,
+    "mean": 7.9,
+    "median": 0.0,
+    "share_zero": 0.722,
+    "mean_if_nonzero": 28.4,
+    "median_if_nonzero": 25.0
+   },
+   "1950": {
+    "n": 730,
+    "mean": 8.5,
+    "median": 0.0,
+    "share_zero": 0.564,
+    "mean_if_nonzero": 19.6,
+    "median_if_nonzero": 14.3
+   },
+   "1960": {
+    "n": 607,
+    "mean": 6.8,
+    "median": 5.0,
+    "share_zero": 0.461,
+    "mean_if_nonzero": 12.6,
+    "median_if_nonzero": 9.1
+   },
+   "1970": {
+    "n": 638,
+    "mean": 8.2,
+    "median": 6.2,
+    "share_zero": 0.342,
+    "mean_if_nonzero": 12.4,
+    "median_if_nonzero": 10.0
+   },
+   "1980": {
+    "n": 478,
+    "mean": 13.9,
+    "median": 6.2,
+    "share_zero": 0.498,
+    "mean_if_nonzero": 27.6,
+    "median_if_nonzero": 16.7
+   },
+   "1990": {
+    "n": 414,
+    "mean": 18.0,
+    "median": 16.7,
+    "share_zero": 0.343,
+    "mean_if_nonzero": 27.4,
+    "median_if_nonzero": 25.0
+   },
+   "2000": {
+    "n": 382,
+    "mean": 19.2,
+    "median": 18.8,
+    "share_zero": 0.183,
+    "mean_if_nonzero": 23.5,
+    "median_if_nonzero": 21.4
+   },
+   "2010": {
+    "n": 373,
+    "mean": 23.3,
+    "median": 25.0,
+    "share_zero": 0.115,
+    "mean_if_nonzero": 26.4,
+    "median_if_nonzero": 25.0
+   },
+   "2020": {
+    "n": 511,
+    "mean": 33.0,
+    "median": 31.2,
+    "share_zero": 0.023,
+    "mean_if_nonzero": 33.8,
+    "median_if_nonzero": 31.2
+   }
+  },
+  "mean_if_nonzero_ci95_by_president": {
+   "Franklin D. Roosevelt": [
+    26.8,
+    29.4
+   ],
+   "Harry S Truman": [
+    21.1,
+    24.2
+   ],
+   "Dwight D. Eisenhower": [
+    14.3,
+    18.9
+   ],
+   "Jimmy Carter": [
+    16.1,
+    21.0
+   ],
+   "John F. Kennedy": [
+    8.5,
+    13.3
+   ],
+   "Donald J. Trump (1st Term)": [
+    25.2,
+    28.4
+   ],
+   "Richard Nixon": [
+    11.1,
+    13.6
+   ],
+   "Ronald Reagan": [
+    24.4,
+    29.7
+   ],
+   "Donald J. Trump (2nd Term)": [
+    35.7,
+    39.9
+   ],
+   "Gerald R. Ford": [
+    9.9,
+    12.4
+   ],
+   "George W. Bush": [
+    21.7,
+    24.7
+   ],
+   "Lyndon B. Johnson": [
+    12.2,
+    14.7
+   ],
+   "George Bush": [
+    23.9,
+    30.6
+   ],
+   "Joseph R. Biden, Jr.": [
+    28.5,
+    32.5
+   ],
+   "Barack Obama": [
+    24.1,
+    27.5
+   ],
+   "William J. Clinton": [
+    25.2,
+    28.6
+   ]
+  },
+  "decomposition": {
+   "1930s_to_2020s": {
+    "mean_from": 2.2,
+    "mean_to": 33.0,
+    "change": 30.8,
+    "composition_part": 24.1,
+    "within_part": 6.7,
+    "composition_share": 0.78
+   },
+   "1950s_to_2010s": {
+    "mean_from": 8.5,
+    "mean_to": 23.3,
+    "change": 14.8,
+    "composition_part": 10.3,
+    "within_part": 4.5,
+    "composition_share": 0.7
+   },
+   "Reagan_to_Trump1": {
+    "mean_from": 13.3,
+    "mean_to": 24.6,
+    "change": 11.3,
+    "composition_part": 11.4,
+    "within_part": -0.0,
+    "composition_share": 1.0
+   },
+   "Trump1_to_Trump2": {
+    "mean_from": 24.6,
+    "mean_to": 36.9,
+    "change": 12.3,
+    "composition_part": 2.0,
+    "within_part": 10.3,
+    "composition_share": 0.16
+   }
+  },
+  "mean_na_flags_by_decade": {
+   "1930": 6.86,
+   "1940": 7.03,
+   "1950": 4.81,
+   "1960": 2.69,
+   "1970": 4.68,
+   "1980": 6.85,
+   "1990": 6.9,
+   "2000": 5.31,
+   "2010": 3.62,
+   "2020": 3.43
+  },
+  "stream_seam": {
+   "streamA_1951_52": {
+    "n": 224,
+    "mean": 12.8,
+    "median": 10.0,
+    "share_zero": 0.375,
+    "mean_if_nonzero": 20.5,
+    "median_if_nonzero": 16.7
+   },
+   "streamB_1953_54": {
+    "n": 144,
+    "mean": 7.9,
+    "median": 0.0,
+    "share_zero": 0.681,
+    "mean_if_nonzero": 24.7,
+    "median_if_nonzero": 20.0
+   }
+  },
+  "median_words_by_decade": {
+   "1930": 184,
+   "1940": 220,
+   "1950": 255,
+   "1960": 309,
+   "1970": 265,
+   "1980": 325,
+   "1990": 422,
+   "2000": 652,
+   "2010": 996,
+   "2020": 1094
+  },
+  "orders_500plus_words_by_decade": {
+   "1930": {
+    "n": 116,
+    "mean": 2.1,
+    "median": 0.0,
+    "share_zero": 0.879,
+    "mean_if_nonzero": 17.1,
+    "median_if_nonzero": 10.0
+   },
+   "1940": {
+    "n": 347,
+    "mean": 18.3,
+    "median": 12.5,
+    "share_zero": 0.441,
+    "mean_if_nonzero": 32.8,
+    "median_if_nonzero": 30.0
+   },
+   "1950": {
+    "n": 191,
+    "mean": 15.1,
+    "median": 8.3,
+    "share_zero": 0.403,
+    "mean_if_nonzero": 25.3,
+    "median_if_nonzero": 20.0
+   },
+   "1960": {
+    "n": 227,
+    "mean": 9.4,
+    "median": 5.6,
+    "share_zero": 0.3,
+    "mean_if_nonzero": 13.4,
+    "median_if_nonzero": 10.0
+   },
+   "1970": {
+    "n": 180,
+    "mean": 12.5,
+    "median": 11.1,
+    "share_zero": 0.172,
+    "mean_if_nonzero": 15.1,
+    "median_if_nonzero": 12.5
+   },
+   "1980": {
+    "n": 151,
+    "mean": 23.9,
+    "median": 16.7,
+    "share_zero": 0.258,
+    "mean_if_nonzero": 32.3,
+    "median_if_nonzero": 30.0
+   },
+   "1990": {
+    "n": 184,
+    "mean": 28.1,
+    "median": 25.0,
+    "share_zero": 0.082,
+    "mean_if_nonzero": 30.6,
+    "median_if_nonzero": 25.0
+   },
+   "2000": {
+    "n": 232,
+    "mean": 25.2,
+    "median": 25.0,
+    "share_zero": 0.039,
+    "mean_if_nonzero": 26.2,
+    "median_if_nonzero": 25.0
+   },
+   "2010": {
+    "n": 288,
+    "mean": 27.7,
+    "median": 27.8,
+    "share_zero": 0.049,
+    "mean_if_nonzero": 29.1,
+    "median_if_nonzero": 28.6
+   },
+   "2020": {
+    "n": 436,
+    "mean": 35.7,
+    "median": 33.3,
+    "share_zero": 0.011,
+    "mean_if_nonzero": 36.1,
+    "median_if_nonzero": 33.3
+   }
+  },
+  "word_quintile_cuts": [
+   135,
+   225,
+   412,
+   842
+  ],
+  "share_zero_by_word_quintile": {
+   "0": 0.772,
+   "1": 0.722,
+   "2": 0.608,
+   "3": 0.338,
+   "4": 0.157
+  },
+  "length_standardized_mean_by_president": {
+   "Franklin D. Roosevelt": 7.3,
+   "Harry S Truman": 10.1,
+   "Dwight D. Eisenhower": 6.1,
+   "John F. Kennedy": 3.8,
+   "Lyndon B. Johnson": 8.7,
+   "Richard Nixon": 9.5,
+   "Gerald R. Ford": 8.8,
+   "Jimmy Carter": 10.5,
+   "Ronald Reagan": 14.4,
+   "George Bush": 18.8,
+   "William J. Clinton": 15.1,
+   "George W. Bush": 14.4,
+   "Barack Obama": 15.1,
+   "Donald J. Trump (1st Term)": null,
+   "Joseph R. Biden, Jr.": null,
+   "Donald J. Trump (2nd Term)": null
+  },
+  "length_band_cell_counts": {
+   "Franklin D. Roosevelt": [
+    732,
+    603,
+    411,
+    276,
+    162
+   ],
+   "Harry S Truman": [
+    151,
+    205,
+    242,
+    145,
+    105
+   ],
+   "Dwight D. Eisenhower": [
+    55,
+    130,
+    127,
+    83,
+    66
+   ],
+   "Jimmy Carter": [
+    49,
+    57,
+    71,
+    83,
+    35
+   ],
+   "John F. Kennedy": [
+    18,
+    35,
+    57,
+    40,
+    50
+   ],
+   "Donald J. Trump (1st Term)": [
+    0,
+    1,
+    22,
+    64,
+    132
+   ],
+   "Richard Nixon": [
+    76,
+    78,
+    53,
+    75,
+    43
+   ],
+   "Ronald Reagan": [
+    70,
+    57,
+    85,
+    105,
+    41
+   ],
+   "Donald J. Trump (2nd Term)": [
+    0,
+    3,
+    16,
+    82,
+    165
+   ],
+   "Gerald R. Ford": [
+    42,
+    31,
+    44,
+    24,
+    15
+   ],
+   "George W. Bush": [
+    18,
+    36,
+    52,
+    85,
+    99
+   ],
+   "Lyndon B. Johnson": [
+    63,
+    56,
+    57,
+    74,
+    57
+   ],
+   "George Bush": [
+    36,
+    20,
+    37,
+    32,
+    26
+   ],
+   "Joseph R. Biden, Jr.": [
+    0,
+    2,
+    15,
+    31,
+    114
+   ],
+   "Barack Obama": [
+    7,
+    8,
+    37,
+    69,
+    155
+   ],
+   "William J. Clinton": [
+    52,
+    37,
+    48,
+    104,
+    104
+   ]
+  },
+  "top_length_quintile_by_president": {
+   "Franklin D. Roosevelt": {
+    "n": 162,
+    "mean": 13.4,
+    "share_zero": 0.611,
+    "ci95": [
+     10.6,
+     16.5
+    ]
+   },
+   "Harry S Truman": {
+    "n": 105,
+    "mean": 23.5,
+    "share_zero": 0.305,
+    "ci95": [
+     19.6,
+     27.9
+    ]
+   },
+   "Dwight D. Eisenhower": {
+    "n": 66,
+    "mean": 11.6,
+    "share_zero": 0.485,
+    "ci95": [
+     7.7,
+     15.7
+    ]
+   },
+   "John F. Kennedy": {
+    "n": 50,
+    "mean": 10.2,
+    "share_zero": 0.28,
+    "ci95": [
+     6.6,
+     14.5
+    ]
+   },
+   "Lyndon B. Johnson": {
+    "n": 57,
+    "mean": 11.7,
+    "share_zero": 0.246,
+    "ci95": [
+     8.9,
+     14.6
+    ]
+   },
+   "Richard Nixon": {
+    "n": 43,
+    "mean": 17.3,
+    "share_zero": 0.116,
+    "ci95": [
+     13.7,
+     21.0
+    ]
+   },
+   "Gerald R. Ford": {
+    "n": 15,
+    "mean": 14.6,
+    "share_zero": 0.067,
+    "ci95": [
+     9.7,
+     20.2
+    ]
+   },
+   "Jimmy Carter": {
+    "n": 35,
+    "mean": 20.9,
+    "share_zero": 0.086,
+    "ci95": [
+     16.2,
+     26.4
+    ]
+   },
+   "Ronald Reagan": {
+    "n": 41,
+    "mean": 29.2,
+    "share_zero": 0.244,
+    "ci95": [
+     23.2,
+     36.4
+    ]
+   },
+   "George Bush": {
+    "n": 26,
+    "mean": 31.5,
+    "share_zero": 0.077,
+    "ci95": [
+     25.0,
+     38.5
+    ]
+   },
+   "William J. Clinton": {
+    "n": 104,
+    "mean": 29.9,
+    "share_zero": 0.0,
+    "ci95": [
+     27.7,
+     32.3
+    ]
+   },
+   "George W. Bush": {
+    "n": 99,
+    "mean": 29.3,
+    "share_zero": 0.01,
+    "ci95": [
+     26.9,
+     31.6
+    ]
+   },
+   "Barack Obama": {
+    "n": 155,
+    "mean": 32.1,
+    "share_zero": 0.0,
+    "ci95": [
+     30.2,
+     34.0
+    ]
+   },
+   "Donald J. Trump (1st Term)": {
+    "n": 132,
+    "mean": 31.3,
+    "share_zero": 0.008,
+    "ci95": [
+     29.5,
+     33.0
+    ]
+   },
+   "Joseph R. Biden, Jr.": {
+    "n": 114,
+    "mean": 34.6,
+    "share_zero": 0.0,
+    "ci95": [
+     32.4,
+     36.7
+    ]
+   },
+   "Donald J. Trump (2nd Term)": {
+    "n": 165,
+    "mean": 44.3,
+    "share_zero": 0.006,
+    "ci95": [
+     41.7,
+     46.9
+    ]
+   }
+  }
+ },
+ "seven_flag_sensitivity": {
+  "dropped_flags": [
+   3,
+   9,
+   10,
+   11
+  ],
+  "auc": {
+   "claude-church-bells-v1": {
+    "n": 297,
+    "auc_7flag": 0.6808
+   },
+   "cowork-blind-v1": {
+    "n": 296,
+    "auc_7flag": 0.7578
+   },
+   "cowork-blind-v2": {
+    "n": 297,
+    "auc_7flag": 0.7692
+   }
+  },
+  "trend_by_president": {
+   "Franklin D. Roosevelt": {
+    "top_quintile_mean": 12.1,
+    "mean_if_nonzero": 28.1
+   },
+   "Harry S Truman": {
+    "top_quintile_mean": 15.5,
+    "mean_if_nonzero": 25.7
+   },
+   "Dwight D. Eisenhower": {
+    "top_quintile_mean": 10.1,
+    "mean_if_nonzero": 19.8
+   },
+   "John F. Kennedy": {
+    "top_quintile_mean": 7.0,
+    "mean_if_nonzero": 13.9
+   },
+   "Lyndon B. Johnson": {
+    "top_quintile_mean": 10.4,
+    "mean_if_nonzero": 15.0
+   },
+   "Richard Nixon": {
+    "top_quintile_mean": 18.4,
+    "mean_if_nonzero": 15.9
+   },
+   "Gerald R. Ford": {
+    "top_quintile_mean": 15.0,
+    "mean_if_nonzero": 13.5
+   },
+   "Jimmy Carter": {
+    "top_quintile_mean": 10.1,
+    "mean_if_nonzero": 19.6
+   },
+   "Ronald Reagan": {
+    "top_quintile_mean": 17.5,
+    "mean_if_nonzero": 28.2
+   },
+   "George Bush": {
+    "top_quintile_mean": 22.4,
+    "mean_if_nonzero": 28.3
+   },
+   "William J. Clinton": {
+    "top_quintile_mean": 19.2,
+    "mean_if_nonzero": 24.4
+   },
+   "George W. Bush": {
+    "top_quintile_mean": 21.9,
+    "mean_if_nonzero": 21.2
+   },
+   "Barack Obama": {
+    "top_quintile_mean": 28.0,
+    "mean_if_nonzero": 25.3
+   },
+   "Donald J. Trump (1st Term)": {
+    "top_quintile_mean": 30.6,
+    "mean_if_nonzero": 29.0
+   },
+   "Joseph R. Biden, Jr.": {
+    "top_quintile_mean": 33.1,
+    "mean_if_nonzero": 32.2
+   },
+   "Donald J. Trump (2nd Term)": {
+    "top_quintile_mean": 42.5,
+    "mean_if_nonzero": 39.0
+   }
+  }
+ },
+ "annual_series_note": "annual-series-rebuilt.csv: extension codings plus blind-v2 for the 297 validation orders; label-aware original coding excluded",
+ "data_quality": {
+  "garbled_president_fields": []
+ }
+}

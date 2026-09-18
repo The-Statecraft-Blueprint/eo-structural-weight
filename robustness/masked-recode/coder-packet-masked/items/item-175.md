@@ -1,0 +1,11 @@
+# item-175
+
+ALASKA
+By virtue of and pursuant to the authority vested in me by the act of [DATE], [STAT], 307 (U.S.C., title 48, sec. 303), and the act of [DATE], [STAT] (U.S.C., title 43, sec. 141), as amended by the act of [DATE], [STAT] (U.S.C., title 43, sec. 142), it is ordered as follows:
+Section 1. Executive Order No. [EO-A] of [DATE], withdrawing and reserving certain lands in Alaska for townsite purposes, is hereby modified to the extent, and only to the extent, necessary to permit the Department of Commerce to use the following-described townsite lots for aviation-field purposes:
+ACREAGE ADDITION TO NENANA TOWNSITE
+Blocks 87, 88, 95, 96, 97, 98, 101, 102, 104, 105, and 106, U.S. Survey No. 1503, 198.09 acres.
+Section 2. The following-described tract of public land adjoining the aforesaid townsite lots is hereby reserved and set apart for the use described in section 1 hereof:
+FAIRBANKS MERIDIAN
+T. 4 S., R. 8 W., sec. 25, W½NW¼, 80 acres.
+Section 3. This order shall remain in force until revoked by the President or by act of Congress.

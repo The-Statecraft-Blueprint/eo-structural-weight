@@ -1,6 +1,8 @@
 # EO Structural Weight Score
 
-A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys — validated by independent blind coding against Mayer & Price's (2002) significance classification, **AUC = 0.7836** — and applied to the full 1936–present corpus, **7,149 of 7,151 executive orders scored**.
+A rule-based, pre-registered measure of how much governance-architecture machinery a given executive order deploys. It was validated by label-blind AI coding against Mayer & Price's (2002) significance classification (**AUC = 0.784, 95% CI 0.731–0.835**) and applied to the full 1936–present corpus (**7,149 of 7,151 executive orders scored**).
+
+> **Status of the evidence (2026-09-18).** All coding to date was done by AI models, and none of it has yet been checked against human coding. Word count alone separates Mayer & Price's classes almost as well as the score (AUC 0.78). The blind coder could see each order's number, title and date. Most of the long-run rise in average weight reflects orders getting longer and fewer being machinery-free. See [`robustness/AUDIT.md`](robustness/AUDIT.md) for what holds, what doesn't and what is still being tested, and [`robustness/masked-recode/`](robustness/masked-recode/) for the masked re-coding and human hand-coding test now under way.
 
 **→ [How this compares to Mayer & Price's classification, and why we think it's a better tool for this specific question](mayer-price-validation/comparison-to-mayer-price.md)**
 
@@ -12,7 +14,7 @@ Existing measures of executive order significance — Mayer & Price's being the 
 
 This project replaces the importance judgment with a structural audit. Eleven standing governance-architecture flags — power concentration, accountability gaps, oversight preemption, and so on — are applied to each order's actual text. Each flag either fires or doesn't, at one of two severity levels. The result is a continuous structural-weight score per order, answering a different question than significance: *how much unreviewed discretion or unaccountable authority does this order deploy*, independent of how much attention it got.
 
-The two questions are related but not identical, and that's the point. A landmark order can be architecturally clean (FISA implementation, EO 12139, scores 0%); a routine wartime order can be architecturally heavy (EO 9250, 45.5%, entirely outside Mayer & Price's sampling window). Measuring both separately is more informative than either alone — see the comparison link above for the full case, with specific examples in both directions.
+The two questions are related but not identical, and that's the point. A landmark order can be architecturally clean: Truman's President's Committee on Civil Rights (EO 9808) scores 0% in all three codings. An order outside Mayer & Price's published list can be architecturally heavy: EO 9250, FDR's "Hold the Line" stabilization order, scores 41–45% in all three codings. Measuring both separately is more informative than either alone — see the comparison link above for the full case, with specific examples in both directions.
 
 This repository is the methodological home for that measure: the frozen scoring rules, every coded record, the validation evidence, and the full-corpus results. Findings, as they accumulate, are published through [Church Bells](https://ringthebells.org), the Statecraft Blueprint's nonpartisan legislation and executive-action analysis project.
 
@@ -22,13 +24,15 @@ This repository is the methodological home for that measure: the frozen scoring 
 
 **Validation complete.** The full 298-order Mayer & Price (2002) validation sample has been coded twice — once with full context, once by an independent coder blind to every order's class. The blind pass is what the AUC claim rests on. Start at [`mayer-price-validation/README.md`](mayer-price-validation/README.md).
 
-**Full-corpus extension complete.** The validated methodology has been applied to the entire 1936–present corpus by two independent, non-overlapping coding streams, at full justification depth. Start at [`extension/README.md`](extension/README.md).
+**Full-corpus extension coded, not yet independently checked.** The methodology has been applied to the entire 1936–present corpus by two non-overlapping AI coding streams, each order coded once. Start at [`extension/README.md`](extension/README.md).
+
+**Robustness checks under way.** See [`robustness/`](robustness/).
 
 ---
 
 ## What makes this different — and why we think it's better suited to this question
 
-**Rule application, not judgment.** "Does the Bundling flag fire?" is answerable by reading the text against a written definition. "Is this order significant?" is not. Two coders applying the same eleven rules to the same order should converge — and now there's a full-corpus independent test of exactly that.
+**Rule application, not judgment.** "Does the Bundling flag fire?" is answerable by reading the text against a written definition. "Is this order significant?" is not. Two coders applying the same eleven rules to the same order should converge. So far that has been tested only between AI runs on the 297-order validation sample, with moderate agreement (flag-level κ 0.43–0.66, score ICC 0.66–0.82). The extension corpus hasn't yet been double-coded.
 
 **Reproducible by construction.** Every score in this repository traces back to a specific coder, a specific piece of source text (preserved in [`database/corpus-texts/`](database/corpus-texts/)), and a specific written justification against a specific version of a frozen rule. Significance classification by expert panel can't be re-derived by someone outside the panel; this can.
 
@@ -82,6 +86,10 @@ Every folder below, including nested ones, has its own README explaining exactly
 
 The full text of every in-scope executive order (`corpus-texts/`, one file per order, primary source for every coding decision in this project), and `eo_coding.db`, the consolidated database of every coding record from every coder. **The database is a derived artifact, rebuilt from the JSON coding files — read `database/README.md` before editing it directly.**
 
+### [`robustness/`](robustness/): audit and open tests
+
+`AUDIT.md` covers what holds, what doesn't and what is untested, with every number reproducible from `audit.py`. `masked-recode/` contains the pre-registered masked re-coding test and the human hand-coding packet.
+
 ### [`findings/`](findings/)
 
 Named cross-order patterns and structural phenomena — separate from the validation claim itself, and expected to keep growing as more of the full-corpus extension's material gets synthesized.
@@ -95,9 +103,11 @@ Named cross-order patterns and structural phenomena — separate from the valida
          ↓
 2. Code the full Mayer & Price (2002) validation sample (298 orders)         ✓ complete
          ↓
-3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.7836
+3. Re-code independently, blind to class label — run AUC validation          ✓ complete — AUC = 0.784 (CI 0.731–0.835)
          ↓
 4. Extend coding to the full corpus (1936–present)                          ✓ complete — 7,149 / 7,151 orders
+         ↓
+5. Robustness: masked re-coding, cross-vendor coders, human hand-coding     in progress — see robustness/
 ```
 
 The scoring scheme (flag definitions and confidence taxonomy) remained frozen through the extension, to avoid fitting the instrument to the corpus it was validated on rather than the one it's meant to generalize to.

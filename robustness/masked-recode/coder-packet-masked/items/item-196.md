@@ -1,0 +1,3 @@
+# item-196
+
+By the authority vested in me as President of the United States of America by sections 101(2)(A) and 205(b)(1) of the Hostage Relief Act of [YEAR] (Public Law [PL]; [STAT], [YEAR]; 5 U.S.C. 5561 note) (the "Hostage Act"), it is hereby ordered, for the purposes of these sections of the Hostage Act, that [DATE], is specified as the date on which all citizens and resident aliens of the United States who were placed in a captive status due to the seizure of the United States Embassy in Iran have been returned to the United States or otherwise accounted for, and were no longer under foreign control.
